@@ -1,0 +1,286 @@
+/*Special thanks to Leram84 for sharing knowledge*/
+.nav-bar>ul>li>a.plex-pass-btn{
+    display:none !important;
+    visibility: hidden;
+    opacity:0;
+}
+.nav-dropdown .dropdown-poster-toggle{
+	display: none;
+}
+div[data-qa-id*="hub--home.newscast"] {
+    display: none;
+}
+button[class*="plexPassButton"]{    
+    display:none;
+    visibility: hidden;
+    opacity:0;
+}
+.nav-bar{
+	background-color: rgba(0,0,0,.6) !important;
+}
+.SidebarMenuButton-sidebarMenuButton-khx_P {
+    background-color: rgba(0,0,0,.15) !important;
+}
+@media only screen and (max-width: 768px) {
+/*Homepage, sidenav, and misc*/
+.nav-bar{
+	background-color: rgba(0,0,0,.55);
+}
+.DashboardPage-dashboardPageContent-2rN8X {
+    padding: 0 20px 20px;
+}
+.SidebarList-sidebarListHeader-1t0yz {
+    font-size: 12px;
+    padding-left: 5px;
+}
+.SidebarMenuButton-sidebarMenuButton-khx_P {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+}
+.SidebarContainer-sidebarContainer-2RAYT {
+    width: 130px;
+    flex: 0 130px;
+    -webkit-flex: 0 0 130px;
+}
+.LibraryPageJumpBar-jumpBar-22VKU {
+    display: none;
+}
+.MetadataListPageContent-metadataListScroller-1uFgY.MetadataListPageContent-hasGutter-1EfyE {
+    right: 0;
+}
+.PageHeader-pageHeader-18RSw {
+    font-size: 10px;
+}
+.SidebarLink-sidebarLink-L2OPd {
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.SidebarMenuButton-sidebarMenuPrimaryTitleContainer-3-vDD {
+    white-space: nowrap;
+} 
+body {
+	line-height: 1.1;
+	font-size: 12px
+}
+.Page-page-aq7i_{
+	font-size: 11px;
+}
+.nav-header>li>a{
+	font-size: 13px;    
+	line-height: 25px;
+	display: inline;
+}
+.SidebarMenuButton-sidebarMenuSecondaryTitle-2jpJL{
+	font-size: 10px;
+}
+.nav-bar{
+	font-size: 20px
+}
+.dropdown-poster-toggle .media-poster{
+	width: 25px;
+	height: 25px;
+}
+.FullPage-container-17Y0c{
+	font-size: 10px;
+}
+.ServerSidebar-sidebarContent-3hRNR{
+	padding-top: 0px;
+	padding-left: 5px;
+}
+.PageContent-innerPageContent-3ktLT{
+	padding: 20px;
+}	
+.MetadataPosterCell-continueWatchingTitleContainer-3yCAY{
+	font-size: 10px;
+}  
+.MetadataPosterCell-titleContainer-24DI6{
+	font-size: 10px;
+}
+.nav-bar-nav>li>a{
+	line-height: 40px;
+}
+.PageHeader-pageHeader-18RSw{
+	height: 40px;
+}
+.DisclosureArrow-disclosureArrow-1KPaB.DisclosureArrow-medium-20Idw.DisclosureArrow-up-L-Dw3 {
+	display: none;
+}
+.DisclosureArrowButton-disclosureArrowButton-11LSb.DisclosureArrowButton-medium-3zt1W{
+	padding-right: 0px;
+}
+.PageHeaderBreadcrumbButton-button-1uaPj{
+	margin-right: 0px;
+}
+.MetadataPosterTitle-singleLineTitle-24_DN{
+	height: 14px;
+	font-size: 11px;
+	max-width: 100%;
+}
+.HubCellHeader-hubCellHeader-2pvYN{
+	padding: 0px 0 0px 5px;
+}
+.PrePlayMetadataContent-content-2ww3j{
+	padding-left: 0px;
+}	
+div[class*="SidebarLink-title-"] {
+    font-size: 11px;
+}
+.SidebarServerLibraries-librariesTitle-3iqmv{
+	overflow: visible !important;
+}
+div[class^="SidebarLibrariesActions-actions-"] {
+    display: none;
+}	
+	
+/* #######  Individual Media Items  ####### */
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PageContent-innerPageContent-"] > div > div:not([class*="PrePlay"]) {
+    position: relative !important;
+    top: 0px !important;
+    padding-top: 10px;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataContent-content-"]{
+	padding-left: 0px !important;
+	padding-top: 20px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCard-card-"]{
+	margin: auto !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataContent-content-"]{
+	line-height: 1.25 !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataInnerContent-innerContent-"]{
+	padding: 0 !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySecondaryTitle-secondaryTitle-"]{
+	display: inline !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayRatingRightTitle-ratingRightTitle-"]{
+	display: inline-block !important;
+	margin-left: 0px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCardOverlay-background-"]{
+	display: none !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCardOverlay-unplayedBadge-"]{
+	text-align: right !important;
+	min-width: 0% !important;
+	float: right !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayDetailsGroupItem-label-"]{
+	flex: 0 0 58px !important;
+	-webkit-flex: 0 0 58px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayDetailsGroupItem-content-"]{
+	font-size: 12px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayTertiaryTitle-tertiaryTitle-"]{
+	font-size: 12px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] span[class*="PrePlayRatingRightTitle-starRating-"]{
+	display: none !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayRatingRightTitle-criticRating-"]{
+	margin-left: 0px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayLeftTitle-leftTitle-"]{
+	white-space: normal !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class^="PrePlayTertiaryTitle-tertiaryTitle-"] div[class^="PrePlayRightTitle-rightTitle-"] {
+	display: none;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] a[class*="PrePlayStatusButton-statusButton-"]{
+	display: none;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySummary-summary-"]{
+     font-size: 12px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySecondaryTitle-secondaryTitle-"]{
+     font-size: 12px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayTertiaryTitle-tertiaryTitle-"]{
+    margin-top: -25px !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] span[class*="PrePlayRatingRightTitle-criticRating-"]{
+	display: none !important;
+}
+span[class*="MetadataPosterTitle-isSplitLine-"] {
+    display: none !important;
+}
+div[class^="PageHeaderLeft-pageHeaderLeft-"] {
+    display: none !important;
+}
+button[class*="MenuItem-menuItem-"] {
+    padding: 15px 20px;
+}
+div[class^="HubCellTitle-hubCellTitle-"], div[class*="HubCellTitle-hubCellTitle-"] a {
+	font-size: 12px !important;
+}
+div[class^="HubCell-hubActions-"] {
+	display: none !important;
+}
+button[data-qa-id="toolbarToggleArtwork"] {
+	display: none !important;
+}
+div[class^="PrePlayArtwork-imageContainer-"]{
+	display: none !important;
+}
+div[class^="PageHeaderRight-pageHeaderRight-"] div[class^="PrePlayPageHeader-divider-"] {
+	display: none !important;
+}
+div[class*="PrePlayPageContent-prePlayPageContent-"] div[class^="PrePlaySecondaryTitle-secondaryTitle-"] div[class^="PrePlayLeftTitle-leftTitle-"] {
+    color: hsla(0,0%,100%,.45);
+}
+.PrePlayDetailsGroup-group-3i0Tj {
+    display: none;
+}
+
+/* #######  Fullscreen Video Player  ####### */
+.AudioVideoPlayerControls-durationContainer-3TK0D{
+	text-align: left;
+	padding-left: 15px;
+}
+.DurationRemaining-container-1F4w8{	
+	font-size: 11px;
+} 
+button[data-qa-id="playQueueButton"]{
+	display: none !important;
+}
+div[class*="AudioVideoPlayerControls-buttonGroupRight-"] button[data-qa-id="moreButton"]{
+	display: none !important;
+}
+button[data-qa-id="repeatButton"]{
+	display: none !important;
+}
+button[data-qa-id="previousButton"]{
+	display: none !important;
+}
+button[data-qa-id="nextButton"]{
+	display: none !important;
+}
+button[data-qa-id="shuffleButton"]{
+	display: none !important;
+}
+div[class*="AudioVideoPlaybackSettings"] .Link-medium-3gAfL {
+    font-size: 11px !important;
+}
+div[class*="AudioVideoPlaybackSettings"]{
+	font-size: 11px !important;
+}
+button[data-qa-id="volumeButton"]{
+	display: none !important;
+}
+div[data-qa-id="playerControlsContainer"]{
+	padding-right: 15px !important;
+}
+div[class*="AudioVideoPlayerControls-buttonGroupRight-"] div[class*="VolumeSlider-slider-"] {
+    margin: 0px 6px 0 5px !important;
+}
+
+/* #######  Minimized Video Player  ####### */
+div[class*="AudioVideoMiniPlayer-controlsContainer-"] {
+    display: none !important;
+}
+}
