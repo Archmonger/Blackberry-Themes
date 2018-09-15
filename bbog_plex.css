@@ -15,11 +15,13 @@ button[class*="plexPassButton"]{
     visibility: hidden;
     opacity:0;
 }
+.SidebarMenuButton-sidebarMenuButton-khx_P {
+    background-color: rgba(0,0,0,.15) !important;
+}
+@media only screen and (min-width: 768px){
 .nav-bar{
 	background-color: rgba(0,0,0,.6) !important;
 }
-.SidebarMenuButton-sidebarMenuButton-khx_P {
-    background-color: rgba(0,0,0,.15) !important;
 }
 @media only screen and (max-width: 768px) {
 /*Homepage, sidenav, and misc*/
