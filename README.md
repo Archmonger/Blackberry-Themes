@@ -12,6 +12,6 @@ sub_filter_once on;
 Images are available within the repo's `Screenshots` folder.
 
 **Last Tested Version:**
-Plex: 1.13.5.5332
-Ombi: 3.0.3477
-Synclounge: 2.0.0
+<br/>Plex: 1.13.5.5332
+<br/>Ombi: 3.0.3477
+<br/>Synclounge: 2.0.0
