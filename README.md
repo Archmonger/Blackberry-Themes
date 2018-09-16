@@ -15,3 +15,4 @@ Images are available within the repo's `Screenshots` folder.
 <br/>Plex: 1.13.5.5332
 <br/>Ombi: 3.0.3477
 <br/>Synclounge: 2.0.0
+<br/>Filebrowser: 1.9.0
