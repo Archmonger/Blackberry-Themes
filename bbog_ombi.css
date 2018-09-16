@@ -228,3 +228,7 @@ p.tv-overview {
     padding-bottom: 19.5px !important;
 }
 }
+.dropdown-menu a .fa, .navbar .nav a .fa {
+    font-size: 105% !important;
+    top: 0px !important;
+}
