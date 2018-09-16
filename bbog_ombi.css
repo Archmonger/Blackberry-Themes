@@ -208,3 +208,13 @@ p.tv-overview {
 	background: rgba(0,0,0,.91);
 }
 }
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 19.5px !important;
+    padding-bottom: 19.5px !important;
+}
+.navbar-brand{
+    padding-top: 19.5px !important;
+    padding-bottom: 19.5px !important;
+}
+}
