@@ -12,17 +12,9 @@ sub_filter_once on;
 <br/>Images are available within the repo's `Screenshots` folder.
 
 **Details**
-| Service       | Last Tested Version   | Requires Nginx Subfilter |
-| ------------- | --------------------- | ------------------------ |
-| Plex          | 1.13.5.5332           | YES                      |
-| Ombi          | 3.0.3477              | YES                      |
-| Synclounge    | 2.0.0                 | YES                      |
-| Filebrowser   | 1.9.0                 | NO                       |
-
-
-| Service        | Last Tested Version  | Requires Nginx Subfilter  |
+| Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | ------------- | ----- |
-| Plex | 1.13.5.5332 | $1600 |
-| Ombi | 3.0.3477 |   $12 |
-| Synclounge | 2.0.0 |    $1 |
-| Filebrowser | 1.9.0  |    $1 |
+| Plex | 1.13.5.5332 | YES |
+| Ombi | 3.0.3477 | YES |
+| Synclounge | 2.0.0 | YES |
+| Filebrowser | 1.9.0  | NO |
