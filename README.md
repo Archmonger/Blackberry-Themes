@@ -15,14 +15,14 @@ sub_filter_once on;
 | Service       | Last Tested Version   | Requires Nginx Subfilter |
 | ------------- | --------------------- | ------------------------ |
 | Plex          | 1.13.5.5332           | YES                      |
-| Ombi          | Content Cell 3.0.3477 | YES                      |
+| Ombi          | 3.0.3477              | YES                      |
 | Synclounge    | 2.0.0                 | YES                      |
 | Filebrowser   | 1.9.0                 | NO                       |
 
 
 | Service        | Last Tested Version  | Requires Nginx Subfilter  |
 | ------------- | ------------- | ----- |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-| zebra stripes | are neat      |    $1 |
+| Plex | 1.13.5.5332 | $1600 |
+| Ombi | 3.0.3477 |   $12 |
+| Synclounge | 2.0.0 |    $1 |
+| Filebrowser | 1.9.0  |    $1 |
