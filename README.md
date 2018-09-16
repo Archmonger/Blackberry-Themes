@@ -11,8 +11,10 @@ sub_filter_once on;
 **Screenshots**
 <br/>Images are available within the repo's `Screenshots` folder.
 
-**Last Tested Version**
-<br/>Plex: 1.13.5.5332
-<br/>Ombi: 3.0.3477
-<br/>Synclounge: 2.0.0
-<br/>Filebrowser: 1.9.0
+**Details**
+| Service  | Last Tested Version | Requires Nginx Subfilter |
+| ------------- | ------------- | ------------- |
+| Plex | 1.13.5.5332 | YES  |
+| Ombi | Content Cell 3.0.3477 | YES  |
+| Synclounge | 2.0.0 | YES |
+| Filebrowser | 1.9.0 | NO  |
