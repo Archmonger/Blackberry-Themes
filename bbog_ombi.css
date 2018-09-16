@@ -34,13 +34,15 @@ a>h4 {
 	color: white;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	background-color: rgba(204,123,25,1);
+	background-color: rgba(204,123,25,0);
+	color: rgb(249, 190, 3);
 	border-radius: 4px;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-	background: rgba(255,255,255,.15);
+	background: rgba(204,123,25,1);
 	border: 0px solid rgba(0,0,0,0.00);
 	margin-bottom: 1.5px;
+	border-radius: 4px;
 }
 .btn-primary-outline{
 	color: white !important;
@@ -62,6 +64,8 @@ a>h4 {
 	border-color: rgba(255,255,255,.08);
 }
 .nav>li>a:focus, .nav>li>a:hover {
+	
+	border-radius: 4px;
 	background-color: rgba(255,255,255,.08);
 	border: 0px solid rgba(0,0,0,0.00);
 }
