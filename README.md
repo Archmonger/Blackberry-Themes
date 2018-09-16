@@ -11,7 +11,7 @@ sub_filter_once on;
 **Screenshots**
 <br/>Images are available within the repo's `Screenshots` folder.
 
-**Details**
+**More Information**
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
