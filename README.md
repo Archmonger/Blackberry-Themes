@@ -20,7 +20,7 @@ sub_filter_once on;
 | Filebrowser   | 1.9.0                 | NO                       |
 
 
-| Tables        | Are           | Cool  |
+| Service        | Last Tested Version  | Requires Nginx Subfilter  |
 | ------------- | ------------- | ----- |
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
