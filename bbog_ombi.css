@@ -34,11 +34,13 @@ a>h4 {
 	color: white;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	background-color: rgba(255,255,255,.15);
+	background-color: rgba(204,123,25,1);
+	border-radius: 4px;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-	background: rgba(255,255,255,.15);	
-	border: rgba(255,255,255,.08);
+	background: rgba(255,255,255,.15);
+	border: 0px solid rgba(0,0,0,0.00);
+	margin-bottom: 1.5px;
 }
 .btn-primary-outline{
 	color: white !important;
@@ -61,6 +63,10 @@ a>h4 {
 }
 .nav>li>a:focus, .nav>li>a:hover {
 	background-color: rgba(255,255,255,.08);
+	border: 0px solid rgba(0,0,0,0.00);
+}
+.nav>li>a:focus, .nav>li>a{
+	border: 0px solid rgba(0,0,0,0.00);
 }
 .input-addon, .input-group-addon {
 	color: white;
@@ -70,9 +76,6 @@ a>h4 {
 }
 .dropdown-menu {
 	background-color: rgba(0,0,0,.85);
-}
-.dropdown-menu .divider, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .input-group-addon {
- 	background-color: rgba(255,255,255,.08);
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
 	background-color: rgba(255,255,255,.15);
@@ -210,8 +213,15 @@ p.tv-overview {
 }
 @media (min-width: 768px){
 .navbar-nav>li>a {
-    padding-top: 19.5px !important;
-    padding-bottom: 19.5px !important;
+    padding-top: 1.5px !important;
+    padding-bottom: 1.5px !important;
+    padding-left 17px;
+    padding-right: 17px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 4px;
 }
 .navbar-brand{
     padding-top: 19.5px !important;
