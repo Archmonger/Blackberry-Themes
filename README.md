@@ -18,3 +18,10 @@ sub_filter_once on;
 | Ombi          | Content Cell 3.0.3477 | YES                      |
 | Synclounge    | 2.0.0                 | YES                      |
 | Filebrowser   | 1.9.0                 | NO                       |
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
