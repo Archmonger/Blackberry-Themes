@@ -1,6 +1,19 @@
 .application .theme--dark.v-toolbar, .theme--dark .v-toolbar{
 	background-color: rgba(0,0,0,0.6) !important;
 }
+html{
+	background-image: url(https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-noise.png), url("https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-light.png");
+	background-repeat: repeat, no-repeat;
+	background-attachment: fixed, fixed;
+	background-position: center center, center center;
+	background-size: auto, cover;
+	-webkit-background-size: auto, cover;
+	-moz-background-size: auto, cover;
+	-o-background-size: auto, cover;
+	min-height: 100%;
+	height: auto;
+	background-color: rgba(0,0,0,.0);
+}
 main{
 	background-image: url(https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-noise.png), url("https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-light.png");
 	background-repeat: repeat, no-repeat;
