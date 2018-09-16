@@ -16,6 +16,6 @@ sub_filter_once on;
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
 | Plex | 1.13.5.5332 | YES |
-| Ombi | 3.0.3477 | YES |
+| Ombi | 3.0.3477 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0  | NO |
