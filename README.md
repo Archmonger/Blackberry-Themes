@@ -12,6 +12,7 @@ sub_filter_once on;
 <br/>Images are available within the repo's `Screenshots` folder.
 
 **Details**
+
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | ------------- | ----- |
 | Plex | 1.13.5.5332 | YES |
