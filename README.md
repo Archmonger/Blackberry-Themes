@@ -12,6 +12,9 @@ Another option available is to use [rawgit.com](https://rawgit.com) to host the 
 **Screenshots**
 <br/>Images are available within the repo's `Screenshots` folder.
 
+**Custom Icons for OrganizrV2**
+<br/>Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.
+
 **More Information**
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
@@ -20,3 +23,7 @@ Another option available is to use [rawgit.com](https://rawgit.com) to host the 
 | Ombi | 3.0.3477 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0  | NO |
+
+**Credits**
+<br/>Calendar day 15 icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
+<br/>Multiple users silhouette made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
