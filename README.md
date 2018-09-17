@@ -10,7 +10,7 @@ sub_filter_once on;
 Another option available is to use [rawgit.com](https://rawgit.com) to host the CSS file for you.
 
 **Screenshots**
-<br/>Images are available within the repo's `Screenshots` folder.
+<br/>Images are available within the `Screenshots` folder.
 
 **Custom Icons for OrganizrV2**
 <br/>Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.
