@@ -15,9 +15,6 @@ html {
 	min-height: 100%;
 	height: auto;	
 }
-a.navbar-brand.ng-star-inserted {
-    display: none !important;
-}
 option.ng-star-inserted {
     color: black !important;
 }
