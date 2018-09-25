@@ -22,13 +22,16 @@ button#id-7 {
 }
 @media only screen and (min-width: 768px){
 .nav-bar{
-	background-color: rgba(0,0,0,.6) !important;
+	background-color: rgba(0,0,0,0.0) !important;
 }
 }
 @media only screen and (max-width: 768px) {
 /*Homepage, sidenav, and misc*/
 .nav-bar{
-	background-color: rgba(0,0,0,.55);
+	background-color: rgba(0,0,0,0.0);
+}
+.NavBar-container-1T0BJ{
+	height:40px !important;
 }
 .DashboardPage-dashboardPageContent-2rN8X {
     padding: 0 20px 20px;
