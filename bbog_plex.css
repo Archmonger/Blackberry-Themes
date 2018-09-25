@@ -27,6 +27,9 @@ button#id-7 {
 }
 @media only screen and (max-width: 768px) {
 /*Homepage, sidenav, and misc*/
+button.Button-button-2kT68.Link-link-2n0yJ.Button-primary-3fwLz.Button-medium-3g45_.Link-link-2n0yJ.Link-default-2XA2b {
+    display: none !important;
+}
 .nav-bar{
 	background-color: rgba(0,0,0,0.0);
 }
