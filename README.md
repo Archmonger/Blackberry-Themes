@@ -19,7 +19,7 @@ Another option available is to use [rawgit.com](https://rawgit.com) to host the 
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
-| Plex | 1.13.5.5332 | YES |
+| Plex | 1.13.8.5395 | YES |
 | Ombi | 3.0.3477 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0  | NO |
