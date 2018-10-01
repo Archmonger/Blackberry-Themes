@@ -24,6 +24,9 @@ Another option available is to use [rawgit.com](https://rawgit.com) to host the 
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0  | NO |
 
+**Upcoming Themes**
+<br/>In no particular order: Tautulli, Sonarr/Radarr/Lidarr, Jackett, OrganizrV2.
+
 **Credits**
 <br/>Calendar day 15 icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
 <br/>Multiple users silhouette made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
