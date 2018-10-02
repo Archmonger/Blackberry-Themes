@@ -4,6 +4,7 @@ CSS changes to many popular home theater services. Flat and minimal, cleans up u
 **Installation**
 <br/>For services that don't allow native CSS themes, you can edit your Nginx configuration to add in the CSS. One method is to download the CSS to your root directory and href it. This can be accomplished with sub_filter (http_sub_module). 
 ```
+proxy_set_header Accept-Encoding "";
 sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://mydomain.com/css/PlexMobile.css"> </head>';
 sub_filter_once on;
 ```
