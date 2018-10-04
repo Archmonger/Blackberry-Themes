@@ -129,6 +129,9 @@ a {
 	border: none !important;
 	background: none !important;
 }
+.ui-dialog .ui-dialog-content{
+	background-color:#252424 !important;
+}
 a.active {
     background-color: rgba(255,255,255,.08);
 }
