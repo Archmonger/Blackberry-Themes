@@ -8,7 +8,6 @@ proxy_set_header Accept-Encoding "";
 sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://mydomain.com/css/PlexMobile.css"> </head>';
 sub_filter_once on;
 ```
-Another option available is to use [rawgit.com](https://rawgit.com) to host the CSS file for you.
 
 **Screenshots**
 <br/>Images are available within the `Screenshots` folder.
