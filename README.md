@@ -1,11 +1,11 @@
 # Blackberry Flat Themes (BBF)
-CSS changes to many popular home theater services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2. For those who do not want OrganizrV2 specific view enhancements in `bbog_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).
+CSS changes to many popular home theater services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2. For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).
 
 **Installation**
 <br/>For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. One method is to download the CSS to your root directory or css subfolder and href it. This can be accomplished with sub_filter (http_sub_module). 
 ```
 proxy_set_header Accept-Encoding "";
-sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://mydomain.com/css/PlexMobile.css"> </head>';
+sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://mydomain.com/css/bbf_plex.css"> </head>';
 sub_filter_once on;
 ```
 
