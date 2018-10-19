@@ -18,7 +18,7 @@ html {
 option.ng-star-inserted {
     color: black !important;
 }
-.form-control-custom {
+input#search, .form-control-custom {
 	background-color: rgba(255,255,255,.08) !important;
 }
 group-addon {
@@ -72,7 +72,7 @@ a>h4 {
 .nav>li>a:focus, .nav>li>a{
 	border: 0px solid rgba(0,0,0,0.00);
 }
-.input-addon, .input-group-addon {
+.input-addon, .input-group-addon, i.fa.fa-search {
 	color: white;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
@@ -84,7 +84,7 @@ a>h4 {
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
 	background-color: rgba(255,255,255,.15);
 }
-.dropdown-menu .divider, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .input-group-addon{
+.dropdown-menu .divider, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .input-group-addon, .input-group-addon.right-radius{
 	background-color: rgba(255,255,255,.08);
 }
 .ui-state-default {
