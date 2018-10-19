@@ -7,15 +7,6 @@ Images are available within the `Screenshots` folder.
 ## **Custom Icons for OrganizrV2**<br/>
 Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.
 
-## **More Information**
-
-| Service | Last Tested Version | Requires Nginx Subfilter |
-| ------------- | :-------------: | :-------------: |
-| Plex | 1.13.8.5395 | YES |
-| Ombi | 3.0.3477 | NO |
-| Synclounge | 2.0.0 | YES |
-| Filebrowser | 1.9.0  | NO |
-
 ## **Upcoming Themes**<br/>
 Deluge, Jackett, Flood (rTorrent WebUI), OrganizrV2, Tautulli, Sonarr/Radarr/Lidarr, Unraid.
 
@@ -31,6 +22,15 @@ sub_filter_once on;
 Settings > Configuration > Customization > Preset Themes > omBlur BROKEN<br/>
 Replace `url=https://raw.githubusercontent.com/leram84/layer.Cake/master/ombi/css/omBlur.css">`<br/>
 with `url=https://github.com/Archmonger/Blackberry-Flat/raw/master/bbf_ombi.css">`
+
+## **More Information**
+
+| Service | Last Tested Version | Requires Nginx Subfilter |
+| ------------- | :-------------: | :-------------: |
+| Plex | 1.13.8.5395 | YES |
+| Ombi | 3.0.3477 | NO |
+| Synclounge | 2.0.0 | YES |
+| Filebrowser | 1.9.0  | NO |
 
 ## **Credits**<br/>
 Calendar day 15 icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
