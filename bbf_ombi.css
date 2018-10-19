@@ -45,7 +45,7 @@ a>h4 {
 	margin-bottom: 1.5px;
 	border-radius: 4px;
 }
-.btn-primary-outline, button.btn.btn-primary-outline.disabled.ng-star-inserted{
+.btn-primary-outline, button.btn.btn-primary-outline.disabled.ng-star-inserted, .btn.btn-primary-outline.ng-star-inserted{
 	color: #FFFFFF !important;
 	border-color: #FFFFFF !important;
 }
