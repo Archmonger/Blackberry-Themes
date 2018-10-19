@@ -237,3 +237,6 @@ p.tv-overview {
 .btn-link {
     color: #FFFFFF !important;
 }
+.album-tint, .tint {
+    height: 101%;
+}
