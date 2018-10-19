@@ -21,6 +21,7 @@ sub_filter_once on;
 ### Ombi<br/>
 Settings > Configuration > Customization > Custom CSS Link<br/>
 Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`<br/>
+Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
 
 ## **More Information**
 
