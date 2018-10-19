@@ -57,7 +57,7 @@ a>h4 {
     border-color: rgba(255,255,255,.25) !important;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: #FFFFFF !important;
+	color: #FFFFFF;
 	background-color: rgba(255,255,255,.08);
 }
 .nav-tabs>li>a:hover {
