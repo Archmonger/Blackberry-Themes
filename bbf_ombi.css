@@ -16,7 +16,7 @@ html {
 	height: auto;	
 }
 option.ng-star-inserted {
-    color: black !important;
+    color: #000000 !important;
 }
 input#search, .form-control-custom {
 	background-color: rgba(255,255,255,.08) !important;
@@ -57,7 +57,7 @@ a>h4 {
     border-color: rgba(255,255,255,.25) !important;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: white;
+	color: #FFFFFF !important;
 	background-color: rgba(255,255,255,.08);
 }
 .nav-tabs>li>a:hover {
@@ -92,10 +92,10 @@ a>h4 {
 }
 .ui-state-active {
 	background-color: rgba(255,255,255,.15) !important;
-	color: white !important;
+	color: #FFFFFF !important;
 }
 a:focus, a:hover {
-	color: white;
+	color: #FFFFFF;
 }
 a {
 	color: rgba(255,255,255,.25);
@@ -152,7 +152,7 @@ a.active {
 	-o-background-size: auto, cover !important;
 }
 .btn-success-outline{
-	color: white !important;
+	color: #FFFFFF !important;
 	background-color: rgba(92,182,92,.75);
 	border-color: #5cb85c !important;
 }
@@ -160,8 +160,8 @@ a.active {
 	padding: 7.1px 10px;
 }
 .btn-warning-outline{
-	border-color: white !important;
-	color: white !important;
+	border-color: #FFFFFF !important;
+	color: #FFFFFF !important;
 }
 .ui-inputtext{
 	background-color: rgba(255,255,255,.08);
