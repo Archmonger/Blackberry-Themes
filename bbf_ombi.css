@@ -201,12 +201,6 @@ ul.nav.navbar-nav.navbar-right li:first-child {
 ul.nav.navbar-nav.donation {
     display: none !important;
 }
-#movieList .col-sm-2.small-padding .ng-star-inserted:nth-of-type(2) {
-    display: none;
-}
-#tvList .col-sm-2.small-padding .ng-star-inserted:nth-of-type(2) {
-    display: none;
-}
 #tvList .ui-treetable-row .ng-star-inserted br {
     display: none;
 }
