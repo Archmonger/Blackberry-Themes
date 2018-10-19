@@ -4,7 +4,7 @@ CSS changes to many popular home theater services. Flat and minimal, cleans up u
 ## **Screenshots**<br/>
 Images are available within the `Screenshots` folder.
 
-**Custom Icons for OrganizrV2**<br/>
+## **Custom Icons for OrganizrV2**<br/>
 Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.
 
 ## **More Information**
