@@ -12,16 +12,15 @@ Deluge, Jackett, Flood (rTorrent WebUI), OrganizrV2, Tautulli, Sonarr/Radarr/Lid
 
 ## **Installation**<br/>
 ### Plex, Synclounge<br/>
-For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. One method is to download the CSS to your root directory or css subfolder and href it. This can be accomplished with sub_filter (http_sub_module). 
+For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. Alteratively, you can download the CSS file to your domain and self-host it. This can be accomplished with sub_filter (http_sub_module). 
 ```
 proxy_set_header Accept-Encoding "";
-sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://mydomain.com/css/bbf_plex.css"> </head>';
+sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_plex.css"> </head>';
 sub_filter_once on;
 ```
 ### Ombi<br/>
-Settings > Configuration > Customization > Preset Themes > omBlur BROKEN<br/>
-Replace `url=https://raw.githubusercontent.com/leram84/layer.Cake/master/ombi/css/omBlur.css">`<br/>
-with `url=https://github.com/Archmonger/Blackberry-Flat/raw/master/bbf_ombi.css">`
+Settings > Configuration > Customization > Custom CSS Link<br/>
+Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`<br/>
 
 ## **More Information**
 
