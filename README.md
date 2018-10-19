@@ -28,10 +28,10 @@ sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://mydom
 sub_filter_once on;
 ```
 ### Ombi<br/>
-Settings > Configuration > Customization > Preset Themes > omBlur BROKEN
-Replace `url=https://raw.githubusercontent.com/leram84/layer.Cake/master/ombi/css/omBlur.css">`
+Settings > Configuration > Customization > Preset Themes > omBlur BROKEN<br/>
+Replace `url=https://raw.githubusercontent.com/leram84/layer.Cake/master/ombi/css/omBlur.css">`<br/>
 with `url=https://github.com/Archmonger/Blackberry-Flat/raw/master/bbf_ombi.css">`
 
-**Credits**<br/>
+## **Credits**<br/>
 Calendar day 15 icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
 <br/>Multiple users silhouette made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
