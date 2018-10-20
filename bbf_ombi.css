@@ -202,7 +202,7 @@ ul.nav.navbar-nav.navbar-right li:first-child {
 ul.nav.navbar-nav.donation {
     display: none !important;
 }
-#tvList .ui-treetable-row .ng-star-inserted br {
+#tvList .ng-star-inserted .ng-star-inserted .ng-star-inserted .row .col-sm-8 div br {
     display: none;
 }
 p.tv-overview {
