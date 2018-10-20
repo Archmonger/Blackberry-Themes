@@ -280,3 +280,6 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
 .chat-window .col-xs-12 .panel .panel-footer .input-group .input-group-btn .btn-primary{
 	background-color:rgba(204,123,25,1) !important;
 }
+#tvList .ng-star-inserted .ng-star-inserted .ng-star-inserted .row .col-sm-2 br {
+	display: none;
+}
