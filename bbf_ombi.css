@@ -246,3 +246,6 @@ p.tv-overview {
     height: 230px !important;
     width: 155px !important;
 }
+.nav-pills>li>a, .nav-tabs>li>a, .pager a {
+    border-radius: 4px;
+}
