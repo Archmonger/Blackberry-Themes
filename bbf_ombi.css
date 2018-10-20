@@ -259,10 +259,10 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
     margin-left: 15px;
 }
 
-.panel-footer[_ngcontent-c8]{
+.chat-window .col-xs-12 .panel .panel-footer{
 	border-radius: 0px 0px 5px 5px;
 }
-.top-bar[_ngcontent-c8]{
+.chat-window .col-xs-12 .panel .top-bar{
 	border-radius: 5px 5px 0px 0px;
 }
 .form-control:focus{
