@@ -28,7 +28,7 @@ Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
 | Plex | 1.13.8.5395 | YES |
-| Ombi | 3.0.3477 | NO |
+| Ombi | 3.0.3919 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0  | NO |
 
