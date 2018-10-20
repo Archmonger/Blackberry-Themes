@@ -19,9 +19,10 @@ sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archm
 sub_filter_once on;
 ```
 ### Ombi<br/>
-Settings > Configuration > Customization > Custom CSS Link<br/>
-Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`<br/>
-Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
+1) Navigate to Settings > Configuration > Customization > Custom CSS Link<br/>
+2) Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`<br/>
+3) Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
+4) Clear your browser cache. If using Cloudflare for your domain, make sure to clear Cloudflare cache as well.
 
 ## **More Information**
 
