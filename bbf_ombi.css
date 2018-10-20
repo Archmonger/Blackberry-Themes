@@ -283,3 +283,6 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
 #tvList .ng-star-inserted .ng-star-inserted .ng-star-inserted .row .col-sm-2 br {
 	display: none;
 }
+.fa-rss{
+	display: none;
+}
