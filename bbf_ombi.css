@@ -208,6 +208,7 @@ ul.nav.navbar-nav.donation {
 p.tv-overview {
     padding-top: 15px;
     -webkit-text-stroke-width: 0px !important;
+    -webkit-text-fill-color: rgba(238,238,238) !important;
 }
 @media only screen and (max-width: 768px){
 .navbar-collapse{
