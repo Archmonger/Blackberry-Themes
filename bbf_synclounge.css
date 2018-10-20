@@ -87,6 +87,9 @@ main{
     padding-top: 60px !important;
     overflow: hidden !important;
 }
+.ptplayer .video-js {
+    height: calc(100vh - 60px);
+}
 @media only screen and (min-width: 600px){
 	.ma-1 {
  	   padding-left: 10px;
