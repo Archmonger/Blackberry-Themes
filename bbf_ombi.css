@@ -244,4 +244,5 @@ p.tv-overview {
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail>img, .thumbnail a>img{
     height: 230px !important;
+    width: 155px !important;
 }
