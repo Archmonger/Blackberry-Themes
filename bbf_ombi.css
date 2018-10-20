@@ -190,7 +190,6 @@ table.table>thead>tr>th.active {
     background-color: rgba(255,255,255,0.2);
 }
 table.table>thead>tr>th {
-    padding-bottom: 25px;
     padding-top: 0px;
 }
 .navbar-brand {
