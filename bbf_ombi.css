@@ -286,3 +286,6 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
 .fa-rss{
 	display: none;
 }
+.error-text {
+    display: inline-block;
+}
