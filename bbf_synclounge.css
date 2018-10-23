@@ -1,5 +1,5 @@
 .application .theme--dark.v-toolbar, .theme--dark .v-toolbar{
-	background-color: rgba(0,0,0,0.6) !important;
+	background-color: #162027 !important;
 }
 html{
 	background-image: url(https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-noise.png), url("https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-light.png");
