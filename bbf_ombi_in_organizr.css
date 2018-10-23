@@ -407,3 +407,7 @@ ul.nav.navbar-nav.navbar-right li:first-child {
 ul.nav.navbar-nav.donation {
 	display: none !important;
 }
+
+.container-fluid {
+	padding-left: 4px !important;
+}
