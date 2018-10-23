@@ -1,26 +1,3 @@
-.navbar-brand{
-	display: none;
-}
-
-ul.nav.navbar-nav.navbar-right .dropdown {
-	display: none;
-}
-
-.fa-rss {
-	display: none;
-}
-
-ul.nav.navbar-nav.navbar-right li:first-child {
-	display: none !important;
-}
-
-ul.nav.navbar-nav.donation {
-	display: none !important;
-}
-
-
-/* Here starts shared BFF_ombi code */
-
 body {
 	background-image: url(https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-noise.png), url("https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-light.png");
 	background-repeat: repeat, no-repeat;
@@ -55,7 +32,7 @@ group-addon {
 }
 
 .navbar-default {
-	background-color: rgba(0, 0, 0, .6);
+	background-color: #162027 !important;
 }
 
 .navbar-default .navbar-brand {
@@ -406,4 +383,27 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
 
 .error-text {
 	display: inline-block;
+}
+
+
+/* BBF in Organizr customizations start here */
+
+.navbar-brand{
+	display: none;
+}
+
+ul.nav.navbar-nav.navbar-right .dropdown {
+	display: none;
+}
+
+.fa-rss {
+	display: none;
+}
+
+ul.nav.navbar-nav.navbar-right li:first-child {
+	display: none !important;
+}
+
+ul.nav.navbar-nav.donation {
+	display: none !important;
 }
