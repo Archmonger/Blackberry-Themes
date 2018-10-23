@@ -32,7 +32,7 @@ group-addon {
 }
 
 .navbar-default {
-	background-color: rgba(0, 0, 0, .6);
+	background-color: #162027 !important;
 }
 
 .navbar-default .navbar-brand {
