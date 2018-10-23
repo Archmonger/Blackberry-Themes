@@ -105,3 +105,6 @@ button.v-btn.theme--dark.primary {
 img.ma-1 {
     display: none;
 }
+.flex.xs12.md8.lg4.xl6 {
+    display: none;
+}
