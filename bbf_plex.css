@@ -20,11 +20,13 @@ button[class*="plexPassButton"]{
 button#id-7 {
     display: none !important;
 }
-@media only screen and (min-width: 768px){
 .nav-bar{
-	background-color: rgba(0,0,0,0.0) !important;
+	background-color: #162027 !important;
 }
+div[class*="NavBar-container-"]{
+	background: none !important;
 }
+
 @media only screen and (max-width: 768px) {
 /*Homepage, sidenav, and misc*/
 .NavBarActivityButton-label-2ZN0g{
