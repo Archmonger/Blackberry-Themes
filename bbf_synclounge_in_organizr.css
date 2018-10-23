@@ -108,3 +108,6 @@ img.ma-1 {
 .flex.xs12.md8.lg4.xl6 {
     display: none;
 }
+.v-toolbar__content, .v-toolbar__extension {
+    padding-left: 19px !important;
+}
