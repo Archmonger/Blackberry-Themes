@@ -411,3 +411,7 @@ ul.nav.navbar-nav.donation {
 .container-fluid {
 	padding-left: 4px !important;
 }
+
+.pace {
+	display: none !important;
+}
