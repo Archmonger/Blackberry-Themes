@@ -111,3 +111,6 @@ img.ma-1 {
 .v-toolbar__content, .v-toolbar__extension {
     padding-left: 19px !important;
 }
+.v-icon.v-icon.v-icon--link {
+    padding-left: 0px;
+}
