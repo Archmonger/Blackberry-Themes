@@ -118,7 +118,7 @@ button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons {
     visibility: hidden;
 }
 button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
-    content: 'last_page';
+    content: "last_page";
     visibility: visible;
     transform: translateX(12px);
 }
