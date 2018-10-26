@@ -12,10 +12,10 @@ Current Queue: Deluge, Jackett, OrganizrV2, Tautulli, Sonarr/Radarr/Lidarr/*-arr
 
 ## **Installation**<br/>
 ### Plex, Synclounge<br/>
-For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. Alteratively, you can download the CSS file to your domain and self-host it. This can be accomplished with sub_filter (http_sub_module). 
+For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the service you are using.
 ```
 proxy_set_header Accept-Encoding "";
-sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_plex.css"> </head>';
+sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_XXXXX.css"> </head>';
 sub_filter_once on;
 ```
 ### Ombi<br/>
