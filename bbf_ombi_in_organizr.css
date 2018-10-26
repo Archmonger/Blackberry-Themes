@@ -385,11 +385,6 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
 	display: inline-block;
 }
 
-.bg{
-	display: none !important;
-	visibility: hidden !important;
-}
-
 /* BBF in Organizr customizations start here */
 
 .navbar-brand{
@@ -418,4 +413,9 @@ ul.nav.navbar-nav.donation {
 
 .pace {
 	display: none !important;
+}
+
+.bg{
+	display: none !important;
+	visibility: hidden !important;
 }
