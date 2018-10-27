@@ -8,7 +8,7 @@ Images are available within the `Screenshots` folder.
 Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.
 
 ## **Upcoming Themes**<br/>
-Current Queue: Jackett, OrganizrV2, Tautulli, Sonarr/Radarr/Lidarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent.
+Current Queue: Jackett, OrganizrV2, Tautulli, Sonarr/Radarr/Lidarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Deluge Desktop Client.
 
 ## **Installation**<br/>
 ### Plex, Synclounge, Deluge<br/>
@@ -24,7 +24,8 @@ sub_filter_once on;
 3) Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
 4) Clear your browser cache. If using Cloudflare for your domain, make sure to clear Cloudflare cache as well.
 
-## **More Information**
+## **More Information**<br/>
+**What is "in Organizr":** Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `BBF_Organizr.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On rare occasions, some functionality may be removed in order to maintain theme consistency. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, or the deletion of the loading bar.
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
