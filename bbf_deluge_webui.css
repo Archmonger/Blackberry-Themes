@@ -49,7 +49,7 @@ html, body{
 	color: #FFF;
 }
 .x-btn{
-	padding: 5px;
+	padding: 4px;
 }
 .x-btn-tl, .x-btn-tr, .x-btn-tc, .x-btn-ml, .x-btn-mr, .x-btn-mc, .x-btn-bl, .x-btn-br, .x-btn-bc{
 	background-image: none;
