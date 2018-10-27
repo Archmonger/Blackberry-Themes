@@ -2,6 +2,7 @@
   --main-bg-color: #2c3135;
 }
 
+/* Base Layer */
 .x-viewport, .x-viewport body{
 	background-color: var(--main-bg-color);
 }
@@ -267,4 +268,10 @@ ul.x-tab-strip-top{
 /* Login Screen */
 body.x-body-masked .x-window-plain .x-window-mc{
 	background-color: #3b4247;
+}
+
+/* Hide Button Icons */
+.x-btn-text{
+	background-image: none !important;
+	padding-left: 0px !important;
 }
