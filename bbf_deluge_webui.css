@@ -212,6 +212,9 @@ ul.x-tab-strip-top{
 .x-panel-noborder .x-panel-bbar-noborder .x-toolbar{
 	border-color: rgba(0,0,0,0);
 }
+.x-btn-menu-active .x-btn-text{
+	color: #FFF;
+}
 
 /* Preferences */
 .x-window-tl .x-window-header{
