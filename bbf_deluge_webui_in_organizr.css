@@ -316,6 +316,10 @@ ul.x-tab-strip-top {
 	color: #FFF;
 }
 
+.x-panel-bbar .x-toolbar{
+	padding: 3px;
+}
+
 
 /* Bottom Toolbar Popup Menus */
 
