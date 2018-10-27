@@ -121,6 +121,25 @@ body {
 	background-image: none;
 }
 
+a.x-menu-item img {
+	display: none;
+}
+
+a.x-menu-item{
+	padding-left: 10px;
+}
+
+.x-menu-item-active{
+	border-color: #FFF;
+}
+
+.x-menu-item-active a.x-menu-item{
+	border-color: #cc7b19;	
+	background-color: #cc7b19;
+	color: #FFF;
+	border-radius: 4px;
+}
+
 
 /* Left Cell */
 
