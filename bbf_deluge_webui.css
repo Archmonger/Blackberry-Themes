@@ -216,7 +216,12 @@ a.x-menu-item{
 }
 
 .x-tree-node .x-tree-selected {
-	background-color: rgba(255, 255, 255, 0.08) !important;
+	background-color: rgba(255, 255, 255, 0.0) !important;
+	color: rgb(249, 190, 3);
+}
+
+.x-tree-selected a span{
+	color: rgb(249, 190, 3);
 }
 
 .x-tree-node .x-tree-node-over {
