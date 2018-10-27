@@ -432,6 +432,26 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252729; 
+    wat
+}
+
+::-webkit-scrollbar-thumb {
+    background: #162027; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #16202794; 
+}
+
+
 /* BBF in Organizr customizations start here */
 
 #tbar-deluge-text{
