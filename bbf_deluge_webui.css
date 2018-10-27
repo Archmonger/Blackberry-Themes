@@ -54,6 +54,9 @@ html, body{
 .x-btn-tl, .x-btn-tr, .x-btn-tc, .x-btn-ml, .x-btn-mr, .x-btn-mc, .x-btn-bl, .x-btn-br, .x-btn-bc{
 	background-image: none;
 }
+.x-toolbar .xtb-sep{
+	display: none;
+}
 
 /* Webpage Background */
 .x-panel-body{
