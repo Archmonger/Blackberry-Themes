@@ -11,7 +11,7 @@ Custom icons are available within the `Icons` folder. These are NOT required, bu
 Current Queue: Deluge, Jackett, OrganizrV2, Tautulli, Sonarr/Radarr/Lidarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent.
 
 ## **Installation**<br/>
-### Plex, Synclounge<br/>
+### Plex, Synclounge, Deluge<br/>
 For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the service you are using.
 ```
 proxy_set_header Accept-Encoding "";
@@ -32,6 +32,7 @@ sub_filter_once on;
 | Ombi | 3.0.3919 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0  | NO |
+| Deluge WebUI | 1.3.15  | YES |
 
 ## **Credits**<br/>
 Calendar day 15 icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
