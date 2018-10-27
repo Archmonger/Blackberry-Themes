@@ -216,6 +216,19 @@ ul.x-tab-strip-top{
 	color: #FFF;
 }
 
+/* Bottom Toolbar Popup Menus */
+.x-menu li {
+    line-height: 100%;
+    background-color: #FFF;
+}
+a.x-menu-item{
+    background-color: #FFF;
+}
+.x-window-mc{
+	border: none;
+	background-color: #3b4247;
+}
+
 /* Preferences */
 .x-window-tl .x-window-header{
 	color: #FFF;
