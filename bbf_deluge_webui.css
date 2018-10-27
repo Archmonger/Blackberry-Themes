@@ -385,6 +385,14 @@ a.x-menu-item {
 	border: none;
 }
 
+.x-combo-list .x-combo-selected{
+	color: #000;
+}
+
+.x-combo-list .x-combo-list-item{
+	color: #000;
+}
+
 
 /* Connection Manager */
 
