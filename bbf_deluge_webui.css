@@ -320,6 +320,7 @@ ul.x-tab-strip-top {
 	padding: 3px;
 }
 
+
 /* Bottom Toolbar Popup Menus */
 
 .x-menu li {
@@ -436,6 +437,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 ::-webkit-scrollbar {
     width: 5px;
 }
+
 ::-webkit-scrollbar-track {
     background: #252729; 
     wat
