@@ -142,8 +142,8 @@ a.x-menu-item{
 }
 
 .x-grid3-hd-row td {
-    border-left-color: #737679;
-    border-right-color: #737679;
+	border-left: 0px;
+	border-right-color: #737679;
 }
 
 
@@ -336,6 +336,11 @@ a.x-menu-item {
 .x-window-mc {
 	border: none;
 	background-color: #3b4247;
+}
+
+.x-panel-bbar.x-panel-bbar-noborder {
+    position: fixed !important;
+    bottom: 0px !important;
 }
 
 
