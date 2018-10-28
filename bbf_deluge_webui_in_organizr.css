@@ -142,8 +142,8 @@ a.x-menu-item{
 }
 
 .x-grid3-hd-row td {
-    border-left-color: #737679;
-    border-right-color: #737679;
+	border-left: 0px;
+	border-right-color: #737679;
 }
 
 
