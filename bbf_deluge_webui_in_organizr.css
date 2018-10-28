@@ -338,6 +338,11 @@ a.x-menu-item {
 	background-color: #3b4247;
 }
 
+.x-panel-bbar.x-panel-bbar-noborder {
+    position: fixed !important;
+    bottom: 0px !important;
+}
+
 
 /* Preferences */
 
