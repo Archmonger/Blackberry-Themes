@@ -202,7 +202,7 @@ a.x-menu-item{
 /* Bottom Cell */
 
 .x-tab-panel-body {
-	border-color: var(--main-bg-color);
+	border: none;
 	background-color: none;
 }
 
