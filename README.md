@@ -1,5 +1,5 @@
 # Blackberry Flat Themepack (BBF)
-CSS changes to many popular home theater services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2. For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).
+CSS changes to many popular home theater services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2. 
 
 ## **Theme Requests**<br/>
 Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! 
@@ -28,7 +28,8 @@ sub_filter_once on;
 4) Clear your browser cache. If using Cloudflare for your domain, make sure to clear Cloudflare cache as well.
 
 ## **More Information**<br/>
-**What is "in Organizr":** Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `BBF_Organizr.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On rare occasions, some functionality may be removed in order to maintain theme consistency. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, or the deletion of the loading bar.
+**What is "in Organizr":** Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `BBF_Organizr.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On rare occasions, some functionality may be removed in order to maintain theme consistency. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, or the deletion of the loading bar.<br/>
+**BBF Plex:** For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
