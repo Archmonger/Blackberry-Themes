@@ -4,7 +4,7 @@
 }
 
 html {
-	background-image: url(https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-noise.png), url("https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-light.png");
+	background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
 	background-repeat: repeat, no-repeat;
 	background-attachment: fixed, fixed;
 	background-position: center center, center center;
@@ -18,7 +18,7 @@ html {
 }
 
 main {
-	background-image: url(https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-noise.png), url("https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-light.png");
+	background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
 	background-repeat: repeat, no-repeat;
 	background-attachment: fixed, fixed;
 	background-position: center center, center center;
@@ -37,7 +37,7 @@ main {
 }
 
 .v-navigation-drawer {
-	background-image: url(https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-noise.png), url(https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-light.png) !important;
+	background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png") !important;
 	background-repeat: repeat, no-repeat !important;
 	background-attachment: fixed, fixed !important;
 	background-position: center center, center center !important;
