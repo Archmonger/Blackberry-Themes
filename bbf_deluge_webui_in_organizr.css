@@ -241,6 +241,7 @@ a.x-menu-item{
 .x-grid3-header {
 	background-color: rgba(255, 255, 255, 0.13);
 	background-image: none;
+	padding: 2px 0 2px 0;
 }
 
 td.x-grid3-hd-over .x-grid3-hd-inner,
