@@ -2,8 +2,7 @@
 CSS changes to many popular home theater services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2. For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).
 
 ## **Theme Requests**<br/>
-Requests can be made through Feathub! 
-[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)
+Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! 
 
 ## **Screenshots**<br/>
 Images are available within the `Screenshots` folder.
@@ -38,6 +37,8 @@ sub_filter_once on;
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0  | NO |
 | Deluge WebUI | 1.3.15  | YES |
+
+[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)
 
 ## **Credits**<br/>
 Calendar day 15 icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
