@@ -321,6 +321,11 @@ ul.x-tab-strip-top {
 	color: #FFF;
 }
 
+.x-btn-mc em.x-btn-arrow{
+	background-image: none;
+	padding-right: 0px;
+}
+
 
 /* Bottom Toolbar Popup Menus */
 
