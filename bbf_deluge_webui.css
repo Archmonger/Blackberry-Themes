@@ -339,8 +339,8 @@ a.x-menu-item {
 }
 
 .x-panel-bbar.x-panel-bbar-noborder {
-    position: fixed !important;
-    bottom: 0px !important;
+	position: fixed !important;
+	bottom: 0px !important;
 }
 
 
@@ -422,6 +422,10 @@ a.x-menu-item {
 	background-color: #272a2d;
 }
 
+.x-list-header-inner div em {
+	border-left-width: 0px;
+}
+
 
 /* Login Screen */
 
@@ -441,18 +445,17 @@ body.x-body-masked .x-window-plain .x-window-mc {
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-    width: 5px;
+	width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #252729; 
-    wat
+	background: #252729; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #162027; 
+	background: #162027; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #16202794; 
+	background: #16202794; 
 }
