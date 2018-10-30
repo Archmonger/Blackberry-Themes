@@ -101,6 +101,8 @@ body {
 	background: rgba(204, 123, 25, 1);
 	border-color: rgba(204, 123, 25, 1);
 	border-radius: 3px;
+	transition: width 1s;
+	transition-timing-function: linear;
 }
 
 .x-progress-inner {
