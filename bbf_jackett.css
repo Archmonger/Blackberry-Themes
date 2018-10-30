@@ -90,6 +90,10 @@ table.dataTable.compact tbody td {
 	padding-bottom: 8px;
 }
 
+.table-responsive{
+	border: none;
+}
+
 
 /* Table header and footer */
 
