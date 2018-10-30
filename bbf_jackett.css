@@ -245,3 +245,14 @@ fieldset[disabled] .btn-info:hover {
 .modal-footer {
 	border-top: none;
 }
+
+
+/* Jackett Logs */
+
+pre {
+	color: #FFF;
+}
+
+.jackettlogInfo td{
+	max-width: 100px;
+}
