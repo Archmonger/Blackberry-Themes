@@ -86,7 +86,8 @@ thead {
 table.dataTable.compact tbody th,
 table.dataTable.compact tbody td {
 	padding-left: 15px;
-	padding-top: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 
