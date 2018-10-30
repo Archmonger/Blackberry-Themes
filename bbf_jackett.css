@@ -134,8 +134,12 @@ textarea {
 	color: #FFF !important;
 }
 
-td .btn-success {
+tr td .btn-success {
 	margin-left: 10px;
+}
+
+tr td span[class*="label-"]{
+	margin-left: 5px;
 }
 
 
