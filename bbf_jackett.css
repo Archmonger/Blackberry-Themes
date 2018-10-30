@@ -255,6 +255,14 @@ fieldset[disabled] .btn-info:hover {
 	border-top: none;
 }
 
+.alert-info{
+	background-color: rgba(204, 123, 25, 1);
+	border: none;
+	color: #FFF;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
 
 /* Jackett Logs */
 
