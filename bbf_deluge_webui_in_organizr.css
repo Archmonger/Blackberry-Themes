@@ -446,7 +446,8 @@ body.x-body-masked .x-window-plain .x-window-mc {
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-	width: 5px;
+	width: 11px;
+	height: 11px;
 }
 
 ::-webkit-scrollbar-track {
