@@ -1,18 +1,19 @@
 # Blackberry Flat Themepack (BBF)
-CSS changes to many popular home theater services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2. 
+CSS changes to many popular home theater services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2.<br/>
 
 ## **Theme Requests**<br/>
-Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! 
+Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
 
 ## **Screenshots**<br/>
-Images are available within the `Screenshots` folder.
+Images are available within the `Screenshots` folder.<br/>
 
-## **Upcoming Themes**<br/>
-Current Queue: OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.
+## **Upcoming**<br/>
+Theme Queue: OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
+Mobile Queue: Jackett mobile, Deluge mobile, Rework on Plex mobile.<br/>
 
 ## **Installation**<br/>
 ### Plex, Synclounge, Deluge, Jackett<br/>
-For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the service you are using.
+For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the service you are using.<br/>
 ```
 proxy_set_header Accept-Encoding "";
 sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_XXXXX.css"> </head>';
@@ -22,7 +23,7 @@ sub_filter_once on;
 1) Navigate to Settings > Configuration > Customization > Custom CSS Link<br/>
 2) Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`<br/>
 3) Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
-4) Clear your browser cache. If using Cloudflare for your domain, make sure to clear Cloudflare cache as well.
+4) Clear your browser cache. If using Cloudflare for your domain, make sure to clear Cloudflare cache as well.<br/>
 
 ## **More Information**<br/>
 **What is "in Organizr"**<br/>
@@ -32,7 +33,7 @@ Most BBF themes come in a In Organizr variant, which allows them to seemlessly f
 For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
 
 **Custom Icons for OrganizrV2**<br/>
-Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful. <br/>
+Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.<br/>
 
 **Last Tested**<br/>
 
@@ -46,8 +47,8 @@ Custom icons are available within the `Icons` folder. These are NOT required, bu
 | Jackett | 0.10.398.0 | YES |
 
 ## **Feathub Requests**<br/>
-[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)
+[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)<br/>
 
 ## **Credits**<br/>
-Calendar day 15 icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
-<br/>Multiple users silhouette made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
+Calendar day 15 icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
+Multiple users silhouette made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
