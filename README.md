@@ -29,7 +29,8 @@ sub_filter_once on;
 
 ## **More Information**<br/>
 **What is "in Organizr":** Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `BBF_Organizr.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On rare occasions, some functionality may be removed in order to maintain theme consistency. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, or the deletion of the loading bar.<br/>
-**BBF Plex:** For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).
+**BBF Plex:** For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
+**Last Tested**<br/>
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
@@ -39,6 +40,7 @@ sub_filter_once on;
 | Filebrowser | 1.9.0  | NO |
 | Deluge WebUI | 1.3.15  | YES |
 
+<br/>**Feathub Requests**<br/>
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)
 
 ## **Credits**<br/>
