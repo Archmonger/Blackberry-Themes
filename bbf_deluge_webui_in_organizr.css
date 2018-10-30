@@ -100,7 +100,7 @@ body {
 	background-image: none;
 	background: rgba(204, 123, 25, 1);
 	border-color: rgba(204, 123, 25, 1);
-	border-radius: 15px;
+	border-radius: 3px;
 }
 
 .x-progress-inner {
@@ -298,12 +298,9 @@ ul.x-tab-strip-top {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.x-treegrid-text .x-progress-wrap .x-progress-inner .x-progress-bar {
-	border-radius: 2px;
-}
-
-.x-grid3-cell-inner .x-progress-wrap .x-progress-inner .x-progress-bar {
-	border-radius: 2px;
+.x-treegrid-text .x-progress-wrap, 
+.x-grid3-cell-inner .x-progress-wrap{
+	border-radius: 20px;
 }
 
 
