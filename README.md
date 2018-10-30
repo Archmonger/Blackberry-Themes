@@ -11,7 +11,7 @@ Images are available within the `Screenshots` folder.
 Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.
 
 ## **Upcoming Themes**<br/>
-Current Queue: Jackett, OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Deluge Desktop Client.
+Current Queue: OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Deluge Desktop Client.
 
 ## **Installation**<br/>
 ### Plex, Synclounge, Deluge<br/>
