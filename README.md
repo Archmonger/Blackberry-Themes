@@ -8,7 +8,7 @@ Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry
 Images are available within the `Screenshots` folder.
 
 ## **Upcoming Themes**<br/>
-Current Queue: OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.
+Current Queue: OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.
 
 ## **Installation**<br/>
 ### Plex, Synclounge, Deluge, Jackett<br/>
