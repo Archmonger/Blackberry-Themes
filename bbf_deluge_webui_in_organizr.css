@@ -110,6 +110,7 @@ body {
 
 .x-progress-wrap {
 	border: none;
+	border-radius: 20px;
 }
 
 .x-progress-text-back {
@@ -296,11 +297,6 @@ ul.x-tab-strip-top {
 
 .x-fieldset legend {
 	color: rgba(255, 255, 255, 0.6);
-}
-
-.x-treegrid-text .x-progress-wrap, 
-.x-grid3-cell-inner .x-progress-wrap{
-	border-radius: 20px;
 }
 
 
