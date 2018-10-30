@@ -232,6 +232,18 @@ fieldset[disabled] .btn-info:hover {
 	border-color: rgb(206, 153, 89);
 }
 
+.btn-default{
+	background-color: rgba(204, 123, 25, 1);
+	border-color: rgb(206, 153, 89);
+	color: #FFF;
+}
+
+.btn-default:hover{
+	background-color: rgb(236, 151, 31);
+	border-color: rgb(206, 153, 89);
+	color: #FFF;
+}
+
 .close {
 	color: #FFF;
 }
