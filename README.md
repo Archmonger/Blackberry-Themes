@@ -42,7 +42,8 @@ sub_filter_once on;
 | Deluge WebUI | 1.3.15  | YES |
 
 <br/>
-**Feathub Requests**<br/>
+**Feathub Requests** <br/>
+
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)
 
 ## **Credits**<br/>
