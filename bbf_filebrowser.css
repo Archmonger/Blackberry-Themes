@@ -64,7 +64,7 @@ nav .action:hover{
     background-color:rgba(255, 255, 255, 0.08);
 }
 header{
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgb(22, 32, 39);
     height: 60px;
 }
 header>div:first-child{
