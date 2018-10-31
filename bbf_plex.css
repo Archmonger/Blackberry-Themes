@@ -3,37 +3,26 @@
     visibility: hidden;
     opacity:0;
 }
-.nav-dropdown .dropdown-poster-toggle{
-	display: none;
-}
-div[data-qa-id*="hub--home.newscast"] {
-    display: none;
-}
 button[class*="plexPassButton"]{    
     display:none;
     visibility: hidden;
     opacity:0;
 }
-.SidebarMenuButton-sidebarMenuButton-khx_P {
-    background-color: rgba(0,0,0,.15) !important;
-}
-button#id-7 {
-    display: none !important;
-}
-.nav-bar{
-	background-color: #162027 !important;
-}
-div[class*="NavBar-container-"]{
-	background: none !important;
-}
 
 @media only screen and (max-width: 768px) {
 /*Homepage, sidenav, and misc*/
+button[data-qa-id="sidebarLibraryMoreButton"]{
+	display: none;
+}
 .NavBarActivityButton-label-2ZN0g{
 	top: 20px !important;
 }
 button.Button-button-2kT68.Link-link-2n0yJ.Button-primary-3fwLz.Button-medium-3g45_.Link-link-2n0yJ.Link-default-2XA2b {
     display: none !important;
+}
+.nav-dropdown .dropdown-poster-toggle {
+    height: 40px !important;
+    padding-left: 10px !important;
 }
 .nav-bar{
 	background-color: rgba(0,0,0,0.0);
@@ -298,4 +287,24 @@ div[class*="AudioVideoPlayerControls-buttonGroupRight-"] div[class*="VolumeSlide
 div[class*="AudioVideoMiniPlayer-controlsContainer-"] {
     display: none !important;
 }
+}
+
+/* BBF Customizations start here */
+.SidebarMenuButton-sidebarMenuButton-khx_P {
+    background-color: rgba(0,0,0,.15) !important;
+}
+button#id-7 {
+    display: none !important;
+}
+.nav-bar{
+	background-color: #162027 !important;
+}
+div[class*="NavBar-container-"]{
+	background: none !important;
+}
+.nav-dropdown .dropdown-poster-toggle{
+	display: none;
+}
+div[data-qa-id*="hub--home.newscast"] {
+    display: none;
 }
