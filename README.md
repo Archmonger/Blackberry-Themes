@@ -8,8 +8,8 @@ Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry
 Images are available within the `Screenshots` folder.<br/>
 
 ## **Upcoming**<br/>
-Theme Queue: OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
-Mobile Queue: Jackett mobile, Deluge mobile, Rework on Plex mobile.<br/>
+**Theme Queue:** OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
+**Mobile Queue:** Jackett mobile, Deluge mobile, Rework on Plex mobile.<br/>
 
 ## **Installation**<br/>
 ### Plex, Synclounge, Deluge, Jackett<br/>
