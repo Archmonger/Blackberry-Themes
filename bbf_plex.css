@@ -11,6 +11,9 @@ button[class*="plexPassButton"]{
 
 @media only screen and (max-width: 768px) {
 /*Homepage, sidenav, and misc*/
+.sessions-list-container{
+	zoom: 0.65;
+}	
 button[data-qa-id="sidebarLibraryMoreButton"]{
 	display: none;
 }
