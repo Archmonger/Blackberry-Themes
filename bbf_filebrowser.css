@@ -172,7 +172,7 @@ table th{
     color: rgba(255, 255, 255, 0.85);
 }
 .card.floating{
-    background-color: #2d2d2d;
+    background-color: rgb(22, 32, 39);
 }
 #search #input {
     background-color:rgba(255, 255, 255, 0.08);
