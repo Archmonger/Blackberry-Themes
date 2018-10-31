@@ -61,7 +61,10 @@ nav .action{
     padding-bottom: 0px;
 }
 nav .action:hover{
-    background-color:rgba(255, 255, 255, 0.08);
+    background-color:rgba(255, 255, 255, 0.05);
+}
+nav>div{
+    border-top: none;
 }
 header{
     background-color: rgb(22, 32, 39);
@@ -93,7 +96,7 @@ body{
     transition: .4s;
 }
 #listing.list .item.header{
-    background-color: rgba(0,0,0,.25);
+    background-color: rgb(47, 63, 71);
     color:rgb(238, 238, 238);
     border-bottom: none;
 }
