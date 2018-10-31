@@ -23,7 +23,6 @@ sub_filter_once on;
 1) Navigate to Settings > Configuration > Customization > Custom CSS Link.<br/>
 2) Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`.<br/>
 3) Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
-4) Clear your browser cache. If using Cloudflare for your domain, make sure to clear Cloudflare cache as well.<br/>
 
 ### **Filebrowser**<br/>
 To allow for automatic theme updating it is recommended you use the subfilter instructions found in the `Plex` instructions above. But, if you would rather use Filebrowser's integrated CSS options then perform the following:<br/>
@@ -33,7 +32,8 @@ To allow for automatic theme updating it is recommended you use the subfilter in
 
 ## **More Information**<br/>
 **Subfilter is set up exactly as above, but themes are not working!**<br/>
-Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/> 
+Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/>
+If problems persist, please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br/> 
 
 **What is "in Organizr"**<br/>
 Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `BBF_Organizr.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On rare occasions, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, the deletion of the loading bar, and removal of the log out menu.<br/>
