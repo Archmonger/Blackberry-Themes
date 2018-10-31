@@ -99,6 +99,7 @@ body{
     background-color: rgb(47, 63, 71);
     color:rgb(238, 238, 238);
     border-bottom: none;
+    right: auto;
 }
 .material-icons, .prompt .file-list ul li:before{
     color: rgba(255, 255, 255, 0.85);
