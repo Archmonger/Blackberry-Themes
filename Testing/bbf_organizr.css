@@ -274,10 +274,10 @@ hr{
 	color: #929a9c;
 }
 .text-success{
-	color: rgb(249, 190, 3);
+	color: #53e69d;
 }
 div[class*="fc"] .text-danger{
-	color: white;
+	color: #929a9c;
 }
 .btn-link, a{
 	color: rgba(204, 123, 25, 1);
