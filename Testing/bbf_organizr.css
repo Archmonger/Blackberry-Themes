@@ -268,7 +268,7 @@ hr{
  	background-color: rgba(35,36,38,.8);
 }
 .fc-unthemed .fc-today{
-	background-color: #162027 !important;
+	background-color: rgba(39, 42, 46, 0.5) !important;
 }
 .text-info{
 	color: #929a9c;
@@ -282,6 +282,10 @@ div[class*="fc"] .text-danger{
 .btn-link, a{
 	color: rgba(204, 123, 25, 1);
 }
+a.fc-day-number, .fc-day-header a{
+	color: #FFF;
+}
+
 .fc-day-header span{
 	color: #FFF;
 }
@@ -293,4 +297,11 @@ div[class*="fc"] .text-danger{
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #dedede;
+}
+
+#scroll{
+	background-color: rgba(204, 123, 25, 0.5);
+}
+#scroll:hover{
+	background-color: rgba(204, 123, 25, 0.75);
 }
