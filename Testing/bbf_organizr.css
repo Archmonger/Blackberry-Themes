@@ -160,8 +160,12 @@ body{
 .bg-org{
 	background-color: #2c3135 !important;
 }
-.bootstrap-tagsinput, .calendar-widget, .chat-main-box, .content-wrap, .css-bar:after, .customtab li.active a, .customtab li.active a:focus, .customtab li.active a:hover, .daterangepicker .input-mini, .dropify-wrapper, .dropify-wrapper .dropify-preview, .dropzone, .footer, .form-control, .jsgrid-alt-row>td, .jsgrid-header-row>th, .jsgrid-row>td, .list-group-item, .list-group-item.disabled, .list-group-item.disabled:focus, .list-group-item.disabled:hover, .manage-table, .modal-content, .myadmin-dd .dd-list .dd-item .dd-handle, .myadmin-dd-empty .dd-list .dd3-content, .myadmin-dd-empty .dd-list .dd3-handle, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .pager li>a, .pager li>span, .pagination>li>a, .pagination>li>span, .panel, .panel .panel-footer, .panel-default .panel-body, .panel-default .panel-footer, .panel-default .panel-heading, .panel-footer textarea, .panel-white .panel-body, .panel-white .panel-footer, .panel-white .panel-heading, .radio label::before, .select2-container-multi .select2-choices, .table tbody tr.advance-table-row td, .thumbnail, .well, .white-box, input, pre, select, table.dataTable.display tbody tr.odd, table.dataTable.stripe tbody tr.odd{
-	background-color: rgb(57, 62, 66);
+.bootstrap-tagsinput, .calendar-widget, .chat-main-box, .content-wrap, .css-bar:after, .daterangepicker .input-mini, .dropify-wrapper, .dropify-wrapper .dropify-preview, .dropzone, .footer, .form-control, .jsgrid-alt-row>td, .jsgrid-header-row>th, .jsgrid-row>td, .list-group-item, .list-group-item.disabled, .list-group-item.disabled:focus, .list-group-item.disabled:hover, .manage-table, .modal-content, .myadmin-dd .dd-list .dd-item .dd-handle, .myadmin-dd-empty .dd-list .dd3-content, .myadmin-dd-empty .dd-list .dd3-handle, .pager li>a, .pager li>span, .pagination>li>a, .pagination>li>span, .panel, .panel .panel-footer, .panel-default .panel-body, .panel-default .panel-footer, .panel-default .panel-heading, .panel-footer textarea, .panel-white .panel-body, .panel-white .panel-footer, .panel-white .panel-heading, .radio label::before, .select2-container-multi .select2-choices, .table tbody tr.advance-table-row td, .thumbnail, .well, .white-box, input, pre, select, table.dataTable.display tbody tr.odd, table.dataTable.stripe tbody tr.odd{
+	background-color: rgba(35,36,38,.8);
+	border: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .customtab li.active a, .customtab li.active a:focus, .customtab li.active a:hover, .nav-tabs>li.active>a:focus {
+	background: rgb(57, 62, 66);
 	border: none;
 }
 .panel-blue .panel-heading, .panel-info .panel-heading {
