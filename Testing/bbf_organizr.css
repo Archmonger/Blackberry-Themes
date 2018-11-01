@@ -73,18 +73,17 @@ div#internal-Settings{
 }
 .sidebar .sidebar-head h3 {
     margin-top: 6px;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
     color: #97999f;
-    display: none;
 }
 .sidebar .sidebar-head h3 span{
     /*visibility: hidden;*/
 }
 #side-menu{
-    padding-top: 0px;
+    padding-top: 40px;
 }
 .sidebar-nav{
-    background-color: rgba(35, 36, 38,0.3);
+    background-color: rgba(0, 0, 0,0.1);
 }
 .navbar-default.sidebar{
     background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
@@ -98,8 +97,8 @@ div#internal-Settings{
 	min-height: 100%;
 }
 #side-menu>li>a{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .sidebar, .sidebar .sidebar-head{
     box-shadow: none;
@@ -155,7 +154,7 @@ body{
 	border-radius: 5px 5px 0 0;
 }
 .content-wrap section.content-current{
-	background: #2c3135;	
+	background: #2c3135;
 }
 .bg-org{
 	background-color: #2c3135 !important;
