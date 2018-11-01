@@ -298,6 +298,9 @@ a.fc-day-number, .fc-day-header a{
 	-moz-osx-font-smoothing: grayscale;
 	color: #dedede;
 }
+.fc th, .fc td{
+	border:none;
+}
 
 #scroll{
 	background-color: rgba(204, 123, 25, 0.5);
