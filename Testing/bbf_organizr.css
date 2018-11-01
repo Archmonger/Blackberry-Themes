@@ -313,7 +313,19 @@ a.fc-day-number, .fc-day-header a{
 .fc th, .fc td{
 	border-color: rgba(35,36,38,.8) !important;
 }
-
+.table tbody tr.advance-table-row.active, .fc-button{
+	background-color: rgba(0,0,0,0) !important;
+	border: none;
+	box-shadow: none;
+	color: #dedede;
+	opacity: 1;
+	font-family: Open Sans Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.fc-button:hover{
+	color: #FFF;
+	opacity: 1;
+	background: rgba(255,255,255,0.05) !important;
+}
 #scroll{
 	background-color: rgba(204, 123, 25, 0.5);
 }
