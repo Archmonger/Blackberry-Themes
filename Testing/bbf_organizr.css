@@ -36,6 +36,7 @@ li#menu-Organizr-Support {
 /* Navbar Styling */
 .navbar{
     position: fixed;
+    width: 100%;
 }
 .navbar-header{
     background: #162027;
