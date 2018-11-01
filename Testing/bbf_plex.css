@@ -1,0 +1,290 @@
+/* Don't forget to enable Alternate Homepage Titles */
+
+
+/* Remove Unneeded Navbar Items */
+li.hidden-xs {
+    display: none;
+}
+#languageDropdown {
+    display: none;
+}
+.navbar-left li:nth-child(3) {
+    display: none;
+}
+i.ti-search {
+    display: none;
+}
+
+
+/* Remove Unneeded Sidebar Buttons */
+li#github {
+    display: none;
+}
+li#menu-Organizr-Support {
+    display: none;
+}
+
+/* Dropdown User Menu */
+.navbar-top-links .dropdown-user .dw-user-box .u-img img{
+    display: none;
+}
+.navbar-top-links .dropdown-user .dw-user-box{
+    padding-top: 0px;
+}
+
+
+/* Navbar Styling */
+.navbar{
+    position: fixed;
+}
+.navbar-header{
+    background: #162027;
+}
+.navbar-top-links>li>a:hover{
+	background: rgba(255,255,255,0.05);
+}
+
+
+/* Page Fixes */
+.fix-header #page-wrapper {
+    margin-top: 40px;
+}
+div#internal-Settings{
+    padding-top: 40px;
+}
+#homepage-items {
+    padding-top: 65px !important;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.nav>li>a>img{
+	width: 24px;
+}
+.top-left-part a{
+    padding-left: 20px;
+}
+
+
+/* Sidebar */
+.sidebar .sidebar-head {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(0,0,0,0);
+}
+.sidebar .sidebar-head h3 {
+    margin-top: 6px;
+    margin-bottom: 4px;
+    color: #97999f;
+    display: none;
+}
+.sidebar .sidebar-head h3 span{
+    /*visibility: hidden;*/
+}
+#side-menu{
+    padding-top: 0px;
+}
+.sidebar-nav{
+    background-color: rgba(35, 36, 38,0.3);
+}
+.navbar-default.sidebar{
+    background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
+	background-repeat: repeat, no-repeat;
+	background-attachment: fixed, fixed;
+	background-position: center center, center center;
+	background-size: auto, cover;
+	-webkit-background-size: auto, cover;
+	-moz-background-size: auto, cover;
+	-o-background-size: auto, cover;
+	min-height: 100%;
+}
+#side-menu>li>a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sidebar, .sidebar .sidebar-head{
+    box-shadow: none;
+}
+#side-menu > li > a.active, #side-menu > li > ul > li > a.active{
+    box-shadow: none;
+    background-color: rgba(255,255,255,.05) !important;
+}
+#side-menu > li > a:hover, #side-menu > li > a:focus{
+	background-color: rgba(255,255,255,.02);
+}
+.tabLoaded{
+    filter: none;
+    -webkit-filter: none;
+}
+
+
+/* Body */
+#page-wrapper, html{
+    background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: center center, center center;
+    background-size: auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    min-height: 100%;
+    height: auto;
+}
+body{
+	font-family: Open Sans Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #dedede;
+}
+
+/* Settings Menu */
+.bg-title{
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    background-color: #162027;
+}
+.bg-title h4{
+    color: #FFF;
+    font-family: Open Sans Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.tabs-style-flip nav li.tab-current a{
+	background: rgba(204, 123, 25, 1);
+	border-radius: 5px 5px 0 0;
+}
+.content-wrap section.content-current{
+	background: #2c3135;	
+}
+.bg-org{
+	background-color: #2c3135 !important;
+}
+.bootstrap-tagsinput, .calendar-widget, .chat-main-box, .content-wrap, .css-bar:after, .customtab li.active a, .customtab li.active a:focus, .customtab li.active a:hover, .daterangepicker .input-mini, .dropify-wrapper, .dropify-wrapper .dropify-preview, .dropzone, .footer, .form-control, .jsgrid-alt-row>td, .jsgrid-header-row>th, .jsgrid-row>td, .list-group-item, .list-group-item.disabled, .list-group-item.disabled:focus, .list-group-item.disabled:hover, .manage-table, .modal-content, .myadmin-dd .dd-list .dd-item .dd-handle, .myadmin-dd-empty .dd-list .dd3-content, .myadmin-dd-empty .dd-list .dd3-handle, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .pager li>a, .pager li>span, .pagination>li>a, .pagination>li>span, .panel, .panel .panel-footer, .panel-default .panel-body, .panel-default .panel-footer, .panel-default .panel-heading, .panel-footer textarea, .panel-white .panel-body, .panel-white .panel-footer, .panel-white .panel-heading, .radio label::before, .select2-container-multi .select2-choices, .table tbody tr.advance-table-row td, .thumbnail, .well, .white-box, input, pre, select, table.dataTable.display tbody tr.odd, table.dataTable.stripe tbody tr.odd{
+	background-color: rgb(255,255,255,0.05);
+	border: none;
+}
+.panel-blue .panel-heading, .panel-info .panel-heading {
+    border-color: rgba(204, 123, 25, 1);
+    color: #fff;
+    background-color: #2c3135;
+}
+.tab-content > .tab-pane {
+	transform: translateY(-20px);
+}
+.asColorPicker-dropdown, .checkbox label::before, .clockpicker-popover .popover-content, .clockpicker-popover .popover-title, .customvtab .tabs-vertical li.active a, .customvtab .tabs-vertical li.active a:focus, .customvtab .tabs-vertical li.active a:hover, .dropdown-menu, .footable-row-detail, .img-thumbnail, .input-group-addon, .jsgrid-filter-row>td, .jsgrid-header-sortable:hover, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover, .pager .disabled>a, .pager .disabled>a:focus, .pager .disabled>a:hover, .pager .disabled>span, .pager li>a:focus, .pager li>a:hover, .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover, .popover, .popover-title, .right-sidebar, code, table.dataTable tbody tr{
+	background: rgb(49, 54, 58);
+	color: #FFF;
+}
+.nav-tabs>li>a{
+	color: #b1b1b1;
+	border-radius: 4px;
+}
+.customtab2 li.active a, .customtab2 li.active a:focus, .customtab2 li.active a:hover{
+	border-radius: 4px;
+}
+.panel-body{
+	background-color: #162027;
+	color: #dedede;
+}
+.tabs-style-flip nav a{
+	color: #b1b1b1;
+}
+.bg-title .breadcrumb a, .daterangepicker .input-mini, .dd-handle, .dd3-content, .dropify-wrapper, .form-control, .panel-default .panel-heading, .panel-white .panel-heading, .select2-container .select2-choice, .steamline .sl-right div>a, .white-box .box-title, a.list-group-item, button.list-group-item, h1, h2, h3, h4, h5, h6{
+	color: #b1b1b1;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	background-color: rgba(0,0,0,0.3);
+}
+
+/* Pop-ups */
+.white-popup-block{
+	background-color: #162027;
+}
+.mfp-close-btn-in .mfp-close{
+	color: #FFF;
+}
+
+/* Homepage */
+.panel{
+    background-color: rgba(0,0,0,0);
+}
+.recent-title{
+    display: block;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    border-radius: 0px 0px 5px 5px;
+    padding: 8px 12px;
+    color: #f3f3f3;
+    background: rgba(35,36,38,.8);
+    	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.recent-poster{
+	margin-bottom: 56px;
+	border-radius: 5px 5px 0px 0px;
+}
+.recent-items .owl-item{
+	height: auto;
+}
+.owl-item:hover{
+	transform: scale(1.05);
+    transition: 0.15s ease-in-out;
+}
+.owl-stage{
+	margin: 7px 4px;
+}
+.col-md-12{
+	padding-left: 19px;
+}
+.outside-request-div{
+	border-radius: 0 5px 0 0;
+}
+hr{
+	border-color: rgba(0,0,0,0);
+}
+.btn-info, .btn-info.disabled{
+	background: rgba(0,0,0,0);
+	border-color: rgba(0,0,0,0);
+	border-radius: 4px !important;
+}
+.btn-info.disabled.focus, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info.focus, .btn-info:focus, .btn-info:hover{
+	opacity: 1;
+	background: rgba(255,255,255,0.08);
+	border-color: rgba(0,0,0,0);
+}
+.btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info.focus, .btn-info.focus:active, .btn-info:active:focus, .btn-info:active:hover, .btn-info:focus, .open>.dropdown-toggle.btn-info.focus, .open>.dropdown-toggle.btn-info:focus, .open>.dropdown-toggle.btn-info:hover{
+	opacity: 1;
+	background: rgba(255,255,255,0.15);
+	border-color: rgba(0,0,0,0);
+}
+.pull-left{
+	color: #e0e0e0;
+}
+.hover-homepage-item:hover{
+	background: rgba(0,0,0,0)
+}
+.fc-day{
+ 	background-color: rgba(35,36,38,.8);
+}
+.fc-unthemed .fc-today{
+	background-color: #162027 !important;
+}
+.text-info{
+	color: #929a9c;
+}
+.text-success{
+	color: rgb(249, 190, 3);
+}
+div[class*="fc"] .text-danger{
+	color: white;
+}
+.btn-link, a{
+	color: rgba(204, 123, 25, 1);
+}
+.fc-day-header span{
+	color: #FFF;
+}
+.fc-day-grid .fc-event{
+	padding: 6px 15px;
+}
