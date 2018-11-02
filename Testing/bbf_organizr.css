@@ -15,6 +15,14 @@ i.ti-search {
     display: none;
 }
 
+/* Remove Unneeded Ombi indicators */
+.badge, .inside-request-div, .plyr input[type=radio]:checked+span{
+	display: none;
+}
+.badge, .inside-request-div, .inside-over-request-div.bg-success{
+	display: none;
+}
+
 
 /* Remove Unneeded Sidebar Buttons */
 li#github {
