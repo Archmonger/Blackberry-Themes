@@ -103,7 +103,7 @@ div#internal-Settings{
     padding-top: 40px;
 }
 .sidebar-nav{
-    background-color: rgba(0, 0, 0,0.1);
+    background-color: rgba(0, 0, 0,0.2);
 }
 .navbar-default.sidebar{
     background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
