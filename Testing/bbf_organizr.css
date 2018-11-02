@@ -40,7 +40,9 @@ li#menu-Organizr-Support {
 .navbar-top-links .dropdown-user .dw-user-box{
     padding-top: 0px;
 }
-
+.dropdown-user  li.divider {
+	display: none;
+}
 
 /* Navbar Styling */
 .navbar{
