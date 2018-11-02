@@ -3,7 +3,7 @@
     visibility: hidden;
     opacity:0;
 }
-button[class*="plexPassButton"]{    
+button[class*="plexPassButton"]{
     display:none;
     visibility: hidden;
     opacity:0;
@@ -13,7 +13,7 @@ button[class*="plexPassButton"]{
 /*Homepage, sidenav, and misc*/
 .sessions-list-container{
 	zoom: 0.65;
-}	
+}
 button[data-qa-id="sidebarLibraryMoreButton"]{
 	display: none;
 }
@@ -67,7 +67,7 @@ button.Button-button-2kT68.Link-link-2n0yJ.Button-primary-3fwLz.Button-medium-3g
 }
 .SidebarMenuButton-sidebarMenuPrimaryTitleContainer-3-vDD {
     white-space: nowrap;
-} 
+}
 body {
 	line-height: 1.1;
 	font-size: 12px
@@ -76,7 +76,7 @@ body {
 	font-size: 11px;
 }
 .nav-header>li>a{
-	font-size: 13px;    
+	font-size: 13px;
 	line-height: 25px;
 	display: inline;
 }
@@ -99,10 +99,10 @@ body {
 }
 .PageContent-innerPageContent-3ktLT{
 	padding: 20px;
-}	
+}
 .MetadataPosterCell-continueWatchingTitleContainer-3yCAY{
 	font-size: 10px;
-}  
+}
 .MetadataPosterCell-titleContainer-24DI6{
 	font-size: 10px;
 }
@@ -131,7 +131,7 @@ body {
 }
 .PrePlayMetadataContent-content-2ww3j{
 	padding-left: 0px;
-}	
+}
 div[class*="SidebarLink-title-"] {
     font-size: 11px;
 }
@@ -140,8 +140,8 @@ div[class*="SidebarLink-title-"] {
 }
 div[class^="SidebarLibrariesActions-actions-"] {
     display: none;
-}	
-	
+}
+
 /* #######  Individual Media Items  ####### */
 div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PageContent-innerPageContent-"] > div > div:not([class*="PrePlay"]) {
     position: relative !important;
@@ -249,9 +249,9 @@ div[class*="PrePlayPageContent-prePlayPageContent-"] div[class^="PrePlaySecondar
 	text-align: left;
 	padding-left: 15px;
 }
-.DurationRemaining-container-1F4w8{	
+.DurationRemaining-container-1F4w8{
 	font-size: 11px;
-} 
+}
 button[data-qa-id="playQueueButton"]{
 	display: none !important;
 }
@@ -297,7 +297,7 @@ div[class*="AudioVideoMiniPlayer-controlsContainer-"] {
 
 /* BBF Customizations start here */
 .SidebarMenuButton-sidebarMenuButton-khx_P {
-    background-color: rgba(0,0,0,.15) !important;
+    background-color: rgba(0,0,0,.15);
 }
 button#id-7 {
     display: none !important;
