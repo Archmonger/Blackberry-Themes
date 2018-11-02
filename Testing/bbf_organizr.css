@@ -250,8 +250,11 @@ section[id*="settings"] .tab-content > .tab-pane {
 }
 .owl-item:hover{
 	transform: scale(1.05);
+  -moz-transform: scale(1.05);
 	-webkit-transform: scale(1.05);
-    transition: 0.15s ease-in-out;
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transition: 0.15s ease-in-out;
 }
 .owl-stage{
 	margin: 7px 4px;
