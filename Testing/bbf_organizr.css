@@ -16,10 +16,10 @@ i.ti-search {
 }
 
 /* Remove Unneeded Ombi indicators */
-.badge, .inside-request-div, .plyr input[type=radio]:checked+span{
+.inside-request-div{
 	display: none;
 }
-.badge, .inside-request-div, .inside-over-request-div.bg-success{
+.inside-over-request-div{
 	display: none;
 }
 
@@ -31,6 +31,7 @@ li#github {
 li#menu-Organizr-Support {
     display: none;
 }
+
 
 /* Dropdown User Menu */
 .navbar-top-links .dropdown-user .dw-user-box .u-img img{
@@ -249,6 +250,7 @@ section[id*="settings"] .tab-content > .tab-pane {
 }
 .owl-item:hover{
 	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
     transition: 0.15s ease-in-out;
 }
 .owl-stage{
