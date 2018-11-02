@@ -227,6 +227,12 @@ section[id*="settings"] .tab-content > .tab-pane {
 }
 
 /* Homepage */
+.btn.default.refreshImage{
+	color: #dedede;
+}
+.btn.default.refreshImage:hover{
+	color: #FFF;
+}
 .panel{
     background-color: rgba(0,0,0,0);
 }
