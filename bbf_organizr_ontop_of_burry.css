@@ -85,12 +85,12 @@ li#menu-Organizr-Support {
 	padding: 0 0;
 }
 
-img.dark-logo{
+img.dark-logo {
 	max-height: 30px;
 }
 
 .dropdown-toggle.profile-pic {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 
@@ -117,27 +117,27 @@ img.dark-logo{
 }
 
 #side-menu li a {
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
-    margin-bottom: 10px;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	margin-bottom: 10px;
 }
 
 
 /* Tweak Calendar Colors */
 
-div[class*="fc"] .text-info{
+div[class*="fc"] .text-info {
 	color: #929a9c !important;
 }
 
-div[class*="fc"] .text-success{
+div[class*="fc"] .text-success {
 	color: #53e69d !important;
 }
 
-div[class*="fc"] .text-danger{
+div[class*="fc"] .text-danger {
 	color: #929a9c !important;
 }
 
-div[class*="fc"] .text-primary{
+div[class*="fc"] .text-primary {
 	color: #e3891c !important;
 }
 
@@ -148,7 +148,8 @@ div[class*="fc"] .text-primary{
 	margin-top: 40px;
 }
 
-#internal-Settings, #internal-Organizr-Settings {
+#internal-Settings,
+#internal-Organizr-Settings {
 	padding-top: 40px;
 }
 
@@ -170,6 +171,6 @@ div[class*="fc"] .text-primary{
 	height: calc(100vh - 40px);
 }
 
-.sidebar img[src*=ombi]{
+.sidebar img[src*=ombi] {
 	padding-left: 0px;
 }
