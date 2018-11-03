@@ -108,6 +108,11 @@ li#menu-Organizr-Support {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
+#side-menu li a {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-bottom: 10px;
+}
 
 /* Tweak Calendar Colors */
 

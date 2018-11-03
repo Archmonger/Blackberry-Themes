@@ -162,3 +162,18 @@ button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
 .v-toolbar {
 	box-shadow: none !important;
 }
+
+@media only screen and (min-width: 768px){
+	.v-toolbar__content,
+	.v-toolbar__extension {
+		height: 45px !important;
+	}
+
+	.v-content {
+	padding-top: 45px !important;
+	}
+
+	.ptplayer .video-js {
+	height: calc(100vh - 45px);
+	}
+}

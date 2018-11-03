@@ -138,7 +138,7 @@ a.x-menu-item{
 }
 
 .x-menu-item-active a.x-menu-item{
-	border-color: #cc7b19;	
+	border-color: #cc7b19;
 	background-color: #cc7b19;
 	color: #FFF;
 	border-radius: 4px;
@@ -451,15 +451,15 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 
 ::-webkit-scrollbar-track {
-	background: #252729; 
+	background: #252729;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #162027; 
+	background: #162027;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #16202794; 
+	background: #16202794;
 }
 
 
@@ -471,4 +471,24 @@ body.x-body-masked .x-window-plain .x-window-mc {
 
 .x-panel-noborder .x-panel-tbar-noborder .x-toolbar{
 	padding-left:14px;
+}
+
+@media only screen and (min-width: 768px){
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar{
+		padding-top: 7.5px;
+		padding-bottom: 7.5px;
+	}
+
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar{
+		height: 45px;
+	}
+
+	.x-toolbar{
+		height: 55px;
+	}
+
+	#deluge-statusbar .x-toolbar-ct tbody tr .x-toolbar-right{
+		padding-top: 12.5px;
+		padding-bottom: 12.5px;
+	}
 }

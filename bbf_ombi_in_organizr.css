@@ -419,3 +419,18 @@ ul.nav.navbar-nav.donation {
 	display: none !important;
 	visibility: hidden !important;
 }
+
+@media only screen and (min-width: 768px){
+    .navbar-collapse.collapse{
+        height: 45px;
+    }
+		
+    .navbar{
+        height: 45px;
+    }
+
+    .navbar-nav>li>a{
+        margin-top: 10.5px;
+        margin-bottom: 10.5px;
+    }
+}
