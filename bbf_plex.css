@@ -250,8 +250,14 @@ div[class*="PrePlayPageContent-prePlayPageContent-"] div[class^="PrePlaySecondar
 .PrePlayDetailsGroup-group-3i0Tj {
     display: none;
 }
-button[class*="MetadataListStylesMenu-stylesButtonWithArrow"]{
-    width: 35px;
+button[class*="MetadataListStylesMenu-"]{
+    display:none;
+}
+div[class*="PrePlayPageHeader-listStylesArrowsDivider"]{
+    display: none;
+}
+div[class*="PageHeaderDivider-pageHeaderDivider"]{
+    display: none;
 }
 
 /* #######  Fullscreen Video Player  ####### */
