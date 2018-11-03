@@ -28,7 +28,18 @@ sub_filter_once on;
 To allow for automatic theme updating it is recommended you use the subfilter instructions found in the `Plex` instructions above. But, if you would rather use Filebrowser's integrated CSS options then perform the following:<br/>
 1) Navigate to Settings > Global Settings > Custom Stylesheet.<br/>
 2) Copy the code from `https://raw.githubusercontent.com/Archmonger/Blackberry-Flat/master/bbf_filebrowser.css` into your clipboard.<br/>
-3) Paste.
+3) Paste.<br/>
+
+## **Organizr Ontop of Burry**<br/>
+To allow for automatic theme updating it is recommended you use the subfilter instructions found in the `Plex` instructions above. But, if you would rather use Organizr's integrated CSS options then perform the following:<br/>
+1) Navigate to Settings > Customize > Marketplace.<br/>
+2) Install Plex Theme by Grant Burry.<br/>
+3) Navigate to Settings > Customize > Colors & Themes > Theme.<br/>
+4) Select `Plex`<br/>
+5) Navigate to Settings > Customize > Custom CSS.<br/>
+6) Copy the code from `https://raw.githubusercontent.com/Archmonger/Blackberry-Flat/master/bbf_organizr_ontop_of_burry.css` into your clipboard.<br/>
+7) Paste.<br/>
+_Note: Make sure NOT to change h=40 to h=60, as Burry recommends. If you have done so already, please revert._<br/>
 
 ## **More Information**<br/>
 **Subfilter is set up exactly as above, but themes are not working!**<br/>
