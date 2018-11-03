@@ -133,7 +133,7 @@ div[class*="fc"] .text-primary{
 	margin-top: 40px;
 }
 
-div#internal-Settings {
+#internal-Settings, #internal-Organizr-Settings {
 	padding-top: 40px;
 }
 
