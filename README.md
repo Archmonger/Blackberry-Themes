@@ -39,7 +39,7 @@ To allow for automatic theme updating it is recommended you use the subfilter in
 5) Navigate to Settings > Customize > Custom CSS.<br/>
 6) Copy the code from `https://raw.githubusercontent.com/Archmonger/Blackberry-Flat/master/bbf_organizr_ontop_of_burry.css` into your clipboard.<br/>
 7) Paste.<br/>
-_Note: Make sure NOT to change h=40 to h=60, as Burry recommends. If you have done so already, please revert._<br/>
+_Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert._<br/>
 
 ## **More Information**<br/>
 **Subfilter is set up exactly as above, but themes are not working!**<br/>
