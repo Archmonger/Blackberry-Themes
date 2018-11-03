@@ -42,15 +42,15 @@ To allow for automatic theme updating it is recommended you use the subfilter in
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert._<br/>
 
 ## **More Information**<br/>
+**What is "in Organizr"**<br/>
+Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `BBF_Organizr.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On rare occasions, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, the deletion of the loading bar, and removal of the log out menu.<br/>
+
 **Subfilter is set up exactly as above, but themes are not working!**<br/>
 Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/>
 _Note to Deluge users when subdir reverse proxying on a Windows host machine:_ Deluge on Windows currently has issues with reverse proxies. The only known solution is to copy the code found in `bbf_deluge.css` to the end of deluge's default CSS file. This can be found in `%Program Files (x86)%\Deluge\deluge-1.3.15-py2.7.egg\deluge\ui\web\css`.<br/>
 
 **Other themes not working?**<br/>
 Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br/>
-
-**What is "in Organizr"**<br/>
-Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `BBF_Organizr.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On rare occasions, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, the deletion of the loading bar, and removal of the log out menu.<br/>
 
 **BBF Plex**<br/>
 For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
