@@ -136,3 +136,7 @@ div#internal-Settings {
 .iframe {
 	height: calc(100vh - 40px);
 }
+
+.sidebar img[src*=ombi]{
+	padding-left: 0px;
+}
