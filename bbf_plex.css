@@ -146,6 +146,9 @@ div[class^="SidebarLibrariesActions-actions-"] {
 }
 
 /* #######  Individual Media Items  ####### */
+div[class*="Menu-menuScroller"] {
+    max-height: 350px !important;
+}
 div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PageContent-innerPageContent-"] > div > div:not([class*="PrePlay"]) {
     position: relative !important;
     top: 0px !important;
