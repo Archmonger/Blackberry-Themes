@@ -68,6 +68,9 @@ button.Button-button-2kT68.Link-link-2n0yJ.Button-primary-3fwLz.Button-medium-3g
 .SidebarMenuButton-sidebarMenuPrimaryTitleContainer-3-vDD {
     white-space: nowrap;
 }
+div[class*="SidebarLink-children"] {
+	display:none;
+}
 body {
 	line-height: 1.1;
 	font-size: 12px
