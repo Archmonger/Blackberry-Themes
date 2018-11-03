@@ -77,7 +77,7 @@ li#menu-Organizr-Support {
 .navbar {
 	position: fixed;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: #162027;
 }
 
 .navbar-top-links>li>a {
