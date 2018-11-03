@@ -145,6 +145,26 @@ div[class*="SidebarLink-title-"] {
 div[class^="SidebarLibrariesActions-actions-"] {
     display: none;
 }
+div[class*="ManageLibrarySummary-iconContainer"]{
+    display:none;
+}
+div[class*="ManageLibrariesPane-header"]{
+    padding-left: 0px;
+}
+div[class*="ServerAvatar-avatar"] {
+    display:none;
+}
+.alerts-container .page-count{
+    display:none;
+}
+div[class*="ClaimedServer-message"]{
+    position: relative;
+    margin-bottom: 12px;
+}
+button[class*="ClaimedServer-button"]{
+    margin-top: 50px;
+    position: absolute;
+}
 
 /* #######  Individual Media Items  ####### */
 div[class*="Menu-menuScroller"] {
