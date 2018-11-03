@@ -30,7 +30,7 @@ To allow for automatic theme updating it is recommended you use the subfilter in
 2) Copy the code from `https://raw.githubusercontent.com/Archmonger/Blackberry-Flat/master/bbf_filebrowser.css` into your clipboard.<br/>
 3) Paste.<br/>
 
-## **Organizr Ontop of Burry**<br/>
+### **Organizr Ontop of Burry**<br/>
 To allow for automatic theme updating it is recommended you use the subfilter instructions found in the `Plex` instructions above. This requires you to run Organizr within a reverse proxy. But, if you would rather use Organizr's integrated CSS options then perform the following:<br/>
 1) Navigate to Settings > Customize > Marketplace.<br/>
 2) Install Plex Theme by Grant Burry.<br/>
