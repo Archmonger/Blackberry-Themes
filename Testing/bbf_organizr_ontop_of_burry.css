@@ -1,121 +1,137 @@
 /* Copy and paste this code into OrgV2 Settings>Customize>Appearance>CustomCSS, */
 /* but only AFTER enabling Burry's "Plex theme" from Settings>Customize>Marketplace. */
-#menu-Request a img{
-	padding-left: 0px;
-}
-li.hidden-xs {
-    display: none;
-}
-#languageDropdown {
-    display: none;
-}
-a.dropdown-toggle.waves-effect.waves-light.activez {
-    display: none;
-}
-.navbar{
-    width: 100%;
-    position: fixed !important;
-    background: #162027 !important;
-}
-.fix-header #page-wrapper {
-    margin-top: 60px !important;
-}
-div#internal-Settings{
-    padding-top: 60px !important;
-}
-#homepage-items {
-    padding-top: 95px !important;
-}
 
-.sidebar-head {
-    background: rgba(0,0,0,.30) !important;
-}
-.badge, .inside-request-div, .plyr input[type=radio]:checked+span{
+
+/* Remove Uneeded Ombi Indicators */
+
+.inside-over-request-div.bg-success {
 	display: none;
 }
-.bg-success {
-    display: none;
+
+.inside-request-div.bg-info,
+.inside-request-div.bg-warning {
+	display: none;
 }
-div#internal-Settings {
-    padding-top: 60px;
+
+
+/* Revert Navbar Sizing to pre-Burry */
+
+.navbar {
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
-.white-popup .panel-body, .white-popup>.col-md-6>.white-box:nth-child(2){
-	background-image: url("https://raw.githubusercontent.com/leram84/layer.Cake/master/Resources/blur-light.png");
-	background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+
+
+/* Remove Unneeded Navbar Items */
+
+li.hidden-xs {
+	display: none;
 }
-.p-20.text-center {
-	padding-bottom: 70px !important;
+
+#languageDropdown {
+	display: none;
 }
-.css-bar{
-    display: none !important;
+
+.navbar-left li:nth-child(3) {
+	display: none;
 }
-.bg-plex{
-      background: #919191 !important;
-}
-.btn-youtube, .btn-youtube.disabled, .btn-youtube:disabled {
-    background: #919191 !important;
-}
-.bg-emby, .bg-plex, .btn-youtube{
-    color: #eeeeee !important;
-}
-.panel .panel-body {
-    padding: 45px;
-}
-.p-b-10 {
-    padding-bottom: 25px!important;
-}
-.col-xs-10{
-    padding-top: 25px;
-}
-.tabEditorIcon img.fa-fw {
-    padding-left: 0px !important;
-}
-li#github {
-    display: none;
-}
-li#menu-Organizr-Support {
-    display: none;
-}
-#side-menu {
-    background-color: rgba(0,0,0,0.45) !important;
-    min-height: 100%;
-    height: auto;
-}
-.sidebar .sidebar-head {
-    background: rgba(0,0,0,0.0) !important;
-}
-div#request-results {
-    overflow: hidden !important;
-}
-button.btn.btn-inverse.waves-effect.waves-light.filter-request-result {
-    padding: 10px;
-}
-button.btn.btn-primary.waves-effect.waves-light.filter-request-result {
-    padding: 10px;
-}
-button.btn.btn-info.waves-effect.waves-light.filter-request-result {
-    padding: 10px;
-}
-.top-left-part a {
-    padding-left: 20px !important;
-}
+
 i.ti-search {
-    display: none;
+	display: none;
 }
-li.append-menu {
-    display: none !important;
+
+
+/* Remove Unneeded Sidebar Buttons */
+
+li#github {
+	display: none;
 }
-.dropdown-menu li.divider {
-    display: none !important;
+
+li#menu-Organizr-Support {
+	display: none;
 }
-.navbar-top-links .dropdown-user .dw-user-box .u-text {
-    padding-left: 0px !important;
-}
+
+
+/* Dropdown User Menu */
+
 .navbar-top-links .dropdown-user .dw-user-box .u-img img {
-    width: 90%;
+	display: none;
 }
-img.dark-logo {
-    max-height: 33px;
+
+.navbar-top-links .dropdown-user .dw-user-box {
+	padding-top: 0px;
+}
+
+.dropdown-user li.divider {
+	display: none;
+}
+
+.dropdown-menu .u-text .text-muted {
+	width: 100%;
+}
+
+
+/* Navbar Styling */
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-top-links>li>a {
+	margin-right: 30px;
+	padding: 0 0;
+}
+
+
+/* Sidebar Styling */
+
+.sidebar .sidebar-head {
+	background-color: rgba(0, 0, 0, 0) !important;
+	min-height: 40px;
+	max-height: 40px;
+}
+
+.sidebar .sidebar-head h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #97999f;
+}
+
+#side-menu {
+	padding-top: 40px;
+}
+
+.sidebar-nav {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Page Fixes */
+
+.fix-header #page-wrapper {
+	margin-top: 40px;
+}
+
+div#internal-Settings {
+	padding-top: 40px;
+}
+
+#homepage-items {
+	padding-top: 65px !important;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+.nav>li>a>img {
+	width: 24px;
+}
+
+.top-left-part a {
+	padding-left: 20px;
+}
+
+.iframe {
+	height: calc(100vh - 40px);
 }
