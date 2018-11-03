@@ -109,6 +109,24 @@ li#menu-Organizr-Support {
 }
 
 
+/* Tweak Calendar Colors */
+
+div[class*="fc"] .text-info{
+	color: #929a9c !important;
+}
+
+div[class*="fc"] .text-success{
+	color: #53e69d !important;
+}
+
+div[class*="fc"] .text-danger{
+	color: #929a9c !important;
+}
+
+div[class*="fc"] .text-primary{
+	color: #e3891c !important;
+}
+
 /* Page Fixes */
 
 .fix-header #page-wrapper {
