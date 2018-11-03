@@ -85,6 +85,13 @@ li#menu-Organizr-Support {
 	padding: 0 0;
 }
 
+img.dark-logo{
+	max-height: 30px;
+}
+
+.dropdown-toggle.profile-pic {
+    margin-right: 20px;
+}
 
 /* Sidebar Styling */
 
