@@ -71,6 +71,10 @@ li#menu-Organizr-Support {
 	width: 100%;
 }
 
+.navbar-top-links .dropdown-user{
+	top: 45px;
+}
+
 
 /* Navbar Styling */
 
