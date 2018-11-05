@@ -216,6 +216,26 @@ section[id*="settings"] .tab-content > .tab-pane {
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
 	background-color: rgba(0,0,0,0.3);
 }
+.table-hover>tbody>tr:hover,
+.table-striped>tbody>tr:nth-of-type(odd),
+.table>tbody>tr.active>td,
+.table>tbody>tr.active>th,
+.table>tbody>tr>td.active,
+.table>tbody>tr>th.active,
+.table>tfoot>tr.active>td,
+.table>tfoot>tr.active>th,
+.table>tfoot>tr>td.active,
+.table>tfoot>tr>th.active,
+.table>thead>tr.active>td,
+.table>thead>tr.active>th,
+.table>thead>tr>td.active,
+.table>thead>tr>th.active {
+	background-color: rgb(51, 55, 59) !important;
+}
+.chat-list .chat-text, .comment-center .comment-body:hover, .feeds li:hover, .sales-report{
+	background: rgb(51, 55, 59)
+}
+
 
 /* Pop-ups */
 .white-popup-block{
