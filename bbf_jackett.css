@@ -322,3 +322,8 @@ pre {
 	max-height: 300px;
 	overflow-y: scroll;
 }
+
+/* Add Word Wrapping to Error Notifications */
+.alert-danger span[data-notify="message"]{
+	word-wrap: break-word;
+}
