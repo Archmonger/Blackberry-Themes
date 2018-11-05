@@ -311,3 +311,11 @@ pre {
 .jackettlogInfo td{
 	max-width: 100px;
 }
+
+
+/* Fix Overly Large and Unclosable Notifications */
+
+.alert-danger {	
+	max-height: 300px;
+	overflow-y: scroll;
+}
