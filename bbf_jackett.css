@@ -316,6 +316,9 @@ pre {
 /* Fix Overly Large and Unclosable Notifications */
 
 .alert-danger {	
+	color: #FFF;
+	background-color: #a94442;
+	border-color: #ebccd1;
 	max-height: 300px;
 	overflow-y: scroll;
 }
