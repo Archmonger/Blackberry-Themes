@@ -62,7 +62,7 @@ Custom icons are available within the `Icons` folder. These are NOT required, bu
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
-| Plex | 1.13.8.5395 | YES |
+| Plex | 1.13.9.5456 | YES |
 | Ombi | 3.0.3919 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0 | NO |
