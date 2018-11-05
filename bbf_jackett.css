@@ -320,7 +320,7 @@ pre {
 	background-color: #a94442;
 	border-color: #ebccd1;
 	max-height: 300px;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 /* Add Word Wrapping to Error Notifications */
