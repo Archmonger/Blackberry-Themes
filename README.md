@@ -34,7 +34,7 @@ To allow for automatic theme updating it is recommended you use the subfilter in
 1) Navigate to Settings > Customize > Marketplace.<br/>
 2) Install Plex Theme by Grant Burry.<br/>
 3) Navigate to Settings > Customize > Colors & Themes > Theme.<br/>
-4) Select `Plex`<br/>
+4) Select `Plex`.<br/>
 5) Navigate to Settings > Customize > Custom CSS.<br/>
 6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_ontop_of_burry.css";` at the **top** of your custom CSS.<br/>
 _Alternatively:_ Copy the code from `https://raw.githubusercontent.com/Archmonger/Blackberry-Flat/master/bbf_organizr_ontop_of_burry.css` into your clipboard and paste to allow for modifications.<br/>
