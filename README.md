@@ -28,7 +28,7 @@ sub_filter_once on;
 1) Navigate to Settings > Profile Settings > Custom Stylesheet.<br/>
 2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_filebrowser.css";` at the **top** of the text box.<br/>
 
-### [Organizr](https://github.com/causefx/Organizr) [Ontop of Burry](https://github.com/Burry/organizr-v2-plex-theme)<br/>
+### [Organizr](https://github.com/causefx/Organizr) [On-top of Burry](https://github.com/Burry/organizr-v2-plex-theme)<br/>
 1) Navigate to Settings > Customize > Marketplace.<br/>
 2) Install Plex Theme by Grant Burry.<br/>
 3) Navigate to Settings > Customize > Colors & Themes > Theme.<br/>
