@@ -498,6 +498,7 @@ span.badge.bg-org.m-r-10 {
 .recent-poster {
 	margin-bottom: 56px;
 	border-radius: 5px 5px 0px 0px;
+  background-color: #1b1a1a;
 }
 
 .recent-items .owl-item {
