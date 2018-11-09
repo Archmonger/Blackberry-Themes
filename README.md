@@ -74,5 +74,7 @@ Custom icons are available within the `Icons` folder. These are NOT required, bu
 Special thanks to [@Leram84](https://github.com/leram84)<br/>
 Jacket, Calendar day 15 icon, Multiple users silhouette, Television, and Raindrop made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
 Video Camera made by [Good Ware](https://www.flaticon.com/authors/good-ware) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
+Cog and Cogs made by [fontawesome](https://fontawesome.com/) from www.fontawesome.com is licensed by [CC 4.0 BY](https://creativecommons.org/licenses/by/4.0/)<br/>
 Blur Light and Blur Noise made by [Plex](https://www.plex.tv/)<br/>
 Tautulli Logo made by [Tautulli](https://tautulli.com/)<br/>
+Bazarr Logo made by [Bazarr](https://github.com/morpheus65535/bazarr)<br/>
