@@ -1,7 +1,7 @@
 # Blackberry Flat Themepack (BBF)
 CSS changes to many popular home theater services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2.<br/>
 
-## Theme Requests<br/>
+## Theme/Icon Requests<br/>
 Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
 
 ## Screenshots<br/>
