@@ -78,3 +78,4 @@ Cog and Cogs made by [fontawesome](https://fontawesome.com/) from www.fontawesom
 Blur Light and Blur Noise made by [Plex](https://www.plex.tv/)<br/>
 Tautulli Logo made by [Tautulli](https://tautulli.com/)<br/>
 Bazarr Logo made by [Bazarr](https://github.com/morpheus65535/bazarr)<br/>
+Lidarr Logo made by [Lidarr](https://lidarr.audio/)<br/>
