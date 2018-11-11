@@ -9,7 +9,7 @@ Images are available within the `Screenshots` folder.<br/>
 
 ## Upcoming<br/>
 **Theme Queue:** OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
-**Mobile Queue:** Jackett mobile, Deluge mobile, Rework on Plex mobile.<br/>
+**Mobile Queue:** Jackett mobile, Deluge mobile.<br/>
 
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
