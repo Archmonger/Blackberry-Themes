@@ -9,7 +9,7 @@ Images are available within the `Screenshots` folder.<br/>
 
 ## Upcoming<br/>
 **Theme Queue:** OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
-**Mobile Queue:** Jackett mobile, Deluge mobile, Rework on Plex mobile.<br/>
+**Mobile Queue:** Jackett mobile, Deluge mobile.<br/>
 
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
@@ -81,6 +81,7 @@ Screwdriver and Wrench Crossed made by [Elegant Themes](https://www.flaticon.com
 Sofa ade by [Smashicons](https://www.flaticon.com/authors/smashicons) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
 Video Camera made by [Good Ware](https://www.flaticon.com/authors/good-ware) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
 Wireless connection made by [srip](https://www.flaticon.com/authors/srip) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
+Toolbox made by [itim2101](https://www.flaticon.com/authors/itim2101) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
 Cog and Cogs made by [fontawesome](https://fontawesome.com/) from www.fontawesome.com is licensed by [CC 4.0 BY](https://creativecommons.org/licenses/by/4.0/)<br/>
 Blur Light and Blur Noise made by [Plex](https://www.plex.tv/)<br/>
 All logos found within `Archmonger/Blackberry-Flat/Icons` belong to their respective owners and Archmonger does not claim copyright or ownership of these logos.<br/>
