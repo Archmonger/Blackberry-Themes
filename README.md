@@ -7,13 +7,9 @@ Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry
 ## Screenshots<br/>
 Images are available within the `Screenshots` folder.<br/>
 
-## Upcoming<br/>
-**Theme Queue:** OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
-**Mobile Queue:** Jackett mobile, Deluge mobile.<br/>
-
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
-For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the service you are using.<br/>
+For services that don't allow native CSS themes, you must edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the service you are using.<br/>
 ```
 proxy_set_header Accept-Encoding "";
 sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_XXXXX.css"> </head>';
@@ -22,7 +18,7 @@ sub_filter_once on;
 ### [Ombi](https://github.com/tidusjar/Ombi)<br/>
 1) Navigate to Settings > Configuration > Customization > Custom CSS Link.<br/>
 2) Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`.<br/>
-3) Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
+_Note: Make sure to have Settings > Configuration > Customization > Preset Themes set to `Please Select` (disabled)._<br/>
 
 ### [Filebrowser](https://filebrowser.github.io/)<br/>
 1) Navigate to Settings > Profile Settings > Custom Stylesheet.<br/>
@@ -34,8 +30,7 @@ sub_filter_once on;
 3) Navigate to Settings > Customize > Colors & Themes > Theme.<br/>
 4) Select `Plex`.<br/>
 5) Navigate to Settings > Customize > Custom CSS.<br/>
-6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_ontop_of_burry.css";` at the **top** of the text box.<br/>
-_Alternatively:_ Copy the code from `https://raw.githubusercontent.com/Archmonger/Blackberry-Flat/master/bbf_organizr_ontop_of_burry.css` into your clipboard and paste to allow for modifications.<br/>
+6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_ontop_of_burry.css";` at the **top** of the text box. <br/>
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. Docker users must use `organizrtools/organizr-v2:latest` and install Burry's theme from the marketplace._<br/>
 
 ## More Information<br/>
@@ -54,6 +49,11 @@ For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css
 
 **Custom Icons for OrganizrV2**<br/>
 Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.<br/>
+
+**Upcoming**<br/>
+_Theme Queue:_ OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
+_Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
+_Icon Queue:_ None.
 
 **Last Tested**<br/>
 
