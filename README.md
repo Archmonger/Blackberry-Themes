@@ -7,10 +7,6 @@ Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry
 ## Screenshots<br/>
 Images are available within the `Screenshots` folder.<br/>
 
-## Upcoming<br/>
-**Theme Queue:** OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
-**Mobile Queue:** Jackett mobile, Deluge mobile.<br/>
-
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
 For services that don't allow native CSS themes, you can edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the service you are using.<br/>
@@ -53,6 +49,11 @@ For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css
 
 **Custom Icons for OrganizrV2**<br/>
 Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.<br/>
+
+**Upcoming**<br/>
+_Theme Queue:_ OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
+_Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
+_Icon Queue:_ None.
 
 **Last Tested**<br/>
 
