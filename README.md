@@ -22,7 +22,7 @@ sub_filter_once on;
 ### [Ombi](https://github.com/tidusjar/Ombi)<br/>
 1) Navigate to Settings > Configuration > Customization > Custom CSS Link.<br/>
 2) Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`.<br/>
-3) Make sure to have `Preset Themes` set to `Please Select` (disabled).<br/>
+_Note: Make sure to have Settings > Configuration > Customization > Preset Themes set to `Please Select` (disabled)._<br/>
 
 ### [Filebrowser](https://filebrowser.github.io/)<br/>
 1) Navigate to Settings > Profile Settings > Custom Stylesheet.<br/>
@@ -34,8 +34,7 @@ sub_filter_once on;
 3) Navigate to Settings > Customize > Colors & Themes > Theme.<br/>
 4) Select `Plex`.<br/>
 5) Navigate to Settings > Customize > Custom CSS.<br/>
-6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_ontop_of_burry.css";` at the **top** of the text box.<br/>
-_Alternatively:_ Copy the code from `https://raw.githubusercontent.com/Archmonger/Blackberry-Flat/master/bbf_organizr_ontop_of_burry.css` into your clipboard and paste to allow for modifications.<br/>
+6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_ontop_of_burry.css";` at the **top** of the text box. <br/>
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. Docker users must use `organizrtools/organizr-v2:latest` and install Burry's theme from the marketplace._<br/>
 
 ## More Information<br/>
