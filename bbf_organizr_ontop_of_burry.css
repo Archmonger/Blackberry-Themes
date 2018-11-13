@@ -175,6 +175,13 @@ div[class*="fc"] .text-primary {
 	height: calc(100vh - 40px);
 }
 
+
+/* Burry Fixes */
+
 .sidebar img[src*=ombi] {
+	padding-left: 0px;
+}
+
+.tabEditor img[src*=ombi] {
 	padding-left: 0px;
 }
