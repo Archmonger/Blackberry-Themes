@@ -53,7 +53,7 @@ Custom icons are available within the `Icons` folder. These are NOT required, bu
 **Upcoming**<br/>
 _Theme Queue:_ OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
 _Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
-_Icon Queue:_ None.
+_Icon Queue:_ Handled via popularity on Feathub.
 
 **Last Tested**<br/>
 
