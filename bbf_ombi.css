@@ -17,10 +17,6 @@ html {
 	height: auto;
 }
 
-hr {
-	display: none !important;
-}
-
 option.ng-star-inserted {
 	color: #000000 !important;
 }
