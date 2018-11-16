@@ -18,10 +18,9 @@ html {
 }
 
 hr {
-  padding: 0;
-  margin: 0;
-  border-top: 1px #00000000 !important;
+display: none !important;
 }
+
 option.ng-star-inserted {
 	color: #000000 !important;
 }
