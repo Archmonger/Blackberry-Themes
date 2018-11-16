@@ -18,7 +18,11 @@ html {
 }
 
 hr {
-display: none !important;
+	display: none !important;
+}
+
+.col-md-12 {
+	display: none !important;
 }
 
 option.ng-star-inserted {
