@@ -1,5 +1,5 @@
 # Blackberry Flat Themepack (BBF)
-CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2.<br/>
+CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within OrganizrV2. Custom Icons for OrganizrV2 are available within the `Icons` folder. These are not required, but may prove useful.<br/>
 
 ## Theme/Icon Requests<br/>
 Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
@@ -46,9 +46,6 @@ Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br
 
 **BBF Plex**<br/>
 For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
-
-**Custom Icons for OrganizrV2**<br/>
-Custom icons are available within the `Icons` folder. These are NOT required, but may prove useful.<br/>
 
 **Upcoming**<br/>
 _Theme Queue:_ OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Unraid, Flood (rTorrent WebUI), Rutorrent, Nextcloud, Deluge Desktop Client.<br/>
