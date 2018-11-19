@@ -1,3 +1,6 @@
+.message {
+    color: #FFF;
+}
 #login {
     background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
     background-repeat: repeat, no-repeat;
