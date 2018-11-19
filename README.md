@@ -33,6 +33,15 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_ontop_of_burry.css";` at the **top** of the text box. <br/>
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. Docker users must use `organizrtools/organizr-v2:latest` and install Burry's theme from the marketplace._<br/>
 
+### [Organizr](https://github.com/causefx/Organizr) [Custom Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons)<br/>
+1) Navigate to Settings > Tab Editor > Tabs<br/>
+2) On each individual tab, click `Edit`.<br/>
+3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the service you are using.<br/>
+
+**_Optional:_ For the sign out button**<br/>
+1) Navigate to Settings > Customize > Custom CSS.<br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_signout_button.css";` at the **top** of the text box. <br/>
+
 ## More Information<br/>
 **What is "in Organizr"**<br/>
 Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `BBF_organizr.css` and `bbf_organizr_ontop_of_burry.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On occasion, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, the deletion of the loading bar, and removal of the log out menu.<br/>
