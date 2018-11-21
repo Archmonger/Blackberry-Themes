@@ -40,7 +40,7 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 
 **_Optional:_ For the sign out button**<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_signout_button.css";` at the **top** of the text box. <br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_signout_button.css";` at the **top** of the text box. <br/>
 
 ## More Information<br/>
 **What is "in Organizr"**<br/>
