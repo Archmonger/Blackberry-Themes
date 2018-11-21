@@ -57,7 +57,7 @@ Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br
 For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
 
 **Upcoming**<br/>
-_Theme Queue:_ OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Flood (rTorrent WebUI), Rutorrent, Unraid.<br/>
+_Theme Queue:_ OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Flood (rTorrent WebUI), Rutorrent.<br/>
 _Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
 _Icon Queue:_ Handled via popularity on Feathub.
 
