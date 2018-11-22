@@ -48,7 +48,7 @@ Most BBF themes come in a In Organizr variant, which allows them to seemlessly f
 
 **Subfilter is set up exactly as above, but themes are not working!**<br/>
 Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/>
-_Note to Deluge users when subdir reverse proxying on a Windows host machine:_ Deluge on Windows currently has issues with reverse proxies. The only known solution is to copy the code found in `bbf_deluge.css` to the end of deluge's default CSS file. This can be found in `%Program Files (x86)%\Deluge\deluge-1.3.15-py2.7.egg\deluge\ui\web\css`. Alternatively, you can move Deluge to a subdomain.<br/>
+_Note to Deluge users when subdir reverse proxying on a Windows host machine:_ Deluge on Windows currently has issues with reverse proxies. If you wish to keep deluge on your domains subdir, you will need to copy the code found in `bbf_deluge.css` to the end of deluge's default CSS file. This can be found in `%Program Files (x86)%\Deluge\deluge-1.3.15-py2.7.egg\deluge\ui\web\css`. Alternatively, you can move Deluge to a subdomain and use subfilter as demonstrated in the installation instructions above.<br/>
 
 **Other themes not working?**<br/>
 Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br/>
