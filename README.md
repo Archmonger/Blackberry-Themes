@@ -1,5 +1,5 @@
 # Blackberry Flat Themepack (BBF)
-CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. In the case of Plex, it creates a whole new mobile interface (WebUI and video player), and modifies the desktop UI to better fit within Organizr. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
+CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
 
 ## Theme/Icon Requests<br/>
 Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
