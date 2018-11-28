@@ -9,7 +9,7 @@ Images are available within the `Screenshots` folder.<br/>
 
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
-For services that don't allow native CSS themes, you must edit your Nginx configuration to inject CSS. For automatic updating, you can use this repository's Github Pages address. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the service you are using.<br/>
+For services that don't allow native CSS themes you must use Nginx to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository.<br/>
 ```
 proxy_set_header Accept-Encoding "";
 sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_XXXXX.css"> </head>';
@@ -36,7 +36,7 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 ### [Organizr](https://github.com/causefx/Organizr) [Custom Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons)<br/>
 1) Navigate to Settings > Tab Editor > Tabs<br/>
 2) On each individual tab, click `Edit`.<br/>
-3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the service you are using.<br/>
+3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's `Icons` folder.<br/>
 
 **_Optional:_ For the sign out button**<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
