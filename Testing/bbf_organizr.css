@@ -407,7 +407,7 @@ fieldset[disabled] .form-control {
 /* Pop-ups */
 
 .white-popup-block {
-	background-color: #162027;
+	background-color: rgb(49, 54, 58);
 }
 
 .mfp-close-btn-in .mfp-close {
