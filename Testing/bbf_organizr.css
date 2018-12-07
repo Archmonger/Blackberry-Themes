@@ -109,6 +109,21 @@ div#internal-Settings {
 }
 
 
+/* Remove sidnav on login screen */
+
+body #wrapper .sidebar {
+	display: none;
+}
+
+body[class*="active-tab"] #wrapper .sidebar {
+	display: block;
+}
+
+.navbar-static-top{
+	background-color: #162027;
+}
+
+
 /* Sidebar */
 
 #side-menu li a {
