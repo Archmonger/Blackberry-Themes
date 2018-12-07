@@ -111,6 +111,10 @@ div#internal-Settings {
 
 /* Sidebar */
 
+#side-menu li a {
+	color: #afb1b7;
+}
+
 .sidebar .sidebar-head {
 	padding-top: 0px;
 	padding-bottom: 0px;
