@@ -200,8 +200,9 @@ body {
 
 .bg-title {
 	border: none;
-	padding-top: 15px;
-	padding-bottom: 7px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 5.5px;
 	background-color: #162027;
 }
 
