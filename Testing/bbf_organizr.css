@@ -113,6 +113,9 @@ div#internal-Settings {
 
 #side-menu li a {
 	color: #afb1b7;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	margin-bottom: 10px;
 }
 
 .sidebar .sidebar-head {
@@ -145,11 +148,6 @@ div#internal-Settings {
 	-moz-background-size: auto, cover;
 	-o-background-size: auto, cover;
 	min-height: 100%;
-}
-
-#side-menu>li>a {
-	padding-top: 15px;
-	padding-bottom: 15px;
 }
 
 .sidebar,
