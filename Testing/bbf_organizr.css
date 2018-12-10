@@ -495,16 +495,7 @@ fieldset[disabled] .form-control {
 }
 
 .mfp-content .white-popup div .panel-info .panel-body {
-	background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
-	background-repeat: repeat, no-repeat;
-	background-attachment: fixed, fixed;
-	background-position: center center, center center;
-	background-size: auto, cover;
-	-webkit-background-size: auto, cover;
-	-moz-background-size: auto, cover;
-	-o-background-size: auto, cover;
-	min-height: 100%;
-	height: auto;
+	background-color: #2c3135;
 }
 
 .mfp-content .white-popup div .user-bg .col-xs-2 {
