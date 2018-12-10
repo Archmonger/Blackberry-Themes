@@ -75,6 +75,9 @@ li#menu-Organizr-Support {
 	top: 45px;
 }
 
+.navbar-top-links .dropdown-user .dw-user-box .u-text {
+	padding-top: 10px;
+}
 
 /* Navbar Styling */
 
