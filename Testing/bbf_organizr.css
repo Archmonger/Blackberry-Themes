@@ -198,6 +198,10 @@ body {
 
 /* Settings Menu */
 
+.radio-purple input[type=radio]:checked+label::after, .radio-purple input[type=radio]+label::after{
+	background-color: rgb(249, 190, 3);
+}
+
 .swapLog.active, .swapLog.active:hover, .swapLog:hover{
 	background-color: rgba(204, 123, 25, 1) !important;
 	border-color: rgba(204, 123, 25, 1) !important;
@@ -211,7 +215,9 @@ body {
 #managePluginTable .pluginManagement td button,
 #manageThemeTable .themeManagement td button,
 #manageUserTable .userManagement td button,
-#manageGroupTable .userManagement td button{
+#manageGroupTable .userManagement td button,
+#tabEditorTable .tabEditor td button,
+#categoryEditorTable .categoryEditor td button{
 	border: none;
 }
 
@@ -240,6 +246,7 @@ body {
 
 .btn-success, .btn-success.disabled, .btn-success:hover, .btn-success.disabled:hover, .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success.focus, .btn-success.focus:active, .btn-success:active:focus, .btn-success:active:hover, .btn-success:focus, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover{
 	background: rgba(204, 123, 25, 1);
+	border-color: rgba(204, 123, 25, 1);
 }
 
 .bg-title {
@@ -452,6 +459,28 @@ fieldset[disabled] .form-control {
 
 
 /* Pop-ups */
+
+.color-table.info-table thead th {
+    background-color: #2c3135;
+    color: #fff;
+}
+
+.panel-blue a, .panel-info a{
+	color: rgb(249, 190, 3);
+}
+
+.bg-success td a{
+	color: #ffeeb7;
+}
+
+.panel-blue a:hover, .panel-info a:hover{
+	color: rgb(255, 216, 90);
+}
+
+.bg-success{
+	background-color: rgba(204, 123, 25, 1) !important;
+	color: #FFF;
+}
 
 .white-popup-block {
 	background-color: rgb(49, 54, 58);
