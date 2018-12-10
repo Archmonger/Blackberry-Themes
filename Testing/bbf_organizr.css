@@ -198,6 +198,10 @@ body {
 
 /* Settings Menu */
 
+.label-info{
+	background-color: rgba(204, 123, 25, 1);
+}
+
 .radio-purple input[type=radio]:checked+label::after, .radio-purple input[type=radio]+label::after{
 	background-color: rgb(249, 190, 3);
 }
