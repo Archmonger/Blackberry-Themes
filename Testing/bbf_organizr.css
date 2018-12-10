@@ -86,6 +86,10 @@ li#menu-Organizr-Support {
 
 /* Page Fixes */
 
+.plugin-listing {
+	margin-top: 40px;
+}
+
 .fix-header #page-wrapper {
 	margin-top: 40px;
 }
@@ -763,4 +767,11 @@ a.text-primary:hover, .text-purple:hover {
 .checkbox-primary input[type=checkbox]:checked+label::before{
 	background-color: rgba(204, 123, 25, 1);
 	border-color: rgba(204, 123, 25, 1);
+}
+
+
+/* Chat */
+
+.chat-list .odd .chat-text{
+	background: rgba(204, 123, 25, 1);
 }
