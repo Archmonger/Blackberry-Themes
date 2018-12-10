@@ -557,6 +557,11 @@ span.badge.bg-org.m-r-10 {
 
 /* Homepage */
 
+div[id*="homepageOrder"] div .nav-tabs.pull-right>li>a:hover,
+div[id*="homepageOrder"] div .nav-tabs.pull-right>li>a {
+	border-radius: 0px;
+}
+
 .table>.deluge-queue>tr>td{
     padding-left: 20px;
 }
