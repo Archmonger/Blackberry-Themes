@@ -654,6 +654,16 @@ hr {
 	background: rgba(0, 0, 0, 0)
 }
 
+.fc th.fc-mon,
+.fc th.fc-tue,
+.fc th.fc-wed,
+.fc th.fc-thu,
+.fc th.fc-fri,
+.fc th.fc-sat,
+.fc th.fc-sun {
+	background: rgba(0, 0, 0, 0.5) !important;
+}
+
 .fc-day {
 	background-color: rgba(35, 36, 38, .65);
 }
