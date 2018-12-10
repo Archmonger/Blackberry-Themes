@@ -543,6 +543,10 @@ span.badge.bg-org.m-r-10 {
 
 /* Homepage */
 
+.progress-bar-info{
+  background-color: rgba(204, 123, 25, 1);
+}
+
 .btn.default.refreshImage {
 	color: #dedede;
 }
