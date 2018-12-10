@@ -465,9 +465,20 @@ fieldset[disabled] .form-control {
 
 /* Pop-ups */
 
+.btn-info.btn-outline{
+	color: #FFF;
+	border-color: rgba(0,0,0,0) !important;
+	background: #2c3135;
+}
+
+.btn-info.btn-outline.focus, .btn-info.btn-outline:focus, .btn-info.btn-outline:hover, .btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info{
+	background: rgba(255, 255, 255, 0.15);
+	border-color: rgba(255, 255, 255, 0.15);
+}
+
 .color-table.info-table thead th {
-    background-color: #2c3135;
-    color: #fff;
+  background-color: #2c3135;
+  color: #fff;
 }
 
 .panel-blue a, .panel-info a{
