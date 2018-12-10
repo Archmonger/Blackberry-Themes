@@ -24,13 +24,25 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 1) Navigate to Settings > Profile Settings > Custom Stylesheet.<br/>
 2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_filebrowser.css";` at the **top** of the text box.<br/>
 
-### [Organizr V2](https://github.com/causefx/Organizr) [On-top of Burry](https://github.com/Burry/organizr-v2-plex-theme)<br/>
+### [Organizr V2](https://github.com/causefx/Organizr)
+1) Navigate to Settings > Customize > Custom CSS.<br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr.css";` at the **top** of the text box.<br/>
+
+**_Optional:_ Better Styling**<br/>
+1) Navigate to Settings > Customize > Login Page.<br/>
+2) Enable `Minimal Login Screen`.<br/>
+3) Navigate to Settings > Customize > Options.<br/>
+4) Enable `Alternate Homepage Titles`.<br/>
+5) Navigate to Settings > Customize > Notifications.<br/>
+6) Change type to `lzi`.<br/>
+
+### [Organizr V2 On Top of Burry](https://github.com/Burry/organizr-v2-plex-theme)<br/>
 1) Navigate to Settings > Customize > Marketplace.<br/>
-2) Install Plex Theme by Grant Burry.<br/>
+2) Install `Plex Theme` by Grant Burry.<br/>
 3) Navigate to Settings > Customize > Colors & Themes > Theme.<br/>
 4) Select `Plex`.<br/>
 5) Navigate to Settings > Customize > Custom CSS.<br/>
-6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_ontop_of_burry.css";` at the **top** of the text box. <br/>
+6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_on_top_of_burry.css";` at the **top** of the text box. <br/>
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. Docker users must use `organizrtools/organizr-v2:latest` and install Burry's theme from the marketplace._<br/>
 
 ### [Organizr](https://github.com/causefx/Organizr) [Custom Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons)<br/>
@@ -38,13 +50,13 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 2) On each individual tab, click `Edit`.<br/>
 3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's `Icons` folder.<br/>
 
-**_Optional:_ For the sign out button**<br/>
+**_Optional:_ Sign Out Button**<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
 2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_signout_button.css";` at the **top** of the text box. <br/>
 
 ## More Information<br/>
 **What is "in Organizr"**<br/>
-Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `bbf_organizr.css` and `bbf_organizr_ontop_of_burry.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On occasion, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, smaller navbar, deletion of the loading bar, removal of the current user's username, and removal of the log out menu.<br/>
+Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On occasion, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, smaller navbar, deletion of the loading bar, removal of the current user's username, and removal of the log out menu.<br/>
 
 **Subfilter is set up exactly as above, but themes are not working!**<br/>
 Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/>
@@ -70,7 +82,7 @@ _Icon Queue:_ Handled via popularity on Feathub.
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0 | NO |
 | Deluge WebUI | 1.3.15 | YES |
-| Jackett | 0.10.398.0 | YES |
+| Jackett | 0.10.504.0 | YES |
 | Organizr | 2.0.0-beta.800 | NO |
 
 ## Feathub Requests<br/>
