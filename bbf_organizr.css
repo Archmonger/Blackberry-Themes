@@ -549,6 +549,10 @@ span.badge.bg-org.m-r-10 {
 
 /* Homepage */
 
+#homepageOrderdeluge .row .col-md-12 h2.text-white.m-0.pull-left.text-uppercase{
+	display: none;
+}
+
 .progress-bar-info{
   background-color: rgba(204, 123, 25, 1);
 }
