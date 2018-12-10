@@ -553,6 +553,14 @@ span.badge.bg-org.m-r-10 {
 
 /* Homepage */
 
+.table>.deluge-queue>tr>td{
+    padding-left: 20px;
+}
+
+.table {
+    margin-top: 10px;
+}
+
 #homepageOrderdeluge .row .col-md-12 h2.text-white.m-0.pull-left.text-uppercase{
 	display: none;
 }
