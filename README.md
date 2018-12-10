@@ -27,6 +27,8 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 ### [Organizr V2](https://github.com/causefx/Organizr)
 1) Navigate to Settings > Customize > Custom CSS.<br/>
 2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr.css";` at the **top** of the text box.<br/>
+3) Navigate to Settings > Customize > Colors and Themes.<br/>
+4) Ensure Theme is set to `Organizr` and Style is set to `Dark`.<br/>
 
 **_Optional:_ Better Styling**<br/>
 1) Navigate to Settings > Customize > Login Page.<br/>
