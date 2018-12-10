@@ -1,0 +1,191 @@
+/* Copy and paste this code into OrgV2 Settings>Customize>Appearance>CustomCSS, */
+/* but only AFTER enabling Burry's "Plex theme" from Settings>Customize>Marketplace. */
+/* Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. */
+
+
+/* Remove Uneeded Ombi Indicators */
+
+.inside-over-request-div.bg-success {
+	display: none;
+}
+
+.inside-request-div.bg-info,
+.inside-request-div.bg-warning {
+	display: none;
+}
+
+
+/* Revert Navbar Sizing to pre-Burry */
+
+.navbar {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+/* Remove Unneeded Navbar Items */
+
+li.hidden-xs {
+	display: none;
+}
+
+#languageDropdown {
+	display: none;
+}
+
+.navbar-left li:nth-child(3) {
+	display: none;
+}
+
+i.ti-search {
+	display: none;
+}
+
+
+/* Remove Unneeded Sidebar Buttons */
+
+li#github {
+	display: none;
+}
+
+li#menu-Organizr-Support {
+	display: none;
+}
+
+.sidebar-nav .nav .devider, .sidebar-nav .nav #sign-out {
+	display: none;
+}
+
+
+/* Dropdown User Menu */
+
+.navbar-top-links .dropdown-user .dw-user-box .u-img img {
+	display: none;
+}
+
+.navbar-top-links .dropdown-user .dw-user-box {
+	padding-top: 0px;
+}
+
+.dropdown-user li.divider {
+	display: none;
+}
+
+.dropdown-menu .u-text .text-muted {
+	width: 100%;
+}
+
+.navbar-top-links .dropdown-user{
+	top: 45px;
+}
+
+
+/* Navbar Styling */
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	background-color: #162027;
+}
+
+.navbar-top-links>li>a {
+	margin-right: 30px;
+	padding: 0 0;
+}
+
+img.dark-logo {
+	max-height: 30px;
+}
+
+.dropdown-toggle.profile-pic {
+	margin-right: 20px;
+}
+
+
+/* Sidebar Styling */
+
+.sidebar .sidebar-head {
+	background-color: rgba(0, 0, 0, 0) !important;
+	min-height: 40px;
+	max-height: 40px;
+}
+
+.sidebar .sidebar-head h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #97999f;
+}
+
+#side-menu {
+	padding-top: 40px;
+}
+
+.sidebar-nav {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#side-menu li a {
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	margin-bottom: 10px;
+}
+
+
+/* Tweak Calendar Colors */
+
+div[class*="fc"] .text-info {
+	color: #929a9c !important;
+}
+
+div[class*="fc"] .text-success {
+	color: #53e69d !important;
+}
+
+div[class*="fc"] .text-danger {
+	color: #929a9c !important;
+}
+
+div[class*="fc"] .text-primary {
+	color: #e3891c !important;
+}
+
+
+/* Page Fixes */
+
+.fix-header #page-wrapper {
+	margin-top: 40px;
+}
+
+#internal-Settings,
+#internal-Organizr-Settings {
+	padding-top: 40px;
+}
+
+#homepage-items {
+	padding-top: 65px !important;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+.nav>li>a>img {
+	width: 24px;
+}
+
+.top-left-part a {
+	padding-left: 20px;
+}
+
+.iframe {
+	height: calc(100vh - 40px);
+}
+
+
+/* Burry Fixes */
+
+.sidebar img[src*=ombi] {
+	padding-left: 0px;
+}
+
+.tabEditor img[src*=ombi] {
+	padding-left: 0px;
+}
