@@ -198,6 +198,50 @@ body {
 
 /* Settings Menu */
 
+.swapLog.active, .swapLog.active:hover, .swapLog:hover{
+	background-color: rgba(204, 123, 25, 1) !important;
+	border-color: rgba(204, 123, 25, 1) !important;
+	color: #FFF !important;
+}
+
+.dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_paginate, .dataTables_wrapper .dataTables_paginate .paginate_button, .dataTables_wrapper .dataTables_processing, .dd-handle, .footable.breakpoint>tbody>tr>td>span.footable-toggle, pre{
+	color: #949494;
+}
+
+#managePluginTable .pluginManagement td button,
+#manageThemeTable .themeManagement td button,
+#manageUserTable .userManagement td button,
+#manageGroupTable .userManagement td button{
+	border: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+	color: #FFF !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+	background-color: rgba(255,255,255,.15);
+	border-color: rgba(255,255,255,.05);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+	background-color: rgba(204, 123, 25, 1);
+	border-color: rgba(204, 123, 25, 1);
+}
+
+.el-element-overlay .el-card-item .el-overlay-1 .el-info>li a:hover{
+	background-color: rgba(204, 123, 25, 1);
+	border-color: rgba(204, 123, 25, 1);
+}
+
+.bg-info {
+	background-color: rgba(204, 123, 25, 1) !important;
+}
+
+.btn-success, .btn-success.disabled, .btn-success:hover, .btn-success.disabled:hover, .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success.focus, .btn-success.focus:active, .btn-success:active:focus, .btn-success:active:hover, .btn-success:focus, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover{
+	background: rgba(204, 123, 25, 1);
+}
+
 .bg-title {
 	border: none;
 	padding-top: 4px;
@@ -646,10 +690,52 @@ a.fc-day-number,
 	border-radius: 4px;
 }
 
+.fc-toolbar{
+	background: rgba(0,0,0,.15);
+}
+
+div[id*="homepageOrder"] .bg-info{
+    background-color: rgba(0,0,0,.15) !important;
+}
+
 #scroll {
 	background-color: rgba(204, 123, 25, 0.5);
 }
 
 #scroll:hover {
 	background-color: rgba(204, 123, 25, 0.75);
+}
+
+
+/* Login Screen */
+
+.login-box {
+    background: #2c3135;
+}
+
+.login-box .white-box{
+	background-color: rgba(0,0,0,0);
+}
+
+.text-primary, .text-purple {
+    color: rgb(249, 190, 3);
+}
+
+a.text-primary:hover, .text-purple:hover {
+    color: #ffc36d;
+}
+
+.btn-primary, .btn-primary.disabled{
+	background: rgba(204, 123, 25, 1);
+	border-color: rgba(204, 123, 25, 1);
+}
+
+.btn-primary:hover, .btn-primary.disabled:hover, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:focus, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{
+	background: rgb(255, 161, 45);
+	border-color: rgb(255, 161, 45);
+}
+
+.checkbox-primary input[type=checkbox]:checked+label::before{
+	background-color: rgba(204, 123, 25, 1);
+	border-color: rgba(204, 123, 25, 1);
 }
