@@ -52,6 +52,10 @@ li#menu-Organizr-Support {
 	display: none;
 }
 
+.sidebar-nav .nav .devider, .sidebar-nav .nav #sign-out {
+	display: none;
+}
+
 
 /* Dropdown User Menu */
 
