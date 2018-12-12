@@ -1,3 +1,5 @@
+/* Removes the logout button from the sidebar */
+
 .sidebar-nav .nav .devider, .sidebar-nav .nav #sign-out {
 	display: none;
 }
