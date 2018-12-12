@@ -1,3 +1,5 @@
+/* Stylizes the logout button on the sidebar */
+
 .sidebar-nav .nav li a .fa-sign-out:before {
     display: block;
     content: url(https://archmonger.github.io/Blackberry-Flat/Resources/transparent.png);
