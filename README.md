@@ -18,6 +18,7 @@ sub_filter_once on;
 ### [Ombi](https://github.com/tidusjar/Ombi)<br/>
 1) Navigate to Settings > Configuration > Customization > Custom CSS Link.<br/>
 2) Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`.<br/>
+
 _Note: Make sure to have Settings > Configuration > Customization > Preset Themes set to `Please Select` (disabled)._<br/>
 
 ### [Filebrowser](https://filebrowser.github.io/)<br/>
@@ -37,6 +38,7 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 4) Enable `Alternate Homepage Titles`.<br/>
 5) Navigate to Settings > Customize > Notifications.<br/>
 6) Change type to `lzi`.<br/>
+7) Consider adding `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_remove_logout_button.css";` to Custom CSS as seen in steps 1 and 2. This is recommended as it is expected that users will log out by clicking on their profile. This is **not** required.<br/>
 
 ### [Organizr V2 On Top of Burry](https://github.com/Burry/organizr-v2-plex-theme)<br/>
 1) Navigate to Settings > Customize > Marketplace.<br/>
@@ -45,6 +47,8 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 4) Select `Plex`.<br/>
 5) Navigate to Settings > Customize > Custom CSS.<br/>
 6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_on_top_of_burry.css";` at the **top** of the text box. <br/>
+7) Consider adding `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_remove_logout_button.css";` to Custom CSS as seen in steps 5 and 6. This is recommended as it is expected that users will log out by clicking on their profile. This is **not** required.<br/>
+
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. Docker users must use `organizrtools/organizr-v2:latest` and install Burry's theme from the marketplace._<br/>
 
 ### [Organizr](https://github.com/causefx/Organizr) [Custom Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons)<br/>
@@ -52,9 +56,9 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 2) On each individual tab, click `Edit`.<br/>
 3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's `Icons` folder.<br/>
 
-**_Optional:_ Sign Out Button**<br/>
+**_Optional:_ Stylized Logout Button**<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_signout_button.css";` at the **top** of the text box. <br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_logout_button.css";` at the **top** of the text box. <br/>
 
 ## More Information<br/>
 **What is "in Organizr"**<br/>
@@ -71,7 +75,7 @@ Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br
 For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
 
 **Upcoming**<br/>
-_Theme Queue:_ OrganizrV2, Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Flood (rTorrent WebUI), Rutorrent.<br/>
+_Theme Queue:_ Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Flood (rTorrent WebUI), Rutorrent.<br/>
 _Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
 _Icon Queue:_ Handled via popularity on Feathub.
 
