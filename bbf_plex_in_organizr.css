@@ -335,7 +335,7 @@ div[class*="AudioVideoMiniPlayer-controlsContainer-"] {
 .SidebarMenuButton-sidebarMenuButton-khx_P {
     background-color: rgba(0,0,0,.15);
 }
-button#id-7 {
+button[class*="NavBar-accountButton"] {
     display: none !important;
 }
 .nav-bar{
