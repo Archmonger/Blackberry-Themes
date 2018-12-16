@@ -195,3 +195,16 @@ img[src*=ombi].homepageImageTitle {
 	width: 40px;
 	padding-left: 0px;
 }
+
+
+/* Mobile Fixes */
+
+img.dark-logo-side {
+    max-height: 30px;
+}
+
+@media (max-width: 767px){
+	ul.nav.navbar-top-links.navbar-left.ok {
+		padding-left: 11px;
+	}
+}
