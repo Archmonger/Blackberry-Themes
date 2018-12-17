@@ -132,6 +132,13 @@ img.dark-logo {
 }
 
 
+/* Removes the logout button from the sidebar */
+
+.sidebar-nav .nav .devider, .sidebar-nav .nav #sign-out {
+	display: none;
+}
+
+
 /* Tweak Calendar Colors */
 
 div[class*="fc"] .text-info {
