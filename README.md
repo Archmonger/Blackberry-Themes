@@ -38,7 +38,6 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 4) Enable `Alternate Homepage Titles`.<br/>
 5) Navigate to Settings > Customize > Notifications.<br/>
 6) Change type to `lzi`.<br/>
-7) Consider adding `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_remove_logout_button.css";` to Custom CSS as seen in steps 1 and 2. This removes the logout button from the sidebar and is recommended as it is expected that users will log out by clicking on their profile. This is **not** required.<br/>
 
 ### [Organizr V2 On Top of Burry](https://github.com/Burry/organizr-v2-plex-theme)<br/>
 1) Navigate to Settings > Customize > Marketplace.<br/>
@@ -47,7 +46,6 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 4) Select `Plex`.<br/>
 5) Navigate to Settings > Customize > Custom CSS.<br/>
 6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_on_top_of_burry.css";` at the **top** of the text box. <br/>
-7) Consider adding `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_remove_logout_button.css";` to Custom CSS as seen in steps 5 and 6. This removes the logout button from the sidebar and is recommended as it is expected that users will log out by clicking on their profile. This is **not** required.<br/>
 
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. Docker users must use `organizrtools/organizr-v2:latest` and install Burry's theme from the marketplace._<br/>
 
