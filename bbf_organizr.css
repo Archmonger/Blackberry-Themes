@@ -184,6 +184,12 @@ div#internal-Settings {
 }
 
 
+/* Removes the logout button from the sidebar */
+
+.sidebar-nav .nav .devider, .sidebar-nav .nav #sign-out {
+	display: none;
+}
+
 /* Body */
 
 .btn-default, .chat-list .chat-text h4, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .flot-text, .footer, .form-control, .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, .help-block, .input-group-addon, .text-muted, a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small, tbody, th {
