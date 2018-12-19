@@ -160,9 +160,6 @@ body{
 .card h3{
     color: rgb(238, 238, 238);
 }
-.card>*>:last-child{
-    color: rgb(238, 238, 238);
-}
 select {
     color: rgb(238, 238, 238);
 }
