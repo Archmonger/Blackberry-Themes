@@ -9,7 +9,7 @@ Images are available within the `Screenshots` folder.<br/>
 
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
-For services that don't allow native CSS themes you must use Nginx to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository.<br/>
+For services that don't allow native CSS themes you must use [Nginx](https://nginx.org/en/download.html) to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository.<br/>
 ```
 proxy_set_header Accept-Encoding "";
 sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_XXXXX.css"> </head>';
