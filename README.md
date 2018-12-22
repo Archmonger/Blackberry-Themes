@@ -16,8 +16,8 @@ sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archm
 sub_filter_once on;
 ```
 ### [Ombi](https://github.com/tidusjar/Ombi)<br/>
-1) Navigate to Settings > Configuration > Customization > Custom CSS Link.<br/>
-2) Paste in `https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css`.<br/>
+1) Navigate to Settings > Configuration > Customization > Custom CSS.<br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css";`.<br/>
 
 _Note: Make sure to have Settings > Configuration > Customization > Preset Themes set to `Please Select` (disabled)._<br/>
 
@@ -82,7 +82,7 @@ _Icon Queue:_ Handled via popularity on Feathub.
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
 | Plex | 1.13.9.5456 | YES |
-| Ombi | 3.0.3919 | NO |
+| Ombi | 3.0.4036 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 1.9.0 | NO |
 | Deluge WebUI | 1.3.15 | YES |
