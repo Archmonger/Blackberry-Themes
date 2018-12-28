@@ -621,6 +621,14 @@ div[id*="homepageOrder"] div .nav-tabs.pull-right>li>a {
   background-color: #1b1a1a;
 }
 
+img.imageSourceTop{
+	border-radius: 5px 5px 0px 0px;
+}
+
+img.imageSourceBottom{
+	top: -112px;
+}
+
 .recent-items .owl-item {
 	height: auto;
 }
@@ -635,7 +643,7 @@ div[id*="homepageOrder"] div .nav-tabs.pull-right>li>a {
 }
 
 .owl-stage {
-	margin: 7px 4px;
+	margin: 11px 4px;
 }
 
 .col-md-12 {
