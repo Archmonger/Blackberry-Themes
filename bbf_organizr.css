@@ -798,6 +798,16 @@ div[id*="homepageOrder"] .bg-info{
 	background-color: rgba(204, 123, 25, 0.75);
 }
 
+@media (min-width: 767px){
+	.fc-toolbar .fc-center {
+			display: inline-block;
+			position: absolute;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+	}
+}
+
 
 /* Login Screen */
 
