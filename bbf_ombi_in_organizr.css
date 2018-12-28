@@ -83,7 +83,7 @@ button.btn.btn-sm.btn-info-outline {
 	color: #FFF !important;
 }
 
-.btn-info-outline:hover {
+.btn-info-outline:hover, .btn-info-outline:active {
 	background-color: rgba(255, 255, 255, .25) !important;
 	border-color: rgba(255, 255, 255, .25) !important;
 }
@@ -247,7 +247,7 @@ a.active {
 	background-color: rgba(255,255,255,0.17);
 }
 
-.btn-warning-outline:hover{
+.btn-warning-outline:hover, .btn-warning-outline:focus {
 	background-color: rgba(255,255,255,0.25) !important;
 }
 
