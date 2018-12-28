@@ -838,3 +838,15 @@ a.text-primary:hover, .text-purple:hover {
 .chat-list .odd .chat-text{
 	background: rgba(204, 123, 25, 1);
 }
+
+
+/* Mobile Fixes */
+
+@media (max-width: 767px){
+	.navbar-top-links{
+		margin-left: 22px;
+	}
+	.navbar-top-links>li>a{
+		margin-right: 20px;
+	}
+}
