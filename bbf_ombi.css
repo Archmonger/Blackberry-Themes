@@ -384,3 +384,7 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
 .error-text {
 	display: inline-block;
 }
+
+settings-menu hr {
+	border: none;
+}

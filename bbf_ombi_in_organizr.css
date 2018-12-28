@@ -385,6 +385,10 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
 	display: inline-block;
 }
 
+settings-menu hr {
+	border: none;
+}
+
 /* BBF in Organizr customizations start here */
 
 .navbar-brand{
@@ -424,7 +428,7 @@ ul.nav.navbar-nav.donation {
     .navbar-collapse.collapse{
         height: 45px;
     }
-		
+
     .navbar{
         height: 45px;
     }
