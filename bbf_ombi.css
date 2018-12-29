@@ -27,6 +27,16 @@ input#search,
 	border: none !important;
 }
 
+.input-group-btn:last-child>.btn {
+  margin-left: 0px;
+  height: 39px;
+  border-radius: 0px !important;
+}
+
+.input-group-btn:last-child>.btn:last-of-type{
+  border-radius: 0 5px 5px 0 !important;
+}
+
 group-addon {
 	background-color: rgba(0, 0, 0, .2);
 }
