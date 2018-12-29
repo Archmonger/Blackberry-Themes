@@ -122,7 +122,11 @@ button.btn.btn-sm.btn-info-outline {
 }
 
 .dropdown-menu {
-	background-color: rgba(0, 0, 0, .85);
+	background-color: rgb(49, 54, 58);
+}
+
+.ui-dialog-titlebar, .ui-dialog .ui-dialog-content {
+	background: rgb(49, 54, 58) !important;
 }
 
 .dropdown-menu>.active>a,
