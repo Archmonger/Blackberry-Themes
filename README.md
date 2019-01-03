@@ -1,4 +1,4 @@
-# Blackberry Flat Themepack (BBF)
+# Blackberry Flat Theme Pack (BBF)
 CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
 
 ## Theme/Icon Requests<br/>
