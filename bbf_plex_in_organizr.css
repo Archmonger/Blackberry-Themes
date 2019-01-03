@@ -168,6 +168,9 @@ button[class*="ClaimedServer-button"]{
 div[class*="HubCell-hubCell-"] {
     margin-bottom: 20px;
 }
+div[class*="HubCell-hubCell-"]:first-of-type{
+	margin-top: 0px;
+}
 
 /* #######  Individual Media Items  ####### */
 div[class*="Menu-menuScroller"] {
