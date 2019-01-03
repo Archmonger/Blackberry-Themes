@@ -122,6 +122,17 @@ main {
 
 /* BBF in Organizr customizations start here */
 
+.v-navigation-drawer .container.fill-height .flex.xs12 {
+    padding-bottom: 45px;
+}
+
+.v-navigation-drawer{
+    margin-top: 45px !important;
+}
+.v-toolbar {
+    padding-right: 0px !important;
+}
+
 button.v-btn.theme--dark.primary {
 	display: none;
 }
@@ -143,19 +154,19 @@ img.ma-1 {
 	padding-left: 0px;
 }
 
-button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons {
-	visibility: hidden;
-}
-
-button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
-	content: "last_page";
-	visibility: visible;
-	transform: translateX(12px);
-}
-
 @media only screen and (max-width: 768px) {
 	.v-toolbar__content {
 		height: 40px !important;
+	}
+	
+	button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons {
+		visibility: hidden;
+	}
+
+	button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
+		content: "last_page";
+		visibility: visible;
+		transform: translateX(12px);
 	}
 }
 
