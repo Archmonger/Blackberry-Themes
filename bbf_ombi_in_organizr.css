@@ -420,6 +420,14 @@ settings-menu hr {
 	border: none;
 }
 
+.search-bar-background[_ngcontent-c1] {
+	background-color: #0000 !important;
+}
+
+.form-control-search[_ngcontent-c1] {
+	width: 100% !important;
+}
+
 /* BBF in Organizr customizations start here */
 
 .navbar-brand{
