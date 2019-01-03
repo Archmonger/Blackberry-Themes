@@ -322,3 +322,6 @@ span[class*="NavBarActivityButton-label"]{
 	top: 23px;
 }
 }
+span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"]{
+  display: none;
+}
