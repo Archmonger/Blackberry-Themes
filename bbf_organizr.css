@@ -843,6 +843,41 @@ a.text-primary:hover, .text-purple:hover {
 }
 
 
+/* Search Box for Requests */
+
+.white-box.search-div.resultBox-outside {
+  background-color: rgb(49, 54, 58);
+}
+
+.white-box.search-div.resultBox-outside .slimScrollDiv{
+  background-color: rgba(0,0,0,0);
+}
+
+
+.white-box.search-div.resultBox-outside .slimScrollDiv #request-results .button-box .btn-primary{
+  background: none;
+  border: none;
+}
+
+.white-box.search-div.resultBox-outside .slimScrollDiv #request-results .button-box .btn-inverse{
+  background: none;
+  border: none;
+}
+
+.white-box.search-div.resultBox-outside .form-group #request-input-div .input-group-btn .btn-info{
+  background: rgba(255,255,255,0.07);
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  background-color: rgba(204, 123, 25, 1);
+  border-color: rgba(204, 123, 25, 1);
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: #b5b5b5;
+}
+
+
 /* Chat */
 
 .chat-list .odd .chat-text{
