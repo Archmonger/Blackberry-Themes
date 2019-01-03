@@ -873,7 +873,8 @@ a.text-primary:hover, .text-purple:hover {
   border-color: rgba(204, 123, 25, 1);
 }
 
-.pagination>li>a, .pagination>li>span {
+.pagination>li>a,
+.pagination>li>span {
 	color: #b5b5b5;
 }
 
