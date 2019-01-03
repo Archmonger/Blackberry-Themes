@@ -158,7 +158,7 @@ img.ma-1 {
 	.v-toolbar__content {
 		height: 40px !important;
 	}
-	
+
 	button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons {
 		visibility: hidden;
 	}
@@ -191,4 +191,19 @@ img.ma-1 {
 
 .v-toolbar__content button .v-btn__content {
     background-color: #162027;
+}
+
+main {
+	background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png") !important;
+	background-repeat: repeat, no-repeat !important;
+	background-attachment: fixed, fixed !important;
+	background-position: center center, center center !important;
+	background-size: auto, cover !important;
+	-webkit-background-size: auto, cover !important;
+	-moz-background-size: auto, cover !important;
+	-o-background-size: auto, cover !important;
+}
+
+.container {
+	background-color: rgba(0,0,0,0) !important;
 }
