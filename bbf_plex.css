@@ -165,6 +165,12 @@ button[class*="ClaimedServer-button"]{
     margin-top: 50px;
     position: absolute;
 }
+div[class*="HubCell-hubCell-"] {
+    margin-bottom: 20px;
+}
+div[class*="HubCell-hubCell-"]:first-of-type{
+	margin-top: 0px;
+}
 
 /* #######  Individual Media Items  ####### */
 div[class*="Menu-menuScroller"] {
@@ -279,63 +285,13 @@ div[class*="PrePlayPageHeader-listStylesArrowsDivider"]{
 div[class*="PageHeaderDivider-pageHeaderDivider"]{
     display: none;
 }
-
-/* #######  Fullscreen Video Player  ####### */
-.AudioVideoPlayerControls-durationContainer-3TK0D{
-	text-align: left;
-	padding-left: 15px;
-}
-.DurationRemaining-container-1F4w8{
-	font-size: 11px;
-}
-button[data-qa-id="playQueueButton"]{
-	display: none !important;
-}
-div[class*="AudioVideoPlayerControls-buttonGroupRight-"] button[data-qa-id="moreButton"]{
-	display: none !important;
-}
-button[data-qa-id="repeatButton"]{
-	display: none !important;
-}
-button[data-qa-id="previousButton"]{
-	display: none !important;
-}
-button[data-qa-id="nextButton"]{
-	display: none !important;
-}
-button[data-qa-id="shuffleButton"]{
-	display: none !important;
-}
-div[class*="AudioVideoPlaybackSettings"] .Link-medium-3gAfL {
-    font-size: 11px !important;
-}
-div[class*="AudioVideoPlaybackSettings"]{
-	font-size: 11px !important;
-}
-button[data-qa-id="volumeButton"]{
-	display: none !important;
-}
-div[data-qa-id="playerControlsContainer"]{
-	padding-right: 15px !important;
-}
-div[class*="AudioVideoPlayerControls-buttonGroupRight-"] div[class*="VolumeSlider-slider-"] {
-    margin: 0px 6px 0 5px !important;
-}
-button[data-qa-id="chaptersButton"]{
-	display: none;
-}
-
-/* #######  Minimized Video Player  ####### */
-div[class*="AudioVideoMiniPlayer-controlsContainer-"] {
-    display: none !important;
-}
 }
 
 /* BBF Customizations start here */
 .SidebarMenuButton-sidebarMenuButton-khx_P {
     background-color: rgba(0,0,0,.15);
 }
-button#id-7 {
+button[class*="NavBar-accountButton"] {
     display: none !important;
 }
 .nav-bar{
@@ -348,5 +304,8 @@ div[class*="NavBar-container-"]{
 	display: none;
 }
 div[data-qa-id*="hub--home.newscast"] {
-    display: none;
+  display: none;
+}
+div[class*="NavBar-buttonSeparator-"]{
+  display: none;
 }
