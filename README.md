@@ -1,12 +1,6 @@
 # Blackberry Flat Theme Pack (BBF)
 CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
 
-## Theme/Icon Requests<br/>
-Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
-
-## Screenshots<br/>
-Images are available within the `Screenshots` folder.<br/>
-
 ## Recommended Configuration: Organizr Media Portal<br/>
 Ties together all plex-related services into one visibily native package by utilizing Organizr SSO.
 * *OrganizrV2:* Depending on stylistic preference, use either [BBF Organizr](https://github.com/Archmonger/Blackberry-Flat#organizr-v2) or [BBF Organizr On Top of Burry](https://github.com/Archmonger/Blackberry-Flat#organizr-v2-on-top-of-burry), alongside [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons). Utilize the Organizr homepage (Settings > Tab Editor > Homepage Items) as a dedicated calendar tab with Plex Now Playing underneath the calendar. If you consider adding more elements to the homepage, make them only viewable by Co-Admins or Admins. Set up Organizr SSO for Plex and Ombi.<br/>
@@ -70,26 +64,35 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 1) Navigate to Settings > Customize > Custom CSS.<br/>
 2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_logout_button.css";` at the **top** of the text box. <br/>
 
-## More Information<br/>
-**What is "in Organizr"**<br/>
+## FAQ<br/>
+### What is "in Organizr"?<br/>
 Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On occasion, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, smaller navbar, deletion of the loading bar, removal of the current user's username, and removal of the log out menu.<br/>
 
-**Subfilter is set up exactly as above, but themes are not working!**<br/>
+### My subfilter is set up exactly as above, but themes are not working?<br/>
 Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/>
 _Note to Deluge users when subdir reverse proxying on a Windows host machine:_ Deluge on Windows currently has issues with reverse proxies. If you wish to keep deluge on your domains subdir, you will need to copy the code found in `bbf_deluge.css` to the end of deluge's default CSS file. This can be found in `C:\Program Files (x86)\Deluge\deluge-1.3.15-py2.7.egg\deluge\ui\web\css`. Alternatively, you can move Deluge to a subdomain and use subfilter as demonstrated in the [installation instructions](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett) above.<br/>
 
-**Other themes not working?**<br/>
+### My non-subfilter related themes are not working?<br/>
 Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br/>
 
-**BBF Plex**<br/>
+### What is BBF Plex?<br/>
 For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
 
-**Upcoming**<br/>
-_Theme Queue:_ Tautulli, Transmission, Sonarr/Radarr/Lidarr/Logarr/*-arr*, Flood (rTorrent WebUI), Rutorrent.<br/>
-_Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
-_Icon Queue:_ Handled via popularity on Feathub.
+### Where can I make Theme/Icon requests?<br/>
+Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
 
-**Last Tested**<br/>
+### Where are the Screenshots?<br/>
+Images are available within the [Screenshots](https://github.com/Archmonger/Blackberry-Flat/tree/master/Screenshots) folder.<br/>
+
+### What themes are upcoming?<br/>
+BBF will focus on previously queued themes, then will transition to popularity based feathub requests.<br/>
+_Theme Queue:_ Tautulli, Sonarr/Radarr/Lidarr/Logarr/*-arr*<br/>
+_Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
+_Icon Queue:_ Handled when requested on Feathub.
+
+## More Information<br/>
+
+### Last Tested<br/>
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
@@ -101,10 +104,10 @@ _Icon Queue:_ Handled via popularity on Feathub.
 | Jackett | 0.10.566.0 | YES |
 | Organizr | 2.0.0-beta.800 | NO |
 
-## Feathub Requests<br/>
+### Feathub Requests<br/>
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)<br/>
 
-## **Credits**<br/>
+### **Credits**<br/>
 Special thanks to [@Leram84](https://github.com/leram84) and [@goldenpipes](https://github.com/goldenpipes)<br/>
 Jacket, Calendar day 15 icon, Security Camera, Piggy bank with Dollar Coins, Multiple users silhouette, Television, Submarine, Crane, Books stack of three, Home Icon Silhouette, Avocado, Newsletter, 3D, Open book, Open book top view, Music, Headphones with music, and Raindrop made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
 Folder made by [Kiranshastry](https://www.flaticon.com/authors/kiranshastry) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
