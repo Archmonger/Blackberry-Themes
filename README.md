@@ -9,7 +9,7 @@ Images are available within the `Screenshots` folder.<br/>
 
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
-For services that don't allow native CSS themes you must use [Nginx](https://nginx.org/en/download.html) to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository.<br/>
+For services that don't allow native CSS themes you must use [Nginx](https://nginx.org/en/download.html) to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository. `In Organizr` variants are available for most CSS files.<br/>
 ```
 proxy_set_header Accept-Encoding "";
 sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_XXXXX.css"> </head>';
@@ -17,13 +17,13 @@ sub_filter_once on;
 ```
 ### [Ombi](https://github.com/tidusjar/Ombi)<br/>
 1) Navigate to Settings > Configuration > Customization > Custom CSS.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css";`.<br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css";`. If using Organizr, change `bbf_ombi.css` to `bbf_ombi_in_organizr.css`.<br/>
 
 _Note: Make sure to have Settings > Configuration > Customization > Preset Themes set to `Please Select` (disabled)._<br/>
 
 ### [Filebrowser](https://filebrowser.github.io/)<br/>
 1) Navigate to Settings > Profile Settings > Custom Stylesheet.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_filebrowser.css";` at the **top** of the text box.<br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_filebrowser.css";` at the **top** of the text box. If using Organizr, change `bbf_filebrowser.css` to `bbf_filebrowser_in_organizr.css`.<br/>
 
 ### [Organizr V2](https://github.com/causefx/Organizr)
 1) Navigate to Settings > Customize > Custom CSS.<br/>
