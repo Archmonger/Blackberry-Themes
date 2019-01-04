@@ -2,6 +2,7 @@
 CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
 
 ## FAQ<br/>
+[How do I use Blackberry Flat?](https://github.com/Archmonger/Blackberry-Flat#how-do-i-use-blackberry-flat)<br/>
 [What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Flat#what-is-in-organizr)<br/>
 [My subfilter is set up exactly as above, but themes are not working?](https://github.com/Archmonger/Blackberry-Flat#my-subfilter-is-set-up-exactly-as-above-but-themes-are-not-working)<br/>
 [My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Flat#my-non-subfilter-related-themes-are-not-working)<br/>
@@ -74,6 +75,9 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_logout_button.css";` at the **top** of the text box. <br/>
 
 ## FAQ<br/>
+### How do I use Blackberry Flat?<br/>
+Installation instructions for all supported services can be found [here](https://github.com/Archmonger/Blackberry-Flat#installation).
+
 ### What is "in Organizr"?<br/>
 Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar, as well as other miscellaneous in-site tweaks depending on the specific service. On occasion, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, smaller navbar, deletion of the loading bar, removal of the current user's username, and removal of the log out menu.<br/>
 
