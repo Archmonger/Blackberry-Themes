@@ -17,7 +17,7 @@ Ties together all plex-related services into one visibily native package by util
 * *Plex:* Use [BBF Plex in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Make this the first Organizr tab, and set it to be the default tab. Have this tab be user viewable.<br/>
 * *Ombi:* Use [BBF Ombi in Organizr](https://github.com/Archmonger/Blackberry-Flat#ombi). Have this tab be user viewable.<br/>
 * *Synclounge:* Use [BBF Synclounge in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be user viewable.<br/>
-* *Donate:* Use [BBF Organizr Custom Icons] to choose a donation button (Bitcoin/Paypal/Donate/Donate_Alternate). Set Organizr to open your donation link in a new window. Have this tab be user viewable.
+* *Donate:* Use [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons) to choose a donation button (Bitcoin/Paypal/Donate/Donate_Alternate). Set Organizr to open your donation link in a new window. Have this tab be user viewable.
 * *Jackett:* Use [BBF Jackett](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be viewable by ADMINS ONLY.<br/>
 * *Deluge:* Use [BBF Deluge in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be viewable by ADMINS ONLY.<br/>
 * *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Flat#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
