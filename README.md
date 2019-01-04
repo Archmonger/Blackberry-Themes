@@ -12,7 +12,7 @@ CSS changes to many popular web services. Flat and minimal, cleans up unneeded c
 [What themes are upcoming?](https://github.com/Archmonger/Blackberry-Flat#what-themes-are-upcoming)<br/>
 
 ## Recommended Configuration: Organizr Media Portal<br/>
-Ties together all plex-related services into one visibily native package by utilizing Organizr SSO.
+A standard configuration that ties together all plex-related services into one visibily native package by utilizing Organizr SSO.
 * *OrganizrV2:* Depending on stylistic preference, use either [BBF Organizr](https://github.com/Archmonger/Blackberry-Flat#organizr-v2) or [BBF Organizr On Top of Burry](https://github.com/Archmonger/Blackberry-Flat#organizr-v2-on-top-of-burry), alongside [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons). Utilize the Organizr homepage (Settings > Tab Editor > Homepage Items) as a dedicated calendar tab with Plex Now Playing underneath the calendar. If you consider adding more elements to the homepage, make them only viewable by Co-Admins or Admins. Set up Organizr SSO for Plex and Ombi.<br/>
 * *Plex:* Use [BBF Plex in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Make this the first Organizr tab, and set it to be the default tab. Have this tab be user viewable.<br/>
 * *Ombi:* Use [BBF Ombi in Organizr](https://github.com/Archmonger/Blackberry-Flat#ombi). Have this tab be user viewable.<br/>
