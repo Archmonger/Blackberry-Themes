@@ -7,6 +7,16 @@ Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry
 ## Screenshots<br/>
 Images are available within the `Screenshots` folder.<br/>
 
+## Recommended Configuration: Organizr Media Portal<br/>
+Ties together all plex-related services into one visibily native package by utilizing Organizr SSO.
+* *OrganizrV2:* Depending on stylistic preference, use either [BBF Organizr](https://github.com/Archmonger/Blackberry-Flat#organizr-v2) or [BBF Organizr On Top of Burry](https://github.com/Archmonger/Blackberry-Flat#organizr-v2-on-top-of-burry), alongside [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons). Have your default tab set to Plex, and utilize the Organizr homepage (Settings > Tab Editor > Homepage Items) as a dedicated calendar tab with Plex Now Playing underneath the calendar. If you consider adding more elements to the homepage, make them only viewable by Co-Admins or Admins. Consider adding a donate button as the last Organizr tab by using BBF Organizr Custom Icons. Set up Organizr SSO for Plex and Ombi.<br/>
+* *Plex:* Use [BBF Plex in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Make this the first tab, and set it to be the default tab. Have this tab be user viewable.<br/>
+* *Ombi:* Use [BBF Ombi in Organizr](https://github.com/Archmonger/Blackberry-Flat#ombi). Have this tab be user viewable.<br/>
+* *Synclounge:* Use [BBF Synclounge in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be user viewable.<br/>
+* *Jackett:* Use [BBF Jackett](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett) Have this tab be viewable by ADMINS ONLY.<br/>
+* *Deluge:* Use [BBF Deluge in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be viewable by ADMINS ONLY.<br/>
+* *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Flat#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
+
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
 For services that don't allow native CSS themes you must use [Nginx](https://nginx.org/en/download.html) to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository. `In Organizr` variants are available for most CSS files.<br/>
