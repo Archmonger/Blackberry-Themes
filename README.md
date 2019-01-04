@@ -1,6 +1,15 @@
 # Blackberry Flat Theme Pack (BBF)
 CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
 
+## FAQ<br/>
+[What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Flat#what-is-in-organizr)<br/>
+[My subfilter is set up exactly as above, but themes are not working?](https://github.com/Archmonger/Blackberry-Flat#my-subfilter-is-set-up-exactly-as-above-but-themes-are-not-working)<br/>
+[My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Flat#my-non-subfilter-related-themes-are-not-working)<br/>
+[What does BBF Plex do?](https://github.com/Archmonger/Blackberry-Flat#what-does-bbf-plex-do)<br/>
+[Where can I make Theme/Icon requests?](https://github.com/Archmonger/Blackberry-Flat#where-can-i-make-themeicon-requests)<br/>
+[Where are the screenshots?](https://github.com/Archmonger/Blackberry-Flat#where-are-the-screenshots)<br/>
+[What themes are upcoming?](https://github.com/Archmonger/Blackberry-Flat#what-themes-are-upcoming)<br/>
+
 ## Recommended Configuration: Organizr Media Portal<br/>
 Ties together all plex-related services into one visibily native package by utilizing Organizr SSO.
 * *OrganizrV2:* Depending on stylistic preference, use either [BBF Organizr](https://github.com/Archmonger/Blackberry-Flat#organizr-v2) or [BBF Organizr On Top of Burry](https://github.com/Archmonger/Blackberry-Flat#organizr-v2-on-top-of-burry), alongside [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons). Utilize the Organizr homepage (Settings > Tab Editor > Homepage Items) as a dedicated calendar tab with Plex Now Playing underneath the calendar. If you consider adding more elements to the homepage, make them only viewable by Co-Admins or Admins. Set up Organizr SSO for Plex and Ombi.<br/>
@@ -75,13 +84,13 @@ _Note to Deluge users when subdir reverse proxying on a Windows host machine:_ D
 ### My non-subfilter related themes are not working?<br/>
 Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br/>
 
-### What is BBF Plex?<br/>
-For those who do not want OrganizrV2 specific view enhancements in `bbf_plex.css`, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
+### What does BBF Plex do?<br/>
+BBF Plex cleans up useless clutter from within the Plex UI, modifies the navbar to better fit BBF, and creates a functional mobile site. For those who do not want OrganizrV2 specific view enhancements in BBF Plex, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
 
 ### Where can I make Theme/Icon requests?<br/>
 Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
 
-### Where are the Screenshots?<br/>
+### Where are the screenshots?<br/>
 Images are available within the [Screenshots](https://github.com/Archmonger/Blackberry-Flat/tree/master/Screenshots) folder.<br/>
 
 ### What themes are upcoming?<br/>
