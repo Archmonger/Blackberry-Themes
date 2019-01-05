@@ -101,7 +101,7 @@ Images are available within the [Screenshots](https://github.com/Archmonger/Blac
 
 ### What themes are upcoming?<br/>
 BBF will focus on previously queued themes, then will transition to popularity based feathub requests.<br/>
-_Theme Queue:_ Tautulli, Sonarr/Radarr/Lidarr/Logarr/*-arr*<br/>
+_Theme Queue:_ Tautulli, Sonarr/Radarr/Lidarr/Logarr/*-arr*.<br/>
 _Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
 _Icon Queue:_ Handled when requested on Feathub.
 
