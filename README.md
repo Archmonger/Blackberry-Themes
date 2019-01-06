@@ -22,6 +22,9 @@ A standard configuration that ties together all plex-related services into one v
 * *Deluge:* Use [BBF Deluge in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be viewable by ADMINS ONLY.<br/>
 * *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Flat#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
 
+## Alternate Configuration: Standalone Themes<br/>
+For those that do not wish to create a unified media portal, all themes exist without In Organizr optimizations. Use these regular themes which mimic a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Flat#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Flat) to view what themes are available.<br/>
+
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
 For services that don't allow native CSS themes you must use [Nginx](https://nginx.org/en/download.html) to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository. `In Organizr` variants are available for most CSS files.<br/>
