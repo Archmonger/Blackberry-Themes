@@ -6,7 +6,7 @@ CSS changes to many popular web services. Flat and minimal, cleans up unneeded c
 [What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Flat#what-is-in-organizr)<br/>
 [My subfilter is set up exactly as above, but themes are not working?](https://github.com/Archmonger/Blackberry-Flat#my-subfilter-is-set-up-exactly-as-above-but-themes-are-not-working)<br/>
 [My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Flat#my-non-subfilter-related-themes-are-not-working)<br/>
-[What does BBF Plex do?](https://github.com/Archmonger/Blackberry-Flat#what-does-bbf-plex-do)<br/>
+[What does Blackberry Flat Plex do?](https://github.com/Archmonger/Blackberry-Flat#what-does-blackberry-flat-plex-do)<br/>
 [Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Flat#where-can-i-make-theme-and-icon-requests)<br/>
 [Where are the screenshots?](https://github.com/Archmonger/Blackberry-Flat#where-are-the-screenshots)<br/>
 [What themes are upcoming?](https://github.com/Archmonger/Blackberry-Flat#what-themes-are-upcoming)<br/>
@@ -93,8 +93,8 @@ _Note to Deluge users when subdir reverse proxying on a Windows host machine:_ D
 ### My non-subfilter related themes are not working?<br/>
 Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br/>
 
-### What does BBF Plex do?<br/>
-BBF Plex cleans up useless clutter from within the Plex UI, modifies the navbar to better fit BBF, and creates a functional mobile site. For those who do not want OrganizrV2 specific view enhancements in BBF Plex, such as hiding the user icon, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
+### What does Blackberry Flat Plex do?<br/>
+While most themes aim to plexify the user interface, that would be irrational in the case of Blackberry Flat Plex. The focus of BBF Plex is to clean up clutter from within the Plex UI, modify the navbar to better fit BBF, and create a functional mobile site. For those who do not want de-cluttering enhancements found in BBF Plex, such as removing the Newscast or Go Premium buttons, please use [Improved Plex Mobile CSS](https://github.com/Archmonger/Improved-Plex-Mobile-CSS).<br/>
 
 ### Where can I make theme and icon requests?<br/>
 Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
