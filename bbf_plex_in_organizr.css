@@ -288,17 +288,8 @@ div[class*="PageHeaderDivider-pageHeaderDivider"]{
 }
 
 /* BBF Customizations start here */
-.SidebarMenuButton-sidebarMenuButton-khx_P {
-    background-color: rgba(0,0,0,.15);
-}
-button[class*="NavBar-accountButton"] {
-    display: none !important;
-}
-.nav-bar{
-	background-color: #162027 !important;
-}
 div[class*="NavBar-container-"]{
-	background: none !important;
+	background: #162027 !important;;
 }
 .nav-dropdown .dropdown-poster-toggle{
 	display: none;
@@ -311,6 +302,12 @@ div[class*="NavBar-buttonSeparator-"]{
 }
 
 /* In Organizr Customizations Start Here */
+.SidebarMenuButton-sidebarMenuButton-khx_P {
+    background-color: rgba(0,0,0,.15);
+}
+button[class*="NavBar-accountButton"] {
+    display: none !important;
+}
 @media only screen and (min-width: 768px){
 div[class*="NavBar-container"]{
 	height: 45px;
