@@ -8,6 +8,9 @@ button[class*="plexPassButton"]{
     visibility: hidden;
     opacity:0;
 }
+div[class*="NavBar-buttonSeparator-"]{
+  display: none;
+}
 
 @media only screen and (max-width: 768px) {
 /*Homepage, sidenav, and misc*/
@@ -295,8 +298,5 @@ div[class*="NavBar-container-"]{
 	display: none;
 }
 div[data-qa-id*="hub--home.newscast"] {
-  display: none;
-}
-div[class*="NavBar-buttonSeparator-"]{
   display: none;
 }
