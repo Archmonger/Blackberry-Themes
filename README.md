@@ -23,7 +23,7 @@ A standard configuration that ties together all plex-related services into one v
 * *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Flat#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
 
 ## Alternate Configuration: Standalone Themes<br/>
-For those that do not wish to create a unified media portal, all themes exist without In Organizr optimizations. Use these regular themes which mimic a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Flat#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Flat) to view what themes are available.<br/>
+For those that do not wish to create a unified media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page to a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Flat#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Flat) to view what themes are available.<br/>
 
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
@@ -84,7 +84,7 @@ Installation instructions for all supported services can be found [here](https:/
 ### What is "in Organizr"?<br/>
 Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar to a standard size, optimize the interface for SSO usage, as well as other miscellaneous in-site tweaks depending on the specific service.<br/>
 On occasion, some functionality may be removed in order to maintain theme consistency and be optimized for SSO-only usage. For example in the case of Ombi, this can be seen with the removal of the login screen's rotating backgrounds, smaller navbar, deletion of the loading bar, removal of the current user's username, and removal of the log out menu.<br/>
-In contrast, non-"In Organizr" versions do not remove any UI elements or features, and simply focus on styling the original page.<br/>
+In contrast, non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page to a traditional plex-like style for more typical applications.<br/>
 
 ### My subfilter is set up exactly as above, but themes are not working?<br/>
 Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/>
