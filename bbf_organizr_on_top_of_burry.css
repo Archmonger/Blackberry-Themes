@@ -80,6 +80,7 @@ li#menu-Organizr-Support {
 	position: fixed;
 	width: 100%;
 	background-color: #162027;
+	padding-right: 0px;
 }
 
 .navbar-top-links>li>a {
