@@ -309,11 +309,14 @@ div[data-qa-id*="hub--home.newscast"] {
 }
 
 /* In Organizr Customizations Start Here */
+div[class*="NavBar-right-"] {
+  padding-right: 7px;
+}
 .SidebarMenuButton-sidebarMenuButton-khx_P {
-    background-color: rgba(0,0,0,.15);
+  background-color: rgba(0,0,0,.15);
 }
 button[class*="NavBar-accountButton"] {
-    display: none !important;
+  display: none !important;
 }
 @media only screen and (min-width: 768px){
 div[class*="NavBar-container"]{
