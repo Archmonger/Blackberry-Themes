@@ -1,5 +1,5 @@
 :root {
-	--main-bg-color: #2c3135;
+	--main-bg-color: rgba(0,0,0,0);
 }
 
 
@@ -206,7 +206,19 @@ a.x-menu-item{
 
 .x-tab-panel-body {
 	border: none;
-	background-color: none;
+	background-color: rgba(0,0,0,0);
+}
+
+.x-tab-strip-wrap {
+	background-color: rgba(0,0,0,0);
+}
+
+.x-tab-panel-header{
+	background-color: rgba(0,0,0,0);
+}
+
+.x-panel-floating{
+	background-color: #2c3135;
 }
 
 .ext-el-mask {
