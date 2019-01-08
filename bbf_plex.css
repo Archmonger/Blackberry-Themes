@@ -14,6 +14,12 @@ div[class*="NavBar-buttonSeparator-"]{
 
 @media only screen and (max-width: 768px) {
 /*Homepage, sidenav, and misc*/
+.server-settings-container label{
+    padding-left: 20px
+}
+.card-sortable{
+    height: auto;
+}
 .sessions-list-container{
 	zoom: 0.65;
 }
