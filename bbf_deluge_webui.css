@@ -160,7 +160,7 @@ a.x-menu-item{
 
 .x-grid3-hd-row td {
 	border-left: 0px;
-	border-right-color: #737679;
+	border-right-color: rgba(255,255,255,.1);
 }
 
 
@@ -268,7 +268,7 @@ a.x-menu-item{
 }
 
 .x-grid3-header {
-	background-color: rgba(255, 255, 255, 0.13);
+	background-color: rgba(0, 0, 0, 0.15);
 	background-image: none;
 	padding: 2px 1px 2px 1px;
 }
@@ -278,7 +278,7 @@ td.sort-desc .x-grid3-hd-inner,
 td.sort-asc .x-grid3-hd-inner,
 td.x-grid3-hd-menu-open .x-grid3-hd-inner {
 	background-image: none;
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 ul.x-tab-strip-top {
@@ -368,4 +368,122 @@ a.x-menu-item {
 .x-panel-bbar.x-panel-bbar-noborder {
 	position: fixed !important;
 	bottom: 0px !important;
+}
+
+
+/* Preferences */
+
+.x-window-tl .x-window-header {
+	color: #FFF;
+}
+
+.x-window-tl {
+	background-image: none;
+	background-color: #3b4247;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.x-window-tr {
+	background-image: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.x-window-tc {
+	background-image: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.x-window-mr {
+	background-image: none;
+	background-color: #3b4247;
+}
+
+.x-window-ml {
+	background-image: none;
+	background-color: #3b4247;
+}
+
+.x-window-bl {
+	background-image: none;
+	background-color: #3b4247;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.x-window-br {
+	background-image: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.x-window-bc {
+	background-image: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.x-window-plain .x-window-body {
+	border: none;
+}
+
+.x-window-plain .x-window-mc {
+	background-color: #3b4247;
+	border: none;
+}
+
+.x-combo-list .x-combo-selected{
+	color: #000;
+}
+
+.x-combo-list .x-combo-list-item{
+	color: #000;
+}
+
+
+/* Connection Manager */
+
+.x-panel-bbar .x-toolbar,
+.x-panel-tbar .x-toolbar {
+	border-color: #272a2d;
+}
+
+.x-list-header {
+	background-image: none;
+	background-color: #272a2d;
+}
+
+.x-list-header-inner div em {
+	border-left-width: 0px;
+}
+
+
+/* Login Screen */
+
+body.x-body-masked .x-window-plain .x-window-mc {
+	background-color: #3b4247;
+}
+
+
+/* Hide Button Icons */
+
+.x-btn-text {
+	background-image: none !important;
+	padding-left: 0px !important;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+	width: 11px;
+	height: 11px;
+}
+
+::-webkit-scrollbar-track {
+	background: #252729;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #162027;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #16202794;
 }
