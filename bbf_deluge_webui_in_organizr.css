@@ -233,7 +233,8 @@ a.x-menu-item{
 
 .x-panel-floating{
 	background-color: #2c3135;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .ext-el-mask {
