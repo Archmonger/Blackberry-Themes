@@ -24,7 +24,8 @@ A standard configuration that ties together all plex-related services into one v
 * *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Flat#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
 
 ## Alternate Configuration: Standalone Themes<br/>
-For those that do not wish to create a unified media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page to a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Flat#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Flat) to view what themes are available.<br/>
+For those that do not wish to transform Organizr into a media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page to a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Flat#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Flat) to view what themes are available.<br/>
+These themes are still visually compatible with `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css`.<br/>
 
 ## Installation<br/>
 ### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
