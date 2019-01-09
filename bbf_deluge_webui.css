@@ -438,6 +438,9 @@ a.x-menu-item {
 	color: #000;
 }
 
+.x-toolbar{
+	border: none !important;
+}
 
 /* Connection Manager */
 
