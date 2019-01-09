@@ -142,7 +142,7 @@ div#internal-Settings {
 .sidebar-nav {
 	background: rgba(0,0,0,.0);
 	background-color: rgba(0,0,0,.0);
-	margin-top: 40px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
