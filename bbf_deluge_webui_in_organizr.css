@@ -513,9 +513,4 @@ body.x-body-masked .x-window-plain .x-window-mc {
 	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar{
 		height: 45px;
 	}
-
-	#deluge-statusbar .x-toolbar-ct tbody tr .x-toolbar-right{
-		padding-top: 12.5px;
-		padding-bottom: 12.5px;
-	}
 }
