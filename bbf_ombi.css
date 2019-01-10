@@ -357,11 +357,7 @@ p.tv-overview {
 	height: 101%;
 }
 
-.carousel-inner>.item>a>img,
-.carousel-inner>.item>img,
-.img-responsive,
-.thumbnail>img,
-.thumbnail a>img {
+.poster {
 	height: 230px !important;
 	width: 155px !important;
 }
