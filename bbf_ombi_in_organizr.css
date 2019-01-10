@@ -187,6 +187,7 @@ a {
 
 .input-group-addon .btn-group .btn {
 	border: none !important;
+	margin-right: 5px;
 }
 
 .btn-group-sm>.btn,
