@@ -21,6 +21,10 @@ option.ng-star-inserted {
 	color: #000000 !important;
 }
 
+.btn-group, .btn-group-vertical {
+  display: inline-block;
+}
+
 input#search,
 .form-control-custom {
 	background-color: rgba(255, 255, 255, .08) !important;
