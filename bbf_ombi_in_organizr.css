@@ -53,7 +53,7 @@ group-addon {
 	color: #ebebeb;
 }
 
-a>h4 {
+a>h4, h4>a, h5>a {
 	color: #FFFFFF !important;
 }
 
