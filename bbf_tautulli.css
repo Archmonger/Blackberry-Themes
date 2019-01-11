@@ -206,12 +206,12 @@ select.form-control, div.form-control .selectize-input{
 	background-color: rgba(0,0,0,0);
 }
 .btn-danger.btn-edit{
-	background-color: #cc7b19;
+	background-color: #ac3323;
 	border: none !important;
 	color: #FFF;
 }
 .btn-danger.btn-edit:hover, .btn-danger.btn-edit:active{
-	background-color: #e3891c;
+	background-color: #ce3d2a;
 }
 table.display thead th{
 	background-color: rgba(0,0,0,.15);
