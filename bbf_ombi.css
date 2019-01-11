@@ -21,8 +21,10 @@ option.ng-star-inserted {
 	color: #000000 !important;
 }
 
-.btn-group, .btn-group-vertical {
-  display: inline-block;
+@media (min-width: 768px){
+	.col-sm-3 {
+    width: 195px;
+	}
 }
 
 input#search,
