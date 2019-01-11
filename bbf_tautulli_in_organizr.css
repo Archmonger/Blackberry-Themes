@@ -83,7 +83,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .btn-dark:active:hover, .btn-dark.active:hover, .open > .dropdown-toggle.btn-dark:hover, .btn-dark:active:focus, .btn-dark.active:focus, .open > .dropdown-toggle.btn-dark:focus, .btn-dark:active.focus, .btn-dark.active.focus, .open > .dropdown-toggle.btn-dark.focus{
 	background-color: rgba(204, 123, 25, 1);
 }
-text-muted{
+.text-muted{
     color: hsla(0,0%,100%,.45);
 }
 
