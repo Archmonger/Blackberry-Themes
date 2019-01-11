@@ -1,0 +1,68 @@
+Navbar Color: #162027
+Navbar Font Color: hsla(0,0%,100%,.7)
+Navbar Button Font Color (Active): #f9be03
+Navbar Button Font Color (Hover): #FFF
+Navbar Button Color (Notify): #e5a00d
+Navbar Button Content Height: 20px
+Navbar Searchbar Color: hsla(0,0%,100%,.08)
+Navbar Searchbar Height (in Organizr): 35px;
+Navbar Searchbar Height (Plex): 40px;
+Navbar Height (In Organizr): 45px
+Navbar Height (Plex): 60px
+
+Font Color (Primary): hsla(0,0%,100%,.8)
+Font Color (Secondary): hsla(0,0%,100%,.7)
+Font Color (Subtext/Alternate Text): hsla(0,0%,100%,.45)
+Font Color (Hyperlink): #cc7b19
+Font Color (Highlighted/Focused): #f9be03
+Font Color (Success): #468847
+Font Color (Acquired): #53e69d
+Font Color (Unacquired): #929a9c
+Font Family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif
+Font Family (Bold): Open Sans Bold,Helvetica Neue,Helvetica,Arial,sans-serif
+
+Button Color: rgba(0,0,0,.15);
+Button Color (Hover): hsla(0,0%,100%,.08)
+Button Color (Active/Focused): #cc7b19
+Button Color (Active/Focused - Hover): #e3891c
+Button Color (Success): rgba(92, 182, 92, .75)
+Button Color (Danger): #ac3323
+Button Color (Danger - Hover): #ce3d2a
+Button Border Radius: 4px
+
+Floating Object Color (Transparent): rgba(0,0,0,.15)
+Floating Object Color (Solid, Small): rgba(35, 36, 38, .8)
+Floating Object Color (Solid, Large): rgba(35, 36, 38, .65)
+Floating Object Border Radius: 5px
+
+Dropdown Menu Color: #191a1c
+Dropdown Menu Font Color: hsla(0,0%,100%,.7)
+Dropdown Menu Font Color (Hover): #FFF
+Dropdown Menu Font: 13.25px Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif
+Dropdown Menu Padding: 4px (Top/Bottom)
+Dropdown Menu Item Color (Hover): hsla(0,0%,100%,.08)
+Dropdown Menu Item Padding: 4px (Top/Bottom) 20px (Left/Right)
+Dropdown Menu Item Line Height: 22.2857px
+
+Text Input Box: hsla(0,0%,100%,.25)
+Text Input Box (Active): #FFF
+Text Input Box Font Color: #FFF
+Text Input Box Font Color (Active): #000
+
+Small Card Data Item Color: rgba(0,0,0,.15)
+Small Card Data Item Border: bottom 1px solid rgba(0,0,0,.15)
+Small Card Data Item Height: 36px
+Small Card Data Handle Color: rgba(3,3,3,.15)
+Small Card Data Item Font Size: 13.25px
+Small Card Data Handle Icon Color: hsla(0,0%,100%,.3)
+
+Data Table Header Color: rgba(0,0,0,.15)
+Data Table Item Color (Odd): rgba(0,0,0,.25)
+Data Table Item Color (Even): rgba(0,0,0,.15)
+Data Table Item Color (Hover): rgba(255,255,255,.05)
+
+Pagination Button Color: rgba(0,0,0,0.15)
+Pagination Button Color (Active): #cc7b19
+Pagination Button Color (Hover): rgba(255,255,255,.05)
+Pagination Font Color: hsla(0,0%,100%,.45)
+Pagination Font Color (Active/Hover): #FFF
