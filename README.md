@@ -28,7 +28,8 @@ For those that do not wish to transform Organizr into a media portal, all themes
 These themes are still visually compatible with `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css`.<br/>
 
 ## Installation<br/>
-### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett)<br/>
+### [Non-Integrated Themes](http://nginx.org/en/docs/http/ngx_http_sub_module.html)<br/>
+#### [Plex](https://www.plex.tv/), [Synclounge](https://github.com/samcm/synclounge), [Deluge](https://deluge-torrent.org/), [Jackett](https://github.com/Jackett/Jackett), [Tautulli](https://tautulli.com/)<br/>
 For services that don't allow native CSS themes you must use [Nginx](https://nginx.org/en/download.html) to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository. `In Organizr` variants are available for most CSS files.<br/>
 ```
 proxy_set_header Accept-Encoding "";
