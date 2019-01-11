@@ -65,14 +65,19 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 
 /* Homepage */
 .btn-dark{
-	background-color: rgba(0,0,0,.15);
+	background-color: hsla(0,0%,100%,.25);
 	border: none;
+	color: #FFF;
 }
 .btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group{
 	margin-left: 0px;
 }
-.btn-dark:hover{
-	background-color: hsla(0,0%,100%,.08);
+.btn-dark:hover, .btn-dark.inactive:hover{
+	background-color: hsla(0,0%,100%,.3);
+}
+.btn-dark.inactive, .btn-dark.inactive:hover, .btn-dark.inactive:active, .btn-dark.inactive:focus{
+	background-color: rgba(0,0,0,0.15) !important;
+	color: hsla(0,0%,100%,.45) !important;
 }
 .btn-dark:active, .btn-dark.active, .open > .dropdown-toggle.btn-dark{
 	background-color: rgba(204, 123, 25, 1);

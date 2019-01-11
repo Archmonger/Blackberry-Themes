@@ -21,8 +21,8 @@ Font Color (Unacquired): #929a9c
 Font Family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif
 Font Family (Bold): Open Sans Bold,Helvetica Neue,Helvetica,Arial,sans-serif
 
-Button Color: rgba(0,0,0,.15);
-Button Color (Hover): hsla(0,0%,100%,.08)
+Button Color: hsla(0,0%,100%,.25);
+Button Color (Hover): hsla(0,0%,100%,.3)
 Button Color (Active/Focused): #cc7b19
 Button Color (Active/Focused - Hover): #e3891c
 Button Color (Success): rgba(92, 182, 92, .75)
