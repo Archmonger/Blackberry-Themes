@@ -208,6 +208,7 @@ select.form-control, div.form-control .selectize-input{
 .btn-danger.btn-edit{
 	background-color: #cc7b19;
 	border: none !important;
+	color: #FFF;
 }
 .btn-danger.btn-edit:hover, .btn-danger.btn-edit:active{
 	background-color: #e3891c;
