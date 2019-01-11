@@ -83,9 +83,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .btn-dark:active:hover, .btn-dark.active:hover, .open > .dropdown-toggle.btn-dark:hover, .btn-dark:active:focus, .btn-dark.active:focus, .open > .dropdown-toggle.btn-dark:focus, .btn-dark:active.focus, .btn-dark.active.focus, .open > .dropdown-toggle.btn-dark.focus{
 	background-color: rgba(204, 123, 25, 1);
 }
-.text-muted{
-    color: hsla(0,0%,100%,.45);
-}
+
 
 /* Dropdown Menu */
 .dropdown-menu{
@@ -289,4 +287,30 @@ select, .react-selectize.bootstrap3.root-node .react-selectize-control{
 /* Graphs */
 .graphs-instance{
 	background-color: rgba(0,0,0,.15);
+}
+
+/* BBF Customizations */
+.art-face{
+	background-image: none !important;
+}
+.body-container{
+	top: 45px;
+}
+.navbar-collapse.collapse{
+	height: 45px !important;
+}
+.navbar-nav>li>a{
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	color: hsla(0,0%,100%,.7);
+}
+#search_form{
+	padding-top: 5.5px;
+	padding-bottom: 5.5px;
+}
+.navbar-brand{
+	display: none;
+}
+.navbar{
+	min-height: 45px;
 }
