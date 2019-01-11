@@ -10,7 +10,7 @@ CSS changes to many popular web services. Flat and minimal, cleans up unneeded c
 [Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Flat#where-can-i-make-theme-and-icon-requests)<br/>
 [Where are the screenshots?](https://github.com/Archmonger/Blackberry-Flat#where-are-the-screenshots)<br/>
 [What themes are upcoming?](https://github.com/Archmonger/Blackberry-Flat#what-themes-are-upcoming)<br/>
-[How can I make my own BBF Icons?](https://github.com/Archmonger/Blackberry-Flat#how-can-i-make-my-own-bbf-icons)<br/>
+[How can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Flat#how-can-i-make-my-own-bbf-icons-for-organizr)<br/>
 
 ## Recommended Configuration: Organizr Media Portal<br/>
 A standard configuration that ties together all plex-related services into one visibily native package by utilizing Organizr SSO. Focuses on optimized usability and simplicity for users which have access to your Plex library. 
@@ -110,7 +110,7 @@ _Theme Queue:_ Tautulli, Sonarr/Radarr/Lidarr/Logarr/*-arr*.<br/>
 _Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
 _Icon Queue:_ Handled when requested on Feathub.
 
-### How can I make my own BBF Icons?<br/>
+### How can I make my own BBF icons for Organizr?<br/>
 A photoshop document file (PSD) is provided for users who wish to make their own icons, as opposed to requesting for an icon to be created on [Feathub](https://feathub.com/Archmonger/Blackberry-Flat). This can be found in the Blackberry Flat repository's [Extras](https://github.com/Archmonger/Blackberry-Flat/tree/master/Extras) folder.<br/>
 
 ## More Information<br/>
