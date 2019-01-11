@@ -15,13 +15,14 @@ CSS changes to many popular web services. Flat and minimal, cleans up unneeded c
 ## Recommended Configuration: Organizr Media Portal<br/>
 A standard configuration that ties together all plex-related services into one visibily native package by utilizing Organizr SSO. Focuses on optimized usability and simplicity for users which have access to your Plex library. 
 * *OrganizrV2:* Depending on stylistic preference, use either [BBF Organizr](https://github.com/Archmonger/Blackberry-Flat#organizr-v2) or [BBF Organizr On Top of Burry](https://github.com/Archmonger/Blackberry-Flat#organizr-v2-on-top-of-burry), alongside [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons). Utilize the Organizr homepage (Settings > Tab Editor > Homepage Items) as a dedicated calendar tab with Plex Now Playing underneath the calendar. Ensure that plex backend authentication is turned on (Settings >  System Settings > Main > Authentication > Authentication Backend). If you consider adding more elements to the homepage, make them only viewable by Co-Admins or Admins. Set up Organizr SSO for Plex and Ombi.<br/>
-* *Plex:* Use [BBF Plex in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Make this the first Organizr tab, and set it to be the default tab. Have this tab be user viewable.<br/>
+* *Plex:* Use [BBF Plex in Organizr](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Make this the first Organizr tab, and set it to be the default tab. Have this tab be user viewable.<br/>
 * *Ombi:* Use [BBF Ombi in Organizr](https://github.com/Archmonger/Blackberry-Flat#ombi). Have this tab be user viewable.<br/>
-* *Synclounge:* Use [BBF Synclounge in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be user viewable.<br/>
+* *Synclounge:* Use [BBF Synclounge in Organizr](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Have this tab be user viewable.<br/>
 * *Donate:* Use [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons) to choose a donation button (Bitcoin/Paypal/Donate/Donate_Alternate). Set Organizr to open your donation link in a new window. Have this tab be user viewable.
-* *Jackett:* Use [BBF Jackett](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be viewable by ADMINS ONLY.<br/>
-* *Deluge:* Use [BBF Deluge in Organizr](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett). Have this tab be viewable by ADMINS ONLY.<br/>
+* *Jackett:* Use [BBF Jackett](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
+* *Deluge:* Use [BBF Deluge in Organizr](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
 * *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Flat#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
+*  *Tautulli:* Use [BBF Tautulli in Organizr](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
 
 ## Alternate Configuration: Standalone Themes<br/>
 For those that do not wish to transform Organizr into a media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page to a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Flat#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Flat) to view what themes are available.<br/>
@@ -91,7 +92,7 @@ In contrast, non-"In Organizr" versions do not remove any UI elements or feature
 
 ### My subfilter is set up exactly as above, but themes are not working?<br/>
 Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/>
-_Note to Deluge users when subdir reverse proxying on a Windows host machine:_ Deluge on Windows currently has issues with reverse proxies. If you wish to keep deluge on your domains subdir, you will need to copy the code found in `bbf_deluge.css` to the end of deluge's default CSS file. This can be found in `C:\Program Files (x86)\Deluge\deluge-1.3.15-py2.7.egg\deluge\ui\web\css`. Alternatively, you can move Deluge to a subdomain and use subfilter as demonstrated in the [installation instructions](https://github.com/Archmonger/Blackberry-Flat#plex-synclounge-deluge-jackett) above.<br/>
+_Note to Deluge users when subdir reverse proxying on a Windows host machine:_ Deluge on Windows currently has issues with reverse proxies. If you wish to keep deluge on your domains subdir, you will need to copy the code found in `bbf_deluge.css` to the end of deluge's default CSS file. This can be found in `C:\Program Files (x86)\Deluge\deluge-1.3.15-py2.7.egg\deluge\ui\web\css`. Alternatively, you can move Deluge to a subdomain and use subfilter as demonstrated in the [installation instructions](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes) above.<br/>
 
 ### My non-subfilter related themes are not working?<br/>
 Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br/>
@@ -107,8 +108,7 @@ Images are available within the [Screenshots](https://github.com/Archmonger/Blac
 
 ### What themes are upcoming?<br/>
 BBF will focus on previously queued themes, then will transition to popularity based feathub requests.<br/>
-_Theme Queue:_ Tautulli, Sonarr/Radarr/Lidarr/Logarr/*-arr*.<br/>
-_Mobile Queue:_ Jackett mobile, Deluge mobile.<br/>
+_Theme Queue:_ Sonarr/Radarr/Lidarr/Logarr/*-arr*.<br/>
 _Icon Queue:_ Handled when requested on Feathub.
 
 ### How can I make my own BBF icons for Organizr?<br/>
