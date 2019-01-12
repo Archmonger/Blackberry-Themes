@@ -71,6 +71,10 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	text-transform: uppercase;
 	font-size: 13.25px;
 }
+.btn{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
 .btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group{
 	margin-left: 0px;
 }

@@ -32,6 +32,8 @@ Button Color (Danger - Hover): #ce3d2a
 Button Border Radius: 4px
 Button Font Size: 13.25px
 Button Text Transform: Uppercase
+Button Height: 32px
+Button Content Height: 18px
 
 Floating Object Color (Transparent): rgba(0,0,0,.15)
 Floating Object Color (Solid, Small): rgba(35, 36, 38, .8)
