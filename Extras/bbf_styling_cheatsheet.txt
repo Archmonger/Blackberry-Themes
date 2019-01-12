@@ -18,7 +18,7 @@ Font Color (Highlighted/Focused): #f9be03
 Font Color (Success): #468847
 Font Color (Acquired): #53e69d
 Font Color (Unacquired): #929a9c
-Font Family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif
+Font Family (Global): Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif
 Font Family (Bold): Open Sans Bold,Helvetica Neue,Helvetica,Arial,sans-serif
 
 Button Color: hsla(0,0%,100%,.25);
@@ -41,7 +41,7 @@ Floating Object Border Radius: 5px
 Dropdown Menu Color: #191a1c
 Dropdown Menu Font Color: hsla(0,0%,100%,.7)
 Dropdown Menu Font Color (Hover): #FFF
-Dropdown Menu Font: 13.25px Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif
+Dropdown Menu Font Size: 13.25px
 Dropdown Menu Padding: 4px (Top/Bottom)
 Dropdown Menu Item Color (Hover): hsla(0,0%,100%,.08)
 Dropdown Menu Item Padding: 4px (Top/Bottom) 20px (Left/Right)
