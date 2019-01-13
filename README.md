@@ -75,7 +75,7 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 ### [Organizr](https://github.com/causefx/Organizr) [Custom Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons)<br/>
 1) Navigate to Settings > Tab Editor > Tabs<br/>
 2) On each individual tab, click `Edit`.<br/>
-3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's `Icons` folder. A preview image containing all icons is available within this repositories `Screenshots` folder.<br/>
+3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's [Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons) folder. A preview image containing all icons is available within this repositories `Screenshots` folder.<br/>
 
 **_Optional:_ Stylized Sidenav Logout Button**<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
