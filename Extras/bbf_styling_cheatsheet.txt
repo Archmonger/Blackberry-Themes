@@ -35,10 +35,13 @@ Button Text Transform: Uppercase
 Button Height: 32px
 Button Content Height: 18px
 
-Floating Object Color (Transparent): rgba(0,0,0,.15)
-Floating Object Color (Solid, Small): rgba(35, 36, 38, .8)
-Floating Object Color (Solid, Large): rgba(35, 36, 38, .65)
-Floating Object Border Radius: 5px
+On Page Object Color (Transparent): rgba(0,0,0,.15)
+On Page Object Color (Solid, Small): rgba(35, 36, 38, .8)
+On Page Object Color (Solid, Large): rgba(35, 36, 38, .65)
+On Page Object Border Radius: 5px
+
+Modal Window Color: #282828
+Modal Window Header/Footer Color: #323232
 
 Dropdown Menu Color: #191a1c
 Dropdown Menu Font Color: hsla(0,0%,100%,.7)
