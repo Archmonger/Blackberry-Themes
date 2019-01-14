@@ -297,6 +297,9 @@ select, .react-selectize.bootstrap3.root-node .react-selectize-control{
 .table-card-header{
 	border: none;
 }
+select option {
+  color: #000;
+}
 
 /* Graphs */
 .graphs-instance{
