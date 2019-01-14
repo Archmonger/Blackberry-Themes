@@ -127,6 +127,7 @@ A photoshop document file (PSD) is provided for users who wish to make their own
 | Deluge WebUI | 1.3.15 | YES |
 | Jackett | 0.10.566.0 | YES |
 | Organizr | 2.0.0-beta.800 | NO |
+| Tautulli | 2.1.18 | YES |
 
 ### Feathub Requests<br/>
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)<br/>
