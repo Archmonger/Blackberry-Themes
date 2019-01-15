@@ -300,6 +300,9 @@ select, .react-selectize.bootstrap3.root-node .react-selectize-control{
 select option {
   color: #000;
 }
+div.dataTables_filter input {
+  margin-left: 0px;
+}
 
 /* Graphs */
 .graphs-instance{
