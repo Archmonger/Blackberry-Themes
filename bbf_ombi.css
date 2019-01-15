@@ -425,3 +425,20 @@ settings-menu hr {
 .form-control-search[_ngcontent-c1] {
 	width: 100% !important;
 }
+
+/* Scroll Bar Fixes */
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: content-box;
+    top: 45px;
+    position: relative;
+}
+.top-spacing{
+    padding-top: 25px !important;
+    padding-bottom: 45px;
+}
