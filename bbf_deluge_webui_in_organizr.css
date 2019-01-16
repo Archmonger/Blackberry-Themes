@@ -201,6 +201,10 @@ body {
 
 /* Bottom Cell */
 
+.x-tab-strip-active a em span .x-tab-strip-text{
+	color: #f9be03;
+}
+
 .x-tab-panel-body {
 	border: none;
 	background-color: rgba(0,0,0,0);
