@@ -51,7 +51,7 @@ body {
 }
 
 .x-btn button {
-	color: white;
+	color: hsla(0,0%,100%,.7);
 	font-size: 13px;
 	font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -66,8 +66,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.x-btn-over button{
+	color: #FFF !important;
+}
+
 .x-btn-over {
-	background-color: rgba(255, 255, 255, 0.05);
 	border-radius: 4px;
 }
 
