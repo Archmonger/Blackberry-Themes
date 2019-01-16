@@ -17,7 +17,7 @@ html {
 
 html,
 body {
-	color: #FFF;
+	color: hsla(0,0%,100%,.8);
 	font-size: 11px;
 	font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
