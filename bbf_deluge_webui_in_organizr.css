@@ -306,6 +306,11 @@ ul.x-tab-strip-top {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.x-grid3-row {
+	border: none;
+	color: hsla(0,0%,100%,.8);
+}
+
 .x-grid3-row-alt {
 	background-color: rgba(255, 255, 255, 0);
 }
@@ -315,15 +320,14 @@ ul.x-tab-strip-top {
 	background-image: none;
 }
 
-.x-grid3-row {
-	border: none;
-	color: hsla(0,0%,100%,.8);
-}
-
 .x-grid3-row-selected {
 	background-color: rgba(255,255,255,.05) !important;
 	background-image: none;
 	color: #FFF;
+}
+
+.x-grid3-row td, .x-grid3-summary-row td{
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .x-fieldset legend {

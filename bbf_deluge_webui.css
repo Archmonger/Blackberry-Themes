@@ -326,6 +326,10 @@ ul.x-tab-strip-top {
 	color: #FFF;
 }
 
+.x-grid3-row td, .x-grid3-summary-row td{
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .x-fieldset legend {
 	color: rgba(255, 255, 255, 0.6);
 }
