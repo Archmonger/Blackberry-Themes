@@ -492,3 +492,20 @@ body.x-body-masked .x-window-plain .x-window-mc {
 ::-webkit-scrollbar-thumb:hover {
 	background: #16202794;
 }
+
+/* Standardized Buttons */
+.x-btn-noicon .x-btn-small .x-btn-text {
+    text-transform: uppercase;
+    font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13.25px;
+    line-height: 13.25px;
+}
+.x-panel-fbar .x-toolbar-ct tbody tr .x-toolbar-left table .x-toolbar-left-row .x-toolbar-cell .x-btn,
+.x-panel-fbar .x-toolbar-ct tbody tr .x-toolbar-right .x-toolbar-right-ct tbody tr td table tbody .x-toolbar-right-row .x-toolbar-cell .x-btn{
+    background-color: hsla(0,0%,100%,.25);
+    border-radius: 4px;
+}
+.x-panel-fbar .x-toolbar-ct tbody tr .x-toolbar-left table .x-toolbar-left-row .x-toolbar-cell .x-btn:hover,
+.x-panel-fbar .x-toolbar-ct tbody tr .x-toolbar-right .x-toolbar-right-ct tbody tr td table tbody .x-toolbar-right-row .x-toolbar-cell .x-btn:hover{
+    background-color: hsla(0,0%,100%,.3);
+}
