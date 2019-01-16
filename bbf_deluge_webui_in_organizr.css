@@ -133,12 +133,6 @@ body {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.x-grid3-row-selected {
-	background-color: rgba(255, 255, 255, 0) !important;
-	background-image: none;
-	color: rgb(249, 190, 3);
-}
-
 a.x-menu-item img {
 	display: none;
 }
@@ -324,6 +318,12 @@ ul.x-tab-strip-top {
 .x-grid3-row {
 	border: none;
 	color: hsla(0,0%,100%,.8);
+}
+
+.x-grid3-row-selected {
+	background-color: rgba(255,255,255,.05) !important;
+	background-image: none;
+	color: #FFF;
 }
 
 .x-fieldset legend {
