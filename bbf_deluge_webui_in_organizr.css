@@ -252,6 +252,10 @@ body {
 	border-color: rgb(0, 0, 0, 0);
 }
 
+.x-grid3-hd-inner{
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .x-grid3-header {
 	background-color: rgba(0, 0, 0, 0.15);
 	background-image: none;
