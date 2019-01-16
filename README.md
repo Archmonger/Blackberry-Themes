@@ -108,7 +108,7 @@ Images are available within the [Screenshots](https://github.com/Archmonger/Blac
 
 ### What themes are upcoming?<br/>
 BBF will focus on previously queued themes, then will transition to popularity based feathub requests.<br/>
-_Theme Queue:_ Sonarr/Radarr/Lidarr/Logarr/*-arr*.<br/>
+_Theme Queue:_ Sonarr/Radarr/Lidarr/Logarr/*-arr*, Discord Titanbot.<br/>
 _Icon Queue:_ Handled when requested on Feathub.
 
 ### How can I make my own BBF icons for Organizr?<br/>
