@@ -323,6 +323,7 @@ ul.x-tab-strip-top {
 
 .x-grid3-row {
 	border: none;
+	color: hsla(0,0%,100%,.8);
 }
 
 .x-fieldset legend {
