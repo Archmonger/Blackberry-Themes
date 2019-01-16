@@ -58,6 +58,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.x-btn-text-icon .x-btn-icon-small-left .x-btn-text{
+	transition-duration: 0.25s;
+	transition-timing-function: ease;
+}
+
 #tbar-deluge-text.x-item-disabled * {
 	color: white !important;
 	font-size: 13px !important;
