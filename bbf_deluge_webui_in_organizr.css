@@ -52,7 +52,8 @@ body {
 
 .x-btn button {
 	color: hsla(0,0%,100%,.7);
-	font-size: 13px;
+	font-size: 14px;
+	line-height: 14px;
 	font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
