@@ -274,6 +274,12 @@ table.display tr:hover{
 .summary-navbar-list .breadcrumb a{
 	color:hsla(0,0%,100%,.45);
 }
+a {
+  color: hsla(0,0%,100%,.7);
+}
+a:hover, a:focus, table.display td:hover a{
+	color: #FFF;
+}
 
 /* Pagination */
 .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{

@@ -274,6 +274,37 @@ table.display tr:hover{
 .summary-navbar-list .breadcrumb a{
 	color:hsla(0,0%,100%,.45);
 }
+a {
+  color: hsla(0,0%,100%,.7);
+}
+a:hover, a:focus, table.display td:hover a{
+	color: #FFF;
+}
+
+/* Pagination */
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
+	background-color: rgba(0,0,0,.15);
+	color: hsla(0,0%,100%,.45);
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus{
+	background-color: rgba(255,255,255,.05);
+	color: #FFF;
+}
+.pagination > li > a, .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
+	border: none !important;
+}
+.pagination > li > a{
+	color: hsla(0,0%,100%,.45);
+}
+.pagination > li > a{
+	background-color: rgba(0,0,0,0.15);
+}
+table.display tr.shown + tr .pagination > .disabled > a, table.display tr.shown + tr .pagination > .disabled > a:hover {
+    color: hsla(0,0%,100%,.45);
+}
+table.display tr.shown + tr .pagination > .paginate_button > a, table.display tr.shown + tr .pagination > .paginate_button > a:hover {
+    font-size: 13.25px;
+}
 
 /* History */
 select, .react-selectize.bootstrap3.root-node .react-selectize-control{
