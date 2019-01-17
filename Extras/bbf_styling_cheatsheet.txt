@@ -3,7 +3,7 @@ Navbar Font Color: hsla(0,0%,100%,.7)
 Navbar Button Font Color (Active): #f9be03
 Navbar Button Font Color (Hover): #FFF
 Navbar Button Color (Notify): #e5a00d
-Navbar Button Font Size: 14px (with 14px line height)
+Navbar Button Font Size: 14px
 Navbar Button Content Height: 20px
 Navbar Button Transition Duration: 0.25s
 Navbar Button Transition Timing Function: ease
