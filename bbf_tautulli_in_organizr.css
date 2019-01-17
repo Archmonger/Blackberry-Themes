@@ -241,23 +241,6 @@ tr.even{
 table.display tr:hover{
 	background-color: rgba(255,255,255,.05);
 }
-.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
-	background-color: rgba(0,0,0,.15);
-	color: hsla(0,0%,100%,.45);
-}
-.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus{
-	background-color: rgba(255,255,255,.05);
-	color: #FFF;
-}
-.pagination > li > a, .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
-	border: none !important;
-}
-.pagination > li > a{
-	color: hsla(0,0%,100%,.45);
-}
-.pagination > li > a{
-	background-color: rgba(0,0,0,0.15);
-}
 .summary-content-wrapper {
 	background-image: none;
 }
