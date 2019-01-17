@@ -49,7 +49,7 @@ Dropdown Menu Color: #191a1c
 Dropdown Menu Font Color: hsla(0,0%,100%,.7)
 Dropdown Menu Font Color (Hover): #FFF
 Dropdown Menu Font Size: 13.25px
-Dropdown Menu Padding: 4px (Top/Bottom)
+Dropdown Menu Padding: 8px (Top/Bottom)
 Dropdown Menu Item Color (Hover): hsla(0,0%,100%,.08)
 Dropdown Menu Item Padding: 4px (Top/Bottom) 20px (Left/Right)
 Dropdown Menu Item Line Height: 22.2857px
