@@ -102,6 +102,8 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .dropdown-menu{
 	background-color: #191a1c;
 	border-radius: 4px !important;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 .dropdown-menu > li > a{
 	color: hsla(0,0%,100%,.7);
