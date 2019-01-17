@@ -843,6 +843,24 @@ a.text-primary:hover, .text-purple:hover {
 }
 
 
+/* Login Screen Loading Popup */
+.blockUI.blockMsg.blockElement {
+    border: none !important;
+    background-color: #191a1c !important;
+    border-radius: 4px;
+}
+
+.blockUI.blockMsg.blockElement h5{
+    padding: 8px;
+}
+
+.blockUI.blockMsg.blockElement h5 img{
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+
 /* Search Box for Requests */
 
 .white-box.search-div.resultBox-outside {
