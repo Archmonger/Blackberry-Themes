@@ -74,6 +74,10 @@ main {
 	padding-bottom: 20px;
 }
 
+.v-navigation-drawer .container.fill-height .flex.xs12 {
+  padding-bottom: 0px;
+}
+
 .v-navigation-drawer .pa-2 {
 	display: none !important;
 }
