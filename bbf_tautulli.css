@@ -215,6 +215,9 @@ select.form-control, div.form-control .selectize-input{
 }
 
 /* Libraries */
+.user-info-nav a:hover {
+  color:  #FFF;
+}
 .user-overview-stats-instance h4 {
   color: hsla(0,0%,100%,.7);
 }
@@ -303,10 +306,10 @@ a:hover, a:focus, table.display td:hover a{
 	background-color: rgba(0,0,0,0.15);
 }
 table.display tr.shown + tr .pagination > .disabled > a, table.display tr.shown + tr .pagination > .disabled > a:hover {
-    color: hsla(0,0%,100%,.45);
+  color: hsla(0,0%,100%,.45);
 }
 table.display tr.shown + tr .pagination > .paginate_button > a, table.display tr.shown + tr .pagination > .paginate_button > a:hover {
-    font-size: 13.25px;
+  font-size: 13.25px;
 }
 
 /* History */
