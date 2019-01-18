@@ -215,6 +215,9 @@ select.form-control, div.form-control .selectize-input{
 }
 
 /* Libraries */
+.user-overview-stats-instance h4 {
+  color: hsla(0,0%,100%,.7);
+}
 .table-card-back, .table-card-header, .summary-container .table-card-header, .summary-container .table-card-back{
 	background-color: rgba(0,0,0,0);
 }
@@ -230,7 +233,7 @@ table.display thead th{
 	background-color: rgba(0,0,0,.15);
 }
 table.display thead tr:hover{
-		background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
 }
 tr.odd{
 	background-color: rgba(0,0,0,.25);
