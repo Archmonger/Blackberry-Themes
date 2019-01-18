@@ -204,6 +204,6 @@ main {
 	background-color: rgba(0,0,0,0) !important;
 }
 
-.layout.row.wrap .flex.xs12:nth-of-type(2){
+.v-navigation-drawer .layout.row.wrap .flex.xs12:nth-of-type(2){
     height: 45vh !important;
 }
