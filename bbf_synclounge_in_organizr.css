@@ -152,20 +152,18 @@ img.ma-1 {
 .v-icon.v-icon.v-icon--link {
 	padding-left: 0px;
 }
+button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons {
+	visibility: hidden;
+}
 
+button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
+	content: "settings";
+	visibility: visible;
+	transform: translateX(12px);
+}
 @media only screen and (max-width: 768px) {
 	.v-toolbar__content {
 		height: 40px !important;
-	}
-
-	button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons {
-		visibility: hidden;
-	}
-
-	button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
-		content: "last_page";
-		visibility: visible;
-		transform: translateX(12px);
 	}
 	.v-navigation-drawer .layout.row.wrap .flex.xs12:nth-of-type(2){
 		height: 44vh !important;
