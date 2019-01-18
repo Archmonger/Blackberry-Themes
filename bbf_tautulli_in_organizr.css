@@ -325,6 +325,9 @@ select option {
 div.dataTables_filter input {
   margin-left: 0px;
 }
+table.display tr.shown + tr table[id^='history_child'] td:hover a, table.display tr.shown + tr table[id^='history_child'] td:hover a .fa, table.display tr.shown + tr table[id^='media_info_child'] > tr > td:hover a, table.display tr.shown + tr table[id^='media_info_child'] tr.shown + tr table[id^='media_info_child'] td:hover a {
+    color: #eee;
+}
 
 /* Graphs */
 .graphs-instance{
