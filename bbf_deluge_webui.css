@@ -202,6 +202,10 @@ body {
 
 /* Bottom Cell */
 
+.x-tab-strip span.x-tab-strip-text{
+	font-weight: bold;
+}
+
 .x-tab-strip-active a em span .x-tab-strip-text{
 	color: #f9be03;
 }
