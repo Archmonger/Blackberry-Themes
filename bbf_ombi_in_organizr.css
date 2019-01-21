@@ -85,7 +85,7 @@ a>h4, h4>a, h5>a {
 .nav-tabs>li.active>a:hover {
 	background: #cc7b19;
 	border: 0px solid rgba(0, 0, 0, 0.00);
-	margin-bottom: 1.5px;
+	margin-bottom: 3px;
 	border-radius: 4px;
 }
 
