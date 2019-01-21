@@ -36,7 +36,7 @@ input#search,
 
 .input-group-btn:last-child>.btn {
   margin-left: 0px;
-  height: 39px;
+  height: 41px;
   border-radius: 0px !important;
 }
 
@@ -170,8 +170,6 @@ button.btn.btn-sm.btn-info-outline {
 }
 
 .dropdown-menu .divider,
-.dropdown-menu>li>a:focus,
-.dropdown-menu>li>a:hover,
 .input-group-addon,
 .input-group-addon.right-radius {
 	background-color: hsla(0,0%,100%,.25);
@@ -216,6 +214,9 @@ a {
 	border: none !important;
 	margin-right: 5px;
 	background-color: rgba(0,0,0,0.2);
+}
+.input-group-addon .btn-group{
+	top: 9px;
 }
 
 .input-group-addon .btn-group .btn:hover{
@@ -452,6 +453,13 @@ settings-menu hr {
 
 .form-control-search[_ngcontent-c1] {
 	width: 100% !important;
+}
+.form-control-search{
+	padding-top: 10.5px;
+	padding-bottom: 10.5px;
+}
+.form-control{
+	height: 41px;
 }
 
 /* Scroll Bar Fixes */
