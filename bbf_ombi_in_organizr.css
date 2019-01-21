@@ -10,6 +10,7 @@ body {
 	min-height: 100%;
 	height: auto;
 	background-color: rgba(0, 0, 0, .0);
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 html {
@@ -173,7 +174,7 @@ button.btn.btn-sm.btn-info-outline {
 .dropdown-menu>li>a:hover,
 .input-group-addon,
 .input-group-addon.right-radius {
-	background-color: rgba(255, 255, 255, .08);
+	background-color: hsla(0,0%,100%,.25);
 }
 
 .dropdown-menu>.active>a,
@@ -214,6 +215,11 @@ a {
 .input-group-addon .btn-group .btn {
 	border: none !important;
 	margin-right: 5px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.input-group-addon .btn-group .btn:hover{
+	background-color: rgba(0,0,0,0.15) !important;
 }
 
 .btn-group-sm>.btn,
