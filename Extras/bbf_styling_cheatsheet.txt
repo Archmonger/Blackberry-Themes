@@ -30,6 +30,7 @@ Button Color (Inactive): rgba(0,0,0,0.15);
 Button Color (Active/Focused): #cc7b19
 Button Color (Active/Focused - Hover): #e3891c
 Button Color (Success): rgba(92, 182, 92, .75)
+Button Color (Success - Hover): #5cb85c
 Button Color (Danger): #ac3323
 Button Color (Danger - Hover): #ce3d2a
 Button Border Radius: 4px
