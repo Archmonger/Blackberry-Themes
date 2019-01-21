@@ -29,7 +29,7 @@ option.ng-star-inserted {
 
 input#search,
 .form-control-custom {
-	background-color: rgba(255, 255, 255, .08) !important;
+	background-color: hsla(0,0%,100%,.25) !important;
 	border: none !important;
 }
 
