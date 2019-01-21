@@ -147,17 +147,22 @@ button.btn.btn-sm.btn-info-outline {
 }
 
 .dropdown-menu {
-	background-color: rgb(49, 54, 58);
+	background-color: #191a1c;
+	border-radius: 4px !important;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.dropdown-menu>li>a{
+	font-size: 13.25px;
+	color: hsla(0,0%,100%,.7);
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 .ui-dialog-titlebar, .ui-dialog .ui-dialog-content {
 	background: rgb(49, 54, 58) !important;
-}
-
-.dropdown-menu>.active>a,
-.dropdown-menu>.active>a:focus,
-.dropdown-menu>.active>a:hover {
-	background-color: rgba(255, 255, 255, .15);
 }
 
 .dropdown-menu .divider,
@@ -166,6 +171,13 @@ button.btn.btn-sm.btn-info-outline {
 .input-group-addon,
 .input-group-addon.right-radius {
 	background-color: rgba(255, 255, 255, .08);
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+	background-color: hsla(0,0%,100%,.08);
+	color: #FFF;
 }
 
 .ui-state-default {
@@ -453,7 +465,9 @@ body {
 .nav-tabs>li>a>.fa{
 	display: none;
 }
-
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	background-color: hsla(0,0%,100%,.3);
+}
 
 /* BBF in Organizr customizations start here */
 
