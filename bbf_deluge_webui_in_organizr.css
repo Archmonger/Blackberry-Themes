@@ -589,6 +589,37 @@ body.x-body-masked .x-window-plain .x-window-mc {
   background-color: hsla(0,0%,100%,.3);
 }
 
+
+/* Mobile Fixes */
+
+@media only screen and (max-width: 768px){
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar{
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    height: 40px;
+	}
+
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(4),
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(5),
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(6),
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(7),
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(8),
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(9),
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(10),
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(11),
+	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-left-row .x-toolbar-cell:nth-of-type(13){
+	    display: none;
+	}
+
+	.x-panel-bbar .x-toolbar-cell:nth-of-type(1),
+	.x-panel-bbar .x-toolbar-cell:nth-of-type(7),
+	.x-panel-bbar .x-toolbar-cell:nth-of-type(9),
+	.x-panel-bbar .x-toolbar-cell:nth-of-type(11){
+	    display: none !important;
+	}
+}
+
+
 /* BBF in Organizr customizations start here */
 
 #tbar-deluge-text{
