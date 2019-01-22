@@ -446,6 +446,7 @@ a.x-menu-item:hover{
 }
 
 
+
 /* Preferences */
 
 .x-window-tl .x-window-header {
@@ -588,7 +589,9 @@ body.x-body-masked .x-window-plain .x-window-mc {
   background-color: hsla(0,0%,100%,.3);
 }
 
+
 /* Mobile Fixes */
+
 @media only screen and (max-width: 768px){
 	.x-panel-noborder .x-panel-tbar-noborder .x-toolbar{
 	    padding-top: 5px;
@@ -617,4 +620,37 @@ body.x-body-masked .x-window-plain .x-window-mc {
 	.torrent_name{
 		white-space: nowrap;
 	}
+}
+
+/* Replace Ugly Deluge Buttons */
+
+.x-tool-expand-west{
+    background-image: url(https://archmonger.github.io/Blackberry-Flat/Resources/right-arrow.png) !important;
+    background-position: center;
+    background-size: contain;
+}
+.x-tool-collapse-west{
+    background-image: url(https://archmonger.github.io/Blackberry-Flat/Resources/left-arrow.png) !important;
+    background-position: center;
+    background-size: contain;
+}
+.x-tool-collapse-south{
+    background-image: url(https://archmonger.github.io/Blackberry-Flat/Resources/down-arrow.png) !important;
+    background-position: center;
+    background-size: contain;
+}
+.x-tool-expand-south{
+    background-image: url(https://archmonger.github.io/Blackberry-Flat/Resources/up-arrow.png) !important;
+    background-position: center;
+    background-size: contain;
+}
+.x-panel-noborder .x-tool-toggle{
+    background-image: url(https://archmonger.github.io/Blackberry-Flat/Resources/collapse-button.png);
+    background-position: center !important;
+    background-size: contain;
+}
+.x-panel-collapsed .x-tool-toggle{
+    background-image: url(https://archmonger.github.io/Blackberry-Flat/Resources/expand-button.png);
+    background-position: center !important;
+    background-size: contain;
 }
