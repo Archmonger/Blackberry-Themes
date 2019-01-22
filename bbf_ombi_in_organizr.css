@@ -87,7 +87,6 @@ p {
 .nav-pills>li>a, .nav-tabs>li>a, .pager a{
 	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size: 13.25px;
-	text-transform: uppercase;
 	background: hsla(0,0%,100%,.25);
 	background: rgba(0,0,0,0.15);
     margin-right:0px;
