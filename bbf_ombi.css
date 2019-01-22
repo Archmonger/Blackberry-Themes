@@ -571,6 +571,11 @@ settings-menu hr {
 	display: block;
 }
 
+.top-spacing{
+  padding-top: 70px !important
+}
+
+
 /* Move Row Buttons to the Right */
 
 .row .btn{
