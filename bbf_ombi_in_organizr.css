@@ -537,6 +537,7 @@ settings-menu hr {
     margin-right: 0px !important;
 }
 
+
 /* BBF in Organizr customizations start here */
 
 .container.top-spacing>.ng-star-inserted>#searchTitle, .container.top-spacing>.ng-star-inserted>h4, .container.top-spacing>.ng-star-inserted>h1 {
@@ -562,7 +563,7 @@ ul.nav.navbar-nav.navbar-right .dropdown {
 }
 
 ul.nav.navbar-nav.navbar-right li:first-child {
-	display: none !important;
+	display: none;
 }
 
 ul.nav.navbar-nav.donation {
@@ -582,6 +583,9 @@ ul.nav.navbar-nav.donation {
 	visibility: hidden !important;
 }
 
+
+/* Desktop Fixes */
+
 @media only screen and (min-width: 768px){
     .navbar-collapse.collapse{
         height: 45px;
@@ -597,7 +601,21 @@ ul.nav.navbar-nav.donation {
     }
 }
 
+
+/* Mobile Fixes */
+
+@media only screen and (max-width: 768px){
+	ul.nav.navbar-nav.navbar-right li:first-child {
+		display: block !important;
+	}
+	.navbar-nav>li>a{
+		padding-left: 30px;
+	}
+}
+
+
 /* Scroll Bar Fixes */
+
 html {
     height: 100%;
     overflow: hidden;
