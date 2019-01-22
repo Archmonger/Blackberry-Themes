@@ -1,5 +1,5 @@
 /* Body */
-body {
+html {
 	background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
 	background-repeat: repeat, no-repeat;
 	background-attachment: fixed, fixed;
@@ -9,7 +9,7 @@ body {
 	-moz-background-size: auto, cover;
 	-o-background-size: auto, cover;
 	min-height: 100%;
-	height: auto;
+	height: 100%;
 	background-color: rgba(0, 0, 0, .0);
 }
 .body-container{
