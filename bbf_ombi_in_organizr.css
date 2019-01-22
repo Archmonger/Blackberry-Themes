@@ -96,6 +96,8 @@ button.btn.btn-primary-outline.disabled.ng-star-inserted,
 	border-color: #FFFFFF !important;
 	border: none;
 	background-color: rgba(255,255,255,0.17);
+	font-size: 13.25px;
+	text-transform: uppercase;
 }
 
 .btn-info-outline,
