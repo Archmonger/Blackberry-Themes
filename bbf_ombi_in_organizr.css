@@ -121,8 +121,8 @@ button.btn.btn-primary-outline.disabled.ng-star-inserted,
 .btn{
 	font-size: 13.25px !important;
 	text-transform: uppercase;
-	padding-top: 9.5px;
-	padding-bottom: 9.5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
 }
 
 .btn .fa{
@@ -268,7 +268,7 @@ a {
 
 .btn-group-sm>.btn,
 .btn-sm {
-	padding: 9px 13px;
+	padding: 6.5px 13px;
 }
 
 .label {
