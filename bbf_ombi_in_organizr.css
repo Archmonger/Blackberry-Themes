@@ -562,7 +562,7 @@ settings-menu hr {
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
-	background-color: hsla(0,0%,100%,.3);
+	background-color: hsla(0,0%,100%,.1);
 	border-color: rgba(0,0,0,0)
 }
 
