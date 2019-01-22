@@ -184,10 +184,21 @@ button.btn.btn-sm.btn-info-outline {
 
 .ui-state-default {
 	border: none !important;
+	border-radius: 4px;
+}
+
+.ui-state-default.ng-star-inserted{
+	color: hsla(0,0%,100%,.45);
+	background-color: rgba(0,0,0,0.15);
+}
+
+.ui-state-default.ng-star-inserted:hover{
+	color: #FFF;
+	background-color: rgba(255,255,255,.05);
 }
 
 .ui-state-active {
-	background-color: rgba(255, 255, 255, .15) !important;
+	background-color: #cc7b19 !important;
 	color: #FFFFFF !important;
 }
 
