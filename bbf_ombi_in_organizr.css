@@ -488,7 +488,7 @@ body {
 
 /* BBF in Organizr customizations start here */
 
-#searchTitle, h4, h1 {
+.container.top-spacing>.ng-star-inserted>#searchTitle, .container.top-spacing>.ng-star-inserted>h4, .container.top-spacing>.ng-star-inserted>h1 {
     display: none;
     margin: 0px !important;
     padding: 0px !important;
