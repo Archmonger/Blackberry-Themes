@@ -556,15 +556,15 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 
 ::-webkit-scrollbar-track {
-	background: #252729;
+	background: rgba(0,0,0,0.15);
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #162027;
+	background: rgba(0,0,0,0.2);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #16202794;
+	background: rgba(0,0,0,0.3);
 }
 
 /* Standardized BBF Button Styling */
