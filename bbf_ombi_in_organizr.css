@@ -522,12 +522,19 @@ settings-menu hr {
 .form-control-search[_ngcontent-c1] {
 	width: 100% !important;
 }
+
 .form-control-search{
 	padding-top: 10.5px;
 	padding-bottom: 10.5px;
 }
+
 .form-control{
 	height: 41px;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 /* BBF in Organizr customizations start here */
