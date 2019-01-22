@@ -557,6 +557,15 @@ settings-menu hr {
   margin-right: 0px !important;
 }
 
+.nav-tabs>li>a>.fa{
+	display: none;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	background-color: hsla(0,0%,100%,.3);
+	border-color: rgba(0,0,0,0)
+}
+
 
 /* Mobile Fixes */
 
