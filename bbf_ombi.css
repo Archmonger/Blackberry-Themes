@@ -93,6 +93,9 @@ a>h4, h4>a, h5>a {
 .nav-tabs>li.active>a:hover {
 	background: #cc7b19;
 	border: 0px solid rgba(0, 0, 0, 0.00);
+}
+
+a[role="tab"]{
 	margin-bottom: 3px;
 }
 
@@ -554,13 +557,8 @@ ul.nav.navbar-nav.navbar-right li:first-child {
 	.navbar-nav>li>a{
 		padding-left: 30px;
 	}
-	.nav-tabs>li{
+	settings-menu .nav-tabs>li{
 		margin-bottom: 2px;
 		display: block;
 	}
-	.nav-tabs>li.active>a,
-    .nav-tabs>li.active>a:focus,
-    .nav-tabs>li.active>a:hover {
-        margin-bottom: 0px;
-    }
 }
