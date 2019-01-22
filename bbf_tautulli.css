@@ -352,3 +352,20 @@ table.display tr.shown + tr table[id^='history_child'] td:hover a, table.display
     text-transform: uppercase;
     font-size: 13.25px;
 }
+
+/* Mobile Fixes */
+.navbar-collapse.collapse.in {
+    height: auto !important;
+}
+
+.navbar-toggle{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background: rgba(0,0,0,0) !important;
+}
+
+@media only screen and (max-width: 768px){
+	.navbar{
+		min-height: 40px !important;
+	}
+}
