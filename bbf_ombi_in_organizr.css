@@ -65,7 +65,15 @@ group-addon {
 }
 
 a>h4, h4>a, h5>a {
-	color: #FFFFFF !important;
+	color: hsla(0,0%,100%,.8) !important;
+}
+
+p {
+  color: hsla(0,0%,100%,.7);
+}
+
+.label {
+    margin-right: 6px;
 }
 
 .navbar-default .navbar-nav>.active>a,
