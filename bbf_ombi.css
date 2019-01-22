@@ -464,6 +464,8 @@ p.tv-overview {
 .nav-tabs>li>a,
 .pager a {
 	border-radius: 4px;
+	transition-duration: 0.25s;
+	transition-timing-function: ease;
 }
 
 table.table.table-striped.table-hover.table-responsive.table-condensed {

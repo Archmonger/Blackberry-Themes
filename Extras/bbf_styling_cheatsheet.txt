@@ -39,6 +39,8 @@ Button Font Size: 13.25px
 Button Text Transform: Uppercase
 Button Height: 32px
 Button Content Height: 18px
+Button Transition Duration: 0.25s
+Button Transition Timing Function: ease
 
 On Page Object Color (Transparent): rgba(0,0,0,.15)
 On Page Object Color (Solid, Small): rgba(35, 36, 38, .8)
