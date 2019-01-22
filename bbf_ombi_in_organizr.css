@@ -93,8 +93,6 @@ a>h4, h4>a, h5>a {
 .nav-tabs>li.active>a:hover {
 	background: #cc7b19;
 	border: 0px solid rgba(0, 0, 0, 0.00);
-	margin-bottom: 3px;
-	border-radius: 4px;
 }
 
 .btn-primary-outline,
@@ -533,17 +531,41 @@ settings-menu hr {
 }
 
 .row {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+/* Mobile Fixes */
+
+ul.nav.navbar-nav.navbar-right li:first-child {
+	display: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: rgba(0,0,0,0);
+}
+
+@media only screen and (max-width: 768px){
+	ul.nav.navbar-nav.navbar-right li:first-child {
+		display: block !important;
+	}
+	.navbar-nav>li>a{
+		padding-left: 30px;
+	}
+	.nav-tabs>li{
+		margin-bottom: 2px;
+		display: block;
+	}
 }
 
 
 /* BBF in Organizr customizations start here */
 
 .container.top-spacing>.ng-star-inserted>#searchTitle, .container.top-spacing>.ng-star-inserted>h4, .container.top-spacing>.ng-star-inserted>h1 {
-    display: none;
-    margin: 0px !important;
-    padding: 0px !important;
+  display: none;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .container.top-spacing>.ng-star-inserted>br{
@@ -562,9 +584,7 @@ ul.nav.navbar-nav.navbar-right .dropdown {
 	display: none;
 }
 
-ul.nav.navbar-nav.navbar-right li:first-child {
-	display: none;
-}
+
 
 ul.nav.navbar-nav.donation {
 	display: none !important;
@@ -599,18 +619,6 @@ ul.nav.navbar-nav.donation {
         margin-top: 10.5px;
         margin-bottom: 10.5px;
     }
-}
-
-
-/* Mobile Fixes */
-
-@media only screen and (max-width: 768px){
-	ul.nav.navbar-nav.navbar-right li:first-child {
-		display: block !important;
-	}
-	.navbar-nav>li>a{
-		padding-left: 30px;
-	}
 }
 
 
