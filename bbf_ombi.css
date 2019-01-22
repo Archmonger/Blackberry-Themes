@@ -97,7 +97,7 @@ button.btn.btn-primary-outline.disabled.ng-star-inserted,
 	border: none;
 	background-color: rgba(255,255,255,0.17);
 	font-size: 13.25px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 .btn-info-outline,
@@ -226,14 +226,14 @@ a {
 .input-group-addon .btn-group .btn {
 	border: none !important;
 	margin-right: 5px;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.2) !important;
 }
 .input-group-addon .btn-group{
 	top: 9px;
 }
 
 .input-group-addon .btn-group .btn:hover{
-	background-color: rgba(0,0,0,0.15) !important;
+	background-color: rgba(0,0,0,0.12) !important;
 }
 
 .btn-group-sm>.btn,
