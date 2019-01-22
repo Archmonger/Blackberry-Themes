@@ -567,6 +567,9 @@ settings-menu hr {
 	border-color: rgba(0,0,0,0)
 }
 
+.navbar .nav a .fa-language{
+	display: block;
+}
 
 /* Move Row Buttons to the Right */
 
