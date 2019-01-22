@@ -617,6 +617,9 @@ body.x-body-masked .x-window-plain .x-window-mc {
 	.x-panel-bbar .x-toolbar-cell:nth-of-type(11){
 	    display: none !important;
 	}
+	.torrent_name{
+		white-space: nowrap;
+	}
 }
 
 
