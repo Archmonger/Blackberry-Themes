@@ -569,6 +569,10 @@ ul.nav.navbar-nav.navbar-right li:first-child {
 
 /* BBF in Organizr customizations start here */
 
+#settings a {
+  padding-right: 19px;
+}
+
 .container.top-spacing>.ng-star-inserted>#searchTitle, .container.top-spacing>.ng-star-inserted>h4, .container.top-spacing>.ng-star-inserted>h1 {
   display: none;
   margin: 0px !important;
