@@ -149,6 +149,7 @@ button.btn.btn-sm.btn-info-outline {
 
 .nav-tabs>li>a:hover {
 	border-color: rgba(255, 255, 255, .08);
+	color: #FFF;
 }
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
