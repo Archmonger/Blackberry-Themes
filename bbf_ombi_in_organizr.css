@@ -105,6 +105,10 @@ button.btn.btn-primary-outline.disabled.ng-star-inserted,
 	text-transform: uppercase;
 }
 
+.btn .fa{
+	display: none;
+}
+
 .btn-info-outline,
 button.btn.btn-sm.btn-info-outline {
 	color: #FFFFFF !important;
@@ -243,7 +247,7 @@ a {
 
 .btn-group-sm>.btn,
 .btn-sm {
-	padding: 9px 10px;
+	padding: 9px 13px;
 }
 
 .label {
@@ -351,7 +355,7 @@ table.table>tbody>tr>td{
 }
 
 .btn-split .btn.dropdown-toggle {
-	padding: 7.5px 10px;
+	padding: 9.5px 10px;
 }
 
 .btn-warning-outline {
