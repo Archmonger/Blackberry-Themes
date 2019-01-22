@@ -87,24 +87,30 @@ p {
 .nav-pills>li>a, .nav-tabs>li>a, .pager a{
 	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size: 13.25px;
-	border: none;
 	text-transform: uppercase;
 	background: hsla(0,0%,100%,.25);
+	background: rgba(0,0,0,0.15);
+    margin-right:0px;
+    border-radius: 0px;
+    border-color: rgba(255,255,255,0.05);
+    border-width: 0 1px 0 0;
 }
 
 .nav-pills>li>a:hover, .nav-tabs>li>a:hover, .pager a:hover, .nav>li>a:focus, .nav>li>a:hover{
-	background: hsla(0,0%,100%,.3);
+	background: hsla(0,0%,100%,.08);
 }
 
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
 	background: #cc7b19;
-	border: 0px solid rgba(0, 0, 0, 0.00);
+    border-color: #cc7b19;
+    border-width: 0 1px 0 0;
 }
 
 a[role="tab"]{
-	margin-bottom: 3px;
+	margin-bottom: 1px;
+	border-radius: 4px !important;
 }
 
 .btn-primary-outline,
@@ -473,7 +479,6 @@ p.tv-overview {
 .nav-pills>li>a,
 .nav-tabs>li>a,
 .pager a {
-	border-radius: 4px;
 	transition-duration: 0.25s;
 	transition-timing-function: ease;
 }
