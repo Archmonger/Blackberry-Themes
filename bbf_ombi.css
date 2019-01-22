@@ -100,6 +100,11 @@ button.btn.btn-primary-outline.disabled.ng-star-inserted,
 	text-transform: uppercase;
 }
 
+.btn{
+	font-size: 13.25px !important;
+	text-transform: uppercase;
+}
+
 .btn-info-outline,
 button.btn.btn-sm.btn-info-outline {
 	color: #FFFFFF !important;
