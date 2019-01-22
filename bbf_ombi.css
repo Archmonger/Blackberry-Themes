@@ -568,6 +568,17 @@ settings-menu hr {
 }
 
 
+/* Move Row Buttons to the Right */
+
+.row .btn{
+    float: right !important;
+}
+
+.row .col-sm-2:nth-of-type(5){
+    margin-top: 18px !important;
+}
+
+
 /* Search Input Styling */
 
 .search-bar-background input#search, .search-bar-background .form-control-custom, .search-bar-background .input-group-addon{
