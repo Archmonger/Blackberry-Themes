@@ -570,6 +570,15 @@ settings-menu hr {
 
 /* Search Input Styling */
 
+.search-bar-background input#search, .search-bar-background .form-control-custom, .search-bar-background .input-group-addon{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.search-bar-background[_ngcontent-c1]{
+    background-color: hsla(0,0%,100%,.25) !important;
+    border-radius: 4px;
+}
+
 .input-group:focus-within {
     background: #FFF !important;
     border-radius:4px;
