@@ -34,6 +34,14 @@ input#search,
 	border: none !important;
 }
 
+.search-bar-background[_ngcontent-c2]{
+	background-color: rgba(0,0,0,0)
+}
+
+.form-control-search[_ngcontent-c2]{
+	width: 100%;
+}
+
 .input-group-btn:last-child>.btn {
   margin-left: 0px;
   height: 41px;
