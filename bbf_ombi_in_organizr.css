@@ -568,6 +568,28 @@ settings-menu hr {
 }
 
 
+/* Search Input Styling */
+
+.input-group:focus-within {
+    background: #FFF !important;
+    border-radius:4px;
+}
+
+.input-group:focus-within .fa {
+    color: #000;
+}
+
+.input-group:focus-within .input-group-addon .btn-group .btn{
+    color: #FFF !important;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+input#search:focus, .form-control-custom:focus{
+    color: #000;
+    background: #FFF !important;
+}
+
+
 /* Mobile Fixes */
 
 ul.nav.navbar-nav.navbar-right li:first-child {

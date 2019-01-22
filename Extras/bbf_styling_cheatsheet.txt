@@ -68,9 +68,9 @@ Dropdown Menu Item Padding: 4px (Top/Bottom) 20px (Left/Right)
 Dropdown Menu Item Height: 26px
 
 Text Input Box: hsla(0,0%,100%,.25)
-Text Input Box (Active): #FFF
+Text Input Box (Focus): #FFF
 Text Input Box Font Color: #FFF
-Text Input Box Font Color (Active): #000
+Text Input Box Font Color (Focus): #000
 
 Small Card Data Item Color: rgba(0,0,0,.15)
 Small Card Data Item Border: bottom 1px solid rgba(0,0,0,.15)
