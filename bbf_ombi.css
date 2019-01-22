@@ -10,6 +10,7 @@ body {
 	min-height: 100%;
 	height: auto;
 	background-color: rgba(0, 0, 0, .0);
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 html {
@@ -29,13 +30,13 @@ option.ng-star-inserted {
 
 input#search,
 .form-control-custom {
-	background-color: rgba(255, 255, 255, .08) !important;
+	background-color: hsla(0,0%,100%,.25) !important;
 	border: none !important;
 }
 
 .input-group-btn:last-child>.btn {
   margin-left: 0px;
-  height: 39px;
+  height: 41px;
   border-radius: 0px !important;
 }
 
@@ -63,16 +64,28 @@ a>h4, h4>a, h5>a {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
 	background-color: rgba(204, 123, 25, 0);
-	color: rgb(249, 190, 3);
+	color: #f9be03;
 	border-radius: 4px;
+}
+
+.nav-pills>li>a, .nav-tabs>li>a, .pager a{
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 13.25px;
+	border: none;
+	text-transform: uppercase;
+	background: hsla(0,0%,100%,.25);
+}
+
+.nav-pills>li>a:hover, .nav-tabs>li>a:hover, .pager a:hover, .nav>li>a:focus, .nav>li>a:hover{
+	background: hsla(0,0%,100%,.3);
 }
 
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
-	background: rgba(204, 123, 25, 1);
+	background: #cc7b19;
 	border: 0px solid rgba(0, 0, 0, 0.00);
-	margin-bottom: 1.5px;
+	margin-bottom: 3px;
 	border-radius: 4px;
 }
 
@@ -95,8 +108,11 @@ button.btn.btn-sm.btn-info-outline {
 
 .btn-danger-outline{
 	border: none;
-	background-color: #d6000054;
+	background-color: #ac3323;
 	color: #FFF !important;
+}
+.btn-danger-outline.active, .btn-danger-outline.focus, .btn-danger-outline:active, .btn-danger-outline:focus, .btn-danger-outline:hover, .open>.btn-danger-outline.dropdown-toggle{
+	background-color: #ce3d2a !important;
 }
 
 .btn-info-outline:hover, .btn-info-outline:active, .btn-info-outline:focus {
@@ -107,23 +123,20 @@ button.btn.btn-sm.btn-info-outline {
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
 	color: #FFFFFF;
-	background-color: rgba(255, 255, 255, .08);
+	background-color: rgba(255, 255, 255, .0);
 }
 
 .nav-tabs>li>a:hover {
 	border-color: rgba(255, 255, 255, .08);
 }
 
-.nav>li>a:focus,
-.nav>li>a:hover {
-	border-radius: 4px;
-	background-color: rgba(255, 255, 255, .08);
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
 	border: 0px solid rgba(0, 0, 0, 0.00);
-}
-
-.nav>li>a:focus,
-.nav>li>a {
-	border: 0px solid rgba(0, 0, 0, 0.00);
+	color: hsla(0,0%,100%,.7);
+	transition-timing-function: ease;
+	transition-duration: 0.25s;
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 14px;
 }
 
 .input-addon,
@@ -138,33 +151,54 @@ button.btn.btn-sm.btn-info-outline {
 }
 
 .dropdown-menu {
-	background-color: rgb(49, 54, 58);
+	background-color: #191a1c;
+	border-radius: 4px !important;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.dropdown-menu>li>a{
+	font-size: 13.25px;
+	color: hsla(0,0%,100%,.7);
+	font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 .ui-dialog-titlebar, .ui-dialog .ui-dialog-content {
 	background: rgb(49, 54, 58) !important;
 }
 
+.dropdown-menu .divider,
+.input-group-addon,
+.input-group-addon.right-radius {
+	background-color: hsla(0,0%,100%,.25);
+}
+
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
-	background-color: rgba(255, 255, 255, .15);
-}
-
-.dropdown-menu .divider,
-.dropdown-menu>li>a:focus,
-.dropdown-menu>li>a:hover,
-.input-group-addon,
-.input-group-addon.right-radius {
-	background-color: rgba(255, 255, 255, .08);
+	background-color: hsla(0,0%,100%,.08);
+	color: #FFF;
 }
 
 .ui-state-default {
 	border: none !important;
+	border-radius: 4px;
+}
+
+.ui-state-default.ng-star-inserted{
+	color: hsla(0,0%,100%,.45);
+	background-color: rgba(0,0,0,0.15);
+}
+
+.ui-state-default.ng-star-inserted:hover{
+	color: #FFF;
+	background-color: rgba(255,255,255,.05);
 }
 
 .ui-state-active {
-	background-color: rgba(255, 255, 255, .15) !important;
+	background-color: #cc7b19 !important;
 	color: #FFFFFF !important;
 }
 
@@ -190,6 +224,14 @@ a {
 .input-group-addon .btn-group .btn {
 	border: none !important;
 	margin-right: 5px;
+	background-color: rgba(0,0,0,0.2);
+}
+.input-group-addon .btn-group{
+	top: 9px;
+}
+
+.input-group-addon .btn-group .btn:hover{
+	background-color: rgba(0,0,0,0.15) !important;
 }
 
 .btn-group-sm>.btn,
@@ -227,7 +269,8 @@ a {
 }
 
 a.active {
-	background-color: rgba(255, 255, 255, .08);
+	background-color: rgba(255, 255, 255, .15) !important;
+	color: #FFF !important;
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
@@ -253,7 +296,6 @@ a.active {
 .btn-success-outline {
 	color: #FFFFFF !important;
 	background-color: rgba(92, 182, 92, .75);
-	border-color: #5cb85c !important;
 	border: none;
 }
 
@@ -347,8 +389,7 @@ p.tv-overview {
 
 .dropdown-menu a .fa,
 .navbar .nav a .fa {
-	font-size: 105% !important;
-	top: 0px !important;
+	display: none;
 }
 
 .btn-link {
@@ -425,20 +466,10 @@ settings-menu hr {
 .form-control-search[_ngcontent-c1] {
 	width: 100% !important;
 }
-
-/* Scroll Bar Fixes */
-html {
-    height: 100%;
-    overflow: hidden;
+.form-control-search{
+	padding-top: 10.5px;
+	padding-bottom: 10.5px;
 }
-body {
-    height: 100%;
-    overflow-y: scroll;
-    box-sizing: content-box;
-    top: 45px;
-    position: relative;
-}
-.top-spacing{
-    padding-top: 25px !important;
-    padding-bottom: 45px;
+.form-control{
+	height: 41px;
 }

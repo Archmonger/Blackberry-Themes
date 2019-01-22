@@ -474,29 +474,6 @@ settings-menu hr {
 	height: 41px;
 }
 
-/* Scroll Bar Fixes */
-html {
-    height: 100%;
-    overflow: hidden;
-}
-body {
-    height: 100%;
-    overflow-y: scroll;
-    box-sizing: content-box;
-    top: 45px;
-    position: relative;
-}
-.top-spacing{
-    padding-top: 25px !important;
-    padding-bottom: 45px;
-}
-.nav-tabs>li>a>.fa{
-	display: none;
-}
-.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
-	background-color: hsla(0,0%,100%,.3);
-}
-
 /* BBF in Organizr customizations start here */
 
 .container.top-spacing>.ng-star-inserted>#searchTitle, .container.top-spacing>.ng-star-inserted>h4, .container.top-spacing>.ng-star-inserted>h1 {
@@ -555,4 +532,27 @@ ul.nav.navbar-nav.donation {
         margin-top: 10.5px;
         margin-bottom: 10.5px;
     }
+}
+
+/* Scroll Bar Fixes */
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: content-box;
+    top: 45px;
+    position: relative;
+}
+.top-spacing{
+    padding-top: 25px !important;
+    padding-bottom: 45px;
+}
+.nav-tabs>li>a>.fa{
+	display: none;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	background-color: hsla(0,0%,100%,.3);
 }
