@@ -592,6 +592,7 @@ settings-menu hr {
 .row .col-sm-2:nth-of-type(5), .col-sm-3{
     margin-top: 18px !important;
     margin-bottom: 18px !important;
+    padding-left:  0px;
 }
 
 
