@@ -97,6 +97,13 @@ img.dark-logo {
 	margin-right: 20px;
 }
 
+.navbar-top-links>li>a {
+    color: hsla(0,0%,100%,.7);
+}
+
+.top-left-part a {
+     color: hsla(0,0%,100%,.7);
+}
 
 /* Sidebar Styling */
 
