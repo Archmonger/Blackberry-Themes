@@ -62,6 +62,14 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
 	background-color: rgba(0,0,0,0);
 }
+.fa.fa-search {
+    color: hsla(0,0%,100%,.7);
+    transition-timing-function:ease;
+    transition-duration: 0.25s;
+}
+.fa.fa-search:hover, .input-group:focus-within .fa.fa-search {
+    color: #FFF;
+}
 
 /* Homepage */
 .btn-dark{
