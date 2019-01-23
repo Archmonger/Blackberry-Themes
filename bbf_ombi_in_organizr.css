@@ -580,6 +580,12 @@ settings-menu hr {
     padding-bottom: 15px;
 }
 
+.request-title {
+    font-size: 19px !important;
+    margin-bottom: 10.5px !important;
+    margin-top: 10.5px !important;
+}
+
 
 /* Add Padding to Row Buttons */
 
