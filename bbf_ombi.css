@@ -587,12 +587,16 @@ settings-menu hr {
 
 /* Move Row Buttons to the Right */
 
-#movieList .row .btn{
+.row .btn-group{
     float: right !important;
 }
 
-#tvList .row .btn{
+.row .btn{
     float: right !important;
+}
+
+.row .btn-group .btn{
+    float: left !important;
 }
 
 
