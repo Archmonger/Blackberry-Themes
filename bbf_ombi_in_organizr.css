@@ -383,7 +383,7 @@ table.table>tbody>tr>td{
 }
 
 .btn-split .btn.dropdown-toggle {
-	padding: 9.5px 10px;
+	padding: 7px 10px;
 }
 
 .btn-warning-outline {
@@ -577,17 +577,23 @@ settings-menu hr {
 }
 
 
-/* Move Row Buttons to the Right */
+/* Add Padding to Row Buttons */
 
-.row .btn{
-    float: right !important;
-}
-
-.row .col-sm-2:nth-of-type(5){
+.row .col-sm-2:nth-of-type(5), .col-sm-3{
     margin-top: 18px !important;
     margin-bottom: 18px !important;
 }
 
+
+/* Move Row Buttons to the Right */
+
+#movieList .row .btn{
+    float: right !important;
+}
+
+#tvList .row .btn{
+    float: right !important;
+}
 
 /* Search Input Styling */
 
