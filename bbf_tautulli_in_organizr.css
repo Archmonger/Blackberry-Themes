@@ -395,3 +395,29 @@ table.display tr.shown + tr table[id^='history_child'] td:hover a, table.display
 .navbar{
 	min-height: 45px;
 }
+
+/* Re-order Navbar Elements */
+@media (min-width: 768px){
+.navbar-collapse.navbar-right.collapse.in{
+    float: left !important;
+    width: 100%;
+}
+.navbar-collapse.navbar-right.collapse.in>.nav.navbar-nav{
+    width: 100%;
+    margin-left: -19px;
+}
+.navbar-collapse.navbar-right.collapse.in>.nav.navbar-nav>li:nth-of-type(8){
+    float:right;
+    transform:translateX(289px);
+}
+.navbar-collapse.navbar-right.collapse.in>.nav.navbar-nav>li:nth-of-type(1){
+    float:right;
+    transform:translateX(-45px);
+}
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .navbar-collapse.navbar-right.collapse.in>.nav.navbar-nav>li:nth-of-type(8){
+    float:left;
+    transform:translateX(0px);
+}
+}
