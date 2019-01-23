@@ -417,7 +417,7 @@ table.display tr.shown + tr table[id^='history_child'] td:hover a, table.display
 }
 @media (max-width: 991px) and (min-width: 768px){
     .navbar-collapse.navbar-right.collapse.in>.nav.navbar-nav>li:nth-of-type(8){
-    float:left;
-    transform:translateX(0px);
+    float:right;
+    transform:translateX(19px);
 }
 }
