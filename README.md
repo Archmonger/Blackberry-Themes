@@ -1,8 +1,9 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Flat/Resources/blackberry_themes_logo.png)
 CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
 
-## Support on Beerpay
-[![Beerpay](https://beerpay.io/Archmonger/Blackberry-Flat/badge.svg?style=beer-square)](https://beerpay.io/Archmonger/Blackberry-Flat)  [![Beerpay](https://beerpay.io/Archmonger/Blackberry-Flat/make-wish.svg?style=flat-square)](https://beerpay.io/Archmonger/Blackberry-Flat?focus=wish)
+## Donate
+[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg)](https://beerpay.io/Archmonger/Blackberry-Flat)
+[![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/mgbakhit)
 
 ## FAQ<br/>
 [How do I use Blackberry Flat?](https://github.com/Archmonger/Blackberry-Flat#how-do-i-use-blackberry-flat)<br/>
