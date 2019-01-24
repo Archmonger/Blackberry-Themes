@@ -85,7 +85,7 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 
 **_Optional:_ Stylized Sidenav Logout Button**<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/Extras/bbf_organizr_logout_button.css";` at the **top** of the text box. <br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Themes/Extras/bbf_organizr_logout_button.css";` at the **top** of the text box. <br/>
 
 ## FAQ<br/>
 ### How do I use Blackberry Flat?<br/>
