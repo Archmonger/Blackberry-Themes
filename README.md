@@ -1,4 +1,4 @@
-# Blackberry Flat Theme Pack (BBF)
+# Blackberry Theme Pack
 CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
 
 ## FAQ<br/>
@@ -147,4 +147,4 @@ Toolbox and Desktop Computer made by [itim2101](https://www.flaticon.com/authors
 Expand Button made by [Google](https://www.flaticon.com/authors/google) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
 Check, Comment, Sign Out Alt, Cog, and Cogs made by [fontawesome](https://fontawesome.com/) from www.fontawesome.com is licensed by [CC 4.0 BY](https://creativecommons.org/licenses/by/4.0/)<br/>
 Blur Light and Blur Noise made by [Plex](https://www.plex.tv/)<br/>
-All logos found within `Archmonger/Blackberry-Flat/Icons` belong to their respective owners and Archmonger does not claim copyright, trademark, or ownership of these logos. Archmonger claims no endorsement or affiliation to the services, repositories, teams, groups, and/or companies referenced within `Archmonger/Blackberry-Flat`. Blackberry Themes has no relationship to BlackBerry Limited.<br/>
+All logos found within this repository's `Icons` folder belong to their respective owners and Archmonger does not claim copyright, trademark, or ownership of these logos. Archmonger claims no endorsement or affiliation to the services, repositories, teams, groups, and/or companies referenced within this repository. Blackberry Themes has no relationship to BlackBerry Limited.<br/>
