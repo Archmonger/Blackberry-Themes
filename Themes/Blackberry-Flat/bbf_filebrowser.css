@@ -2,7 +2,7 @@
     color: #FFF;
 }
 #login {
-    background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
+    background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
     background-repeat: repeat, no-repeat;
     background-attachment: fixed, fixed;
     background-position: center center, center center;
@@ -33,7 +33,7 @@ button:hover, input[type=submit]:hover{
     color: #FFF;
 }
 html {
-    background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
+    background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
     background-repeat: repeat, no-repeat;
     background-attachment: fixed, fixed;
     background-position: center center, center center;
@@ -89,12 +89,12 @@ body{
 }
 #listing.list .item{
     background-color: rgba(0,0,0,.15);
-    color:rgb(238, 238, 238);   
+    color:rgb(238, 238, 238);
     border: none;
 }
 #listing.list .item:hover{
     background-color:rgba(255, 255, 255, 0.08);
-    color:rgb(238, 238, 238);   
+    color:rgb(238, 238, 238);
     border: none;
     transition: .4s;
 }
@@ -114,15 +114,15 @@ body{
     color: rgb(238, 238, 238);
 }
 #breadcrumbs span a{
-    color: rgb(238, 238, 238);    
+    color: rgb(238, 238, 238);
 }
 #listing .item{
     background-color: rgba(0,0,0,.15);
-    color:rgb(238, 238, 238);   
+    color:rgb(238, 238, 238);
     border: none;
 }
 #search #result{
-    background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png");
+    background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
     background-repeat: repeat, no-repeat;
     background-attachment: fixed, fixed;
     background-position: center center, center center;
@@ -166,7 +166,7 @@ select {
 input, textarea, select, button{
     color: rgb(238, 238, 238);
 }
-.collapsible>label *{    
+.collapsible>label *{
     color: rgb(238, 238, 238);
 }
 a{
@@ -183,7 +183,7 @@ table th{
 }
 
 #listing.mosaic .item{
-    box-shadow: none !important; 
+    box-shadow: none !important;
 }
 #listing.mosaic .item:hover{
     box-shadow: none !important;

@@ -333,7 +333,7 @@ span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"]{
   display: none;
 }
 .background-container div[class*="FullPage-container-"] div div div{
-  background-image: url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Flat/Resources/blur-light.png") !important;
+  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
 	background-repeat: repeat, no-repeat !important;
 	background-attachment: fixed, fixed !important;
 	background-position: center center, center center !important;
