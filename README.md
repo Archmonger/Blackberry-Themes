@@ -148,3 +148,8 @@ Expand Button made by [Google](https://www.flaticon.com/authors/google) from www
 Check, Comment, Sign Out Alt, Cog, and Cogs made by [fontawesome](https://fontawesome.com/) from www.fontawesome.com is licensed by [CC 4.0 BY](https://creativecommons.org/licenses/by/4.0/)<br/>
 Blur Light and Blur Noise made by [Plex](https://www.plex.tv/)<br/>
 All logos found within this repository's `Icons` folder belong to their respective owners and Archmonger does not claim copyright, trademark, or ownership of these logos. Archmonger claims no endorsement or affiliation to the services, repositories, teams, groups, and/or companies referenced within this repository. Blackberry Themes has no relationship to BlackBerry Limited.<br/>
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/Archmonger/Blackberry-Flat/badge.svg?style=beer-square)](https://beerpay.io/Archmonger/Blackberry-Flat)  [![Beerpay](https://beerpay.io/Archmonger/Blackberry-Flat/make-wish.svg?style=flat-square)](https://beerpay.io/Archmonger/Blackberry-Flat?focus=wish)
