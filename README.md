@@ -84,6 +84,7 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's [Icons](https://github.com/Archmonger/Blackberry-Themes/tree/master/Icons) folder. A preview image containing all icons is available within this repository's [Screenshots](https://github.com/Archmonger/Blackberry-Themes/blob/master/Screenshots) folder.<br/>
 
 **_Optional:_ Stylized Sidenav Logout Button**<br/>
+By default, all Blackberry themes automatically delete the sidenav logout button. This is due to the fact that a logout button is already present in the user dropdown menu, and therefore the sidnav button can be considered redundant. However, the sidenav logout button is automatically re-enabled when following the instructions below.<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
 2) Paste in `@import "https://archmonger.github.io/Blackberry-Themes/Extras/bbf_organizr_logout_button.css";` at the **top** of the text box. <br/>
 
