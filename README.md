@@ -8,30 +8,30 @@ CSS changes to many popular web services. Flat and minimal, cleans up unneeded c
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/mgbakhit)
 
 ## FAQ<br/>
-[How do I use Blackberry Flat?](https://github.com/Archmonger/Blackberry-Flat#how-do-i-use-blackberry-flat)<br/>
-[What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Flat#what-is-in-organizr)<br/>
-[My subfilter is set up exactly as above, but themes are not working?](https://github.com/Archmonger/Blackberry-Flat#my-subfilter-is-set-up-exactly-as-above-but-themes-are-not-working)<br/>
-[My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Flat#my-non-subfilter-related-themes-are-not-working)<br/>
-[What does Blackberry Flat Plex do?](https://github.com/Archmonger/Blackberry-Flat#what-does-blackberry-flat-plex-do)<br/>
-[Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Flat#where-can-i-make-theme-and-icon-requests)<br/>
-[Where are the screenshots?](https://github.com/Archmonger/Blackberry-Flat#where-are-the-screenshots)<br/>
-[What themes are upcoming?](https://github.com/Archmonger/Blackberry-Flat#what-themes-are-upcoming)<br/>
-[How can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Flat#how-can-i-make-my-own-bbf-icons-for-organizr)<br/>
+[How do I use Blackberry Flat?](https://github.com/Archmonger/Blackberry-Themes#how-do-i-use-blackberry-flat)<br/>
+[What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Themes#what-is-in-organizr)<br/>
+[My subfilter is set up exactly as above, but themes are not working?](https://github.com/Archmonger/Blackberry-Themes#my-subfilter-is-set-up-exactly-as-above-but-themes-are-not-working)<br/>
+[My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes#my-non-subfilter-related-themes-are-not-working)<br/>
+[What does Blackberry Flat Plex do?](https://github.com/Archmonger/Blackberry-Themes#what-does-blackberry-flat-plex-do)<br/>
+[Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Themes#where-can-i-make-theme-and-icon-requests)<br/>
+[Where are the screenshots?](https://github.com/Archmonger/Blackberry-Themes#where-are-the-screenshots)<br/>
+[What themes are upcoming?](https://github.com/Archmonger/Blackberry-Themes#what-themes-are-upcoming)<br/>
+[How can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes#how-can-i-make-my-own-bbf-icons-for-organizr)<br/>
 
 ## Recommended Configuration: Organizr Media Portal<br/>
 A standard configuration that ties together all plex-related services into one visibily native package by utilizing Organizr SSO. Focuses on optimized usability and simplicity for users which have access to your Plex library.
-* *OrganizrV2:* Depending on stylistic preference, use either [BBF Organizr](https://github.com/Archmonger/Blackberry-Flat#organizr-v2) or [BBF Organizr On Top of Burry](https://github.com/Archmonger/Blackberry-Flat#organizr-v2-on-top-of-burry), alongside [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons). Set up Organizr SSO for Plex and Ombi. Utilize the Organizr homepage (Settings > Tab Editor > Homepage Items) as a dedicated calendar tab with Plex Now Playing underneath the calendar. Ensure that plex backend authentication is turned on (Settings >  System Settings > Main > Authentication > Authentication Backend). If you consider adding more elements to the homepage, consider making them only viewable by Co-Admins or Admins. This is to avoid unnecessary duplication of user-viewable data (ex. Recently added on both the Plex tab and Calendar tab).<br/>
-* *Plex:* Use [BBF Plex in Organizr](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Make this the first Organizr tab, and set it to be the default tab. Have this tab be user viewable.<br/>
-* *Ombi:* Use [BBF Ombi in Organizr](https://github.com/Archmonger/Blackberry-Flat#ombi). Have this tab be user viewable.<br/>
-* *Synclounge:* Use [BBF Synclounge in Organizr](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Have this tab be user viewable.<br/>
-* *Donate:* Use [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons) to choose a donation button (Bitcoin/Paypal/Donate/Donate_Alternate). Set Organizr to open your donation link in a new window. Have this tab be user viewable.
-* *Jackett:* Use [BBF Jackett](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
-* *Deluge:* Use [BBF Deluge in Organizr](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
-* *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Flat#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
-*  *Tautulli:* Use [BBF Tautulli in Organizr](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
+* *OrganizrV2:* Depending on stylistic preference, use either [BBF Organizr](https://github.com/Archmonger/Blackberry-Themes#organizr-v2) or [BBF Organizr On Top of Burry](https://github.com/Archmonger/Blackberry-Themes#organizr-v2-on-top-of-burry), alongside [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Themes#organizr-custom-icons). Set up Organizr SSO for Plex and Ombi. Utilize the Organizr homepage (Settings > Tab Editor > Homepage Items) as a dedicated calendar tab with Plex Now Playing underneath the calendar. Ensure that plex backend authentication is turned on (Settings >  System Settings > Main > Authentication > Authentication Backend). If you consider adding more elements to the homepage, consider making them only viewable by Co-Admins or Admins. This is to avoid unnecessary duplication of user-viewable data (ex. Recently added on both the Plex tab and Calendar tab).<br/>
+* *Plex:* Use [BBF Plex in Organizr](https://github.com/Archmonger/Blackberry-Themes#non-integrated-themes). Make this the first Organizr tab, and set it to be the default tab. Have this tab be user viewable.<br/>
+* *Ombi:* Use [BBF Ombi in Organizr](https://github.com/Archmonger/Blackberry-Themes#ombi). Have this tab be user viewable.<br/>
+* *Synclounge:* Use [BBF Synclounge in Organizr](https://github.com/Archmonger/Blackberry-Themes#non-integrated-themes). Have this tab be user viewable.<br/>
+* *Donate:* Use [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Themes#organizr-custom-icons) to choose a donation button (Bitcoin/Paypal/Donate/Donate_Alternate). Set Organizr to open your donation link in a new window. Have this tab be user viewable.
+* *Jackett:* Use [BBF Jackett](https://github.com/Archmonger/Blackberry-Themes#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
+* *Deluge:* Use [BBF Deluge in Organizr](https://github.com/Archmonger/Blackberry-Themes#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
+* *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Themes#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
+*  *Tautulli:* Use [BBF Tautulli in Organizr](https://github.com/Archmonger/Blackberry-Themes#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
 
 ## Alternate Configuration: Standalone Themes<br/>
-For those that do not wish to transform Organizr into a media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page to a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Flat#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Flat) to view what themes are available.<br/>
+For those that do not wish to transform Organizr into a media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page to a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Themes#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Themes) to view what themes are available.<br/>
 These themes are still visually compatible with `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css`.<br/>
 
 ## Installation<br/>
@@ -66,7 +66,7 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 4) Enable `Alternate Homepage Titles`.<br/>
 5) Navigate to Settings > Customize > Notifications.<br/>
 6) Change type to `lzi`.<br/>
-7) Consider using [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Flat#organizr-custom-icons).
+7) Consider using [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Themes#organizr-custom-icons).
 
 ### [Organizr V2 On Top of Burry](https://github.com/Burry/organizr-v2-plex-theme)<br/>
 1) Navigate to Settings > Customize > Marketplace.<br/>
@@ -78,10 +78,10 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. Docker users must use `organizrtools/organizr-v2:latest` and install Burry's theme from the marketplace._<br/>
 
-### [Organizr](https://github.com/causefx/Organizr) [Custom Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons)<br/>
+### [Organizr](https://github.com/causefx/Organizr) [Custom Icons](https://github.com/Archmonger/Blackberry-Themes/tree/master/Icons)<br/>
 1) Navigate to Settings > Tab Editor > Tabs<br/>
 2) On each individual tab, click `Edit`.<br/>
-3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's [Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons) folder. A preview image containing all icons is available within this repository's [Screenshots](https://github.com/Archmonger/Blackberry-Flat/blob/master/Screenshots) folder.<br/>
+3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's [Icons](https://github.com/Archmonger/Blackberry-Themes/tree/master/Icons) folder. A preview image containing all icons is available within this repository's [Screenshots](https://github.com/Archmonger/Blackberry-Themes/blob/master/Screenshots) folder.<br/>
 
 **_Optional:_ Stylized Sidenav Logout Button**<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
@@ -89,7 +89,7 @@ _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have do
 
 ## FAQ<br/>
 ### How do I use Blackberry Flat?<br/>
-Installation instructions for all supported services can be found [here](https://github.com/Archmonger/Blackberry-Flat#installation).
+Installation instructions for all supported services can be found [here](https://github.com/Archmonger/Blackberry-Themes#installation).
 
 ### What is "in Organizr"?<br/>
 Most BBF themes come in a In Organizr variant, which allows them to seemlessly fit in to the Organizr theme `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css` without appearing as if they are an iFramed service. This is accomplished by removing logos, modifying the navbar to a standard size, optimize the interface for SSO usage, as well as other miscellaneous in-site tweaks depending on the specific service.<br/>
@@ -98,7 +98,7 @@ In contrast, non-"In Organizr" versions do not remove any UI elements or feature
 
 ### My subfilter is set up exactly as above, but themes are not working?<br/>
 Subfilter will not function while gzip is enabled. Please confirm whether or not gzip is enabled within nginx. If so, disable gzip.<br/>
-_Note to Deluge users when subdir reverse proxying on a Windows host machine:_ Deluge on Windows currently has issues with reverse proxies. If you wish to keep deluge on your domains subdir, you will need to copy the code found in `bbf_deluge.css` to the end of deluge's default CSS file. This can be found in `C:\Program Files (x86)\Deluge\deluge-1.3.15-py2.7.egg\deluge\ui\web\css`. Alternatively, you can move Deluge to a subdomain and use subfilter as demonstrated in the [installation instructions](https://github.com/Archmonger/Blackberry-Flat#non-integrated-themes) above.<br/>
+_Note to Deluge users when subdir reverse proxying on a Windows host machine:_ Deluge on Windows currently has issues with reverse proxies. If you wish to keep deluge on your domains subdir, you will need to copy the code found in `bbf_deluge.css` to the end of deluge's default CSS file. This can be found in `C:\Program Files (x86)\Deluge\deluge-1.3.15-py2.7.egg\deluge\ui\web\css`. Alternatively, you can move Deluge to a subdomain and use subfilter as demonstrated in the [installation instructions](https://github.com/Archmonger/Blackberry-Themes#non-integrated-themes) above.<br/>
 
 ### My non-subfilter related themes are not working?<br/>
 Please clear browser cache. If using Cloudflare, also clear Cloudflare cache.<br/>
@@ -110,7 +110,7 @@ While most themes aim to plexify the user interface, that would be irrational in
 Requests can be made through [Feathub](https://feathub.com/Archmonger/Blackberry-Flat)! <br/>
 
 ### Where are the screenshots?<br/>
-Images are available within the [Screenshots](https://github.com/Archmonger/Blackberry-Flat/tree/master/Screenshots) folder.<br/>
+Images are available within the [Screenshots](https://github.com/Archmonger/Blackberry-Themes/tree/master/Screenshots) folder.<br/>
 
 ### What themes are upcoming?<br/>
 BBF will focus on previously queued themes, then will transition to popularity based feathub requests.<br/>
@@ -118,7 +118,7 @@ _Theme Queue:_ Sonarr/Radarr/Lidarr/Logarr/*-arr*, Discord Titanbot.<br/>
 _Icon Queue:_ Handled when requested on Feathub.
 
 ### How can I make my own BBF icons for Organizr?<br/>
-A photoshop document file (PSD) is provided for users who wish to make their own icons, as opposed to requesting for an icon to be created on [Feathub](https://feathub.com/Archmonger/Blackberry-Flat). This can be found in the Blackberry Flat repository's [Extras](https://github.com/Archmonger/Blackberry-Flat/tree/master/Extras) folder.<br/>
+A photoshop document file (PSD) is provided for users who wish to make their own icons, as opposed to requesting for an icon to be created on [Feathub](https://feathub.com/Archmonger/Blackberry-Flat). This can be found in the Blackberry Flat repository's [Extras](https://github.com/Archmonger/Blackberry-Themes/tree/master/Extras) folder.<br/>
 
 ## More Information<br/>
 
