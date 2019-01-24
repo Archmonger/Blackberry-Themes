@@ -40,22 +40,22 @@ These themes are still visually compatible with `bbf_organizr.css` and `bbf_orga
 For services that don't allow native CSS themes you must use [Nginx](https://nginx.org/en/download.html) to run these services behind a reverse proxy, then edit your configuration to inject CSS. This can be accomplished with sub_filter (http_sub_module). Replace the `XXXXX` with the name of the theme you are using, which can be found by looking through this repository. `In Organizr` variants are available for most CSS files.<br/>
 ```
 proxy_set_header Accept-Encoding "";
-sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Flat/bbf_XXXXX.css"> </head>';
+sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_XXXXX.css"> </head>';
 sub_filter_once on;
 ```
 ### [Ombi](https://github.com/tidusjar/Ombi)<br/>
 1) Navigate to Settings > Configuration > Customization > Custom CSS.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_ombi.css";`. If using Organizr, change `bbf_ombi.css` to `bbf_ombi_in_organizr.css`.<br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_ombi.css";`. If using Organizr, change `bbf_ombi.css` to `bbf_ombi_in_organizr.css`.<br/>
 
 _Note: Make sure to have Settings > Configuration > Customization > Preset Themes set to `Please Select` (disabled)._<br/>
 
 ### [Filebrowser](https://filebrowser.github.io/)<br/>
 1) Navigate to Settings > Profile Settings > Custom Stylesheet.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_filebrowser.css";` at the **top** of the text box. If using Organizr, change `bbf_filebrowser.css` to `bbf_filebrowser_in_organizr.css`.<br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_filebrowser.css";` at the **top** of the text box. If using Organizr, change `bbf_filebrowser.css` to `bbf_filebrowser_in_organizr.css`.<br/>
 
 ### [Organizr V2](https://github.com/causefx/Organizr)
 1) Navigate to Settings > Customize > Custom CSS.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr.css";` at the **top** of the text box.<br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_organizr.css";` at the **top** of the text box.<br/>
 3) Navigate to Settings > Customize > Colors and Themes.<br/>
 4) Ensure Theme is set to `Organizr` and Style is set to `Dark`.<br/>
 
@@ -74,18 +74,18 @@ _Note: Make sure to have Settings > Configuration > Customization > Preset Theme
 3) Navigate to Settings > Customize > Colors & Themes > Theme.<br/>
 4) Select `Plex`.<br/>
 5) Navigate to Settings > Customize > Custom CSS.<br/>
-6) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/bbf_organizr_on_top_of_burry.css";` at the **top** of the text box. <br/>
+6) Paste in `@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_organizr_on_top_of_burry.css";` at the **top** of the text box. <br/>
 
 _Note: Make sure NOT to change i=40 to i=60, as Burry recommends. If you have done so already, please revert. Docker users must use `organizrtools/organizr-v2:latest` and install Burry's theme from the marketplace._<br/>
 
 ### [Organizr](https://github.com/causefx/Organizr) [Custom Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons)<br/>
 1) Navigate to Settings > Tab Editor > Tabs<br/>
 2) On each individual tab, click `Edit`.<br/>
-3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's [Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons) folder. A preview image containing all icons is available within this repository's [Screenshots](https://github.com/Archmonger/Blackberry-Flat/blob/master/Screenshots) folder.<br/>
+3) For `Tab Image`, paste in `https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/Icons/bbf_XXXXX.png`. Replace the `XXXXX` with the name of the icon you are using, which can be found by looking through this repository's [Icons](https://github.com/Archmonger/Blackberry-Flat/tree/master/Icons) folder. A preview image containing all icons is available within this repository's [Screenshots](https://github.com/Archmonger/Blackberry-Flat/blob/master/Screenshots) folder.<br/>
 
 **_Optional:_ Stylized Sidenav Logout Button**<br/>
 1) Navigate to Settings > Customize > Custom CSS.<br/>
-2) Paste in `@import "https://archmonger.github.io/Blackberry-Flat/Extras/bbf_organizr_logout_button.css";` at the **top** of the text box. <br/>
+2) Paste in `@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/Extras/bbf_organizr_logout_button.css";` at the **top** of the text box. <br/>
 
 ## FAQ<br/>
 ### How do I use Blackberry Flat?<br/>
