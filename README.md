@@ -1,5 +1,7 @@
-# ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Flat/Resources/blackberry_themes_logo.png)
+# ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
 CSS changes to many popular web services. Flat and minimal, cleans up unneeded clutter, and fixes many UI issues on desktop/mobile. Custom Icons for Organizr are available within the `Icons` folder. These are not required, but may prove useful.<br/>
+
+[![Discord](https://img.shields.io/badge/Discord-Join-orange.svg)](https://discord.gg/sfjkDaM)<br/>
 
 ## Donate
 [![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg)](https://beerpay.io/Archmonger/Blackberry-Flat)
