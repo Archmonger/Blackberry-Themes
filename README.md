@@ -57,7 +57,7 @@ For those that do not wish to transform Organizr into a media portal, all themes
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)<br/>
 
 ### **Credits**<br/>
-Special thanks to [@Leram84](https://github.com/leram84) and [@goldenpipes](https://github.com/goldenpipes)<br/>
+Special thanks to [@Leram84](https://github.com/leram84), [@goldenpipes](https://github.com/goldenpipes), and [@tamburra](https://github.com/tamburra).<br/>
 Jacket, Calendar day 15 icon, Security Camera, Piggy bank with Dollar Coins, Multiple users silhouette, Television, Submarine, Crane, Books stack of three, Home Icon Silhouette, Avocado, Newsletter, 3D, Open book, Open book top view, Music, Headphones with music, and Raindrop made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
 Folder made by [Kiranshastry](https://www.flaticon.com/authors/kiranshastry) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
 Headphones made by [Pixel Buddha](https://www.flaticon.com/authors/pixel-buddha) from www.flaticon.com is licensed by [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)<br/>
