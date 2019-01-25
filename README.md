@@ -5,7 +5,7 @@ Feel free to join us on Discord to become a part of our CSS development team, re
  
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg)](https://discord.gg/sfjkDaM)<br/>
 
-## Like what we do? Donate!
+### Like what we do? Donate!
 [![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg)](https://beerpay.io/Archmonger/Blackberry-Flat)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/mgbakhit)
 
@@ -33,8 +33,7 @@ Turn Organizr into a media portal! This is a standard configuration that ties to
 *  *Tautulli:* Use [BBF Tautulli in Organizr](https://github.com/Archmonger/Blackberry-Themes#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
 
 ## Alternate Configuration: Standalone Themes<br/>
-For those that do not wish to transform Organizr into a media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page to a traditional plex-like style for more typical applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Themes#installation) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Themes) to view what themes are available.<br/>
-These themes are still visually compatible with `bbf_organizr.css` and `bbf_organizr_on_top_of_burry.css`.<br/>
+For those that do not wish to transform Organizr into a media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page for a more typical applications. These themes do not remove any UI elements or features, and are intended for standalone domains. See [installation instructions](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Themes/Themes/) to view what themes are available.<br/>
 
 ## More Information<br/>
 
