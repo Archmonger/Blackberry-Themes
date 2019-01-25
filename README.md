@@ -10,15 +10,14 @@ Feel free to join us on Discord to become a part of our CSS development team, re
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/mgbakhit)
 
 ## FAQ<br/>
-[How do I use Blackberry Themes?]()<br/>
-[What is "in Organizr"?]()<br/>
-[My subfilter is set up exactly as above, but themes are not working?]()<br/>
-[My non-subfilter related themes are not working?]()<br/>
-[What does Blackberry Flat Plex do?]()<br/>
-[Where can I make theme and icon requests?]()<br/>
-[Where are the screenshots?]()<br/>
-[What themes are upcoming?]()<br/>
-[How can I make my own BBF icons for Organizr?]()<br/>
+[How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
+[Where are the screenshots?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-are-the-screenshots)<br/>
+[What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-is-in-organizr)<br/>
+[What does Blackberry Flat Plex do?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-does-blackberry-flat-plex-do)<br/>
+[Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-can-i-make-theme-and-icon-requests)<br/>
+[Can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#can-i-make-my-own-bbf-icons-for-organizr)<br/>
+[My subfilter is set up exactly as shown, but themes are not working!](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-subfilter-is-set-up-exactly-as-shown-but-themes-are-not-working)<br/>
+[My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
 
 ## Standard Configurations
 ### Blackberry Flat Media Portal (Recommended)<br/>
