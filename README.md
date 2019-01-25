@@ -36,7 +36,7 @@ Turn Organizr into a media portal! This is a standard configuration that ties to
 *  *Radarr:* Coming soon.<br/>
 
 ### Standalone Themes<br/>
-For those that do not wish to transform Organizr into a media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page for more standalone applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions) or look through the [Blackberry Flat repository](https://github.com/Archmonger/Blackberry-Themes/Themes/) to view what themes are available.<br/>
+For those that do not wish to transform Organizr into a media portal, all themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features, and simply focus on theming the original page for more standalone applications. See [installation instructions](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions) or look through the [Themes folder](https://github.com/Archmonger/Blackberry-Themes/tree/master/Themes) in the Blackberry Themes repository to view what themes are available.<br/>
 
 ## More Information<br/>
 
