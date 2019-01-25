@@ -308,7 +308,7 @@ div[data-qa-id*="hub--home.newscast"] {
   display: none;
 }
 
-/* In Organizr Customizations Start Here */
+/* In Organizr customizations start here */
 div[class*="NavBar-right-"] {
   padding-right: 7px;
 }

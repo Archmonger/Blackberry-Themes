@@ -378,7 +378,7 @@ table.display tr.shown + tr table[id^='history_child'] td:hover a, table.display
 	}
 }
 
-/* BBF in Organizr customizations start here */
+/* In Organizr customizations start here */
 .art-face{
 	background-image: none !important;
 }
