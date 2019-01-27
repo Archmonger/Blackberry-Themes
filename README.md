@@ -53,6 +53,6 @@ For those that do not wish to transform Organizr into a media portal, Blackberry
 | Tautulli | 2.1.18 | YES |
 
 ### Feathub Requests<br/>
-[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)<br/>
+[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)<br/>
 
 ### **[Credits, Disclaimers, and Legal Stuff](https://github.com/Archmonger/Blackberry-Themes/wiki/Credits)**<br/>
