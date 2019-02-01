@@ -544,10 +544,6 @@ settings-menu hr {
 	border: none;
 }
 
-.search-bar-background[_ngcontent-c1] {
-	background-color: #0000 !important;
-}
-
 .form-control-search[_ngcontent-c1] {
 	width: 100% !important;
 }
@@ -625,7 +621,7 @@ settings-menu hr {
     background-color: rgba(0,0,0,0) !important;
 }
 
-.search-bar-background[_ngcontent-c1]{
+.search-bar-background{
     background-color: hsla(0,0%,100%,.25) !important;
     border-radius: 4px;
 }
