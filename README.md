@@ -1,12 +1,12 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
-We are a theming group dedicated to creating a consistent UI experience across multiple web services via CSS changes to many popular web applications. Many of our themes come with variants focused on Organizr V2 integration to create a unified visual experience across tabs. These themes are flat and minimal, clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites. Individual themes will often come with custom icons for Organizr, which are available within the theme's `Icons` folder. These are not required, but may prove useful.<br/>
+We are an open source theming group dedicated to creating a consistent UI experience across multiple web services via CSS changes to many popular web applications. Our themes come with variants focused on Organizr V2 integration to create a unified visual experience across tabs. These themes are flat and minimal, clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites. Individual themes will often come with custom icons for Organizr, which are available within the theme's `Icons` folder. These are not required, but may prove useful.<br/>
 
 Feel free to join us on Discord to become a part of our theme development team, report bugs, ask for CSS advice, or become a tester!<br/>
 
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg)](https://discord.gg/sfjkDaM)<br/>
 
 ### Like what we do? Donate!
-[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg)](https://beerpay.io/Archmonger/Blackberry-Flat)
+[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg)](https://beerpay.io/Archmonger/Blackberry-Themes)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/mgbakhit)
 
 ## FAQ<br/>
@@ -53,6 +53,6 @@ For those that do not wish to transform Organizr into a media portal, Blackberry
 | Tautulli | 2.1.18 | YES |
 
 ### Feathub Requests<br/>
-[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Flat?format=svg)](http://feathub.com/Archmonger/Blackberry-Flat)<br/>
+[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)<br/>
 
 ### **[Credits, Disclaimers, and Legal Stuff](https://github.com/Archmonger/Blackberry-Themes/wiki/Credits)**<br/>
