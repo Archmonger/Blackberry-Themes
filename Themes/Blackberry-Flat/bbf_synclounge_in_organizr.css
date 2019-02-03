@@ -133,7 +133,9 @@ main {
 }
 
 button.v-btn.theme--dark.primary {
-	display: none;
+	background-color: rgba(0,0,0,0) !important;
+	border-color: rgba(0,0,0,0) !important;
+	margin-right: 20px;
 }
 
 img.ma-1 {
@@ -190,7 +192,7 @@ button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
 }
 
 .v-toolbar__content button .v-btn__content {
-    background-color: #162027;
+    background-color: rgba(0,0,0,0);
 }
 
 main {
