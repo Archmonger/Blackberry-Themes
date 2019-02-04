@@ -40,6 +40,9 @@ div[class*="QuickSearchInput-container"]{
 div[class*="QuickSearchInput-container"]:focus-within{
     background-color: #FFF;
 }
+div[class*="QuickSearchProvider-title"], a[class*="QuickSearchPlaceholderLink-placeholder"] {
+	width: auto;
+}
 /*Homepage, sidenav, and misc*/
 .server-settings-container label{
   padding-left: 20px;
