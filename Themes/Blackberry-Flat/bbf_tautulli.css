@@ -323,6 +323,11 @@ table.display tr.shown + tr .pagination > .paginate_button > a, table.display tr
   font-size: 13.25px;
 }
 
+/* Users */
+.edit-user-toggles>input[type=checkbox]+label, .edit-library-toggles>input[type=checkbox]+label{
+    color: hsla(0,0%,100%,.7);
+}
+
 /* History */
 select, .react-selectize.bootstrap3.root-node .react-selectize-control{
 	background-color:hsla(0,0%,100%,.25);
