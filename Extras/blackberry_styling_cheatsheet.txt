@@ -1,5 +1,5 @@
 Navbar Color: #162027
-Navbar Font Color: hsla(0,0%,100%,.7)
+Navbar Button Color/Font Color: hsla(0,0%,100%,.7)
 Navbar Button Font Color (Active): #f9be03
 Navbar Button Font Color (Hover): #FFF
 Navbar Button Color (Notify): #e5a00d
