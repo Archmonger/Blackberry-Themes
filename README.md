@@ -26,11 +26,11 @@ Turn Organizr into a media portal! This is a standard configuration that ties to
 * *Plex:* Use [BBF Plex in Organizr](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#non-integrated-themes). We recommend making this the first Organizr tab, and set it to be the default tab if the intention of your Organizr setup is to provide Plex library access. Have this tab be user viewable.<br/>
 * *Ombi:* Use [BBF Ombi in Organizr](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#ombi). Have this tab be user viewable.<br/>
 * *Synclounge:* Use [BBF Synclounge in Organizr](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#non-integrated-themes). Have this tab be user viewable.<br/>
+*  *Tautulli:* Use [BBF Tautulli in Organizr](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#non-integrated-themes). Have this tab be user viewable if you have set up Guest Access within Tautulli. Otherwise, have this tab be viewable by admins.<br/>
 * *Donate:* Use [BBF Organizr Custom Icons](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#organizr-custom-icons) to choose a donation button (Bitcoin/Paypal/Donate/Donate_Alternate). Set Organizr to open your donation link in a new window. Have this tab be user viewable.
 * *Jackett:* Use [BBF Jackett](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
 * *Deluge:* Use [BBF Deluge in Organizr](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
 * *Filebrowser:* Use [BBF Filebrowser in Organizr](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#filebrowser). Have this tab be viewable by ADMINS ONLY.<br/>
-*  *Tautulli:* Use [BBF Tautulli in Organizr](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat#non-integrated-themes). Have this tab be viewable by ADMINS ONLY.<br/>
 *  *Sonarr:* Coming soon.<br/>
 *  *Radarr:* Coming soon.<br/>
 
