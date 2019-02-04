@@ -13,6 +13,33 @@ div[class*="NavBar-buttonSeparator-"]{
 }
 
 @media only screen and (max-width: 768px) {
+/* Navbar Searchbar */
+div[class*="QuickSearch-container"]{
+    display: block;
+    width: 40px;
+    transform:translateX(-10px);
+    transition-timing-function: ease;
+    transition-duration: 0.25s;
+}
+i[class*="QuickSearchInput-searchIcon"]{
+    margin-left: 9px;
+}
+div[class*="QuickSearch-container"]:focus-within{
+    display: block;
+    width: calc(100vw - 120px);
+    margin-right: 20px;
+    transform: translateX(0px);
+    margin-top: 2.5px;
+}
+
+div[class*="QuickSearchInput-container"]{
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+}
+div[class*="QuickSearchInput-container"]:focus-within{
+    height: 35px;
+    background-color: #FFF !important;
+}
 /*Homepage, sidenav, and misc*/
 .server-settings-container label{
   padding-left: 20px;
