@@ -138,6 +138,12 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 }
 
 /* Settings Menu */
+span.toggle-left.trigger-tooltip.active .fa {
+    color: #FFF;
+}
+span.toggle-left.trigger-tooltip .fa {
+    color: rgba(255,255,255,0.3);
+}
 .small-muted{
 	color: hsla(0,0%,100%,.7)
 }
