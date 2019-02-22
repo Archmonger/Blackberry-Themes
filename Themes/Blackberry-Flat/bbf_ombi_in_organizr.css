@@ -509,7 +509,7 @@ settings-menu hr {
 .chat-window .input-group:focus-within {
   background: initial !important;
 }
-.chat-window .input-group .input-group:focus-within .fa {
+.input-group:focus-within .fa {
   color: #000;
 }
 .input-group:focus-within .input-group-addon .btn-group .btn, .input-group:focus-within .input-group-btn .btn {
