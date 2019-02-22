@@ -424,9 +424,11 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
   padding-top: 5px !important;
 }
 .chat-window .col-xs-12 .panel .panel-footer .input-group .form-control {
-  height: 38px;
   margin-top: 5px;
   background-color: rgba(255, 255, 255, .08);
+}
+.messages p {
+  color: #00000094;
 }
 .chat-window .col-xs-12 .panel .panel-footer .input-group .input-group-btn .btn-primary {
   background-color: rgba(204, 123, 25, 1) !important;
@@ -504,7 +506,10 @@ settings-menu hr {
   background: #FFF !important;
   border-radius: 4px;
 }
-.input-group:focus-within .fa {
+.chat-window .input-group:focus-within {
+  background: initial !important;
+}
+.chat-window .input-group .input-group:focus-within .fa {
   color: #000;
 }
 .input-group:focus-within .input-group-addon .btn-group .btn, .input-group:focus-within .input-group-btn .btn {
