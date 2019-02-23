@@ -119,6 +119,7 @@ button.btn.btn-sm.btn-info-outline {
   border-color: #FFFFFF !important;
   border: none;
   background-color: rgba(255, 255, 255, 0.17);
+  margin-left: 10px;
 }
 .btn-danger-outline {
   border: none;
