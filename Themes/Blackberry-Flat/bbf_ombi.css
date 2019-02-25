@@ -16,6 +16,10 @@ html {
   min-height: 100%;
   height: auto;
 }
+.tv-poster, .movie-poster {
+  width: 160px;
+  height: 240px;
+}
 option.ng-star-inserted {
   color: #000000 !important;
 }
