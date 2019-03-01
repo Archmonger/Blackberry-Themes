@@ -2090,7 +2090,7 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
   border-top: 1px solid #222;
 }
 .white-popup .panel-body, .white-popup>.col-md-6>.white-box:nth-child(2) {
-  background: #292929;
+  background: #292929 !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 .white-popup .panel-body .box-title, .white-popup>.col-md-6>.white-box:nth-child(2) .box-title {
