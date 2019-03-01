@@ -105,6 +105,9 @@
 #request-results .el-card-content.bg-org, .label, .navbar-top-links .dropdown-user .dw-user-box, tbody[class$='-queue'] {
   cursor: default;
 }
+.navbar-top-links .dropdown-user .dw-user-box .u-img {
+  width: 65px;
+}
 .btn a, .el-element-overlay .el-card-item .el-overlay-1 img, .iziToast-capsule, .nav-tabs li a, .nowPlayingUserThumb:hover {
   transition: none;
 }
