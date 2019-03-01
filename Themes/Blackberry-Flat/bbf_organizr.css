@@ -1891,7 +1891,9 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
   transition: none;
   -webkit-transform: none;
   transform: none;
-  border-radius: 0px !important;
+}
+.tabs-style-flip nav li.tab-current a::after {
+  border-radius: 0px;
 }
 .tabs-style-flip nav a {
   transition: none;
