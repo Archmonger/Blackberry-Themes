@@ -181,8 +181,15 @@ body[data-active-tab=""] {
 .bg-title .breadcrumb a, .bg-title h4, .daterangepicker .input-mini, .dd-handle, .dd3-content, .dropify-wrapper, .el-card-avatar a, .profile-social-icons a, .steamline .sl-right div>a, .text-dark, button.list-group-item {
   color: rgba(255, 255, 255, .7) !important;
 }
-.bg-info, .el-card-content.bg-org, .login-register, .mce-menu-item-sep:hover, .mce-menubar .mce-menubtn.mce-active, .mce-menubar .mce-menubtn:active, .mce-menubar .mce-menubtn:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .panel.bg-org, .table-hover tbody tr:hover:only-child, .well.bg-org, .white-box.bg-org {
+.bg-info, .el-card-content.bg-org, .login-register, .mce-menu-item-sep:hover, .mce-menubar .mce-menubtn.mce-active, .mce-menubar .mce-menubtn:active, .mce-menubar .mce-menubtn:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .panel.bg-org, .table-hover tbody tr:hover:only-child, .well.bg-org, .white-box.bg-org, .panel-heading.bg-org, .panel-wrapper.bg-org {
   background: 0 0 !important;
+}
+#organizrNewsPanel .panel-title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+}
+#organizrNewsPanel .panel-collapse {
+  padding: 0px 20px;
 }
 #homepage-items .flexbox, #homepage-items .white-box, #recoverform h3, #splashScreen .flexbox, #tfa-div, .nowPlayingItem+.white-popup+.white-popup+.nowPlayingItem, .nowPlayingItem:first-child:nth-last-child(3), .panel.panel-green, .panel.panel-success, .white-popup p {
   margin: 0;
