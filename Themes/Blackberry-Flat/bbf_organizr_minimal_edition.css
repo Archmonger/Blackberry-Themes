@@ -216,6 +216,9 @@ body[data-active-tab=""] {
   padding: 8px 12px;
   margin-top: -10px;
 }
+.panel .panel-heading .btn.close-popup {
+  background: none !important;
+}
 .panel .panel-heading .btn.help-modal {
   margin-top: -4px;
   padding-top: 4px;
