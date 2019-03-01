@@ -80,8 +80,6 @@ p {
   background: rgba(0, 0, 0, 0.15);
   margin-right: 0px;
   border-radius: 0px;
-  border-color: rgba(255, 255, 255, 0.05);
-  border-width: 0 1px 0 0;
 }
 .nav-pills>li>a:hover, .nav-tabs>li>a:hover, .pager a:hover, .nav>li>a:focus, .nav>li>a:hover {
   background: hsla(0, 0%, 100%, .08);
