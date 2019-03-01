@@ -264,6 +264,9 @@ body[data-active-tab=""] {
 .bg-theme, .fc-day-header, .table-striped>tbody>tr:nth-of-type(odd) {
   background: rgba(0, 0, 0, .3) !important;
 }
+.table>tbody>tr>td {
+  border-top: none;
+}
 .bg-danger {
   background: #e62f2f !important;
 }
