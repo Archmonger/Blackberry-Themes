@@ -950,6 +950,9 @@ div[id^=request]:not(#request-input-div) .dropdown-toggle.active.focus, div[id^=
 #loginform .m-t-10 {
   margin-top: -20px !important;
 }
+#loginform .panel-body {
+  background: rgba(0, 0, 0, .3) !important;
+}
 @media screen and (min-width: 350px) {
   .login-register {
     width: 480px;
