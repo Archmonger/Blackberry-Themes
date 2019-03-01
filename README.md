@@ -44,13 +44,13 @@ For those that do not wish to transform Organizr into a media portal, Blackberry
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
 | Plex | 1.14.1.5488 | YES |
-| Ombi | 3.0.4119 | NO |
+| Ombi | 3.0.4256 | NO |
 | Synclounge | 2.0.0 | YES |
-| Filebrowser | 1.9.0 | NO |
+| Filebrowser | 2.0.3 | YES |
 | Deluge WebUI | 1.3.15 | YES |
-| Jackett | 0.10.566.0 | YES |
-| Organizr | 2.0.0-beta.800 | NO |
-| Tautulli | 2.1.18 | YES |
+| Jackett | 0.10.846.0 | YES |
+| Organizr | 2.0.0 | NO |
+| Tautulli | 2.1.26 | YES |
 
 ### Feathub Requests<br/>
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)<br/>
