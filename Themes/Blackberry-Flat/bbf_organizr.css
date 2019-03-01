@@ -21,8 +21,7 @@
   text-overflow: ellipsis;
 }
 #homepage-items .panel-heading, #homepage-items h4.pull-left, .fc-toolbar h2, .iziToast, .panel-body:first-child h3, .plyr, .sttabs nav a span, h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-  ;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 @font-face {
   font-family: 'Open Sans';
@@ -132,7 +131,6 @@
     -webkit-transform: rotate(1turn);
     transform: rotate(1turn);
   }
-  ;
 }
 @keyframes loading {
   0% {
@@ -143,7 +141,6 @@
     -webkit-transform: rotate(1turn);
     transform: rotate(1turn);
   }
-  ;
 }
 html {
   background: #3f4245;
@@ -961,7 +958,6 @@ div[id^=request]:not(#request-input-div) .dropdown-toggle.active.focus, div[id^=
   .login-register .white-box {
     width: 480px;
   }
-  ;
 }
 #login-logo {
   display: block !important;
@@ -1344,7 +1340,6 @@ img.dark-logo-side {
     width: 600px !important;
     margin-top: 108px !important;
   }
-  ;
 }
 .splash-badge {
   color: #fff;
@@ -1435,7 +1430,6 @@ img.dark-logo-side {
   #homepage-items .pull-left {
     font-size: 0;
   }
-  ;
 }
 .homepageImageTitle {
   margin-top: 0;
@@ -2224,7 +2218,6 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
   .white-popup-block, .white-popup:not([id$=metadata-div]):not([id^=request]) .panel {
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
   }
-  ;
 }
 .mfp-close-btn-in .mfp-close {
   color: rgba(255, 255, 255, .7);
@@ -2342,7 +2335,6 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
     height: 46px;
     padding: 10px 16px;
   }
-  ;
 }
 .white-popup[id$=metadata-div] .white-box:not(.resultBox-outside), .white-popup[id^=request] .white-box:not(.resultBox-outside) {
   box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
@@ -2398,7 +2390,6 @@ div[data-src$='no-np.png'] {
   div[data-src$='no-np.png'] {
     background-color: #333 !important;
   }
-  ;
 }
 #side-menu {
   padding-top: 0px;
