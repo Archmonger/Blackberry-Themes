@@ -1,1 +1,61 @@
-/* Will do this later */
+@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_organizr.css";
+/* Remove Uneeded Ombi Indicators */
+.inside-over-request-div.bg-success {
+  display: none;
+}
+.inside-request-div.bg-info,
+.inside-request-div.bg-warning {
+  display: none;
+}
+/* Remove Unneeded Navbar Items */
+li.hidden-xs {
+  display: none;
+}
+#languageDropdown {
+  display: none;
+}
+.navbar-left li:nth-child(3) {
+  display: none;
+}
+i.ti-search {
+  display: none;
+}
+/* Remove Unneeded Sidebar Buttons */
+li#github {
+  display: none;
+}
+li#menu-Organizr-Support {
+  display: none;
+}
+.sidebar-nav .devider, .sidebar-nav #sign-out {
+  display: none;
+}
+/* Tweak Calendar Colors */
+div[class*="fc"] .text-info {
+  color: #929a9c !important;
+}
+div[class*="fc"] .text-success {
+  color: #53e69d !important;
+}
+div[class*="fc"] .text-danger {
+  color: #929a9c !important;
+}
+div[class*="fc"] .text-primary {
+  color: #e3891c !important;
+}
+/* Dropdown User Menu */
+.navbar-top-links .dropdown-user .dw-user-box .u-img {
+  display: none;
+}
+.navbar-top-links .dropdown-user .dw-user-box {
+  padding-top: 0px;
+}
+.dropdown-user li.divider {
+  display: none;
+}
+.dropdown-menu .u-text .text-muted {
+  width: 100%;
+}
+.navbar-top-links .dropdown-user .dw-user-box .u-text {
+  padding-top: 10px;
+}
