@@ -861,14 +861,14 @@ div[id^=request]:not(#request-input-div) .dropdown-toggle.active.focus, div[id^=
   color: #eee !important;
 }
 .nav-tabs li.active a {
-  background: 0 0 !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-radius: 0px;
   color: #eee !important;
   border: 0;
   cursor: pointer;
 }
 .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
   background: rgba(255, 255, 255, .08);
-  color: #f9be03 !important;
   border: 0;
   cursor: pointer;
 }
