@@ -1924,6 +1924,8 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
   background: rgba(0, 0, 0, .15) !important;
   border: 0 !important;
   border-radius: 0 !important;
+  font-size: 13px;
+  font-weight: 300;
 }
 .swapLog:focus, .swapLog:hover {
   color: #fff !important;
