@@ -160,7 +160,7 @@ body[data-active-tab=""] {
   background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-dark.png) center center/cover no-repeat fixed !important;
 }
 #page-wrapper, #settings-settings-about li:hover, .btn-1b .btn-primary:after, .btn-1c .btn-primary:after, .btn-1d .btn-primary:after, .btn-1e .btn-primary:after, .btn-1f .btn-primary:after, .css-bar-info:after, .navbar-header, .panel, .panel-body, .panel-body.bg-org, .tabs-style-flip .content-wrap, .white-box {
-  background: 0 0;
+  background: 0 0 !important;
 }
 #page-wrapper:before {
   content: '';
