@@ -948,7 +948,26 @@ div[id^=request]:not(#request-input-div) .dropdown-toggle.active.focus, div[id^=
   margin: -10px 0 20px;
 }
 #loginform .form-group .btn {
-  margin: -10px 0 30px !important;
+  margin: 0px !important;
+}
+#tfa-div .btn {
+  margin: 0px !important;
+  border-radius: 0px 0px 3px 3px !important;
+  background: rgb(204, 123, 25);
+  border: none;
+}
+#tfa-div .panel-body {
+  border-radius: 3px !important;
+}
+#tfa-div .tfa-input {
+  border-radius: 0px 3px 0px 0px;
+}
+#organizr-login-collapse .form-group {
+  margin-top: 0px;
+}
+#organizr-login-collapse .panel-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 #loginform .m-t-10 {
   margin-top: -20px !important;
