@@ -169,12 +169,11 @@ body[data-active-tab=""] {
 }
 @media screen and (max-width: 767px) {
   .fix-header #page-wrapper {
-    margin-top: 60px;
+    margin-top: 40px;
   }
-  ;
 }
 .iframe {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 40px);
 }
 .bg-title .breadcrumb a, .bg-title h4, .daterangepicker .input-mini, .dd-handle, .dd3-content, .dropify-wrapper, .el-card-avatar a, .profile-social-icons a, .steamline .sl-right div>a, .text-dark, button.list-group-item {
   color: rgba(255, 255, 255, .7) !important;
@@ -1117,8 +1116,19 @@ input[type=checkbox], input[type=radio] {
   border-color: #cc7b19;
 }
 .navbar {
-  background: rgba(0, 0, 0, .7);
-  padding: 10px;
+  background: #162027;
+  width: 100%;
+}
+.navbar-header {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img.dark-logo {
+  max-height: 30px;
+  max-width: 165px;
+}
+img.dark-logo-side {
+  max-height: 30px;
 }
 .top-left-part a {
   font-size: 26px;
@@ -1131,9 +1141,6 @@ input[type=checkbox], input[type=radio] {
 }
 .navbar-top-links.navbar-left li:first-of-type i {
   width: 14px !important;
-}
-.navbar-top-links .dropdown-user {
-  top: 60px;
 }
 .navbar-top-links .dropdown-user .dw-user-box .u-img img {
   border-radius: 1000px;
@@ -1171,16 +1178,14 @@ input[type=checkbox], input[type=radio] {
 }
 .sidebar-head {
   background: rgba(0, 0, 0, .3) !important;
-  min-height: 60px;
-  max-height: 60px;
-  padding: 2px 20px !important;
 }
 .sidebar-head h3 {
   color: rgba(255, 255, 255, .7);
   font-weight: 400;
   text-transform: none;
-  padding: 2px 0 !important;
+  padding: 1px 0 !important;
   transition: .2s;
+  margin: 0px;
 }
 .sidebar-head h3 .m-r-5 {
   margin-right: 10px !important;
@@ -1203,7 +1208,8 @@ input[type=checkbox], input[type=radio] {
 #side-menu li a {
   color: rgba(255, 255, 255, .7);
   font-weight: 600 !important;
-  padding: 15px 35px 15px 15px;
+  padding: 7.5px 35px 7.5px 15px;
+  margin-bottom: 10px;
 }
 #side-menu li a:focus, #side-menu li a:hover {
   color: #fff;
@@ -1217,10 +1223,6 @@ input[type=checkbox], input[type=radio] {
 .tabLoaded {
   -webkit-filter: none;
   filter: none;
-}
-.sidebar img[src*=ombi] {
-  height: 30px;
-  padding-left: 30px;
 }
 #splashScreen {
   overflow-y: auto;
@@ -1508,7 +1510,7 @@ input[type=checkbox], input[type=radio] {
 }
 img[src*=ombi].homepageImageTitle {
   width: 40px;
-  padding-left: 40px;
+  padding-left: 0px;
 }
 tbody[class$='-queue'] td.hidden-xs {
   font-weight: 400;
@@ -1956,10 +1958,6 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
   background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0%' y1='50%' y2='50%'%3E%3Cstop offset='0%' stop-color='%23CA7D29'/%3E%3Cstop offset='100%' stop-color='%23F6BD16'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0%' y1='50%' y2='50%'%3E%3Cstop offset='0%' stop-color='%231F1F1F'/%3E%3Cstop offset='100%' stop-color='%232C2C2C'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='none'%3E%3Ccircle cx='300' cy='300' r='300' fill='url(%23a)'/%3E%3Ccircle cx='300' cy='300' r='280' fill='url(%23b)'/%3E%3Cpath fill='url(%23a)' d='M463.985 433.944l-88.515-89.258c-1.03-1.033-2.169-1.822-3.256-2.68 14.952-23.134 23.683-50.69 23.683-80.37C395.897 180.093 330.353 114 249.45 114 168.589 114 103 180.093 103 261.636c0 81.554 65.589 147.632 146.449 147.632 29.43 0 56.795-8.825 79.778-23.902.837 1.122 1.604 2.237 2.618 3.262l88.526 89.268c6.044 6.076 13.916 9.104 21.8 9.104 7.887 0 15.765-3.028 21.803-9.09 12.026-12.151 12.026-31.824.01-43.966M249.45 362.649c-55.237 0-100.2-45.322-100.2-101.013 0-55.684 44.964-101.016 100.2-101.016 55.235 0 100.199 45.332 100.199 101.016 0 55.69-44.964 101.013-100.2 101.013'/%3E%3C/g%3E%3C/svg%3E") center center/90px no-repeat rgba(0, 0, 0, .15) !important;
   padding-top: 105px;
 }
-.tabEditor img[src*=ombi] {
-  height: 35px !important;
-  padding-left: 35px;
-}
 .tabEditor td:nth-of-type(2) {
   padding: 30px 0 30px 15px;
   font-weight: 600;
@@ -2109,7 +2107,7 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
 }
 @media screen and (min-width: 768px) {
   .fix-header #page-wrapper {
-    margin-top: 60px;
+    margin-top: 40px;
     min-height: 0 !important;
   }
   .recent-title {
@@ -2365,18 +2363,25 @@ div[data-src$='no-np.png'] {
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
   }
   .sidebar-nav {
-    background: rgba(0, 0, 0, .15);
+    background: rgba(0, 0, 0, 0.2);
   }
   #internal-Settings .sidebar, .active-tab-Settings .sidebar, body[data-active-tab=""] .sidebar {
     background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-dark.png) center center/cover no-repeat fixed !important;
   }
   .sidebar-head {
-    background: rgba(0, 0, 0, .65) !important;
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
   }
   div[data-src$='no-np.png'] {
     background-color: #333 !important;
   }
   ;
+}
+#side-menu {
+  padding-top: 0px;
+}
+.sidebar-nav .sidebar-head {
+  position: relative;
 }
 .css-bar:after {
   color: #eee;
