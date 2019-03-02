@@ -2618,6 +2618,46 @@ h2.m-b-0.font-medium.pull-right {
 .lock-screen .white-box {
   background: #000;
 }
+.chat-main-box.bg-org {
+  background: rgba(0, 0, 0, 0) !important;
+}
+.chat-left-aside {
+  height: 100%;
+}
+.chat-left-inner.bg-org {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15) !important;
+}
+.chatonline li a {
+  background: rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+}
+.chat-main-box .chat-left-aside .chat-left-inner .style-none li a:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.chatonline li a span {
+  color: rgba(255, 255, 255, 0.8);
+}
+.chatonline li a span small.text-success {
+  color: rgba(255, 255, 255, 0.4);
+}
+.chat-list .odd .chat-text {
+  background: #cc7b19;
+}
+.chat-main-box .chat-right-aside .send-chat-box .form-control {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.chat-main-box .chat-right-aside .send-chat-box .custom-send {
+  height: 100%;
+  top: 0px;
+  right: 14px;
+}
+.chat-main-box .chat-right-aside .send-chat-box .custom-send button {
+  height: 100%;
+  width: 80px;
+  background: rgba(0, 0, 0, 0.3) !important;
+}
 /* Minimal Edition Customizations Start Here */
 /* Remove Uneeded Ombi Indicators */
 .inside-over-request-div.bg-success {
