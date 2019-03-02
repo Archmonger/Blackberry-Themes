@@ -232,7 +232,7 @@ body[data-active-tab=""] {
   margin-right: -.5rem;
 }
 .panel-default .panel-heading {
-  background: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15) !important;
   border-color: transparent;
   color: rgba(255, 255, 255, .7);
 }
