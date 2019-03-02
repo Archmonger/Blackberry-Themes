@@ -784,7 +784,6 @@ div[id^=request]:not(#request-input-div) .dropdown-toggle.active.focus, div[id^=
 }
 .bg-emby, .bg-plex, .btn-youtube {
   color: rgba(255, 255, 255, .7) !important;
-  padding: 15.5px 16px !important;
 }
 .mce-btn.disabled, .mce-btn:disabled {
   background: rgba(255, 255, 255, .25) !important;
