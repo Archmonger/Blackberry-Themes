@@ -974,9 +974,6 @@ div[id^=request]:not(#request-input-div) .dropdown-toggle.active.focus, div[id^=
 #loginform .panel-body {
   background: rgba(0, 0, 0, .3) !important;
 }
-.login-box .white-box .form-horizontal .text-center {
-  width: 320px;
-}
 @media screen and (min-width: 350px) {
   .login-register {
     width: 480px;
