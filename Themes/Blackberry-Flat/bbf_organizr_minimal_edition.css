@@ -2663,6 +2663,22 @@ h2.m-b-0.font-medium.pull-right {
   width: 80px;
   background: rgba(0, 0, 0, 0.3) !important;
 }
+.cbutton {
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 4px !important;
+  width: auto;
+  height: auto;
+  background-color: #cc7b19 !important;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.cbutton:hover {
+  opacity: 1;
+  background-color: #e3891c !important;
+}
 /* Minimal Edition Customizations Start Here */
 /* Remove Uneeded Ombi Indicators */
 .inside-over-request-div.bg-success {
