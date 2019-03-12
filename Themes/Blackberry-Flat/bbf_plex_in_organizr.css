@@ -1,391 +1,394 @@
-.nav-bar>ul>li>a.plex-pass-btn{
-    display:none !important;
-    visibility: hidden;
-    opacity:0;
+.nav-bar>ul>li>a.plex-pass-btn {
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
 }
-button[class*="plexPassButton"]{
-    display:none;
-    visibility: hidden;
-    opacity:0;
+button[class*="plexPassButton"] {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
-div[class*="NavBar-buttonSeparator-"]{
+div[class*="NavBar-buttonSeparator-"] {
   display: none;
 }
-
 @media only screen and (max-width: 768px) {
-/* Navbar Searchbar */
-div[class*="QuickSearch-container"]{
+  /* Navbar Searchbar */
+  div[class*="QuickSearch-container"] {
     display: block;
     width: 40px;
-    transform:translateX(-10px);
+    transform: translateX(-10px);
     transition-timing-function: ease;
     transition-duration: 0.25s;
     margin-top: 2.5px;
-}
-i[class*="QuickSearchInput-searchIcon"]{
+  }
+  i[class*="QuickSearchInput-searchIcon"] {
     margin-left: 9px;
-    color: hsla(0,0%,100%,.7);
-}
-div[class*="QuickSearch-container"]:focus-within{
+    color: hsla(0, 0%, 100%, .7);
+  }
+  div[class*="QuickSearch-container"]:focus-within {
     display: block;
     width: calc(100vw - 120px);
     margin-right: 20px;
     transform: translateX(0px);
-}
-div[class*="QuickSearchInput-container"]{
+  }
+  div[class*="QuickSearchInput-container"] {
     height: 35px;
-    background-color: rgba(0,0,0,0);
-}
-div[class*="QuickSearchInput-container"]:focus-within{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  div[class*="QuickSearchInput-container"]:focus-within {
     background-color: #FFF;
-}
-div[class*="QuickSearchProvider-title"], a[class*="QuickSearchPlaceholderLink-placeholder"] {
-	width: auto;
-}
-div[class*="QuickSearch-container"] div[class*="QuickSearchResults-container"]{
-	display: none;
-}
-div[class*="QuickSearch-container"]:focus-within div[class*="QuickSearchResults-container"]{
-	display: block;
-}
-div[class*="QuickSearch-container"] input[data-qa-id="quickSearchInput"]{
-	color: rgba(0,0,0,0);
-}
-div[class*="QuickSearch-container"]:focus-within input[data-qa-id="quickSearchInput"]{
-	color: #555;
-}
-div[class*="QuickSearch-container"] button{
-	display: none;
-}
-div[class*="QuickSearch-container"]:focus-within  button{
-	display: block;
-}
-/*Homepage, sidenav, and misc*/
-.server-settings-container label{
-  padding-left: 20px;
-  display: block;
-}
-.card-sortable{
-  height: auto;
-}
-.sessions-list-container{
-	zoom: 0.65;
-}
-button[data-qa-id="sidebarLibraryMoreButton"]{
-	display: none;
-}
-.NavBarActivityButton-label-2ZN0g{
-	top: 20px !important;
-}
-button.Button-button-2kT68.Link-link-2n0yJ.Button-primary-3fwLz.Button-medium-3g45_.Link-link-2n0yJ.Link-default-2XA2b {
+  }
+  div[class*="QuickSearchProvider-title"], a[class*="QuickSearchPlaceholderLink-placeholder"] {
+    width: auto;
+  }
+  div[class*="QuickSearch-container"] div[class*="QuickSearchResults-container"] {
+    display: none;
+  }
+  div[class*="QuickSearch-container"]:focus-within div[class*="QuickSearchResults-container"] {
+    display: block;
+  }
+  div[class*="QuickSearch-container"] input[data-qa-id="quickSearchInput"] {
+    color: rgba(0, 0, 0, 0);
+  }
+  div[class*="QuickSearch-container"]:focus-within input[data-qa-id="quickSearchInput"] {
+    color: #555;
+  }
+  div[class*="QuickSearch-container"] button {
+    display: none;
+  }
+  div[class*="QuickSearch-container"]:focus-within button {
+    display: block;
+  }
+  /*Homepage, sidenav, and misc*/
+  .server-settings-container label {
+    padding-left: 20px;
+    display: block;
+  }
+  .card-sortable {
+    height: auto;
+  }
+  .sessions-list-container {
+    zoom: 0.65;
+  }
+  button[data-qa-id="sidebarLibraryMoreButton"] {
+    display: none;
+  }
+  .NavBarActivityButton-label-2ZN0g {
+    top: 20px !important;
+  }
+  button.Button-button-2kT68.Link-link-2n0yJ.Button-primary-3fwLz.Button-medium-3g45_.Link-link-2n0yJ.Link-default-2XA2b {
     display: none !important;
-}
-.nav-dropdown .dropdown-poster-toggle {
+  }
+  .nav-dropdown .dropdown-poster-toggle {
     height: 40px !important;
     padding-left: 10px !important;
-}
-.nav-bar{
-	background-color: rgba(0,0,0,0.0);
-}
-.NavBar-container-1T0BJ{
-	height:40px !important;
-}
-.DashboardPage-dashboardPageContent-2rN8X {
+  }
+  .nav-bar {
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+  .NavBar-container-1T0BJ {
+    height: 40px !important;
+  }
+  .DashboardPage-dashboardPageContent-2rN8X {
     padding: 0 20px 20px;
-}
-.SidebarList-sidebarListHeader-1t0yz {
+  }
+  .SidebarList-sidebarListHeader-1t0yz {
     font-size: 12px;
     padding-left: 5px;
-}
-.SidebarMenuButton-sidebarMenuButton-khx_P {
+  }
+  .SidebarMenuButton-sidebarMenuButton-khx_P {
     font-size: 10px;
     padding-left: 10px;
     padding-right: 10px;
     height: 40px;
-}
-.SidebarContainer-sidebarContainer-2RAYT {
+  }
+  .SidebarContainer-sidebarContainer-2RAYT {
     width: 130px;
     flex: 0 130px;
     -webkit-flex: 0 0 130px;
-}
-.LibraryPageJumpBar-jumpBar-22VKU {
+  }
+  .LibraryPageJumpBar-jumpBar-22VKU {
     display: none;
-}
-.MetadataListPageContent-metadataListScroller-1uFgY.MetadataListPageContent-hasGutter-1EfyE {
+  }
+  .MetadataListPageContent-metadataListScroller-1uFgY.MetadataListPageContent-hasGutter-1EfyE {
     right: 0;
-}
-.PageHeader-pageHeader-14-NY {
-	height:40px !important;
-  padding-left: 5px;
-}
-.SidebarLink-sidebarLink-L2OPd {
+  }
+  .PageHeader-pageHeader-14-NY {
+    height: 40px !important;
+    padding-left: 5px;
+  }
+  .SidebarLink-sidebarLink-L2OPd {
     padding-left: 10px;
     padding-bottom: 8px;
     padding-top: 8px;
-}
-.SidebarMenuButton-sidebarMenuPrimaryTitleContainer-3-vDD {
+  }
+  .SidebarMenuButton-sidebarMenuPrimaryTitleContainer-3-vDD {
     white-space: nowrap;
-}
-div[class*="SidebarLink-children"] {
-	display:none;
-}
-body {
-	line-height: 1.1;
-	font-size: 12px
-}
-.Page-page-aq7i_{
-	font-size: 11px;
-}
-.nav-header>li>a{
-	font-size: 13px;
-	line-height: 25px;
-	display: inline;
-}
-.SidebarMenuButton-sidebarMenuSecondaryTitle-2jpJL{
-	font-size: 10px;
-}
-.nav-bar{
-	font-size: 20px
-}
-.dropdown-poster-toggle .media-poster{
-	width: 25px;
-	height: 25px;
-}
-.FullPage-container-17Y0c{
-	font-size: 10px;
-}
-.ServerSidebar-sidebarContent-3hRNR{
-	padding-top: 0px;
-	padding-left: 5px;
-}
-.PageContent-innerPageContent-3ktLT{
-	padding: 20px;
-}
-.MetadataPosterCell-continueWatchingTitleContainer-3yCAY{
-	font-size: 10px;
-}
-.MetadataPosterCell-titleContainer-24DI6{
-	font-size: 10px;
-}
-.nav-bar-nav>li>a{
-	line-height: 40px;
-}
-.PageHeader-pageHeader-18RSw{
-	height: 40px;
-}
-.DisclosureArrow-disclosureArrow-1KPaB.DisclosureArrow-medium-20Idw.DisclosureArrow-up-L-Dw3 {
-	display: none;
-}
-.DisclosureArrowButton-disclosureArrowButton-11LSb.DisclosureArrowButton-medium-3zt1W{
-	padding-right: 0px;
-}
-.PageHeaderBreadcrumbButton-button-1uaPj{
-	margin-right: 0px;
-}
-.MetadataPosterTitle-singleLineTitle-24_DN{
-	height: 14px;
-	font-size: 11px;
-	max-width: 100%;
-}
-.HubCellHeader-hubCellHeader-2pvYN{
-	padding: 0px 0 0px 5px;
-}
-.PrePlayMetadataContent-content-2ww3j{
-	padding-left: 0px;
-}
-div[class*="SidebarLink-title-"] {
-    font-size: 11px;
-}
-.SidebarServerLibraries-librariesTitle-3iqmv{
-	overflow: visible !important;
-}
-div[class^="SidebarLibrariesActions-actions-"] {
+  }
+  div[class*="SidebarLink-children"] {
     display: none;
-}
-div[class*="ManageLibrarySummary-iconContainer"]{
-    display:none;
-}
-div[class*="ManageLibrariesPane-header"]{
+  }
+  body {
+    line-height: 1.1;
+    font-size: 12px
+  }
+  .Page-page-aq7i_ {
+    font-size: 11px;
+  }
+  .nav-header>li>a {
+    font-size: 13px;
+    line-height: 25px;
+    display: inline;
+  }
+  .SidebarMenuButton-sidebarMenuSecondaryTitle-2jpJL {
+    font-size: 10px;
+  }
+  .nav-bar {
+    font-size: 20px
+  }
+  .dropdown-poster-toggle .media-poster {
+    width: 25px;
+    height: 25px;
+  }
+  .FullPage-container-17Y0c {
+    font-size: 10px;
+  }
+  .ServerSidebar-sidebarContent-3hRNR {
+    padding-top: 0px;
+    padding-left: 5px;
+  }
+  .PageContent-innerPageContent-3ktLT {
+    padding: 20px;
+  }
+  .MetadataPosterCell-continueWatchingTitleContainer-3yCAY {
+    font-size: 10px;
+  }
+  .MetadataPosterCell-titleContainer-24DI6 {
+    font-size: 10px;
+  }
+  .nav-bar-nav>li>a {
+    line-height: 40px;
+  }
+  .PageHeader-pageHeader-18RSw {
+    height: 40px;
+  }
+  .DisclosureArrow-disclosureArrow-1KPaB.DisclosureArrow-medium-20Idw.DisclosureArrow-up-L-Dw3 {
+    display: none;
+  }
+  .DisclosureArrowButton-disclosureArrowButton-11LSb.DisclosureArrowButton-medium-3zt1W {
+    padding-right: 0px;
+  }
+  .PageHeaderBreadcrumbButton-button-1uaPj {
+    margin-right: 0px;
+  }
+  .MetadataPosterTitle-singleLineTitle-24_DN {
+    height: 14px;
+    font-size: 11px;
+    max-width: 100%;
+  }
+  .HubCellHeader-hubCellHeader-2pvYN {
+    padding: 0px 0 0px 5px;
+  }
+  .PrePlayMetadataContent-content-2ww3j {
     padding-left: 0px;
-}
-div[class*="ServerAvatar-avatar"] {
-    display:none;
-}
-.alerts-container .page-count{
-    display:none;
-}
-div[class*="ClaimedServer-message"]{
+  }
+  div[class*="SidebarLink-title-"] {
+    font-size: 11px;
+  }
+  .SidebarServerLibraries-librariesTitle-3iqmv {
+    overflow: visible !important;
+  }
+  div[class^="SidebarLibrariesActions-actions-"] {
+    display: none;
+  }
+  div[class*="ManageLibrarySummary-iconContainer"] {
+    display: none;
+  }
+  div[class*="ManageLibrariesPane-header"] {
+    padding-left: 0px;
+  }
+  div[class*="ServerAvatar-avatar"] {
+    display: none;
+  }
+  .alerts-container .page-count {
+    display: none;
+  }
+  div[class*="ClaimedServer-message"] {
     position: relative;
     margin-bottom: 12px;
-}
-button[class*="ClaimedServer-button"]{
+  }
+  button[class*="ClaimedServer-button"] {
     margin-top: 50px;
     position: absolute;
-}
-div[class*="HubCell-hubCell-"] {
+  }
+  div[class*="HubCell-hubCell-"] {
     margin-bottom: 20px;
-}
-div[class*="HubCell-hubCell-"]:first-of-type{
-	margin-top: 0px;
-}
-
-/* #######  Individual Media Items  ####### */
-div[class*="Menu-menuScroller"] {
+  }
+  div[class*="HubCell-hubCell-"]:first-of-type {
+    margin-top: 0px;
+  }
+  /* #######  Individual Media Items  ####### */
+  div[class*="Menu-menuScroller"] {
     max-height: 350px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PageContent-innerPageContent-"] > div > div:not([class*="PrePlay"]) {
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PageContent-innerPageContent-"]>div>div:not([class*="PrePlay"]) {
     position: relative !important;
     top: 0px !important;
     padding-top: 10px;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataContent-content-"]{
-	padding-left: 0px !important;
-	padding-top: 20px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCard-card-"]{
-	margin: auto !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataContent-content-"]{
-	line-height: 1.25 !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataInnerContent-innerContent-"]{
-	padding: 0 !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySecondaryTitle-secondaryTitle-"]{
-	display: inline !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayRatingRightTitle-ratingRightTitle-"]{
-	display: inline-block !important;
-	margin-left: 0px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCardOverlay-background-"]{
-	display: none !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCardOverlay-unplayedBadge-"]{
-	text-align: right !important;
-	min-width: 0% !important;
-	float: right !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayDetailsGroupItem-label-"]{
-	flex: 0 0 58px !important;
-	-webkit-flex: 0 0 58px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayDetailsGroupItem-content-"]{
-	font-size: 12px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayTertiaryTitle-tertiaryTitle-"]{
-	font-size: 12px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] span[class*="PrePlayRatingRightTitle-starRating-"]{
-	display: none !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayRatingRightTitle-criticRating-"]{
-	margin-left: 0px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayLeftTitle-leftTitle-"]{
-	white-space: normal !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class^="PrePlayTertiaryTitle-tertiaryTitle-"] div[class^="PrePlayRightTitle-rightTitle-"] {
-	display: none;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] a[class*="PrePlayStatusButton-statusButton-"]{
-	display: none;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySummary-summary-"]{
-     font-size: 12px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySecondaryTitle-secondaryTitle-"]{
-     font-size: 12px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayTertiaryTitle-tertiaryTitle-"]{
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataContent-content-"] {
+    padding-left: 0px !important;
+    padding-top: 20px !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCard-card-"] {
+    margin: auto !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataContent-content-"] {
+    line-height: 1.25 !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayMetadataInnerContent-innerContent-"] {
+    padding: 0 !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySecondaryTitle-secondaryTitle-"] {
+    display: inline !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayRatingRightTitle-ratingRightTitle-"] {
+    display: inline-block !important;
+    margin-left: 0px !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCardOverlay-background-"] {
+    display: none !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="MetadataPosterCardOverlay-unplayedBadge-"] {
+    text-align: right !important;
+    min-width: 0% !important;
+    float: right !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayDetailsGroupItem-label-"] {
+    flex: 0 0 58px !important;
+    -webkit-flex: 0 0 58px !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayDetailsGroupItem-content-"] {
+    font-size: 12px !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayTertiaryTitle-tertiaryTitle-"] {
+    font-size: 12px !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] span[class*="PrePlayRatingRightTitle-starRating-"] {
+    display: none !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayRatingRightTitle-criticRating-"] {
+    margin-left: 0px !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayLeftTitle-leftTitle-"] {
+    white-space: normal !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class^="PrePlayTertiaryTitle-tertiaryTitle-"] div[class^="PrePlayRightTitle-rightTitle-"] {
+    display: none;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] a[class*="PrePlayStatusButton-statusButton-"] {
+    display: none;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySummary-summary-"] {
+    font-size: 12px !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlaySecondaryTitle-secondaryTitle-"] {
+    font-size: 12px !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class*="PrePlayTertiaryTitle-tertiaryTitle-"] {
     margin-top: -25px !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] span[class*="PrePlayRatingRightTitle-criticRating-"]{
-	display: none !important;
-}
-span[class*="MetadataPosterTitle-isSplitLine-"] {
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] span[class*="PrePlayRatingRightTitle-criticRating-"] {
     display: none !important;
-}
-div[class^="PageHeaderLeft-pageHeaderLeft-"] {
+  }
+  span[class*="MetadataPosterTitle-isSplitLine-"] {
     display: none !important;
-}
-button[class*="MenuItem-menuItem-"] {
+  }
+  div[class^="PageHeaderLeft-pageHeaderLeft-"] {
+    display: none !important;
+  }
+  button[class*="MenuItem-menuItem-"] {
     padding: 15px 20px;
-}
-div[class^="HubCellTitle-hubCellTitle-"], div[class*="HubCellTitle-hubCellTitle-"] a {
-	font-size: 12px !important;
-}
-div[class^="HubCell-hubActions-"] {
-	display: none !important;
-}
-button[data-qa-id="toolbarToggleArtwork"] {
-	display: none !important;
-}
-div[class^="PrePlayArtwork-imageContainer-"]{
-	display: none !important;
-}
-div[class^="PageHeaderRight-pageHeaderRight-"] div[class^="PrePlayPageHeader-divider-"] {
-	display: none !important;
-}
-div[class*="PrePlayPageContent-prePlayPageContent-"] div[class^="PrePlaySecondaryTitle-secondaryTitle-"] div[class^="PrePlayLeftTitle-leftTitle-"] {
-    color: hsla(0,0%,100%,.45);
-}
-.PrePlayDetailsGroup-group-3i0Tj {
+  }
+  div[class^="HubCellTitle-hubCellTitle-"], div[class*="HubCellTitle-hubCellTitle-"] a {
+    font-size: 12px !important;
+  }
+  div[class^="HubCell-hubActions-"] {
+    display: none !important;
+  }
+  button[data-qa-id="toolbarToggleArtwork"] {
+    display: none !important;
+  }
+  div[class^="PrePlayArtwork-imageContainer-"] {
+    display: none !important;
+  }
+  div[class^="PageHeaderRight-pageHeaderRight-"] div[class^="PrePlayPageHeader-divider-"] {
+    display: none !important;
+  }
+  div[class*="PrePlayPageContent-prePlayPageContent-"] div[class^="PrePlaySecondaryTitle-secondaryTitle-"] div[class^="PrePlayLeftTitle-leftTitle-"] {
+    color: hsla(0, 0%, 100%, .45);
+  }
+  .PrePlayDetailsGroup-group-3i0Tj {
     display: none;
-}
-button[class*="MetadataListStylesMenu-"]{
-    display:none;
-}
-div[class*="PrePlayPageHeader-listStylesArrowsDivider"]{
+  }
+  button[class*="MetadataListStylesMenu-"] {
     display: none;
-}
-div[class*="PageHeaderDivider-pageHeaderDivider"]{
+  }
+  div[class*="PrePlayPageHeader-listStylesArrowsDivider"] {
     display: none;
+  }
+  div[class*="PageHeaderDivider-pageHeaderDivider"] {
+    display: none;
+  }
 }
-}
-
 /* BBF Customizations start here */
-div[class*="NavBar-container-"]{
-	background: #162027 !important;;
+div[class*="NavBar-container-"] {
+  background: #162027 !important;
+  ;
 }
-.nav-dropdown .dropdown-poster-toggle{
-	display: none;
+.nav-dropdown .dropdown-poster-toggle {
+  display: none;
 }
 div[data-qa-id*="hub--home.newscast"] {
   display: none;
 }
-
 /* In Organizr customizations start here */
 div[class*="NavBar-right-"] {
   padding-right: 7px;
 }
 .SidebarMenuButton-sidebarMenuButton-khx_P {
-  background-color: rgba(0,0,0,.15);
+  background-color: rgba(0, 0, 0, .15);
 }
 button[class*="NavBar-accountButton"] {
   display: none !important;
 }
-@media only screen and (min-width: 768px){
-div[class*="NavBar-container"]{
-	height: 45px;
+@media only screen and (min-width: 768px) {
+  div[class*="NavBar-container"] {
+    height: 45px;
+  }
+  div[class*="QuickSearchInput-container"] {
+    height: 35px;
+  }
+  span[class*="NavBarActivityButton-label"] {
+    top: 23px;
+  }
 }
-div[class*="QuickSearchInput-container"]{
-	height: 35px;
-}
-span[class*="NavBarActivityButton-label"]{
-	top: 23px;
-}
-}
-span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"]{
+span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"] {
   display: none;
 }
-.background-container div[class*="FullPage-container-"] div div div{
+.background-container div[class*="FullPage-container-"] div div div {
   background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
-	background-repeat: repeat, no-repeat !important;
-	background-attachment: fixed, fixed !important;
-	background-position: center center, center center !important;
-	background-size: auto, cover !important;
-	-webkit-background-size: auto, cover !important;
-	-moz-background-size: auto, cover !important;
-	-o-background-size: auto, cover !important;
+  background-repeat: repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+  background-position: center center, center center !important;
+  background-size: auto, cover !important;
+  -webkit-background-size: auto, cover !important;
+  -moz-background-size: auto, cover !important;
+  -o-background-size: auto, cover !important;
+}
+.plex-preloader-container {
+  background-color: rgba(0, 0, 0, 0);
+}
+body {
+  background-color: rgba(0, 0, 0, 0);
 }
