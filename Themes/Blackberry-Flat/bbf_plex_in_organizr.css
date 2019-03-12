@@ -392,3 +392,6 @@ span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"] {
 body {
   background-color: rgba(0, 0, 0, 0);
 }
+.plex-image-preloader.plex-logo {
+  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/Eclipse-1.7s-200px.svg");
+}
