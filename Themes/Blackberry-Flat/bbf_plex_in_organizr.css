@@ -359,9 +359,14 @@ div[class*="NavBar-right-"] {
 .SidebarMenuButton-sidebarMenuButton-khx_P {
   background-color: rgba(0, 0, 0, .15);
 }
+span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"] {
+  display: none;
+}
+/* Remove account button */
 button[class*="NavBar-accountButton"] {
   display: none !important;
 }
+/* Smaller navbar */
 @media only screen and (min-width: 768px) {
   div[class*="NavBar-container"] {
     height: 45px;
@@ -373,9 +378,7 @@ button[class*="NavBar-accountButton"] {
     top: 23px;
   }
 }
-span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"] {
-  display: none;
-}
+/* Static BG */
 .background-container div[class*="FullPage-container-"] div div div {
   background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
   background-repeat: repeat, no-repeat !important;
@@ -386,6 +389,7 @@ span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"] {
   -moz-background-size: auto, cover !important;
   -o-background-size: auto, cover !important;
 }
+/* Stylize loading screen */
 .plex-preloader-container {
   background-color: rgba(0, 0, 0, 0);
 }
@@ -395,4 +399,24 @@ body {
 .plex-image-preloader.plex-logo {
   background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/Rolling-0.7s-200px.svg");
   background-size: 4.5%;
+}
+/* Stylize Pin Screen */
+.modal-backdrop {
+  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
+  background-repeat: repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+  background-position: center center, center center !important;
+  background-size: auto, cover !important;
+  -webkit-background-size: auto, cover !important;
+  -moz-background-size: auto, cover !important;
+  -o-background-size: auto, cover !important;
+}
+.modal-body {
+  padding: 20px;
+  padding-bottom: 0px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.user-select-modal-pin-container .pin-digit {
+  background: hsla(0, 0%, 100%, 0.15);
 }
