@@ -35,7 +35,7 @@ Turn Organizr into a plexified media portal! This is a standard configuration th
 *  **Radarr:** Coming soon.<br/>
 
 ### [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/bbf_logo.png" alt="Blackberry Flat Logo" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/tree/master/Themes/Blackberry-Flat) [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat)<br/>
-For those that do not wish to transform Organizr into a media portal, Blackberry Flat themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features and have a larger, more normally sized navbar. Simply explained, they focus on creating a basic visual theme for the original page to be used in more standalone applications.<br/>
+For those that do not wish to transform Organizr into a media portal, Blackberry Flat themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features and have a larger, more normally sized navbar. Simply explained, these themes focus on creating a basic visual theme for the original page to be used in more standalone applications.<br/>
 
 ## More Information<br/>
 
