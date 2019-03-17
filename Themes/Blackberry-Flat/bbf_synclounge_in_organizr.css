@@ -99,7 +99,15 @@ main {
     padding-left: 10px;
   }
 }
+button.v-btn.theme--dark.primary {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none;
+}
 /* In Organizr customizations start here */
+button.v-btn.theme--dark.primary {
+  margin-right: 20px;
+}
 .v-navigation-drawer .layout.row.wrap .flex.xs12:nth-of-type(2) {
   height: 45vh !important;
 }
@@ -108,11 +116,6 @@ main {
 }
 .v-toolbar {
   padding-right: 0px !important;
-}
-button.v-btn.theme--dark.primary {
-  background-color: rgba(0, 0, 0, 0) !important;
-  border-color: rgba(0, 0, 0, 0) !important;
-  margin-right: 20px;
 }
 img.ma-1 {
   display: none;

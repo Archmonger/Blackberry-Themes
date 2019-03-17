@@ -99,3 +99,8 @@ main {
     padding-left: 10px;
   }
 }
+button.v-btn.theme--dark.primary {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none;
+}
