@@ -10,6 +10,12 @@ assignees: ''
 **Theme File** 
 <!---TYPE HERE (e.g. bbf_organizr.css)--->
 
+**Operating System**
+<!---TYPE HERE (e.g. Windows/Linux/iOS/Android)--->
+
+ **Browser**
+<!---TYPE HERE (e.g. Chrome/Firefox/Safari)--->
+
 **Issue Description**
 <!---TYPE HERE--->
 
@@ -18,9 +24,3 @@ assignees: ''
 
 **Screenshots**
 <!---PASTE HERE--->
-
-**Operating System**
-<!---TYPE HERE (e.g. Windows/Linux/iOS/Android)--->
-
- **Browser**
-<!---TYPE HERE (e.g. Chrome/Firefox/Safari)--->
