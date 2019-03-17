@@ -551,6 +551,15 @@ ul.nav.navbar-nav.navbar-right li:first-child {
     display: block;
   }
 }
+@media only screen and (max-width: 942px) {
+  .navbar-collapse {
+    background: #191a1c;
+    border-top: 0px;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-top: 5px;
+  }
+}
 /* In Organizr customizations start here */
 #settings a {
   padding-right: 19px;
