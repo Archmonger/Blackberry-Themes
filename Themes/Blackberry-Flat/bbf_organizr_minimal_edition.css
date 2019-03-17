@@ -2679,6 +2679,10 @@ h2.m-b-0.font-medium.pull-right {
   opacity: 1;
   background-color: #e3891c !important;
 }
+.request-title-movie, .request-title-tv, .request-title-music {
+  transition: none !important;
+  -webkit-transition: none !important;
+}
 /* Minimal Edition Customizations Start Here */
 /* Remove Uneeded Ombi Indicators */
 .inside-over-request-div.bg-success {
