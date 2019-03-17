@@ -422,6 +422,10 @@ a.x-menu-item:hover {
 .x-list-header-inner div em {
   border-left-width: 0px;
 }
+.x-list-header-inner em.sort-asc, .x-list-header-inner em.sort-desc {
+  background: none;
+  border: none;
+}
 /* Login Screen */
 body.x-body-masked .x-window-plain .x-window-mc {
   background-color: #3b4247;
