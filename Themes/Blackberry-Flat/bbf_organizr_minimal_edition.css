@@ -4,7 +4,7 @@
  * https://github.com/Burry/organizr-v2-plex-theme
  */
 #page-wrapper:before, body {
-  background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-light.png) center center/cover no-repeat fixed !important;
+  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") center center/cover no-repeat fixed !important;
   height: 100%;
   width: 100%;
 }
@@ -153,7 +153,7 @@ body {
 }
 body[data-active-tab=""] {
   position: absolute;
-  background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-dark.png) center center/cover no-repeat fixed !important;
+  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-dark.png") center center/cover no-repeat fixed !important;
 }
 #page-wrapper, #settings-settings-about li:hover, .btn-1b .btn-primary:after, .btn-1c .btn-primary:after, .btn-1d .btn-primary:after, .btn-1e .btn-primary:after, .btn-1f .btn-primary:after, .css-bar-info:after, .navbar-header, .panel, .panel-body, .panel-body.bg-org, .tabs-style-flip .content-wrap, .white-box {
   background: 0 0 !important;
@@ -337,7 +337,7 @@ div[data-src*=ombi], img[src*=ombi] {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0%' y1='50%' y2='50%'%3E%3Cstop offset='0%' stop-color='%23CA7D29'/%3E%3Cstop offset='100%' stop-color='%23F6BD16'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0%' y1='50%' y2='50%'%3E%3Cstop offset='0%' stop-color='%231F1F1F'/%3E%3Cstop offset='100%' stop-color='%232C2C2C'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='none'%3E%3Ccircle cx='300' cy='300' r='300' fill='url(%23a)'/%3E%3Ccircle cx='300' cy='300' r='280' fill='url(%23b)'/%3E%3Cpath fill='url(%23a)' d='M463.985 433.944l-88.515-89.258c-1.03-1.033-2.169-1.822-3.256-2.68 14.952-23.134 23.683-50.69 23.683-80.37C395.897 180.093 330.353 114 249.45 114 168.589 114 103 180.093 103 261.636c0 81.554 65.589 147.632 146.449 147.632 29.43 0 56.795-8.825 79.778-23.902.837 1.122 1.604 2.237 2.618 3.262l88.526 89.268c6.044 6.076 13.916 9.104 21.8 9.104 7.887 0 15.765-3.028 21.803-9.09 12.026-12.151 12.026-31.824.01-43.966M249.45 362.649c-55.237 0-100.2-45.322-100.2-101.013 0-55.684 44.964-101.016 100.2-101.016 55.235 0 100.199 45.332 100.199 101.016 0 55.69-44.964 101.013-100.2 101.013'/%3E%3C/g%3E%3C/svg%3E") !important;
 }
 #internal-Settings, #preloader, .active-tab-Settings, .error-page {
-  background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-dark.png) center center/cover no-repeat fixed !important;
+  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-dark.png") center center/cover no-repeat fixed !important;
 }
 .circular {
   position: fixed;
@@ -2403,7 +2403,7 @@ div[data-src$='no-np.png'] {
 }
 @supports not ((-webkit-backdrop-filter:blur(30px)) or (backdrop-filter:blur(30px))) {
   .sidebar {
-    background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-light.png) center center/cover no-repeat fixed !important;
+    background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") center center/cover no-repeat fixed !important;
   }
   .sidebar:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
@@ -2412,7 +2412,7 @@ div[data-src$='no-np.png'] {
     background: rgba(0, 0, 0, 0.2);
   }
   #internal-Settings .sidebar, .active-tab-Settings .sidebar, body[data-active-tab=""] .sidebar {
-    background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-dark.png) center center/cover no-repeat fixed !important;
+    background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-dark.png") center center/cover no-repeat fixed !important;
   }
   .sidebar-head {
     background: rgba(0, 0, 0, 0) !important;
