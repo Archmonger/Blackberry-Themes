@@ -3,8 +3,14 @@
  * MIT License
  * https://github.com/Burry/organizr-v2-plex-theme
  */
+:root {
+  --bg-light: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") center center/cover no-repeat fixed;
+  --bg-dark: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-dark.png") center center/cover no-repeat fixed;
+  --color-focused: #f9be03;
+  --color-hyperlink: #cc7b19;
+}
 #page-wrapper:before, body {
-  background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-light.png) center center/cover no-repeat fixed !important;
+  background: var(--bg-light) !important;
   height: 100%;
   width: 100%;
 }
@@ -81,8 +87,8 @@
   position: fixed;
   margin: -12px 0 0 -12px;
   border: 2px solid transparent;
-  border-top-color: #cc7b19;
-  border-left-color: #cc7b19;
+  border-top-color: var(--color-hyperlink);
+  border-left-color: var(--color-hyperlink);
   border-radius: 50%;
   -webkit-animation: .5s linear infinite loading;
   animation: .5s linear infinite loading;
@@ -153,7 +159,7 @@ body {
 }
 body[data-active-tab=""] {
   position: absolute;
-  background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-dark.png) center center/cover no-repeat fixed !important;
+  background: var(--bg-dark) !important;
 }
 #page-wrapper, #settings-settings-about li:hover, .btn-1b .btn-primary:after, .btn-1c .btn-primary:after, .btn-1d .btn-primary:after, .btn-1e .btn-primary:after, .btn-1f .btn-primary:after, .css-bar-info:after, .navbar-header, .panel, .panel-body, .panel-body.bg-org, .tabs-style-flip .content-wrap, .white-box {
   background: 0 0 !important;
@@ -282,13 +288,13 @@ body[data-active-tab=""] {
   font-weight: 600;
 }
 blockquote {
-  border-left-color: #cc7b19 !important;
+  border-left-color: var(--color-hyperlink) !important;
 }
 .el-card-item .el-card-avatar, .item {
   box-shadow: 0 0 2px rgba(0, 0, 0, .35);
 }
 .el-card-item:hover .el-card-avatar, .item:hover {
-  box-shadow: 0 0 0 2px #cc7b19;
+  box-shadow: 0 0 0 2px var(--color-hyperlink);
 }
 .el-card-avatar a:focus, .el-card-avatar a:hover, .fc-next-button.focus, .fc-next-button:focus, .fc-next-button:hover, .fc-prev-button.focus, .fc-prev-button:focus, .fc-prev-button:hover {
   background: 0 0 !important;
@@ -337,7 +343,7 @@ div[data-src*=ombi], img[src*=ombi] {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0%' y1='50%' y2='50%'%3E%3Cstop offset='0%' stop-color='%23CA7D29'/%3E%3Cstop offset='100%' stop-color='%23F6BD16'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0%' y1='50%' y2='50%'%3E%3Cstop offset='0%' stop-color='%231F1F1F'/%3E%3Cstop offset='100%' stop-color='%232C2C2C'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='none'%3E%3Ccircle cx='300' cy='300' r='300' fill='url(%23a)'/%3E%3Ccircle cx='300' cy='300' r='280' fill='url(%23b)'/%3E%3Cpath fill='url(%23a)' d='M463.985 433.944l-88.515-89.258c-1.03-1.033-2.169-1.822-3.256-2.68 14.952-23.134 23.683-50.69 23.683-80.37C395.897 180.093 330.353 114 249.45 114 168.589 114 103 180.093 103 261.636c0 81.554 65.589 147.632 146.449 147.632 29.43 0 56.795-8.825 79.778-23.902.837 1.122 1.604 2.237 2.618 3.262l88.526 89.268c6.044 6.076 13.916 9.104 21.8 9.104 7.887 0 15.765-3.028 21.803-9.09 12.026-12.151 12.026-31.824.01-43.966M249.45 362.649c-55.237 0-100.2-45.322-100.2-101.013 0-55.684 44.964-101.016 100.2-101.016 55.235 0 100.199 45.332 100.199 101.016 0 55.69-44.964 101.013-100.2 101.013'/%3E%3C/g%3E%3C/svg%3E") !important;
 }
 #internal-Settings, #preloader, .active-tab-Settings, .error-page {
-  background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-dark.png) center center/cover no-repeat fixed !important;
+  background: var(--bg-dark) !important;
 }
 .circular {
   position: fixed;
@@ -348,7 +354,7 @@ body[style=''] #preloader {
   z-index: 2;
 }
 a {
-  color: #cc7b19;
+  color: var(--color-hyperlink);
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -399,7 +405,7 @@ code {
   color: rgba(255, 255, 255, .7) !important;
 }
 #settings-settings-updates .label-info {
-  background: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
   color: #fff !important;
 }
 .label-success {
@@ -425,18 +431,18 @@ code {
   box-shadow: none;
 }
 .bg-plex, .btn-info, .btn[data-filter=request-result-movie], .btn[data-filter=request-result-music], .btn[data-filter=request-result-tv] {
-  background: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
   color: #fff !important;
   border: 0 !important;
 }
 .btn[data-filter=request-result-movie].disabled, .btn[data-filter=request-result-movie]:disabled, .btn[data-filter=request-result-music].disabled, .btn[data-filter=request-result-music]:disabled, .btn[data-filter=request-result-tv].disabled, .btn[data-filter=request-result-tv]:disabled {
-  background: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
   color: #fff !important;
   border: 0 !important;
   opacity: .7;
 }
 .btn[data-filter=request-result-movie].disabled.focus, .btn[data-filter=request-result-movie].disabled:focus, .btn[data-filter=request-result-movie].disabled:hover, .btn[data-filter=request-result-movie]:disabled.focus, .btn[data-filter=request-result-movie]:disabled:focus, .btn[data-filter=request-result-movie]:disabled:hover, .btn[data-filter=request-result-music].disabled.focus, .btn[data-filter=request-result-music].disabled:focus, .btn[data-filter=request-result-music].disabled:hover, .btn[data-filter=request-result-music]:disabled.focus, .btn[data-filter=request-result-music]:disabled:focus, .btn[data-filter=request-result-music]:disabled:hover, .btn[data-filter=request-result-tv].disabled.focus, .btn[data-filter=request-result-tv].disabled:focus, .btn[data-filter=request-result-tv].disabled:hover, .btn[data-filter=request-result-tv]:disabled.focus, .btn[data-filter=request-result-tv]:disabled:focus, .btn[data-filter=request-result-tv]:disabled:hover {
-  background: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
   color: #fff !important;
   border: 0 !important;
   opacity: .7;
@@ -498,13 +504,13 @@ code {
   margin: 0 !important;
 }
 .bg-plex.disabled, .bg-plex:disabled, .btn-info.disabled, .btn-info:disabled {
-  background: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
   color: #fff !important;
   border: 0 !important;
   opacity: .7;
 }
 .bg-plex.disabled.focus, .bg-plex.disabled:focus, .bg-plex.disabled:hover, .bg-plex:disabled.focus, .bg-plex:disabled:focus, .bg-plex:disabled:hover, .btn-info.disabled.focus, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info:disabled.focus, .btn-info:disabled:focus, .btn-info:disabled:hover {
-  background: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
   color: #fff !important;
   border: 0 !important;
   opacity: .7;
@@ -1114,7 +1120,7 @@ body[data-active-tab=''] #invite-area h4 {
   border-color: transparent;
 }
 .input-group-btn .btn:active:focus, .input-group-btn .btn:active:hover {
-  background: #cc7b19;
+  background: var(--color-hyperlink);
   color: #fff;
   border-color: transparent;
 }
@@ -1135,8 +1141,8 @@ body[data-active-tab=''] #invite-area h4 {
   font-weight: 600;
 }
 .checkbox-primary input[type=checkbox]:checked+label::before {
-  background: #cc7b19;
-  border-color: #cc7b19;
+  background: var(--color-hyperlink);
+  border-color: var(--color-hyperlink);
 }
 input[type=checkbox], input[type=radio] {
   margin: 0;
@@ -1147,11 +1153,11 @@ input[type=checkbox], input[type=radio] {
   transition: .2s;
 }
 .progress-bar-info, .radio-purple input[type=radio]+label::after, .radio-purple input[type=radio]:checked+label::after {
-  background: #cc7b19;
+  background: var(--color-hyperlink);
 }
 .radio-purple input[type=radio]:checked+label::before {
   background: rgba(0, 0, 0, .15);
-  border-color: #cc7b19;
+  border-color: var(--color-hyperlink);
 }
 .navbar {
   background: #162027;
@@ -1194,11 +1200,11 @@ img.dark-logo-side {
   box-shadow: 0 0 0 2px #eee;
 }
 .profile-pic[aria-expanded=true] .img-circle {
-  background: #f9be03;
-  box-shadow: 0 0 0 2px #f9be03;
+  background: var(--color-focused);
+  box-shadow: 0 0 0 2px var(--color-focused);
 }
 .fc-today.fc-day-header a, .fc-today.fc-day-header span, .fc-today.fc-day-top a, .fc-today.fc-state-highlight a, .profile-pic[aria-expanded=true] .caret, .profile-pic[aria-expanded=true] b {
-  color: #f9be03;
+  color: var(--color-focused);
 }
 .slimScrollBar {
   background: #fff !important;
@@ -1257,7 +1263,7 @@ img.dark-logo-side {
 }
 #side-menu li a.active, #side-menu li a:active {
   background: rgba(255, 255, 255, .08);
-  color: #f9be03;
+  color: var(--color-focused);
   box-shadow: none;
 }
 .tabLoaded {
@@ -1369,7 +1375,7 @@ img.dark-logo-side {
 }
 .splash-badge {
   color: #fff;
-  background: #cc7b19;
+  background: var(--color-hyperlink);
   width: 80px !important;
   height: 80px;
   font-size: 60px;
@@ -1390,7 +1396,7 @@ img.dark-logo-side {
   padding: 25px;
 }
 #homepage-items .bg-info, .badge .inside-request-div, .plyr input[type=radio]:checked+span {
-  background: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
 }
 #homepage-items .btn-group {
   margin-top: 4px;
@@ -1695,7 +1701,7 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
 }
 .fc-state-active, .fc-state-active:focus, .fc-state-active:hover {
   background: rgba(255, 255, 255, .08) !important;
-  color: #f9be03;
+  color: var(--color-focused);
   border-color: transparent;
 }
 .fc-today-button {
@@ -1723,7 +1729,7 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
 }
 .pagination>li.active>a, .pagination>li.active>a:focus, .pagination>li.active>a:hover {
   background: rgba(255, 255, 255, .08);
-  color: #f9be03;
+  color: var(--color-focused);
   border: 0;
 }
 .pagination>li.disabled>a {
@@ -1747,7 +1753,7 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   background: rgba(255, 255, 255, .08) !important;
-  color: #f9be03 !important;
+  color: var(--color-focused) !important;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover {
   background: 0 0 !important;
@@ -1830,23 +1836,23 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
   transition: .2s;
 }
 .plyr input[type=range] {
-  color: #cc7b19 !important;
+  color: var(--color-hyperlink) !important;
 }
 .plyr:active .plyr__control--overlaid {
   background: #955a12;
 }
 .plyr__control--overlaid {
-  background: #cc7b19;
+  background: var(--color-hyperlink);
   padding: 30px;
 }
 .plyr__control--overlaid:focus, .plyr__control--overlaid:hover {
-  background: #cc7b19;
+  background: var(--color-hyperlink);
 }
 .plyr__controls {
   transition: .2s !important;
 }
 .plyr__control.plyr__tab-focus, .plyr__control:hover, .plyr__control[aria-expanded=true] {
-  background: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
 }
 .plyr__control:active {
   background: #955a12 !important;
@@ -1939,7 +1945,7 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
   transition: none;
 }
 .tabs-style-flip nav li.tab-current a {
-  color: #f9be03 !important;
+  color: var(--color-focused) !important;
 }
 .getPlexMachineAuth, .getPlexTokenAuth, .newAPIKey, .purgeLog, .updateNow {
   font-size: 14px;
@@ -1958,7 +1964,7 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
 }
 .swapLog.active {
   background: rgba(255, 255, 255, .08) !important;
-  color: #f9be03 !important;
+  color: var(--color-focused) !important;
   opacity: 1;
 }
 #manageUserTable .el-card-avatar, #manageUserTable .el-overlay {
@@ -2102,8 +2108,8 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
   border-color: rgba(255, 255, 255, .25) !important;
 }
 .mce-grid-border a.mce-active, .mce-grid-border a:hover {
-  background: #cc7b19 !important;
-  border-color: #cc7b19 !important;
+  background: var(--color-hyperlink) !important;
+  border-color: var(--color-hyperlink) !important;
 }
 .white-popup .panel-heading, .white-popup>.col-md-6>.white-box:first-child {
   background: #333 !important;
@@ -2403,7 +2409,7 @@ div[data-src$='no-np.png'] {
 }
 @supports not ((-webkit-backdrop-filter:blur(30px)) or (backdrop-filter:blur(30px))) {
   .sidebar {
-    background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-light.png) center center/cover no-repeat fixed !important;
+    background: var(--bg-light) !important;
   }
   .sidebar:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
@@ -2412,7 +2418,7 @@ div[data-src$='no-np.png'] {
     background: rgba(0, 0, 0, 0.2);
   }
   #internal-Settings .sidebar, .active-tab-Settings .sidebar, body[data-active-tab=""] .sidebar {
-    background: url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/noise.png) center center fixed, url(https://raw.githubusercontent.com/Burry/organizr-v2-plex-theme/master/images/background/blur-dark.png) center center/cover no-repeat fixed !important;
+    background: var(--bg-dark) !important;
   }
   .sidebar-head {
     background: rgba(0, 0, 0, 0) !important;
@@ -2454,67 +2460,67 @@ img[src$='rotten.png'] {
   padding: 0 0 0 40px;
 }
 .css-bar-info.css-bar-0, .css-bar-warning.css-bar-0 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(90deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(90deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-5, .css-bar-warning.css-bar-5 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(108deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(108deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-10, .css-bar-warning.css-bar-10 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(126deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(126deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-15, .css-bar-warning.css-bar-15 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(144deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(144deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-20, .css-bar-warning.css-bar-20 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(162deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(162deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-25, .css-bar-warning.css-bar-25 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(180deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(180deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-30, .css-bar-warning.css-bar-30 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(198deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(198deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-35, .css-bar-warning.css-bar-35 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(216deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(216deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-40, .css-bar-warning.css-bar-40 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(234deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(234deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-45, .css-bar-warning.css-bar-45 {
-  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(252deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(252deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-50, .css-bar-warning.css-bar-50 {
-  background-image: linear-gradient(270deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(270deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-55, .css-bar-warning.css-bar-55 {
-  background-image: linear-gradient(288deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(288deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-60, .css-bar-warning.css-bar-60 {
-  background-image: linear-gradient(306deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(306deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-65, .css-bar-warning.css-bar-65 {
-  background-image: linear-gradient(324deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(324deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-70, .css-bar-warning.css-bar-70 {
-  background-image: linear-gradient(342deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(342deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-75, .css-bar-warning.css-bar-75 {
-  background-image: linear-gradient(360deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(360deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-80, .css-bar-warning.css-bar-80 {
-  background-image: linear-gradient(378deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(378deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-85, .css-bar-warning.css-bar-85 {
-  background-image: linear-gradient(396deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(396deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-90, .css-bar-warning.css-bar-90 {
-  background-image: linear-gradient(414deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(414deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-95, .css-bar-warning.css-bar-95 {
-  background-image: linear-gradient(432deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(432deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .css-bar-info.css-bar-100, .css-bar-warning.css-bar-100 {
-  background-image: linear-gradient(450deg, #cc7b19 50%, transparent 50%, transparent), linear-gradient(270deg, #cc7b19 50%, #18191b 50%, #18191b);
+  background-image: linear-gradient(450deg, var(--color-hyperlink) 50%, transparent 50%, transparent), linear-gradient(270deg, var(--color-hyperlink) 50%, #18191b 50%, #18191b);
 }
 .customPoster {
   margin: 40px 0;
@@ -2552,7 +2558,7 @@ h2.m-b-0.font-medium.pull-right {
   border-bottom-right-radius: 3px;
 }
 #speedtest-area .ti-upload {
-  color: #cc7b19;
+  color: var(--color-hyperlink);
 }
 .css-bar-default.css-bar-0 {
   background-image: linear-gradient(90deg, #18191b 50%, transparent 50%, transparent), linear-gradient(90deg, #35e656 50%, #18191b 50%, #18191b);
@@ -2647,7 +2653,7 @@ h2.m-b-0.font-medium.pull-right {
   color: rgba(255, 255, 255, 0.4);
 }
 .chat-list .odd .chat-text {
-  background: #cc7b19;
+  background: var(--color-hyperlink);
 }
 .chat-main-box .chat-right-aside .send-chat-box .form-control {
   padding-top: 10px;
@@ -2670,7 +2676,7 @@ h2.m-b-0.font-medium.pull-right {
   padding: 4px !important;
   width: auto;
   height: auto;
-  background-color: #cc7b19 !important;
+  background-color: var(--color-hyperlink) !important;
   position: relative;
   text-align: center;
   transition: all 0.3s ease;
