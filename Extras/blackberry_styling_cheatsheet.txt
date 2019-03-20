@@ -71,7 +71,7 @@ Dropdown Menu Item Height: 26px
 Text Input Box: hsla(0,0%,100%,.25)
 Text Input Box (Focus): #FFF
 Text Input Box Font Color: #FFF
-Text Input Box Font Color (Focus): #000
+Text Input Box Font Color (Focus): rgba(85,85,85)
 
 Small Card Data Item Color: rgba(0,0,0,.15)
 Small Card Data Item Border: bottom 1px solid rgba(0,0,0,.15)
