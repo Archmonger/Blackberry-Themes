@@ -43,7 +43,7 @@ For those that do not wish to transform Organizr into a media portal, Blackberry
 
 | Service | Last Tested Version | Requires Nginx Subfilter |
 | ------------- | :-------------: | :-------------: |
-| Plex | 1.14.1.5488 | YES |
+| Plex | 1.15.1.791 | YES |
 | Ombi | 3.0.4256 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 2.0.3 | YES |
