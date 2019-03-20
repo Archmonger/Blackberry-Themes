@@ -1094,7 +1094,7 @@ body[data-active-tab=''] #invite-area h4 {
   font-weight: 600;
   line-height: 1.5;
   padding: 0 12px;
-  border-radius: 3px;
+  border-radius: 3px !important;
   vertical-align: middle;
   background: var(--input-box-color);
   transition: background .2s;
