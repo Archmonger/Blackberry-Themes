@@ -7,17 +7,17 @@ Navbar Button Font Size: 14px
 Navbar Button Content Height: 20px
 Navbar Button Transition Duration: 0.25s
 Navbar Button Transition Timing Function: ease
+Navbar Height (In Organizr): 45px
+Navbar Height (Plex): 60px
+Navbar Height (Mobile): 40px
 Navbar Searchbar Color: hsla(0,0%,100%,.08)
 Navbar Searchbar Color (Focus): #FFF
 Navbar Searchbar Height (in Organizr): 35px
 Navbar Searchbar Height (Plex): 40px
-Navbar Height (In Organizr): 45px
-Navbar Height (Plex): 60px
-Navbar Height (Mobile): 40px
 
-Font Color (Primary): hsla(0,0%,100%,.8)
-Font Color (Secondary): hsla(0,0%,100%,.7)
-Font Color (Subtext/Alternate Text): hsla(0,0%,100%,.45)
+Font Color (Primary): rgba(255,255,255,0.8)
+Font Color (Secondary): rgba(255,255,255,0.7)
+Font Color (Subtext/Alternate Text): rgba(255,255,255,0.45)
 Font Color (Hyperlink): #cc7b19
 Font Color (Highlighted/Focused): #f9be03
 Font Color (Success): #468847
