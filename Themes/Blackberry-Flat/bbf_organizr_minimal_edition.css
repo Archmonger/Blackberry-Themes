@@ -1201,7 +1201,7 @@ img.dark-logo-side {
 }
 .navbar-top-links>li>a {
   background: 0 0 !important;
-  color: var(--font-color-subtext);
+  color: var(--font-color-secondary);
   transition: none;
 }
 .navbar-top-links.navbar-left li:first-of-type i {
