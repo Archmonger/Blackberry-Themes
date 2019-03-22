@@ -341,6 +341,10 @@ blockquote {
 .lazyload:not(.homepageImageTitle) {
   background-color: rgba(0, 0, 0, .45);
 }
+.lazyload.recent-sponsor {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 .recent-poster {
   margin-bottom: 50px;
   margin-top: 2px;
