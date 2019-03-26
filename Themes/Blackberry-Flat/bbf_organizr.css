@@ -2186,7 +2186,7 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
   opacity: .5 !important;
 }
 .resultBox-outside, .sweet-alert {
-  background: #292929;
+  background: #292929 !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 @media screen and (min-width: 768px) {
