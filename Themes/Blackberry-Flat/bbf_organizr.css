@@ -2714,3 +2714,18 @@ h2.m-b-0.font-medium.pull-right {
   transition: none !important;
   -webkit-transition: none !important;
 }
+/* Fix music cards */
+.recent-music span.elip.recent-title {
+  background: rgba(31, 31, 31, 0) !important;
+}
+img.imageSourceBottom {
+  top: -110px;
+}
+img.imageSourceTop {
+  top: -36px;
+}
+.recent-cover .hover-homepage-item {
+  position: relative;
+  top: -300px;
+  height: 150px;
+}
