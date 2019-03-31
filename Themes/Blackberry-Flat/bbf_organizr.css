@@ -1655,7 +1655,10 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
   line-height: 16px !important;
 }
 .fc-toolbar {
-  background: 0 0 !important;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px 4px 0 0;
+  border: none;
+  margin-top: 20px;
   cursor: default;
   padding: 0 0 2.5px;
 }
@@ -2262,7 +2265,7 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
     margin: 0 0 50px !important;
   }
   .fc-toolbar {
-    padding: 0 0 20px;
+    padding: 20px;
   }
   .fc-toolbar .fc-center {
     position: absolute;
