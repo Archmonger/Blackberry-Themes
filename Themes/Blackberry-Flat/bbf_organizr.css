@@ -2259,7 +2259,8 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
   }
   #homepage-items .owl-item {
     margin-right: 28px !important;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    height: auto;
   }
   #homepageOrdercalendar:not(:last-of-type) #calendar {
     margin: 0 0 50px !important;
