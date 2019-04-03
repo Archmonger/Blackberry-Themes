@@ -2744,12 +2744,12 @@ span.select2-selection.select2-selection--multiple {
   height: auto;
 }
 span.select2-selection.select2-selection--multiple .select2-selection__choice__remove {
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--font-color-subtext);
   transition: all 0.3s ease;
 }
 span.select2-selection.select2-selection--multiple .select2-selection__choice__remove:hover, span.select2-selection.select2-selection--multiple .select2-selection__choice__remove:active, span.select2-selection.select2-selection--multiple .select2-selection__choice__remove:focus {
   color: rgba(255, 255, 255, 1);
 }
 span.select2-selection.select2-selection--multiple .select2-selection__choice {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--font-color-secondary);
 }
