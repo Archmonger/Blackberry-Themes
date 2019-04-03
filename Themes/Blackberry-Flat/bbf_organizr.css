@@ -1286,6 +1286,7 @@ img.dark-logo-side {
   font-weight: 600 !important;
   padding: 7.5px 35px 7.5px 15px;
   margin-bottom: 10px;
+  transition: all 0.3s ease;
 }
 #side-menu li a:focus, #side-menu li a:hover {
   color: #fff;
@@ -1293,7 +1294,7 @@ img.dark-logo-side {
 }
 #side-menu li a.active, #side-menu li a:active {
   background: var(--floating-object-color-hover);
-  color: var(--color-focused);
+  color: var(--color-focused) !important;
   box-shadow: none;
 }
 .tabLoaded {

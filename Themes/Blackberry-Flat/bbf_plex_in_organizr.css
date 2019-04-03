@@ -362,6 +362,10 @@ div[class*="NavBar-right-"] {
 span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"] {
   display: none;
 }
+/* Better transitions on sidebar hover */
+div[class*="SidebarLibraryItem-libraryListItem-"] {
+  transition: all 0.3s ease;
+}
 /* Remove account button */
 button[class*="NavBar-accountButton"] {
   display: none !important;
