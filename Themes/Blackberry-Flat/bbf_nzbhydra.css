@@ -1,0 +1,98 @@
+/* Base Layer */
+body {
+  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background-repeat: repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: center center, center center;
+  background-size: auto, cover;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  min-height: 100%;
+  height: auto;
+}
+/*Make top header navbar more transparent*/
+/*Round buttons in top navbar*/
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:focus{
+	background-color: rgba(39, 43, 46, 1);
+	border-radius: 6px 6px 6px 6px;
+}
+.navbar-default .navbar-nav .active a:hover{
+	background-color: rgba(39, 43, 46, 0.8);
+}
+.navbar-default .navbar-nav>li>a{
+	border-radius: 6px 6px 6px 6px;
+}
+.navbar-default .navbar-nav>li a:focus,
+.navbar-default .navbar-nav>li a:hover{
+	background-color: rgba(39, 43, 46, 0.4);	
+}
+/*Removal of 1px line under menu and rounding all buttons in submenu*/
+.nav-tabs {
+    border-bottom: transparent;
+}
+.nav-tabs>li.active a,
+.nav-tabs>li.active a:focus,
+.nav-tabs>li.active a:hover {
+	border-bottom-color: #1a1f20;
+}
+.nav-tabs>li>a {
+	border-radius: 4px 4px 4px 4px;
+}
+.panel-default>.panel-heading {
+	#background-color: rgba(58 ,63 ,68, 0.1)
+}
+button.btn.config-button.config-api-button.btn-default{
+	border-radius: 6px 6px 6px 6px;
+	border-bottom-color: #1a1f20;
+	background-color: rgba(39, 43, 46, 0.8);	
+}
+button.btn.config-button.config-help-button.btn-default{
+	border-radius: 6px 6px 6px 6px;
+	border-bottom-color: #1a1f20;
+	background-color: rgba(39, 43, 46, 0.8);	
+}
+.config-button{
+	border-radius: 6px 6px 6px 6px;
+	border-bottom-color: #1a1f20;
+}
+/*Hide UI Theme Option in Config/Main*/
+
+/*Hide docker error and update button*/
+div.alert.alert-warning.ng-scope {
+	display: none;
+}
+button.btn.btn-default.ng-scope{
+	display: none;
+}
+
+/*Tabel Edit*/
+.formly>.formly-field-group{
+	background-color: rgba(45,52,54,0.2);
+	border: 0px;
+}
+.repeatsection {
+	background-color: rgba(45,52,54,0.2);
+}
+
+
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+	background-color: #cc7b19;
+	color:#c8c8c8;
+}
+.btn-success{
+	background-color: #cc7b19;
+	border-color:#cc7b19;
+}
+.btn-success:focus,
+.btn-success:active,
+.btn-success:hover {
+	background-color: #cc7b19;
+	border-color:#cc7b19;
+	filter: brightness(85%);
+}
