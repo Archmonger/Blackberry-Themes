@@ -2753,3 +2753,7 @@ span.select2-selection.select2-selection--multiple .select2-selection__choice__r
 span.select2-selection.select2-selection--multiple .select2-selection__choice {
   color: var(--font-color-secondary);
 }
+/* Sidenav Fixes */
+.nav-second-level .sidebar-tabName {
+  top: 15px;
+}
