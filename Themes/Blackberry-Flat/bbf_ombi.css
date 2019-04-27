@@ -560,3 +560,19 @@ ul.nav.navbar-nav.navbar-right li:first-child {
     margin-top: 5px;
   }
 }
+.col-sm-push-3 {
+  float: right;
+  left: 0px !important;
+}
+.row .btn {
+  margin-left: 100%;
+}
+.col-md-push-9 {
+  float: right;
+  left: 0px;
+  padding-right: 0px;
+  padding-left: 100%;
+}
+.col-md-push-9 .btn {
+  float: right;
+}
