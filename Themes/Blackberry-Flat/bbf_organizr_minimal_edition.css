@@ -2753,6 +2753,13 @@ span.select2-selection.select2-selection--multiple .select2-selection__choice__r
 span.select2-selection.select2-selection--multiple .select2-selection__choice {
   color: var(--font-color-secondary);
 }
+/* Sidenav Fixes */
+.nav-second-level .sidebar-tabName {
+  top: 15px;
+}
+.sidebar .arrow {
+  top: 15px;
+}
 /* Minimal Edition Customizations Start Here */
 /* Remove Uneeded Ombi Indicators */
 .inside-over-request-div.bg-success {
@@ -2813,4 +2820,17 @@ div[class*="fc"] .text-primary {
 }
 .navbar-top-links .dropdown-user .dw-user-box .u-text {
   padding-top: 10px;
+}
+/* Always Minimized Sidenav */
+@media only screen and (min-width: 768px) {
+  .sidebar,
+  .sidebar .sidebar-head {
+    width: 60px !important;
+  }
+  .sidebar .hide-menu {
+    display: none !important;
+  }
+  .sidebar:hover {
+    box-shadow: none;
+  }
 }
