@@ -1288,9 +1288,13 @@ img.dark-logo-side {
   margin-bottom: 10px;
   transition: all 0.3s ease;
 }
-#side-menu li a:focus, #side-menu li a:hover {
+#side-menu li a:hover {
   color: #fff;
   background: var(--floating-object-color-hover) !important;
+}
+#side-menu li a:focus {
+  color: #fff;
+  background: transparent;
 }
 #side-menu li a.active, #side-menu li a:active {
   background: var(--floating-object-color-hover);
