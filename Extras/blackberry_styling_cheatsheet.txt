@@ -14,6 +14,7 @@ Navbar Searchbar Color: hsla(0,0%,100%,.08)
 Navbar Searchbar Color (Focus): #FFF
 Navbar Searchbar Height (in Organizr): 35px
 Navbar Searchbar Height (Plex): 40px
+Navbar Left/Right Padding: 20px
 
 Font Color (Primary): rgba(255,255,255,0.8)
 Font Color (Secondary): rgba(255,255,255,0.7)
