@@ -21,6 +21,7 @@ body {
 .navbar .container {
   margin: 0px;
   padding-left: 5px;
+  width: 100% !important;
 }
 .navbar .nav {
   float: left;
