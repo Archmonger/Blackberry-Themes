@@ -11,88 +11,85 @@ body {
   min-height: 100%;
   height: auto;
 }
-/*Make top header navbar more transparent*/
-/*Round buttons in top navbar*/
-.navbar-default {
-	background-color: rgba(0, 0, 0, 0.1);
+/* Navbar */
+.navbar {
+  background-color: #162027;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
-.navbar-default .navbar-nav .active a,
-.navbar-default .navbar-nav .active a:focus{
-	background-color: rgba(39, 43, 46, 1);
-	border-radius: 6px 6px 6px 6px;
+.navbar .container {
+  margin: 0px;
+  padding-left: 5px;
 }
-.navbar-default .navbar-nav .active a:hover{
-	background-color: rgba(39, 43, 46, 0.8);
+.navbar .nav {
+  float: left;
 }
-.navbar-default .navbar-nav>li>a{
-	border-radius: 6px 6px 6px 6px;
+.navbar-default .navbar-nav .active a {
+  background-color: transparent !important;
+  color: #f9be03;
+}
+.navbar-default .navbar-nav .active a:hover {
+  background-color: rgba(39, 43, 46, 0.8);
+}
+.navbar-default .navbar-nav>li>a {
+  color: hsla(0, 0%, 100%, .7);
+  font-size: 14px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  transition: all 0.25s ease;
 }
 .navbar-default .navbar-nav>li a:focus,
-.navbar-default .navbar-nav>li a:hover{
-	background-color: rgba(39, 43, 46, 0.4);	
+.navbar-default .navbar-nav>li a:hover {
+  background-color: transparent;
+  color: #FFF;
 }
 /*Removal of 1px line under menu and rounding all buttons in submenu*/
 .nav-tabs {
-    border-bottom: transparent;
+  border-bottom: transparent;
 }
-.nav-tabs>li.active a,
-.nav-tabs>li.active a:focus,
-.nav-tabs>li.active a:hover {
-	border-bottom-color: #1a1f20;
+button.btn.config-button.config-api-button.btn-default {
+  border-radius: 6px 6px 6px 6px;
+  border-bottom-color: #1a1f20;
+  background-color: rgba(39, 43, 46, 0.8);
 }
-.nav-tabs>li>a {
-	border-radius: 4px 4px 4px 4px;
+button.btn.config-button.config-help-button.btn-default {
+  border-radius: 6px 6px 6px 6px;
+  border-bottom-color: #1a1f20;
+  background-color: rgba(39, 43, 46, 0.8);
 }
-.panel-default>.panel-heading {
-	#background-color: rgba(58 ,63 ,68, 0.1)
-}
-button.btn.config-button.config-api-button.btn-default{
-	border-radius: 6px 6px 6px 6px;
-	border-bottom-color: #1a1f20;
-	background-color: rgba(39, 43, 46, 0.8);	
-}
-button.btn.config-button.config-help-button.btn-default{
-	border-radius: 6px 6px 6px 6px;
-	border-bottom-color: #1a1f20;
-	background-color: rgba(39, 43, 46, 0.8);	
-}
-.config-button{
-	border-radius: 6px 6px 6px 6px;
-	border-bottom-color: #1a1f20;
+.config-button {
+  border-radius: 6px 6px 6px 6px;
+  border-bottom-color: #1a1f20;
 }
 /*Hide UI Theme Option in Config/Main*/
-
 /*Hide docker error and update button*/
 div.alert.alert-warning.ng-scope {
-	display: none;
+  display: none;
 }
-button.btn.btn-default.ng-scope{
-	display: none;
+button.btn.btn-default.ng-scope {
+  display: none;
 }
-
 /*Tabel Edit*/
-.formly>.formly-field-group{
-	background-color: rgba(45,52,54,0.2);
-	border: 0px;
+.formly>.formly-field-group {
+  background-color: rgba(45, 52, 54, 0.2);
+  border: 0px;
 }
 .repeatsection {
-	background-color: rgba(45,52,54,0.2);
+  background-color: rgba(45, 52, 54, 0.2);
 }
-
-
-
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
-	background-color: #cc7b19;
-	color:#c8c8c8;
+  background-color: #cc7b19;
+  color: #c8c8c8;
 }
-.btn-success{
-	background-color: #cc7b19;
-	border-color:#cc7b19;
+.btn-success {
+  background-color: #cc7b19;
+  border-color: #cc7b19;
 }
 .btn-success:focus,
 .btn-success:active,
 .btn-success:hover {
-	background-color: #cc7b19;
-	border-color:#cc7b19;
-	filter: brightness(85%);
+  background-color: #cc7b19;
+  border-color: #cc7b19;
+  filter: brightness(85%);
 }
