@@ -2841,7 +2841,7 @@ div[class*="fc"] .text-primary {
 /* Custom Tippy Tooltip Styling */
 .tippy-tooltip.bbf-theme {
   color: white;
-  font-size: 12px;
+  font-size: 13px;
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .tippy-tooltip.bbf-theme .tippy-backdrop {
