@@ -2838,3 +2838,12 @@ div[class*="fc"] .text-primary {
     box-shadow: none;
   }
 }
+/* Custom Tippy Tooltip Styling */
+.tippy-tooltip.bbf-theme {
+  color: white;
+  font-size: 12px;
+  font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.tippy-tooltip.bbf-theme .tippy-backdrop {
+  background-color: black;
+}
