@@ -2071,7 +2071,6 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
   padding: 0;
 }
 #customCSSEditor, div[id$=FavIcon] textarea {
-  height: -webkit-fill-available !important;
   border-radius: 3px;
   font-size: 12px;
   font-weight: 400;
