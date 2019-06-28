@@ -36,7 +36,7 @@ For those that do not wish to transform Organizr into a media portal, Blackberry
 | Ombi | 3.0.4256 | NO |
 | Synclounge | 2.0.0 | YES |
 | Filebrowser | 2.0.3 | YES |
-| Deluge WebUI | 1.3.15 | YES |
+| Deluge WebUI | 2.0.3 | YES |
 | Jackett | 0.10.846.0 | YES |
 | Organizr | 2.0.0 | NO |
 | Tautulli | 2.1.26 | YES |
