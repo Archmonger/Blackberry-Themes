@@ -69,6 +69,12 @@ body {
   color: #FFF;
 }
 .x-btn {
+  padding: 0px 5px;
+}
+.x-btn-noicon {
+  padding: 4px 5px;
+}
+.x-panel-tbar .x-btn {
   padding: 4px 5px;
 }
 .x-btn-tl,
@@ -339,19 +345,6 @@ a.x-menu-item:hover {
 .x-window-mc {
   border: none;
   background-color: #3b4247;
-}
-.x-panel-bbar.x-panel-bbar-noborder {
-  position: fixed !important;
-  bottom: 0px !important;
-}
-/* Bottom Toolbar */
-.x-window-mc {
-  border: none;
-  background-color: #3b4247;
-}
-.x-panel-bbar.x-panel-bbar-noborder {
-  position: fixed !important;
-  bottom: 0px !important;
 }
 /* Preferences */
 .x-window-tl .x-window-header {
