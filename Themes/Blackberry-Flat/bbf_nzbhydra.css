@@ -136,6 +136,13 @@ tbody:nth-child(odd) {
 [role=button]:hover {
   text-decoration: none;
 }
+/* History and Stats */
+[ui-view="stats"] .table {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+[ui-view="stats"] tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.10);
+}
 /* Navbar */
 .navbar {
   background-color: #162027;
