@@ -132,6 +132,9 @@ tbody:nth-child(odd) {
   padding-left: 20px;
   padding-right: 20px;
 }
+[role=button]:hover {
+  text-decoration: none;
+}
 /* Navbar */
 .navbar {
   background-color: #162027;
