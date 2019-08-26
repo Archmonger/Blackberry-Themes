@@ -81,11 +81,11 @@ body {
 .form-control:focus {
   box-shadow: none;
 }
-#searchfield {
+.form-horizontal .form-group .col-sm-10 #searchfield {
   color: #FFF;
   box-shadow: none;
 }
-#searchfield:focus {
+.form-horizontal .form-group:focus-within .col-sm-10 #searchfield {
   color: #000;
 }
 /* Navbar */
