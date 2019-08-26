@@ -11,6 +11,7 @@ body {
   min-height: 100%;
   height: auto;
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
 }
 /* Search tab */
 .btn {
@@ -169,7 +170,7 @@ tbody:nth-child(odd) {
   background-color: transparent;
   color: #FFF;
 }
-/*Removal of 1px line under menu and rounding all buttons in submenu*/
+/* Removal of 1px line under menu and rounding all buttons in submenu */
 .nav-tabs {
   border-bottom: transparent;
 }
@@ -187,15 +188,15 @@ button.btn.config-button.config-help-button.btn-default {
   border-radius: 6px 6px 6px 6px;
   border-bottom-color: #1a1f20;
 }
-/*Hide UI Theme Option in Config/Main*/
-/*Hide docker error and update button*/
+/* Hide UI Theme Option in Config/Main */
+/* Hide docker error and update button */
 div.alert.alert-warning.ng-scope {
   display: none;
 }
 button.btn.btn-default.ng-scope {
   display: none;
 }
-/*Tabel Edit*/
+/* Table Edit */
 .formly>.formly-field-group {
   background-color: rgba(45, 52, 54, 0.2);
   border: 0px;
@@ -218,7 +219,7 @@ button.btn.btn-default.ng-scope {
   border-color: #cc7b19;
   filter: brightness(85%);
 }
-/*scrollbars*/
+/* Scrollbars*/
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -237,4 +238,19 @@ pre::-webkit-scrollbar-track {
 }
 pre::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, .15);
+}
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: #191a1c;
+  border: none;
+}
+.dropdown-menu li a {
+  font-size: 13.25px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  transition: all ease 0.25s;
+}
+.dropdown-menu li a:hover {
+  color: #FFF;
+  background-color: hsla(0, 0%, 100%, .08);
 }
