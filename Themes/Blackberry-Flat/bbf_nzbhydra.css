@@ -10,6 +10,7 @@ body {
   -o-background-size: auto, cover;
   min-height: 100%;
   height: auto;
+  font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 /* Search tab */
 .btn {
