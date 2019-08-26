@@ -40,13 +40,13 @@ body {
   border: none;
   background-color: transparent;
 }
-.col-sm-3 .form-control {
+.input-group .form-control {
   background-color: hsla(0, 0%, 100%, .25);
   transition-timing-function: ease;
   transition-duration: 0.25s;
   color: rgba(255, 255, 255, 0.7);
 }
-.col-sm-3 .form-control:focus {
+.input-group .form-control:focus {
   background-color: hsla(0, 0%, 100%, .3);
   color: #FFF;
 }
@@ -86,6 +86,7 @@ body {
 .form-horizontal .form-group .col-sm-10 #searchfield {
   color: #FFF;
   box-shadow: none;
+  background-color: transparent;
 }
 .form-horizontal .form-group:focus-within .col-sm-10 #searchfield {
   color: #000;
