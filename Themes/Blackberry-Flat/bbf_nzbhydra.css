@@ -11,6 +11,73 @@ body {
   min-height: 100%;
   height: auto;
 }
+/* Search tab */
+.btn {
+  border: none;
+  background-color: hsla(0, 0%, 100%, .25);
+  color: hsla(0, 0%, 100%, .7);
+  text-transform: uppercase;
+  transition-timing-function: ease;
+  transition-duration: 0.25s;
+}
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default, .open>.dropdown-toggle.btn-default:hover {
+  color: #fff !important;
+  background-color: hsla(0, 0%, 100%, .3) !important;
+}
+.input-group-addon {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: hsla(0, 0%, 100%, .7);
+  text-transform: uppercase;
+}
+.input-group-btn1, .input-group-btn2 {
+  border: none;
+  background-color: transparent;
+}
+.form-control {
+  border: none;
+  background-color: transparent;
+}
+.col-sm-3 .form-control {
+  background-color: hsla(0, 0%, 100%, .25);
+}
+.form-horizontal .form-group .col-sm-10 .input-group-btn1 .btn,
+.form-horizontal .form-group .col-sm-10 .input-group-btn2 .btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: hsla(0, 0%, 100%, .7);
+  text-transform: uppercase;
+  transition-timing-function: ease;
+  transition-duration: 0.25s;
+}
+.form-horizontal .form-group .col-sm-10 .input-group-btn1 .btn:hover,
+.form-horizontal .form-group .col-sm-10 .input-group-btn2 .btn:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.form-horizontal .form-group:focus-within .col-sm-10 .input-group-btn1 .btn,
+.form-horizontal .form-group:focus-within .col-sm-10 .input-group-btn2 .btn {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: #FFF;
+}
+.form-horizontal .form-group .col-sm-10 .input-group {
+  background-color: hsla(0, 0%, 100%, .25);
+  border-radius: 4px;
+  padding: 4.5px 16px;
+  transition-timing-function: ease;
+  transition-duration: 0.25s;
+}
+.form-horizontal .col-sm-10 .input-group:focus-within {
+  background-color: #FFF !important;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+#searchfield {
+  color: #FFF;
+  box-shadow: none;
+}
+#searchfield:focus {
+  color: #000;
+}
 /* Navbar */
 .navbar {
   background-color: #162027;
