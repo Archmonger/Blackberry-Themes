@@ -231,7 +231,7 @@ button.btn.btn-default.ng-scope {
   width: 15px;
 }
 ::-webkit-scrollbar-track {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, .0);
 }
 ::-webkit-scrollbar-thumb {
   min-height: 50px;
@@ -239,12 +239,6 @@ button.btn.btn-default.ng-scope {
   border: 3px solid transparent;
   border-radius: 8px;
   background-clip: padding-box;
-}
-pre::-webkit-scrollbar-track {
-  background-color: rgba(255, 255, 255, .2);
-}
-pre::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, .15);
 }
 /* Dropdown Menu */
 .dropdown-menu {
