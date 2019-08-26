@@ -50,6 +50,11 @@ body {
   background-color: hsla(0, 0%, 100%, .3);
   color: #FFF;
 }
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+  margin-left: 0px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
 .form-horizontal .form-group .col-sm-10 .input-group-btn1 .btn,
 .form-horizontal .form-group .col-sm-10 .input-group-btn2 .btn {
   background-color: rgba(0, 0, 0, 0.2);
