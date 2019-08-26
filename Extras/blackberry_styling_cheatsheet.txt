@@ -14,6 +14,10 @@ Navbar Searchbar Color: hsla(0,0%,100%,.08)
 Navbar Searchbar Color (Focus): #FFF
 Navbar Searchbar Height (in Organizr): 35px
 Navbar Searchbar Height (Plex): 40px
+Navbar Searchbar Font Color: #FFF
+Navbar Searchbar Font Color (Focused): #000
+Navbar Searchbar Transition Duration: 0.25s
+Navbar Searchbar Transition Timing Function: ease
 Navbar Left/Right Padding: 20px
 
 Font Color (Primary): rgba(255,255,255,0.8)
@@ -50,6 +54,22 @@ Nav Tab Color (Hover): rgba(255, 255, 255, .08)
 Nav Tab Font Color: hsla(0,0%,100%,.6)
 Nav Tab Font Color (Hover/Active): #FFF
 Nav Tab Border (If Horizontal Nav Tab): 1px rgba(255,255,255,0.05)
+
+On Page Searchbar Color: hsla(0,0%,100%,.25)
+On Page Searchbar Color (Focused): #FFF
+On Page Searchbar Font Color (Focused): #000
+On Page Searchbar Border Radius: 4px
+On Page Searchbar Height: 45px
+On Page Searchbar Padding Left/Right: 16px
+On Page Searchbar Transition Duration: 0.25s
+On Page Searchbar Transition Timing Function: ease
+On Page Button in Searchbar Height: 25px
+On Page Button in Searchbar Color: rgba(0, 0, 0, 0.2)
+On Page Button in Searchbar Color (Focused): rgba(0, 0, 0, 0.5)
+On Page Button in Searchbar Color (Hover): rgba(0, 0, 0, 0.12)
+On Page Button in Searchbar Font Color: hsla(0,0%,100%,.7)
+On Page Button in Searchbar Font Color (Focused): #FFF
+On Page Button in Searchbar Text Transform: Uppercase
 
 On Page Object Color (Transparent): rgba(0,0,0,.15)
 On Page Object Color (Solid, Small): rgba(35, 36, 38, .8)
