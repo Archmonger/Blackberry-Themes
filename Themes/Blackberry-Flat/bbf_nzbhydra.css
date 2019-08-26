@@ -254,3 +254,22 @@ pre::-webkit-scrollbar-thumb {
   color: #FFF;
   background-color: hsla(0, 0%, 100%, .08);
 }
+/* Pagination */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover, .pagination>li>a, .pagination>li>span {
+  border: none;
+  color: #FFF;
+  background-color: #cc7b19;
+}
+.pagination>li>a, .pagination>li>span {
+  background-color: rgba(0, 0, 0, 0.15);
+  margin-left: 0px;
+  color: hsla(0, 0%, 100%, .7);
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+  background-color: rgba(255, 255, 255, .05);
+  color: #FFF;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: hsla(0, 0%, 100%, .25);
+}
