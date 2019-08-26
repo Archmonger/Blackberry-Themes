@@ -114,3 +114,11 @@ Pagination Button Color (Active): #cc7b19
 Pagination Button Color (Hover): rgba(255,255,255,.05)
 Pagination Font Color: hsla(0,0%,100%,.7)
 Pagination Font Color (Active/Hover): #FFF
+
+Scrollbar Width: 15px
+Scrollbar Track Color: transparent
+Scrollbar Thumb Color: rgba(255, 255, 255, .15)
+Scrollbar Thumb Border:  3px solid transparent
+Scrollbar Thumb Background Clip: padding-box
+Scrollbar Thumb Border Radius: 8px
+Scrollbar Thumb Minimum Height: 50px
