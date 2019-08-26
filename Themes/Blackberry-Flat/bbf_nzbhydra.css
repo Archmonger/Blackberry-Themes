@@ -89,6 +89,22 @@ body {
 .form-horizontal .form-group:focus-within .col-sm-10 #searchfield {
   color: #000;
 }
+/* Search Tab Grid */
+.pagination>.active>a {
+  z-index: 2 !important;
+}
+.search-results-table {
+  border: none;
+}
+.search-results-table {
+  background-color: rgba(0, 0, 0, .15);
+}
+tbody:nth-child(odd) {
+  background-color: rgba(0, 0, 0, .10);
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  border: none;
+}
 /* Navbar */
 .navbar {
   background-color: #162027;
