@@ -280,3 +280,17 @@ pre::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, 0.15);
   color: hsla(0, 0%, 100%, .25);
 }
+/* Modals */
+.modal-content {
+  background-color: #282828;
+}
+caption {
+  color: rgba(255, 255, 255, 0.45);
+}
+.modal-header, .modal-footer {
+  border: none;
+  background-color: #323232;
+}
+.progress {
+  background-color: rgba(0, 0, 0, .15);
+}
