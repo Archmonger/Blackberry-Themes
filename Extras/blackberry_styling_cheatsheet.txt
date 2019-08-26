@@ -49,7 +49,7 @@ Button Transition Duration: 0.25s
 Button Transition Timing Function: ease
 
 Nav Tab Color: rgba(0,0,0,0.15)
-Nav Tab Color (Active): #cc7b19
+Nav Tab Color (Active): rgba(255, 255, 255, .08)
 Nav Tab Color (Hover): rgba(255, 255, 255, .08)
 Nav Tab Font Color: hsla(0,0%,100%,.6)
 Nav Tab Font Color (Hover/Active): #FFF
