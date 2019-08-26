@@ -40,6 +40,13 @@ body {
 }
 .col-sm-3 .form-control {
   background-color: hsla(0, 0%, 100%, .25);
+  transition-timing-function: ease;
+  transition-duration: 0.25s;
+  color: rgba(255, 255, 255, 0.7);
+}
+.col-sm-3 .form-control:focus {
+  background-color: hsla(0, 0%, 100%, .3);
+  color: #FFF;
 }
 .form-horizontal .form-group .col-sm-10 .input-group-btn1 .btn,
 .form-horizontal .form-group .col-sm-10 .input-group-btn2 .btn {
@@ -48,6 +55,9 @@ body {
   text-transform: uppercase;
   transition-timing-function: ease;
   transition-duration: 0.25s;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+  border-radius: 4px;
 }
 .form-horizontal .form-group .col-sm-10 .input-group-btn1 .btn:hover,
 .form-horizontal .form-group .col-sm-10 .input-group-btn2 .btn:hover {
