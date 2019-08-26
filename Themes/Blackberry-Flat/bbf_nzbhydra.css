@@ -265,6 +265,7 @@ button.btn.btn-default.ng-scope {
   background-color: rgba(0, 0, 0, 0.15);
   margin-left: 0px;
   color: hsla(0, 0%, 100%, .7);
+  transition: all ease 0.25s;
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
   background-color: rgba(255, 255, 255, .05);
@@ -287,4 +288,26 @@ caption {
 }
 .progress {
   background-color: rgba(0, 0, 0, .15);
+}
+/* Nav tabs */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  border: none;
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.nav-tabs>li>a {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+  margin: 0px;
+  color: hsla(0, 0%, 100%, .6);
+  transition: all ease 0.25s;
+}
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #FFF;
 }
