@@ -388,3 +388,8 @@ chip-tmpl{
 chip-tmpl:last-child{
   margin-bottom: 5px;
 }
+.repeatsection{
+  background-color: rgba(0,0,0,0.15);
+  box-shadow: none;
+  padding-top: 10px;
+}
