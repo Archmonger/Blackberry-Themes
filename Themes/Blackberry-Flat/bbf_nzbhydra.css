@@ -20,7 +20,7 @@ body {
   color: hsla(0, 0%, 100%, .7);
   text-transform: uppercase;
   transition-timing-function: ease;
-  transition-duration: 0.25s;
+  transition: all ease 0.25s;
 }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default, .open>.dropdown-toggle.btn-default:hover {
   color: #fff !important;
@@ -198,16 +198,8 @@ tbody:nth-child(odd) {
   border-radius: 4px;
   border-bottom-color: #1a1f20;
 }
-/* Hide UI Theme Option in Config/Main */
-/* Hide docker error and update button */
-div.alert.alert-warning.ng-scope {
-  display: none;
-}
 .config-api-button{
   margin-left: 15px;
-}
-button.btn.btn-default.ng-scope {
-  display: none;
 }
 /* Table Edit */
 .formly>.formly-field-group {
@@ -223,14 +215,11 @@ button.btn.btn-default.ng-scope {
 }
 .btn-success {
   background-color: #cc7b19;
-  border-color: #cc7b19;
 }
 .btn-success:focus,
 .btn-success:active,
 .btn-success:hover {
-  background-color: #cc7b19;
-  border-color: #cc7b19;
-  filter: brightness(85%);
+  background-color: #e3891c !important;
 }
 /* Scrollbars*/
 ::-webkit-scrollbar {
