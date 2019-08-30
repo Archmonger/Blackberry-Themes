@@ -332,7 +332,7 @@ caption {
   color: #FFF;
   transition: all ease 0.25s;
 }
-.config .form-control:focus{
+.config .form-control:focus, .config .form-control:focus-within{
   background-color: #FFF;
   color: rgba(85,85,85);
 }
@@ -364,4 +364,13 @@ legend {
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary{
   background-color: #cc7b19;
   color: rgba(255,255,255,0.8);
+}
+.chip-control{
+  background-color: transparent;
+  color: #FFF;
+  transition: all ease 0.25s;
+}
+.chip-control:focus{
+  background-color: transparent;
+  color: rgba(85,85,85);
 }
