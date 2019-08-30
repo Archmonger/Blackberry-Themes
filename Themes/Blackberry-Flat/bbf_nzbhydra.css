@@ -407,3 +407,16 @@ chip-tmpl:last-child{
 .list-group-item:nth-child(even){
   background-color: rgba(0,0,0,0.10)
 }
+.system-tab-content .search-results-header{
+  background-color: rgba(0,0,0,0.15);
+}
+.system-tab-content .log tr{
+  background-color: rgba(0,0,0,0.15);
+}
+.system-tab-content .log tr:nth-child(odd){
+  background-color: rgba(0,0,0,0.25);
+}
+pre{
+  background-color: #000;
+  color: rgba(255,255,255,0.7);
+}
