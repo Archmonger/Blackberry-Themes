@@ -393,3 +393,17 @@ chip-tmpl:last-child{
   box-shadow: none;
   padding-top: 10px;
 }
+/* System Page */
+.list-group-item{
+  background-color: transparent;
+  border: none;
+}
+.panel-default>.panel-heading{
+  background-color: rgba(0,0,0,0.5);
+}
+.panel-default>.panel-heading h3{
+  color: rgba(255,255,255,0.8);
+}
+.list-group-item:nth-child(even){
+  background-color: rgba(0,0,0,0.10)
+}
