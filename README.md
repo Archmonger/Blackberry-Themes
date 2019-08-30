@@ -1,5 +1,5 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
-We are an open source theming group dedicated to creating a consistent user interface across multiple web services via CSS changes to many popular web applications, with variants focused on Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.<br/>
+We are an open source theming group dedicated to creating a consistent user interface across multiple web services, with variants focused on Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.<br/>
 
 Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository!<br/>
 
