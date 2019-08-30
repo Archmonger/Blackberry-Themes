@@ -336,3 +336,14 @@ caption {
   background-color: #FFF;
   color: rgba(85,85,85);
 }
+legend {
+  margin-bottom: 25px;
+  color: rgba(255,255,255,0.7);
+  border: none;
+}
+.formly>.formly-field-group{
+  background-color: transparent;
+}
+.help-block{
+  color: rgba(255,255,255,0.45);
+}
