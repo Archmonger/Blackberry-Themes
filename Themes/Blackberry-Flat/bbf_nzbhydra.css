@@ -347,3 +347,21 @@ legend {
 .help-block{
   color: rgba(255,255,255,0.45);
 }
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default{
+  border: none;
+  color: rgba(255,255,255,0.45);
+  background-color: rgba(255,255,255,0.1)
+}
+.bootstrap-switch{
+  border-color: transparent;
+  border-radius: 4px;
+  border-left-width: 1.25px;
+  border-right-width: 1.25px;
+}
+.bootstrap-switch .bootstrap-switch-label{
+  background-color: rgba(0,0,0,0.25);
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary{
+  background-color: #cc7b19;
+  color: rgba(255,255,255,0.7);
+}
