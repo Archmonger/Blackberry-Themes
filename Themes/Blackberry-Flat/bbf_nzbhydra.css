@@ -374,3 +374,17 @@ legend {
   background-color: transparent;
   color: rgba(85,85,85);
 }
+.default-chip{
+  border: none !important;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(0,0,0,0.6)
+}
+chip-tmpl{
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+chip-tmpl:last-child{
+  margin-bottom: 5px;
+}
