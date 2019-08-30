@@ -3,11 +3,11 @@ We are an open source theming group dedicated to creating a consistent user inte
 
 Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository!<br/>
 
-[![Discord](https://img.shields.io/badge/discord-join-orange.svg)](https://discord.gg/sfjkDaM)<br/>
+[![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
 
 ### Like what we do? Donate!
-[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg)](https://beerpay.io/Archmonger/Blackberry-Themes)
-[![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/mgbakhit)
+[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
+[![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/mgbakhit)
 
 ## FAQ<br/>
 [How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
