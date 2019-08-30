@@ -398,13 +398,14 @@ chip-tmpl:last-child{
   background-color: transparent;
   border: none;
 }
-.panel-default>.panel-heading{
-  background-color: rgba(0,0,0,0.5);
+.system-tab-content .panel-default>.panel-heading{
+  background-color: rgba(0,0,0,0.25);
+  border: none;
 }
-.panel-default>.panel-heading h3{
+.system-tab-content .panel-default>.panel-heading h3{
   color: rgba(255,255,255,0.8);
 }
-.list-group-item:nth-child(even){
+.system-tab-content .list-group-item:nth-child(odd){
   background-color: rgba(0,0,0,0.10)
 }
 .system-tab-content .search-results-header{
@@ -419,4 +420,18 @@ chip-tmpl:last-child{
 pre{
   background-color: #000;
   color: rgba(255,255,255,0.7);
+}
+.system-tab-content .panel-body{
+  padding: 15px;
+}
+.system-tab-content .form-control{
+  background-color: hsla(0,0%,100%,.25);
+  margin: 15px;
+  color: #FFF;
+  transition: all ease 0.25s;
+  width: calc(100% - 30px);
+}
+.system-tab-content .form-control:focus{
+  color: rgba(85,85,85);
+  background-color: #FFF;
 }
