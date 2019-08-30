@@ -371,7 +371,8 @@ chip-tmpl:last-child{
   margin-bottom: 5px;
 }
 .repeatsection{
-  background-color: rgba(0,0,0,0.15);
+  background-color: transparent;
+  border: none;
   box-shadow: none;
   padding-top: 10px;
 }
