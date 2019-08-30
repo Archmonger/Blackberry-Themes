@@ -149,6 +149,13 @@ tbody:nth-child(odd) {
 [ui-view="stats"] tbody tr:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.10);
 }
+.stat-box {
+  border: none;
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 4px;
+  margin: 10px;
+  width: calc(50% - 20px);
+}
 /* Navbar */
 .navbar {
   background-color: #162027;
