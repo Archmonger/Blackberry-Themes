@@ -39,16 +39,16 @@ body {
 .form-control {
   border: none;
   background-color: transparent;
+  box-shadow: none;
 }
 .input-group .form-control {
   background-color: hsla(0, 0%, 100%, .25);
-  transition-timing-function: ease;
-  transition-duration: 0.25s;
+  transition: all ease 0.25s;
   color: rgba(255, 255, 255, 0.7);
 }
 .input-group .form-control:focus {
-  background-color: hsla(0, 0%, 100%, .3);
-  color: #FFF;
+  background-color: #FFF;
+  color: rgba(85,85,85);
 }
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
   margin-left: 0px;
@@ -323,4 +323,16 @@ caption {
 .nav>li>a:focus, .nav>li>a:hover {
   background-color: rgba(255, 255, 255, 0.08);
   color: #FFF;
+}
+/* Config Page */
+.config .form-control{
+  border: none;
+  background-color: hsla(0,0%,100%,.25);
+  box-shadow: none;
+  color: #FFF;
+  transition: all ease 0.25s;
+}
+.config .form-control:focus{
+  background-color: #FFF;
+  color: rgba(85,85,85);
 }
