@@ -194,24 +194,17 @@ tbody:nth-child(odd) {
 .nav-tabs {
   border-bottom: transparent;
 }
-button.btn.config-button.config-api-button.btn-default {
-  border-radius: 6px 6px 6px 6px;
-  border-bottom-color: #1a1f20;
-  background-color: rgba(39, 43, 46, 0.8);
-}
-button.btn.config-button.config-help-button.btn-default {
-  border-radius: 6px 6px 6px 6px;
-  border-bottom-color: #1a1f20;
-  background-color: rgba(39, 43, 46, 0.8);
-}
 .config-button {
-  border-radius: 6px 6px 6px 6px;
+  border-radius: 4px;
   border-bottom-color: #1a1f20;
 }
 /* Hide UI Theme Option in Config/Main */
 /* Hide docker error and update button */
 div.alert.alert-warning.ng-scope {
   display: none;
+}
+.config-api-button{
+  margin-left: 15px;
 }
 button.btn.btn-default.ng-scope {
   display: none;
