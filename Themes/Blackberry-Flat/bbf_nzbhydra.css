@@ -48,7 +48,7 @@ body {
 }
 .input-group .form-control:focus {
   background-color: #FFF;
-  color: rgba(85,85,85);
+  color: rgba(85, 85, 85);
 }
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
   margin-left: 0px;
@@ -151,7 +151,7 @@ tbody:nth-child(odd) {
 }
 .stat-box {
   border: none;
-  background-color: rgba(0,0,0,0.15);
+  background-color: rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin: 10px;
   width: calc(50% - 20px);
@@ -198,7 +198,7 @@ tbody:nth-child(odd) {
   border-radius: 4px;
   border-bottom-color: #1a1f20;
 }
-.config-api-button{
+.config-api-button {
   margin-left: 15px;
 }
 /* Table Edit */
@@ -307,114 +307,114 @@ caption {
   color: #FFF;
 }
 /* Config Page */
-.config .form-control{
+.config .form-control {
   border: none;
-  background-color: hsla(0,0%,100%,.25);
+  background-color: hsla(0, 0%, 100%, .25);
   box-shadow: none;
   color: #FFF;
   transition: all ease 0.25s;
 }
-.config .form-control:focus, .config .form-control:focus-within{
+.config .form-control:focus, .config .form-control:focus-within {
   background-color: #FFF;
-  color: rgba(85,85,85);
+  color: rgba(85, 85, 85);
 }
 legend {
   margin-bottom: 25px;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.7);
   border: none;
 }
-.formly>.formly-field-group{
+.formly>.formly-field-group {
   background-color: transparent;
 }
-.help-block{
-  color: rgba(255,255,255,0.45);
+.help-block {
+  color: rgba(255, 255, 255, 0.45);
 }
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default{
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default {
   border: none;
-  color: rgba(255,255,255,0.45);
-  background-color: rgba(255,255,255,0.1)
+  color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 255, 255, 0.1)
 }
-.bootstrap-switch{
+.bootstrap-switch {
   border-color: transparent;
   border-radius: 4px;
   border-left-width: 1.25px;
   border-right-width: 1.25px;
 }
-.bootstrap-switch .bootstrap-switch-label{
-  background-color: rgba(0,0,0,0.25);
+.bootstrap-switch .bootstrap-switch-label {
+  background-color: rgba(0, 0, 0, 0.25);
 }
-.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary{
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
   background-color: #cc7b19;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
-.chip-control{
+.chip-control {
   background-color: transparent;
   color: #FFF;
   transition: all ease 0.25s;
 }
-.chip-control:focus{
+.chip-control:focus {
   background-color: transparent;
-  color: rgba(85,85,85);
+  color: rgba(85, 85, 85);
 }
-.default-chip{
+.default-chip {
   border: none !important;
   padding: 2px;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: rgba(0,0,0,0.6)
+  background-color: rgba(0, 0, 0, 0.6)
 }
-chip-tmpl{
+chip-tmpl {
   margin-bottom: 0px;
   margin-top: 5px;
 }
-chip-tmpl:last-child{
+chip-tmpl:last-child {
   margin-bottom: 5px;
 }
-.repeatsection{
+.repeatsection {
   background-color: transparent;
   border: none;
   box-shadow: none;
   padding-top: 10px;
 }
 /* System Page */
-.list-group-item{
+.list-group-item {
   background-color: transparent;
   border: none;
 }
-.system-tab-content .panel-default>.panel-heading{
-  background-color: rgba(0,0,0,0.25);
+.system-tab-content .panel-default>.panel-heading {
+  background-color: rgba(0, 0, 0, 0.25);
   border: none;
 }
-.system-tab-content .panel-default>.panel-heading h3{
-  color: rgba(255,255,255,0.8);
+.system-tab-content .panel-default>.panel-heading h3 {
+  color: rgba(255, 255, 255, 0.8);
 }
-.system-tab-content .list-group-item:nth-child(odd){
-  background-color: rgba(0,0,0,0.10)
+.system-tab-content .list-group-item:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.10)
 }
-.system-tab-content .search-results-header{
-  background-color: rgba(0,0,0,0.15);
+.system-tab-content .search-results-header {
+  background-color: rgba(0, 0, 0, 0.15);
 }
-.system-tab-content .log tr{
-  background-color: rgba(0,0,0,0.15);
+.system-tab-content .log tr {
+  background-color: rgba(0, 0, 0, 0.15);
 }
-.system-tab-content .log tr:nth-child(odd){
-  background-color: rgba(0,0,0,0.25);
+.system-tab-content .log tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.25);
 }
-pre{
+pre {
   background-color: #000;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
-.system-tab-content .panel-body{
+.system-tab-content .panel-body {
   padding: 15px;
 }
-.system-tab-content .form-control{
-  background-color: hsla(0,0%,100%,.25);
+.system-tab-content .form-control {
+  background-color: hsla(0, 0%, 100%, .25);
   margin: 15px;
   color: #FFF;
   transition: all ease 0.25s;
   width: calc(100% - 30px);
 }
-.system-tab-content .form-control:focus{
-  color: rgba(85,85,85);
+.system-tab-content .form-control:focus {
+  color: rgba(85, 85, 85);
   background-color: #FFF;
 }
