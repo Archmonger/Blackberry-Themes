@@ -1,13 +1,13 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
-We are an open source theming group dedicated to creating a consistent user interface across multiple web services via CSS changes to many popular web applications. Our themes come with variants focused on Organizr V2 integration to create a unified visual experience across tabs, however we also have variants available for standalone applications. These themes are flat and minimal, clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites. Individual themes will often come with custom icons for Organizr, which are available within the theme's `Icons` folder. These are not required, but may prove useful.<br/>
+We are an open source theming group dedicated to creating a consistent user interface across multiple web services, with variants focused on Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.<br/>
 
 Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository!<br/>
 
-[![Discord](https://img.shields.io/badge/discord-join-orange.svg)](https://discord.gg/sfjkDaM)<br/>
+[![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
 
 ### Like what we do? Donate!
-[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg)](https://beerpay.io/Archmonger/Blackberry-Themes)
-[![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/mgbakhit)
+[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
+[![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/mgbakhit)
 
 ## FAQ<br/>
 [How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
@@ -21,10 +21,10 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 
 ## Standard Configurations
 ### [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/bbf_in_organizr_logo.png" alt="Blackberry Flat in Organizr Logo" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/tree/master/Themes/Blackberry-Flat) [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat)<br/>
-Turn Organizr into a plexified media portal! This is a standard configuration that ties together all plex-related services into one visibily native package by utilizing Organizr SSO. Focuses on optimized usability and simplicity for users which have access to your Plex library, and focuses on bringing Plex styling to all your other media server web applications.
+Turn Organizr into a plexified media portal! This is a standard configuration that ties together all plex-related services into one visibily native package by utilizing Organizr SSO. Focuses on bringing Plex styling to all your other media server web applications. Comes with custom icons for Organizr, which are available within the theme's `Icons` folder.
 
 ### [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/bbf_logo.png" alt="Blackberry Flat Logo" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/tree/master/Themes/Blackberry-Flat) [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat)<br/>
-For those that do not wish to transform Organizr into a media portal, Blackberry Flat themes exist without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features and have a larger, more normally sized navbar. Simply explained, these themes focus on creating a basic visual theme for the original page to be used in more standalone applications.<br/>
+Blackberry Flat themes without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features (such as logout functionality on Ombi) and have a larger navbar. These is intended to be used in more standalone applications.<br/>
 
 ## More Information<br/>
 

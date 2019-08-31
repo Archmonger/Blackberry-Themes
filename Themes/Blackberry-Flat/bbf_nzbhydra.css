@@ -20,7 +20,7 @@ body {
   color: hsla(0, 0%, 100%, .7);
   text-transform: uppercase;
   transition-timing-function: ease;
-  transition-duration: 0.25s;
+  transition: all ease 0.25s;
 }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default, .open>.dropdown-toggle.btn-default:hover {
   color: #fff !important;
@@ -39,16 +39,16 @@ body {
 .form-control {
   border: none;
   background-color: transparent;
+  box-shadow: none;
 }
 .input-group .form-control {
   background-color: hsla(0, 0%, 100%, .25);
-  transition-timing-function: ease;
-  transition-duration: 0.25s;
+  transition: all ease 0.25s;
   color: rgba(255, 255, 255, 0.7);
 }
 .input-group .form-control:focus {
-  background-color: hsla(0, 0%, 100%, .3);
-  color: #FFF;
+  background-color: #FFF;
+  color: rgba(85,85,85);
 }
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
   margin-left: 0px;
@@ -149,6 +149,13 @@ tbody:nth-child(odd) {
 [ui-view="stats"] tbody tr:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.10);
 }
+.stat-box {
+  border: none;
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 4px;
+  margin: 10px;
+  width: calc(50% - 20px);
+}
 /* Navbar */
 .navbar {
   background-color: #162027;
@@ -187,27 +194,12 @@ tbody:nth-child(odd) {
 .nav-tabs {
   border-bottom: transparent;
 }
-button.btn.config-button.config-api-button.btn-default {
-  border-radius: 6px 6px 6px 6px;
-  border-bottom-color: #1a1f20;
-  background-color: rgba(39, 43, 46, 0.8);
-}
-button.btn.config-button.config-help-button.btn-default {
-  border-radius: 6px 6px 6px 6px;
-  border-bottom-color: #1a1f20;
-  background-color: rgba(39, 43, 46, 0.8);
-}
 .config-button {
-  border-radius: 6px 6px 6px 6px;
+  border-radius: 4px;
   border-bottom-color: #1a1f20;
 }
-/* Hide UI Theme Option in Config/Main */
-/* Hide docker error and update button */
-div.alert.alert-warning.ng-scope {
-  display: none;
-}
-button.btn.btn-default.ng-scope {
-  display: none;
+.config-api-button{
+  margin-left: 15px;
 }
 /* Table Edit */
 .formly>.formly-field-group {
@@ -223,14 +215,11 @@ button.btn.btn-default.ng-scope {
 }
 .btn-success {
   background-color: #cc7b19;
-  border-color: #cc7b19;
 }
 .btn-success:focus,
 .btn-success:active,
 .btn-success:hover {
-  background-color: #cc7b19;
-  border-color: #cc7b19;
-  filter: brightness(85%);
+  background-color: #e3891c !important;
 }
 /* Scrollbars*/
 ::-webkit-scrollbar {
@@ -316,4 +305,116 @@ caption {
 .nav>li>a:focus, .nav>li>a:hover {
   background-color: rgba(255, 255, 255, 0.08);
   color: #FFF;
+}
+/* Config Page */
+.config .form-control{
+  border: none;
+  background-color: hsla(0,0%,100%,.25);
+  box-shadow: none;
+  color: #FFF;
+  transition: all ease 0.25s;
+}
+.config .form-control:focus, .config .form-control:focus-within{
+  background-color: #FFF;
+  color: rgba(85,85,85);
+}
+legend {
+  margin-bottom: 25px;
+  color: rgba(255,255,255,0.7);
+  border: none;
+}
+.formly>.formly-field-group{
+  background-color: transparent;
+}
+.help-block{
+  color: rgba(255,255,255,0.45);
+}
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default{
+  border: none;
+  color: rgba(255,255,255,0.45);
+  background-color: rgba(255,255,255,0.1)
+}
+.bootstrap-switch{
+  border-color: transparent;
+  border-radius: 4px;
+  border-left-width: 1.25px;
+  border-right-width: 1.25px;
+}
+.bootstrap-switch .bootstrap-switch-label{
+  background-color: rgba(0,0,0,0.25);
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary{
+  background-color: #cc7b19;
+  color: rgba(255,255,255,0.9);
+}
+.chip-control{
+  background-color: transparent;
+  color: #FFF;
+  transition: all ease 0.25s;
+}
+.chip-control:focus{
+  background-color: transparent;
+  color: rgba(85,85,85);
+}
+.default-chip{
+  border: none !important;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(0,0,0,0.6)
+}
+chip-tmpl{
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+chip-tmpl:last-child{
+  margin-bottom: 5px;
+}
+.repeatsection{
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding-top: 10px;
+}
+/* System Page */
+.list-group-item{
+  background-color: transparent;
+  border: none;
+}
+.system-tab-content .panel-default>.panel-heading{
+  background-color: rgba(0,0,0,0.25);
+  border: none;
+}
+.system-tab-content .panel-default>.panel-heading h3{
+  color: rgba(255,255,255,0.8);
+}
+.system-tab-content .list-group-item:nth-child(odd){
+  background-color: rgba(0,0,0,0.10)
+}
+.system-tab-content .search-results-header{
+  background-color: rgba(0,0,0,0.15);
+}
+.system-tab-content .log tr{
+  background-color: rgba(0,0,0,0.15);
+}
+.system-tab-content .log tr:nth-child(odd){
+  background-color: rgba(0,0,0,0.25);
+}
+pre{
+  background-color: #000;
+  color: rgba(255,255,255,0.7);
+}
+.system-tab-content .panel-body{
+  padding: 15px;
+}
+.system-tab-content .form-control{
+  background-color: hsla(0,0%,100%,.25);
+  margin: 15px;
+  color: #FFF;
+  transition: all ease 0.25s;
+  width: calc(100% - 30px);
+}
+.system-tab-content .form-control:focus{
+  color: rgba(85,85,85);
+  background-color: #FFF;
 }
