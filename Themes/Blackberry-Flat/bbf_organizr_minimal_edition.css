@@ -171,7 +171,7 @@ html {
   background: #3f4245;
 }
 body {
-  font: 600 13px "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 13.25px Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
   transition: background-image .2s;
 }
 #homepage-items .recent-title, #to-recover span, a {
