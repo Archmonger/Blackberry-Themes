@@ -1,8 +1,4 @@
 @import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_tautulli.css";
-/* Tautulli */
-html {
-  background-image: linear-gradient(135deg, #252b2f, #090c0e);
-}
 /* In Organizr customizations start here */
 .art-face {
   background-image: none !important;
