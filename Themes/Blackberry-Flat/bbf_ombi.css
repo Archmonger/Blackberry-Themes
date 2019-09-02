@@ -550,6 +550,9 @@ ul.nav.navbar-nav.navbar-right li:first-child {
     margin-bottom: 2px;
     display: block;
   }
+  .input-group-addon .btn-group {
+    display: none;
+  }
 }
 @media only screen and (max-width: 942px) {
   .navbar-collapse {
