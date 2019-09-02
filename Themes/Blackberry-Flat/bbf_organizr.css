@@ -2278,9 +2278,6 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  #settings-settings-updates .btn {
-    margin: -20px -15px !important;
-  }
   .tab-pane .col-md-6:first-of-type {
     padding: 0 15px 0 0;
   }
