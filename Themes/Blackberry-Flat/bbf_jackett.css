@@ -259,3 +259,7 @@ pre {
 .alert-danger span[data-notify="message"] {
   word-wrap: break-word;
 }
+/* Remove HR from homepage */
+#page>hr {
+  display: none;
+}
