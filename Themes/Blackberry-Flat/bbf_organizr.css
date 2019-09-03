@@ -2421,26 +2421,25 @@ img[src$='no-request.png'] {
 div[data-src$='no-np.png'] {
   background-size: 150px 150px !important;
 }
-@supports not ((-webkit-backdrop-filter:blur(30px)) or (backdrop-filter:blur(30px))) {
-  .sidebar {
-    background: var(--bg-light) !important;
-  }
-  .sidebar:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-  }
-  .sidebar-nav {
-    background: rgba(0, 0, 0, 0.2);
-  }
-  #internal-Settings .sidebar, .active-tab-Settings .sidebar, body[data-active-tab=""] .sidebar {
-    background: var(--bg-dark) !important;
-  }
-  .sidebar-head {
-    background: rgba(0, 0, 0, 0) !important;
-    box-shadow: none !important;
-  }
-  div[data-src$='no-np.png'] {
-    background-color: #333 !important;
-  }
+.sidebar {
+  background: var(--sidenav-bg) !important;
+  transition: all ease 0.5s;
+}
+.sidebar:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+.sidebar-nav {
+  background: var(--sidenav-layer-2-bg);
+}
+.show-sidebar .sidebar {
+  background: var(--sidenav-open-bg) !important;
+}
+.sidebar-head {
+  background: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+}
+div[data-src$='no-np.png'] {
+  background-color: #333 !important;
 }
 #side-menu {
   padding-top: 0px;

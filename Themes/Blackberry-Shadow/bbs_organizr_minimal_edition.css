@@ -1,12 +1,2 @@
 @import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_organizr_minimal_edition.css";
 @import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbs_variables.css";
-/* Sidenav Modifications */
-.navbar-default.sidebar {
-  background: transparent !important;
-}
-.slimScrollDiv {
-  background-image: linear-gradient(180deg, rgba(18, 23, 25, 1), rgba(18, 23, 25, 0.75), rgba(18, 23, 25, 0.3), rgba(18, 23, 25, 0.3), rgba(0, 0, 0, 0))
-}
-.sidebar-nav {
-  background-color: transparent;
-}
