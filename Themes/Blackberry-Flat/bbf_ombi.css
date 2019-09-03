@@ -10,7 +10,7 @@ body {
   -o-background-size: auto, cover;
   min-height: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 html {
@@ -31,11 +31,11 @@ option.ng-star-inserted {
 }
 input#search,
 .form-control-custom {
-  background-color: hsla(0, 0%, 100%, .25) !important;
+  background: hsla(0, 0%, 100%, .25) !important;
   border: none !important;
 }
 .search-bar-background[_ngcontent-c2] {
-  background-color: rgba(0, 0, 0, 0)
+  background: rgba(0, 0, 0, 0)
 }
 .form-control-search[_ngcontent-c2] {
   width: 100%;
@@ -49,10 +49,10 @@ input#search,
   border-radius: 0 4px 4px 0 !important;
 }
 group-addon {
-  background-color: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .2);
 }
 .navbar-default {
-  background-color: var(--navbar-color) !important;
+  background: var(--navbar-color) !important;
 }
 .navbar-default .navbar-brand {
   color: #ebebeb;
@@ -70,7 +70,7 @@ p {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  background-color: rgba(204, 123, 25, 0);
+  background: rgba(204, 123, 25, 0);
   color: #f9be03;
   border-radius: 4px;
 }
@@ -104,7 +104,7 @@ button.btn.btn-primary-outline.disabled.ng-star-inserted,
   color: #FFFFFF !important;
   border-color: #FFFFFF !important;
   border: none;
-  background-color: rgba(255, 255, 255, 0.17);
+  background: rgba(255, 255, 255, 0.17);
   font-size: 13.25px;
   text-transform: uppercase;
 }
@@ -122,27 +122,27 @@ button.btn.btn-sm.btn-info-outline {
   color: #FFFFFF !important;
   border-color: #FFFFFF !important;
   border: none;
-  background-color: rgba(255, 255, 255, 0.17);
+  background: rgba(255, 255, 255, 0.17);
 }
 #movieList .row .col-sm-2.small-padding button.btn.btn-sm.btn-info-outline {
   margin-left: 10px;
 }
 .btn-danger-outline {
   border: none;
-  background-color: #ac3323;
+  background: #ac3323;
   color: #FFF !important;
 }
 .btn-danger-outline.active, .btn-danger-outline.focus, .btn-danger-outline:active, .btn-danger-outline:focus, .btn-danger-outline:hover, .open>.btn-danger-outline.dropdown-toggle {
-  background-color: #ce3d2a !important;
+  background: #ce3d2a !important;
 }
 .btn-info-outline:hover, .btn-info-outline:active, .btn-info-outline:focus {
-  background-color: rgba(255, 255, 255, .25) !important;
+  background: rgba(255, 255, 255, .25) !important;
   border-color: rgba(255, 255, 255, .25) !important;
 }
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
   color: #FFFFFF;
-  background-color: rgba(255, 255, 255, .0);
+  background: rgba(255, 255, 255, .0);
 }
 .nav-tabs>li>a:hover {
   border-color: rgba(255, 255, 255, .08);
@@ -163,10 +163,10 @@ button.btn.btn-sm.btn-info-outline {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
-  background-color: rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, .08);
 }
 .dropdown-menu {
-  background-color: #191a1c;
+  background: #191a1c;
   border-radius: 4px !important;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -184,12 +184,12 @@ button.btn.btn-sm.btn-info-outline {
 .dropdown-menu .divider,
 .input-group-addon,
 .input-group-addon.right-radius {
-  background-color: hsla(0, 0%, 100%, .25);
+  background: hsla(0, 0%, 100%, .25);
 }
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
-  background-color: hsla(0, 0%, 100%, .08);
+  background: hsla(0, 0%, 100%, .08);
   color: #FFF;
 }
 .ui-state-default {
@@ -198,14 +198,14 @@ button.btn.btn-sm.btn-info-outline {
 }
 .ui-state-default.ng-star-inserted {
   color: hsla(0, 0%, 100%, .45);
-  background-color: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.15);
 }
 .ui-state-default.ng-star-inserted:hover {
   color: #FFF;
-  background-color: rgba(255, 255, 255, .05);
+  background: rgba(255, 255, 255, .05);
 }
 .ui-state-active {
-  background-color: #cc7b19 !important;
+  background: #cc7b19 !important;
   color: #FFFFFF !important;
 }
 a:focus,
@@ -221,19 +221,19 @@ a {
 .btn-primary-outline:focus,
 .btn-primary-outline:hover,
 .open>.btn-primary-outline.dropdown-toggle {
-  background-color: rgba(255, 255, 255, .25) !important;
+  background: rgba(255, 255, 255, .25) !important;
   border-color: rgba(255, 255, 255, .25) !important;
 }
 .input-group-addon .btn-group .btn {
   border: none !important;
   margin-right: 5px;
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
 }
 .input-group-addon .btn-group {
   top: 8px;
 }
 .input-group-addon .btn-group .btn:hover {
-  background-color: rgba(0, 0, 0, 0.12) !important;
+  background: rgba(0, 0, 0, 0.12) !important;
 }
 .btn-group-sm>.btn,
 .btn-sm {
@@ -243,26 +243,26 @@ a {
   color: #d7d7d7;
 }
 .label-info {
-  background-color: rgba(255, 255, 255, .15);
+  background: rgba(255, 255, 255, .15);
 }
 .label-success {
-  background-color: rgba(92, 182, 92, .30);
+  background: rgba(92, 182, 92, .30);
 }
 .label-danger {
-  background-color: rgba(217, 83, 79, .35);
+  background: rgba(217, 83, 79, .35);
 }
 .label-primary {
-  background-color: rgba(223, 105, 26, .35);
+  background: rgba(223, 105, 26, .35);
 }
 .ui-widget-content {
   border: none !important;
   background: none !important;
 }
 .ui-dialog .ui-dialog-content {
-  background-color: #252424 !important;
+  background: #252424 !important;
 }
 a.active {
-  background-color: rgba(255, 255, 255, .15) !important;
+  background: rgba(255, 255, 255, .15) !important;
   color: #FFF !important;
 }
 .table a:not(.btn), table a:not(.btn) {
@@ -273,7 +273,7 @@ table>thead {
   font-size: 14px;
 }
 table {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
 }
 table.table>thead>tr>th {
   padding-top: 10px;
@@ -281,7 +281,7 @@ table.table>thead>tr>th {
 }
 table.table>thead>tr>th.active,
 table.table>thead>tr>th.active>a {
-  background-color: rgba(255, 255, 255, 0.0);
+  background: rgba(255, 255, 255, 0.0);
   color: #f9be03;
 }
 table.table>thead>tr>th.active>span>span>.fa {
@@ -297,13 +297,13 @@ table.table>tbody>tr>td {
   color: hsla(0, 0%, 100%, .7);
 }
 .table-striped>tbody>tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, .1);
+  background: rgba(0, 0, 0, .1);
 }
 .table-striped>tbody>tr:nth-of-type(even) {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .table-hover>tbody>tr:hover {
-  background-color: rgba(255, 255, 255, .05);
+  background: rgba(255, 255, 255, .05);
 }
 .ui-sidebar-left.ui-sidebar-active,
 .ui-sidebar-right.ui-sidebar-active {
@@ -319,7 +319,7 @@ table.table>tbody>tr>td {
 }
 .btn-success-outline {
   color: #FFFFFF !important;
-  background-color: rgba(92, 182, 92, .75);
+  background: rgba(92, 182, 92, .75);
   border: none;
 }
 .btn-split .btn.dropdown-toggle {
@@ -329,19 +329,19 @@ table.table>tbody>tr>td {
   border-color: #FFFFFF !important;
   color: #FFFFFF !important;
   border: none;
-  background-color: rgba(255, 255, 255, 0.17);
+  background: rgba(255, 255, 255, 0.17);
 }
 .btn-warning-outline:hover, .btn-warning-outline:focus, .open>.btn-warning-outline.dropdown-toggle {
-  background-color: rgba(255, 255, 255, 0.25) !important;
+  background: rgba(255, 255, 255, 0.25) !important;
 }
 .ui-inputtext {
-  background-color: rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, .08);
 }
 .card-header {
-  background-color: rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, .08);
 }
 .panel {
-  background-color: rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, .08);
 }
 .nav-tabs {
   border-bottom: none;
@@ -432,13 +432,13 @@ issues-table table.table.table-striped.table-hover.table-responsive.table-conden
 }
 .chat-window .col-xs-12 .panel .panel-footer .input-group .form-control {
   margin-top: 5px;
-  background-color: rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, .08);
 }
 .messages p {
   color: #00000094;
 }
 .chat-window .col-xs-12 .panel .panel-footer .input-group .input-group-btn .btn-primary {
-  background-color: rgba(204, 123, 25, 1) !important;
+  background: rgba(204, 123, 25, 1) !important;
 }
 #tvList .ng-star-inserted .ng-star-inserted .ng-star-inserted .row .col-sm-2 br {
   display: none;
@@ -467,7 +467,7 @@ settings-menu hr {
   display: none;
 }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-  background-color: hsla(0, 0%, 100%, .1);
+  background: hsla(0, 0%, 100%, .1);
   border-color: rgba(0, 0, 0, 0);
   color: #FFF;
 }
@@ -503,10 +503,10 @@ settings-menu hr {
 }
 /* Search Input Styling */
 .search-bar-background input#search, .search-bar-background .form-control-custom, .search-bar-background .input-group-addon {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background: rgba(0, 0, 0, 0) !important;
 }
 .search-bar-background {
-  background-color: hsla(0, 0%, 100%, .25) !important;
+  background: hsla(0, 0%, 100%, .25) !important;
   border-radius: 4px;
 }
 .input-group:focus-within {
@@ -521,7 +521,7 @@ settings-menu hr {
 }
 .input-group:focus-within .input-group-addon .btn-group .btn, .input-group:focus-within .input-group-btn .btn {
   color: #FFF !important;
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background: rgba(0, 0, 0, 0.5) !important;
 }
 input#search:focus, .form-control-custom:focus {
   color: #000;
@@ -538,7 +538,7 @@ ul.nav.navbar-nav.navbar-right li:first-child {
   display: none;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 @media only screen and (max-width: 768px) {
   ul.nav.navbar-nav.navbar-right li:first-child {
@@ -583,14 +583,14 @@ ul.nav.navbar-nav.navbar-right li:first-child {
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 15px;
-  background-color: transparent;
+  background: transparent;
 }
 ::-webkit-scrollbar-track {
-  background-color: transparent;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
   min-height: 50px;
-  background-color: rgba(255, 255, 255, .15);
+  background: rgba(255, 255, 255, .15);
   border: 3px solid transparent;
   border-radius: 8px;
   background-clip: padding-box;

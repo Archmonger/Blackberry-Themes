@@ -11,10 +11,10 @@ html {
   -o-background-size: auto, cover;
   min-height: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
 }
 body {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .body-container {
   top: 60px;
@@ -24,7 +24,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 /* Navbar */
 .navbar {
-  background-color: var(--navbar-color);
+  background: var(--navbar-color);
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -54,16 +54,16 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
   font-size: 16px;
 }
 .nav>li>a:hover, .nav>li>a:focus {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background: rgba(0, 0, 0, 0) !important;
   color: #FFF;
   border-radius: 4px;
 }
 .nav>li.active>a, .nav>li.active>a:hover, .nav>li.active>a:focus {
   color: #f9be03;
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .fa.fa-search {
   color: hsla(0, 0%, 100%, .7);
@@ -75,7 +75,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 }
 /* Homepage */
 .btn-dark {
-  background-color: hsla(0, 0%, 100%, .25);
+  background: hsla(0, 0%, 100%, .25);
   border: none;
   color: #FFF;
   text-transform: uppercase;
@@ -89,27 +89,27 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
   margin-left: 0px;
 }
 .btn-dark:hover, .btn-dark.inactive:hover {
-  background-color: hsla(0, 0%, 100%, .3);
+  background: hsla(0, 0%, 100%, .3);
 }
 .btn-dark.inactive, .btn-dark.inactive:hover, .btn-dark.inactive:active, .btn-dark.inactive:focus {
-  background-color: rgba(0, 0, 0, 0.15) !important;
+  background: rgba(0, 0, 0, 0.15) !important;
   color: hsla(0, 0%, 100%, .45) !important;
 }
 .btn-dark:active, .btn-dark.active, .open>.dropdown-toggle.btn-dark {
-  background-color: rgba(204, 123, 25, 1);
+  background: rgba(204, 123, 25, 1);
 }
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
   background: hsla(0, 0%, 100%, .25);
 }
 .btn-dark:active:hover, .btn-dark.active:hover, .open>.dropdown-toggle.btn-dark:hover, .btn-dark:active:focus, .btn-dark.active:focus, .open>.dropdown-toggle.btn-dark:focus, .btn-dark:active.focus, .btn-dark.active.focus, .open>.dropdown-toggle.btn-dark.focus {
-  background-color: rgba(204, 123, 25, 1);
+  background: rgba(204, 123, 25, 1);
 }
 .text-muted {
   color: hsla(0, 0%, 100%, .45);
 }
 /* Dropdown Menu */
 .dropdown-menu {
-  background-color: #191a1c;
+  background: #191a1c;
   border-radius: 4px !important;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -131,7 +131,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
   display: none;
 }
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-  background-color: hsla(0, 0%, 100%, .08);
+  background: hsla(0, 0%, 100%, .08);
   color: #FFF;
 }
 /* Settings Menu */
@@ -148,14 +148,14 @@ a.no-highlight, .settings-warning a {
   color: #cc7b19;
 }
 .card-back-full {
-  background-color: rgba(0, 0, 0, 0)
+  background: rgba(0, 0, 0, 0)
 }
 body {
   color: hsla(0, 0%, 100%, .8);
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .nav-settings>li {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
   font-size: 13.25px;
   border: none;
 }
@@ -163,11 +163,11 @@ body {
   border: none;
 }
 .nav-settings>.active>a, .nav-settings>.active>a:hover, .nav-settings>.active>a:focus {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
   color: #f9be03;
 }
 .nav-settings>li>a:hover, .nav-settings>li>a:focus {
-  background-color: hsla(0, 0%, 100%, .08);
+  background: hsla(0, 0%, 100%, .08);
 }
 .help-block {
   color: hsla(0, 0%, 100%, .45);
@@ -176,28 +176,28 @@ body {
   color: #f9be03;
 }
 .form-control[readonly] {
-  background-color: hsla(0, 0%, 100%, .25);
+  background: hsla(0, 0%, 100%, .25);
 }
 .btn-form {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
 }
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
   margin-left: 0px;
 }
 .btn-form:hover {
-  background-color: hsla(0, 0%, 100%, .08);
+  background: hsla(0, 0%, 100%, .08);
 }
 .react-selectize.root-node .react-selectize-control, .selectize-control.form-control .selectize-input {
-  background-color: hsla(0, 0%, 100%, .25) !important;
+  background: hsla(0, 0%, 100%, .25) !important;
 }
 select.form-control, div.form-control .selectize-input {
-  background-color: hsla(0, 0%, 100%, .25);
+  background: hsla(0, 0%, 100%, .25);
 }
 .stacked-configs>li {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
 }
 .stacked-configs>li:hover, .stacked-configs>li>span:hover, .stacked-configs>li>span:focus {
-  background-color: hsla(0, 0%, 100%, .08);
+  background: hsla(0, 0%, 100%, .08);
 }
 .stacked-configs>li>span {
   border: none;
@@ -210,12 +210,12 @@ select.form-control, div.form-control .selectize-input {
   color: hsla(0, 0%, 100%, .45);
 }
 .card {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
   border-top: none;
   border-bottom: 1px solid rgba(0, 0, 0, .15)
 }
 .card-handle {
-  background-color: rgba(3, 3, 3, .15);
+  background: rgba(3, 3, 3, .15);
   color: hsla(0, 0%, 100%, .3);
   line-height: 36px;
 }
@@ -234,39 +234,39 @@ select.form-control, div.form-control .selectize-input {
   color: hsla(0, 0%, 100%, .7);
 }
 .table-card-back, .table-card-header, .summary-container .table-card-header, .summary-container .table-card-back {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .btn-danger.btn-edit {
-  background-color: #ac3323;
+  background: #ac3323;
   border: none !important;
   color: #FFF;
 }
 .btn-danger.btn-edit:hover, .btn-danger.btn-edit:active {
-  background-color: #ce3d2a;
+  background: #ce3d2a;
 }
 table.display thead th {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
 }
 table.display thead tr:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 tr.odd {
-  background-color: rgba(0, 0, 0, .25);
+  background: rgba(0, 0, 0, .25);
 }
 tr.even {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
 }
 table.display tr:hover {
-  background-color: rgba(255, 255, 255, .05);
+  background: rgba(255, 255, 255, .05);
 }
 .summary-content-wrapper {
-  background-image: none;
+  background: none;
 }
 .user-info-nav>.active>a {
   color: #f9be03;
 }
 .summary-navbar {
-  background-color: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.15);
 }
 .dashboard-recent-media-metacontainer h3.text-muted a {
   color: hsla(0, 0%, 100%, .45);
@@ -300,11 +300,11 @@ a:hover, a:focus, table.display td:hover a {
 }
 /* Pagination */
 .pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
   color: hsla(0, 0%, 100%, .45);
 }
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
-  background-color: rgba(255, 255, 255, .05);
+  background: rgba(255, 255, 255, .05);
   color: #FFF;
 }
 .pagination>li>a, .pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
@@ -314,7 +314,7 @@ a:hover, a:focus, table.display td:hover a {
   color: hsla(0, 0%, 100%, .45);
 }
 .pagination>li>a {
-  background-color: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.15);
 }
 table.display tr.shown+tr .pagination>.disabled>a, table.display tr.shown+tr .pagination>.disabled>a:hover {
   color: hsla(0, 0%, 100%, .45);
@@ -328,7 +328,7 @@ table.display tr.shown+tr .pagination>.paginate_button>a, table.display tr.shown
 }
 /* History */
 select, .react-selectize.bootstrap3.root-node .react-selectize-control {
-  background-color: hsla(0, 0%, 100%, .25);
+  background: hsla(0, 0%, 100%, .25);
 }
 .table-card-header {
   border: none;
@@ -344,7 +344,7 @@ table.display tr.shown+tr table[id^='history_child'] td:hover a, table.display t
 }
 /* Graphs */
 .graphs-instance {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
 }
 /* Standardized Buttons */
 .btn-edit .fa,
@@ -379,14 +379,14 @@ table.display tr.shown+tr table[id^='history_child'] td:hover a, table.display t
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 15px;
-  background-color: transparent;
+  background: transparent;
 }
 ::-webkit-scrollbar-track {
-  background-color: transparent;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
   min-height: 50px;
-  background-color: rgba(255, 255, 255, .15);
+  background: rgba(255, 255, 255, .15);
   border: 3px solid transparent;
   border-radius: 8px;
   background-clip: padding-box;

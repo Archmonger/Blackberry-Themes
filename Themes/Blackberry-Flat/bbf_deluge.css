@@ -4,7 +4,7 @@
 /* Base Layer */
 .x-viewport,
 .x-viewport body {
-  background-color: var(--main-bg-color);
+  background: var(--main-bg-color);
 }
 html {
   min-height: 100%;
@@ -19,7 +19,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -29,7 +29,7 @@ body {
   -o-background-size: auto, cover;
   min-height: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
 }
 /* Navbar */
 .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
@@ -86,22 +86,22 @@ body {
 .x-btn-bl,
 .x-btn-br,
 .x-btn-bc {
-  background-image: none;
+  background: none;
 }
 .x-toolbar .xtb-sep {
   display: none;
 }
 /* Webpage Background */
 .x-panel-body {
-  background-color: var(--main-bg-color);
+  background: var(--main-bg-color);
   border: none;
 }
 /* Right Cell */
 .x-grid3 {
-  background-color: var(--main-bg-color);
+  background: var(--main-bg-color);
 }
 .x-progress-bar {
-  background-image: none;
+  background: none;
   background: rgba(204, 123, 25, 1);
   border-color: rgba(204, 123, 25, 1);
   border-radius: 3px;
@@ -109,8 +109,8 @@ body {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 .x-progress-inner {
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  background: rgba(0, 0, 0, 0);
 }
 .x-progress-wrap {
   border: none;
@@ -136,7 +136,7 @@ body {
   border-width: 0px;
 }
 .x-panel-header {
-  background-image: none;
+  background: none;
   color: #FFF;
   border: none;
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif !important;
@@ -144,23 +144,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .x-list-selected {
-  background-color: rgb(204, 123, 25) !important;
+  background: rgb(204, 123, 25) !important;
   border-radius: 4px;
 }
 .x-deluge-filter {
-  background-image: none !important;
+  background: none !important;
 }
 .x-list-over {
-  background-color: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 4px;
 }
 /* Left Cell Minimized */
 .x-layout-collapsed {
-  background-color: var(--main-bg-color);
+  background: var(--main-bg-color);
   border-color: var(--main-bg-color);
 }
 .x-panel-header.x-unselectable {
-  background-color: var(--main-bg-color);
+  background: var(--main-bg-color);
   border-color: var(--main-bg-color);
 }
 /* Bottom Cell */
@@ -172,22 +172,22 @@ body {
 }
 .x-tab-panel-body {
   border: none;
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .x-tab-strip-wrap {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .x-tab-panel-header {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .x-panel-floating {
-  background-color: #2c3135;
+  background: #2c3135;
   padding-left: 10px;
   padding-right: 10px;
 }
 .ext-el-mask {
   background: rgba(0, 0, 0, 0);
-  background-color: none;
+  background: none;
 }
 .x-tree-node {
   color: #FFF !important;
@@ -197,14 +197,14 @@ body {
   color: #FFF;
 }
 .x-tree-node .x-tree-selected {
-  background-color: rgba(255, 255, 255, 0.0) !important;
+  background: rgba(255, 255, 255, 0.0) !important;
   color: rgb(249, 190, 3);
 }
 .x-tree-selected a span {
   color: rgb(249, 190, 3);
 }
 .x-tree-node .x-tree-node-over {
-  background-color: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 .x-treegrid-root-table,
 .x-treegrid-col {
@@ -214,20 +214,20 @@ body {
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .x-grid3-header {
-  background-color: rgba(0, 0, 0, 0.15);
-  background-image: none;
+  background: rgba(0, 0, 0, 0.15);
+  background: none;
   padding: 0px;
 }
 td.x-grid3-hd-over .x-grid3-hd-inner,
 td.sort-desc .x-grid3-hd-inner,
 td.sort-asc .x-grid3-hd-inner,
 td.x-grid3-hd-menu-open .x-grid3-hd-inner {
-  background-image: none;
-  background-color: rgba(255, 255, 255, 0.1);
+  background: none;
+  background: rgba(255, 255, 255, 0.1);
 }
 ul.x-tab-strip-top {
-  background-image: none;
-  background-color: var(--main-bg-color);
+  background: none;
+  background: var(--main-bg-color);
   border: none;
 }
 .x-tab-panel-header,
@@ -238,8 +238,8 @@ ul.x-tab-strip-top {
 .x-tab-strip-top .x-tab-right,
 .x-tab-strip-top .x-tab-left,
 .x-tab-strip-top .x-tab-strip-inner {
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  background: rgba(0, 0, 0, 0);
 }
 .x-tab-strip-text,
 .x-tab-strip span.x-tab-strip-text {
@@ -255,16 +255,16 @@ ul.x-tab-strip-top {
   color: hsla(0, 0%, 100%, .8);
 }
 .x-grid3-row-alt {
-  background-color: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0);
 }
 .x-grid3-row-over {
-  background-color: rgba(255, 255, 255, 0.0);
+  background: rgba(255, 255, 255, 0.0);
   color: #FFF;
-  background-image: none;
+  background: none;
 }
 .x-grid3-row-selected {
-  background-color: rgba(255, 255, 255, .05) !important;
-  background-image: none;
+  background: rgba(255, 255, 255, .05) !important;
+  background: none;
   color: #FFF;
 }
 .x-grid3-row td, .x-grid3-summary-row td {
@@ -275,8 +275,8 @@ ul.x-tab-strip-top {
 }
 /* Bottom Toolbar */
 .x-toolbar {
-  background-color: rgba(0, 0, 0, 0.0);
-  background-image: none;
+  background: rgba(0, 0, 0, 0.0);
+  background: none;
 }
 .x-panel-noborder .x-panel-bbar-noborder .x-toolbar {
   border-color: rgba(0, 0, 0, 0);
@@ -285,7 +285,7 @@ ul.x-tab-strip-top {
   color: #FFF;
 }
 .x-btn-mc em.x-btn-arrow {
-  background-image: none;
+  background: none;
   padding-right: 0px;
 }
 /* Dropdown Menus */
@@ -294,20 +294,20 @@ a.x-menu-item img {
 }
 .x-menu li {
   line-height: 100%;
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
   border: none !important;
 }
 a.x-menu-item {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
   border: none !important;
 }
 .x-menu {
-  background-color: #191a1c;
+  background: #191a1c;
   border: none;
   border-radius: 4px;
 }
 .x-menu-list {
-  background-color: #191a1c;
+  background: #191a1c;
   border-radius: 4px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -331,12 +331,12 @@ a.x-menu-item:hover {
 }
 .x-menu-item-active a.x-menu-item {
   border: none;
-  background-color: hsla(0, 0%, 100%, .08);
+  background: hsla(0, 0%, 100%, .08);
   color: #FFF;
   margin: 0px;
 }
 .x-menu-list-item {
-  background-image: none !important;
+  background: none !important;
   border: none;
   margin: 0px;
   padding: 0px;
@@ -344,51 +344,51 @@ a.x-menu-item:hover {
 /* Bottom Toolbar */
 .x-window-mc {
   border: none;
-  background-color: #3b4247;
+  background: #3b4247;
 }
 /* Preferences */
 .x-window-tl .x-window-header {
   color: #FFF;
 }
 .x-window-tl {
-  background-image: none;
-  background-color: #3b4247;
+  background: none;
+  background: #3b4247;
   border-radius: 5px 5px 0px 0px;
 }
 .x-window-tr {
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  background: rgba(0, 0, 0, 0);
 }
 .x-window-tc {
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  background: rgba(0, 0, 0, 0);
 }
 .x-window-mr {
-  background-image: none;
-  background-color: #3b4247;
+  background: none;
+  background: #3b4247;
 }
 .x-window-ml {
-  background-image: none;
-  background-color: #3b4247;
+  background: none;
+  background: #3b4247;
 }
 .x-window-bl {
-  background-image: none;
-  background-color: #3b4247;
+  background: none;
+  background: #3b4247;
   border-radius: 0px 0px 5px 5px;
 }
 .x-window-br {
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  background: rgba(0, 0, 0, 0);
 }
 .x-window-bc {
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  background: rgba(0, 0, 0, 0);
 }
 .x-window-plain .x-window-body {
   border: none;
 }
 .x-window-plain .x-window-mc {
-  background-color: #3b4247;
+  background: #3b4247;
   border: none;
 }
 .x-combo-list .x-combo-selected {
@@ -409,8 +409,8 @@ a.x-menu-item:hover {
   border-color: #272a2d;
 }
 .x-list-header {
-  background-image: none;
-  background-color: #272a2d;
+  background: none;
+  background: #272a2d;
 }
 .x-list-header-inner div em {
   border-left-width: 0px;
@@ -421,11 +421,11 @@ a.x-menu-item:hover {
 }
 /* Login Screen */
 body.x-body-masked .x-window-plain .x-window-mc {
-  background-color: #3b4247;
+  background: #3b4247;
 }
 /* Hide Button Icons */
 .x-btn-text {
-  background-image: none !important;
+  background: none !important;
   padding-left: 0px !important;
 }
 /* Scrollbar */
@@ -455,13 +455,13 @@ body.x-body-masked .x-window-plain .x-window-mc {
 .x-panel-body .x-panel .x-panel-bwrap .x-panel-body .x-box-inner .x-btn,
 .x-panel-fbar .x-toolbar-ct tbody tr .x-toolbar-left table .x-toolbar-left-row .x-toolbar-cell .x-btn,
 .x-panel-fbar .x-toolbar-ct tbody tr .x-toolbar-right .x-toolbar-right-ct tbody tr td table tbody .x-toolbar-right-row .x-toolbar-cell .x-btn {
-  background-color: hsla(0, 0%, 100%, .25);
+  background: hsla(0, 0%, 100%, .25);
   border-radius: 4px;
 }
 .x-panel-body .x-panel .x-panel-bwrap .x-panel-body .x-box-inner .x-btn:hover,
 .x-panel-fbar .x-toolbar-ct tbody tr .x-toolbar-left table .x-toolbar-left-row .x-toolbar-cell .x-btn:hover,
 .x-panel-fbar .x-toolbar-ct tbody tr .x-toolbar-right .x-toolbar-right-ct tbody tr td table tbody .x-toolbar-right-row .x-toolbar-cell .x-btn:hover {
-  background-color: hsla(0, 0%, 100%, .3);
+  background: hsla(0, 0%, 100%, .3);
 }
 /* Mobile Fixes */
 @media only screen and (max-width: 768px) {
@@ -493,32 +493,32 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 /* Replace Ugly Deluge Buttons */
 .x-tool-expand-west {
-  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/right-arrow.png) !important;
+  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/right-arrow.png) !important;
   background-position: center;
   background-size: contain;
 }
 .x-tool-collapse-west {
-  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/left-arrow.png) !important;
+  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/left-arrow.png) !important;
   background-position: center;
   background-size: contain;
 }
 .x-tool-collapse-south {
-  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/down-arrow.png) !important;
+  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/down-arrow.png) !important;
   background-position: center;
   background-size: contain;
 }
 .x-tool-expand-south {
-  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/up-arrow.png) !important;
+  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/up-arrow.png) !important;
   background-position: center;
   background-size: contain;
 }
 .x-panel-noborder .x-tool-toggle {
-  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/collapse-button.png);
+  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/collapse-button.png);
   background-position: center !important;
   background-size: contain;
 }
 .x-panel-collapsed .x-tool-toggle {
-  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/expand-button.png);
+  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/expand-button.png);
   background-position: center !important;
   background-size: contain;
 }

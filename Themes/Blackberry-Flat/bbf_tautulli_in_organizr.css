@@ -1,7 +1,7 @@
 @import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_tautulli.css";
 /* In Organizr customizations start here */
 .art-face {
-  background-image: none !important;
+  background: none !important;
 }
 .body-container {
   top: 45px;

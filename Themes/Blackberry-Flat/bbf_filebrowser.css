@@ -17,10 +17,10 @@
   height: 100%;
 }
 #loading .spinner * {
-  background-color: #FFF !important;
+  background: #FFF !important;
 }
 #login {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -30,7 +30,7 @@
   -o-background-size: auto, cover;
   min-height: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
 }
 body {
   color: #FFFFFF;
@@ -38,7 +38,7 @@ body {
 }
 #login input[type=password], #login input[type=text] {
   color: white !important;
-  background-color: rgba(0, 0, 0, 0.15) !important;
+  background: rgba(0, 0, 0, 0.15) !important;
   border: none;
 }
 button, input[type=submit] {
@@ -51,7 +51,7 @@ button:hover, input[type=submit]:hover {
   color: #FFF;
 }
 html {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -61,13 +61,13 @@ html {
   -o-background-size: auto, cover;
   min-height: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
 }
 body {
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
 }
 nav {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
   height: 100%;
   top: 60px;
   width: 240px;
@@ -82,13 +82,13 @@ nav .action {
   padding-bottom: 0px;
 }
 nav .action:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 nav>div {
   border-top: none;
 }
 header {
-  background-color: rgb(22, 32, 39);
+  background: rgb(22, 32, 39);
   height: 60px;
 }
 header>div:first-child {
@@ -98,7 +98,7 @@ body {
   padding-top: 60px;
 }
 #search #input {
-  background-color: #f5f5f5;
+  background: #f5f5f5;
   display: flex;
   padding: 10px;
 }
@@ -106,18 +106,18 @@ body {
   color: #FFF;
 }
 #listing.list .item {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
   color: rgb(238, 238, 238);
   border: none;
 }
 #listing.list .item:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   color: rgb(238, 238, 238);
   border: none;
   transition: .4s;
 }
 #listing.list .item.header {
-  background-color: rgb(47, 63, 71);
+  background: rgb(47, 63, 71);
   color: rgb(238, 238, 238);
   border-bottom: none;
   right: auto;
@@ -126,7 +126,7 @@ body {
   color: rgba(255, 255, 255, 0.85);
 }
 #listing .item[aria-selected=true] {
-  background-color: #cc7b19 !important;
+  background: #cc7b19 !important;
 }
 #listing h2 {
   color: rgb(238, 238, 238);
@@ -135,12 +135,12 @@ body {
   color: rgb(238, 238, 238);
 }
 #listing .item {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
   color: rgb(238, 238, 238);
   border: none;
 }
 #search #result {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -148,21 +148,21 @@ body {
   -webkit-background-size: auto, cover;
   -moz-background-size: auto, cover;
   -o-background-size: auto, cover;
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
   color: rgb(238, 238, 238);
 }
 #search .boxes {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
   padding: 15px;
 }
 #search .boxes h3 {
   color: rgb(238, 238, 238);
 }
 #search .boxes>div>div {
-  background-color: rgba(0, 0, 0, .10);
+  background: rgba(0, 0, 0, .10);
 }
 #search.active #input {
-  background-color: #2d2d2d;
+  background: #2d2d2d;
   height: 60px;
   color: white;
 }
@@ -173,7 +173,7 @@ body {
   margin-top: 10px;
 }
 .card {
-  background-color: rgba(0, 0, 0, .15);
+  background: rgba(0, 0, 0, .15);
 }
 .card h3 {
   color: rgb(238, 238, 238);
@@ -194,24 +194,24 @@ table th {
   color: rgba(255, 255, 255, 0.85);
 }
 .card.floating {
-  background-color: rgb(22, 32, 39);
+  background: rgb(22, 32, 39);
 }
 #search #input {
-  background-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
 }
 #listing.mosaic .item {
   box-shadow: none !important;
 }
 #listing.mosaic .item:hover {
   box-shadow: none !important;
-  background-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
 }
 @media (max-width: 736px) {
   nav {
-    background-color: black;
+    background: black;
   }
   #dropdown.active {
-    background-color: black;
+    background: black;
   }
 }
 @media (min-width: 1024px) {

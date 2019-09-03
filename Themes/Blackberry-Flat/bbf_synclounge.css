@@ -1,12 +1,12 @@
 @import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 .application .theme--dark.v-toolbar,
 .theme--dark .v-toolbar {
-  background-color: var(--navbar-color) !important;
+  background: var(--navbar-color) !important;
 }
 html {
   min-height: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
 }
 main {
   background: var(--bg-light);
@@ -19,11 +19,11 @@ main {
   -o-background-size: auto, cover;
   min-height: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, .0);
+  background: rgba(0, 0, 0, .0);
 }
 .application .theme--dark.v-card,
 .theme--dark .v-card {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
 }
 .v-navigation-drawer {
   background: var(--bg-light) !important;
@@ -67,7 +67,7 @@ main {
   background: rgba(0, 0, 0, 0.8) !important
 }
 .pa-3.v-card {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
 }
 .v-toolbar__content,
 .v-toolbar__extension {
@@ -78,7 +78,7 @@ main {
   background: rgba(255, 255, 255, 0.1);
 }
 .v-dialog.v-dialog--active .v-card {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
 }
 .v-content {
   padding-top: 60px !important;
@@ -93,7 +93,7 @@ main {
   }
 }
 button.v-btn.theme--dark.primary {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background: rgba(0, 0, 0, 0) !important;
   border-color: rgba(0, 0, 0, 0) !important;
   box-shadow: none;
 }

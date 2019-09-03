@@ -1,6 +1,6 @@
 /* Base Layer */
 body {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -17,7 +17,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 #page {
-  background-color: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.15);
 }
 @media only screen and (max-width: 768px) {
   #page {
@@ -41,14 +41,14 @@ h4 {
 /* Table */
 table.dataTable.stripe tbody tr.odd,
 table.dataTable.display tbody tr.odd {
-  background-color: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
 }
 table.dataTable.hover tbody tr:hover,
 table.dataTable.display tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 table.dataTable tbody tr {
-  background-color: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   font-size: 12px;
 }
 .configured-indexer-row even {
@@ -67,7 +67,7 @@ a:hover {
   color: rgb(255, 215, 91);
 }
 thead {
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 table.dataTable.compact tbody th,
 table.dataTable.compact tbody td {
@@ -102,15 +102,15 @@ textarea {
   border: none;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
-  background-color: rgba(255, 255, 255, 0.08) !important;
-  background-image: none;
+  background: rgba(255, 255, 255, 0.08) !important;
+  background: none;
   border: none;
   color: #FFF !important;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-  background-color: rgba(255, 255, 255, 0.15) !important;
-  background-image: none;
+  background: rgba(255, 255, 255, 0.15) !important;
+  background: none;
   border: none;
   color: #FFF !important;
 }
@@ -132,21 +132,21 @@ tr td .btn-warning {
   color: rgb(249, 190, 3);
 }
 .label-success {
-  background-color: rgba(92, 182, 92, 0.35);
+  background: rgba(92, 182, 92, 0.35);
 }
 .label-danger {
-  background-color: rgba(217, 83, 79, 0.4);
+  background: rgba(217, 83, 79, 0.4);
 }
 .label-warning {
-  background-color: rgba(249, 190, 3, 0.4);
+  background: rgba(249, 190, 3, 0.4);
 }
 .btn-info {
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
   border: none;
   padding: 5px;
 }
 .btn-info:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
 }
 .btn-info.disabled,
 .btn-info.disabled.active,
@@ -166,54 +166,54 @@ fieldset[disabled] .btn-info.focus,
 fieldset[disabled] .btn-info:active,
 fieldset[disabled] .btn-info:focus,
 fieldset[disabled] .btn-info:hover {
-  background-color: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.25);
 }
 .btn-success {
   padding: 4px 10px;
   color: #FFF;
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-success:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-primary {
   padding: 4px 10px;
   color: #FFF;
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-primary:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-danger {
   padding: 4px 10px;
   color: #FFF;
-  background-color: rgba(245, 10, 10, 0);
+  background: rgba(245, 10, 10, 0);
   border-color: rgba(245, 10, 10, 0);
 }
 .btn-danger:hover {
-  background-color: rgba(245, 10, 10, 0.45);
+  background: rgba(245, 10, 10, 0.45);
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-warning {
-  background-color: rgba(204, 123, 25, 1);
+  background: rgba(204, 123, 25, 1);
   border-color: rgba(204, 123, 25, 1);
 }
 .btn-warning:hover {
-  background-color: rgb(236, 151, 31);
+  background: rgb(236, 151, 31);
   border-color: rgb(206, 153, 89);
 }
 .btn-default {
   padding: 4px 10px;
-  background-color: rgba(204, 123, 25, 0);
+  background: rgba(204, 123, 25, 0);
   border-color: rgba(0, 0, 0, 0);
   color: #FFF;
 }
 .btn-default:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   border-color: rgba(0, 0, 0, 0);
   color: #FFF;
 }
@@ -225,7 +225,7 @@ fieldset[disabled] .btn-info:hover {
 }
 /* Add Indexer and Manual Search */
 .modal-content {
-  background-color: #162027;
+  background: #162027;
 }
 .modal-header {
   border-bottom: none;
@@ -234,7 +234,7 @@ fieldset[disabled] .btn-info:hover {
   border-top: none;
 }
 .alert-info {
-  background-color: rgba(204, 123, 25, 1);
+  background: rgba(204, 123, 25, 1);
   border: none;
   color: #FFF;
   margin-top: 15px;
@@ -250,7 +250,7 @@ pre {
 /* Fix Overly Large and Unclosable Notifications */
 .alert-danger {
   color: #FFF;
-  background-color: #a94442;
+  background: #a94442;
   border-color: #ebccd1;
   max-height: 300px;
   overflow-y: auto;

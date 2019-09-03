@@ -80,5 +80,5 @@ div[class*="fc"] .text-primary {
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .tippy-tooltip.bbf-theme .tippy-backdrop {
-  background-color: black;
+  background: black;
 }

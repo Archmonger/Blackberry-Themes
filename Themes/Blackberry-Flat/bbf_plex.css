@@ -33,10 +33,10 @@ div[class*="NavBar-buttonSeparator-"] {
   }
   div[class*="QuickSearchInput-container"] {
     height: 35px;
-    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
   }
   div[class*="QuickSearchInput-container"]:focus-within {
-    background-color: #FFF;
+    background: #FFF;
   }
   div[class*="QuickSearchProvider-title"], a[class*="QuickSearchPlaceholderLink-placeholder"] {
     width: auto;
@@ -84,7 +84,7 @@ div[class*="NavBar-buttonSeparator-"] {
     padding-left: 10px !important;
   }
   .nav-bar {
-    background-color: rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.0);
   }
   [class*="NavBar-container-"] {
     height: 40px !important;
