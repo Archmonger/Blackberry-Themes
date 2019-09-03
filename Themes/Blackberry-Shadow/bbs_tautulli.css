@@ -1,7 +1,2 @@
 @import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_tautulli.css";
-.navbar {
-  background-color: #121719;
-}
-html {
-  background-image: linear-gradient(135deg, #252b2f, #090c0e);
-}
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Base-Themes/bbs_tautulli_base.css";
