@@ -30,7 +30,7 @@ button[class*="NavBar-accountButton"] {
   }
 }
 /* Static BG */
-.background-container div[class*="FullPage-container-"] div div div {
+.background-container div[class*="FullPage-container-"] div div {
   background: var(--bg-light) !important;
   background-repeat: repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
