@@ -1,15 +1,4 @@
-:root {
-  --main-bg-color: rgba(0, 0, 0, 0);
-}
 /* Base Layer */
-.x-viewport,
-.x-viewport body {
-  background: var(--main-bg-color);
-}
-html {
-  min-height: 100%;
-  height: auto;
-}
 html,
 body {
   color: hsla(0, 0%, 100%, .8);
@@ -17,6 +6,8 @@ body {
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  height: auto;
 }
 body {
   background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
@@ -27,9 +18,6 @@ body {
   -webkit-background-size: auto, cover;
   -moz-background-size: auto, cover;
   -o-background-size: auto, cover;
-  min-height: 100%;
-  height: auto;
-  background: rgba(0, 0, 0, .0);
 }
 /* Navbar */
 .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
