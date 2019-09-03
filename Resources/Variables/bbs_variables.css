@@ -1,4 +1,5 @@
 :root {
   --bg-light: linear-gradient(135deg, #252b2f, #090c0e);
+  --bg-dark: linear-gradient(135deg, #252b2f, #090c0e);
   --navbar-color: #121719;
 }
