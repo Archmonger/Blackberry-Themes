@@ -60,7 +60,7 @@ button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
   background-color: rgba(0, 0, 0, 0);
 }
 main {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
+  background: var(--bg-light) !important;
   background-repeat: repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
   background-position: center center, center center !important;
