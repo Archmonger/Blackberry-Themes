@@ -1,3 +1,4 @@
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 /* Body */
 html {
   background: var(--bg-light);

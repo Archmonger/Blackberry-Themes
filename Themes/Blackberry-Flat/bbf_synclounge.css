@@ -1,9 +1,10 @@
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 .application .theme--dark.v-toolbar,
 .theme--dark .v-toolbar {
-  background-color: #162027 !important;
+  background-color: var(--navbar-color) !important;
 }
 html {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -16,7 +17,7 @@ html {
   background-color: rgba(0, 0, 0, .0);
 }
 main {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -33,7 +34,7 @@ main {
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
 .v-navigation-drawer {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
+  background: var(--bg-light) !important;
   background-repeat: repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
   background-position: center center, center center !important;
