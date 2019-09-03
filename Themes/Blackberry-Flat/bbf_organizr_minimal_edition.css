@@ -31,6 +31,9 @@ li#menu-Organizr-Support {
 .sidebar-nav .devider, .sidebar-nav #sign-out {
   display: none;
 }
+.sidebar-head {
+  visibility: hidden;
+}
 /* Tweak Calendar Colors */
 div[class*="fc"] .text-info {
   color: #929a9c !important;
