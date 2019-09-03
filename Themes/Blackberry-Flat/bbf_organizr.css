@@ -2438,6 +2438,9 @@ div[data-src$='no-np.png'] {
   background: rgba(0, 0, 0, 0) !important;
   box-shadow: none !important;
 }
+#internal-Settings .sidebar, .active-tab-Settings .sidebar, body[data-active-tab=""] .sidebar {
+  background: var(--sidenav-active-task-bg) !important;
+}
 div[data-src$='no-np.png'] {
   background-color: #333 !important;
 }
