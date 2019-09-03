@@ -1,5 +1,6 @@
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 body {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -51,7 +52,7 @@ group-addon {
   background-color: rgba(0, 0, 0, .2);
 }
 .navbar-default {
-  background-color: #162027 !important;
+  background-color: var(--navbar-color) !important;
 }
 .navbar-default .navbar-brand {
   color: #ebebeb;
@@ -306,7 +307,7 @@ table.table>tbody>tr>td {
 }
 .ui-sidebar-left.ui-sidebar-active,
 .ui-sidebar-right.ui-sidebar-active {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
+  background: var(--bg-light) !important;
   background-repeat: repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
   background-position: center center, center center !important;
@@ -346,7 +347,7 @@ table.table>tbody>tr>td {
   border-bottom: none;
 }
 .app-loading-container {
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
