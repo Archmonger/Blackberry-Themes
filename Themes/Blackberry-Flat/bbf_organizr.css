@@ -3,7 +3,7 @@
  * MIT License
  * https://github.com/Burry/organizr-v2-plex-theme
  */
-@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/Blackberry-Flat/bbf_variables.css";
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 #page-wrapper:before, body {
   background: var(--bg-light) !important;
   height: 100%;
