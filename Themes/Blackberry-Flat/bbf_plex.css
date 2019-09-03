@@ -1,3 +1,4 @@
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 .nav-bar>ul>li>a.plex-pass-btn {
   display: none !important;
   visibility: hidden;
@@ -343,7 +344,7 @@ div[class*="NavBar-buttonSeparator-"] {
 }
 /* BBF Customizations start here */
 div[class*="NavBar-container-"] {
-  background: #162027 !important;
+  background: var(--navbar-color) !important;
   ;
 }
 .nav-dropdown .dropdown-poster-toggle {

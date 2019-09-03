@@ -31,7 +31,7 @@ button[class*="NavBar-accountButton"] {
 }
 /* Static BG */
 .background-container div[class*="FullPage-container-"] div div div {
-  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
+  background: var(--bg-light) !important;
   background-repeat: repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
   background-position: center center, center center !important;
@@ -55,7 +55,7 @@ body {
 }
 /* Stylize Pin Screen */
 .modal-backdrop {
-  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") !important;
+  background: var(--bg-dark) !important;
   background-repeat: repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
   background-position: center center, center center !important;
