@@ -493,32 +493,32 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 /* Replace Ugly Deluge Buttons */
 .x-tool-expand-west {
-  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/right-arrow.png) !important;
+  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/right-arrow.png) !important;
   background-position: center;
   background-size: contain;
 }
 .x-tool-collapse-west {
-  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/left-arrow.png) !important;
+  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/left-arrow.png) !important;
   background-position: center;
   background-size: contain;
 }
 .x-tool-collapse-south {
-  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/down-arrow.png) !important;
+  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/down-arrow.png) !important;
   background-position: center;
   background-size: contain;
 }
 .x-tool-expand-south {
-  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/up-arrow.png) !important;
+  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/up-arrow.png) !important;
   background-position: center;
   background-size: contain;
 }
 .x-panel-noborder .x-tool-toggle {
-  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/collapse-button.png);
+  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/collapse-button.png);
   background-position: center !important;
   background-size: contain;
 }
 .x-panel-collapsed .x-tool-toggle {
-  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/expand-button.png);
+  background-image: url(https://archmonger.github.io/Blackberry-Themes/Resources/expand-button.png);
   background-position: center !important;
   background-size: contain;
 }
