@@ -81,12 +81,12 @@ body {
 }
 /* Webpage Background */
 .x-panel-body {
-  background: var(--main-bg-color);
+  background: transparent;
   border: none;
 }
 /* Right Cell */
 .x-grid3 {
-  background: var(--main-bg-color);
+  background: transparent;
 }
 .x-progress-bar {
   background: none;
@@ -144,12 +144,12 @@ body {
 }
 /* Left Cell Minimized */
 .x-layout-collapsed {
-  background: var(--main-bg-color);
-  border-color: var(--main-bg-color);
+  background: transparent;
+  border-color: transparent;
 }
 .x-panel-header.x-unselectable {
-  background: var(--main-bg-color);
-  border-color: var(--main-bg-color);
+  background: transparent;
+  border-color: transparent;
 }
 /* Bottom Cell */
 .x-tab-strip span.x-tab-strip-text {
@@ -215,7 +215,7 @@ td.x-grid3-hd-menu-open .x-grid3-hd-inner {
 }
 ul.x-tab-strip-top {
   background: none;
-  background: var(--main-bg-color);
+  background: transparent;
   border: none;
 }
 .x-tab-panel-header,
