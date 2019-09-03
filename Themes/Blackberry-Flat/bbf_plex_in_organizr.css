@@ -50,6 +50,8 @@ body {
 .plex-image-preloader.plex-logo {
   background: url("https://archmonger.github.io/Blackberry-Themes/Resources/Rolling-0.7s-200px.svg");
   background-size: 4.5%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* Stylize Pin Screen */
 .modal-backdrop {
