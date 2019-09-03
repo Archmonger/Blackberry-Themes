@@ -3,28 +3,7 @@
  * MIT License
  * https://github.com/Burry/organizr-v2-plex-theme
  */
-:root {
-  --bg-light: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") center center/cover no-repeat fixed;
-  --bg-dark: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-dark.png") center center/cover no-repeat fixed;
-  --color-focused: #f9be03;
-  --color-hyperlink: #cc7b19;
-  --color-danger: #ac3323;
-  --color-danger-hover: #ce3d2a;
-  --font-color-primary: rgba(255, 255, 255, .8);
-  --font-color-secondary: rgba(255, 255, 255, .7);
-  --font-color-subtext: rgba(255, 255, 255, .45);
-  --btn-color: rgba(255, 255, 255, 0.25);
-  --btn-color-hover: rgba(255, 255, 255, 0.3);
-  --btn-color-focused: #cc7b19;
-  --btn-color-focused-hover: #e3891c;
-  --navbar-color: #162027;
-  --floating-object-color: rgba(0, 0, 0, .15);
-  --floating-object-color-hover: rgba(255, 255, 255, .08);
-  --floating-object-dark-color: rgba(0, 0, 0, .3);
-  --input-box-color: rgba(255, 255, 255, .25);
-  --input-box-color-focus: #FFF;
-  --input-box-font-color-focus: rgba(85, 85, 85);
-}
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variant-Source/Blackberry-Flat/base_variables.css";
 #page-wrapper:before, body {
   background: var(--bg-light) !important;
   height: 100%;
