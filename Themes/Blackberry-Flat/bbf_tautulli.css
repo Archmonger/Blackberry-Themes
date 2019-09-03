@@ -375,3 +375,18 @@ table.display tr.shown+tr table[id^='history_child'] td:hover a, table.display t
     min-height: 40px !important;
   }
 }
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  min-height: 50px;
+  background-color: rgba(255, 255, 255, .15);
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}

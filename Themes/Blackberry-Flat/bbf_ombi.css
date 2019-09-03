@@ -579,3 +579,18 @@ ul.nav.navbar-nav.navbar-right li:first-child {
 .col-md-push-9 .btn {
   float: right;
 }
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  min-height: 50px;
+  background-color: rgba(255, 255, 255, .15);
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
