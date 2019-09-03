@@ -1,6 +1,6 @@
 /* Body */
 html {
-  background-image: var(--bg-light);
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
