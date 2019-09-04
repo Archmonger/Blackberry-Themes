@@ -2749,6 +2749,20 @@ span.select2-selection.select2-selection--multiple .select2-selection__choice {
   .internal-listing {
     overflow-y: auto;
     height: 100%;
-    width: calc(100vw - 45px);
+    width: calc(100vw - 60px);
   }
+}
+/* Plex style scroll bars */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, .0);
+}
+::-webkit-scrollbar-thumb {
+  min-height: 50px;
+  background: rgba(255, 255, 255, .15);
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
 }
