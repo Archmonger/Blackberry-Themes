@@ -1089,7 +1089,7 @@ body[data-active-tab=''] #invite-area h4 {
   transition: background .2s;
 }
 .ti-fullscreen, .top-left-part a {
-  line-height: inherit;
+  line-height: 40px;
 }
 .form-control.focus, .form-control:focus, .form-material .form-control.focus, .form-material .form-control:focus, .input-group .form-control.focus, .input-group .form-control:focus, .select2-container--default .select2-search--dropdown .select2-search__field.focus, .select2-container--default .select2-search--dropdown .select2-search__field:focus, input.focus, input:focus, select.focus, select:focus, span.select2-selection.select2-selection--multiple.focus, span.select2-selection.select2-selection--multiple:focus, span.select2-selection.select2-selection--single.focus, span.select2-selection.select2-selection--single:focus {
   color: var(--input-box-font-color-focus);
