@@ -67,10 +67,6 @@
   text-transform: uppercase;
   transition: background .1s;
 }
-.sidebar, .sidebar-head, .user-bg, div[id^=request]:not(#request-input-div) .dropdown-toggle {
-  -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
-}
 .login-register .login-box {
   top: 50%;
   left: 50%;
@@ -2421,28 +2417,53 @@ img[src$='no-request.png'] {
 div[data-src$='no-np.png'] {
   background-size: 150px 150px !important;
 }
-.sidebar {
-  background: var(--sidenav-bg) !important;
-  transition: all ease 0.5s;
+@supports (-webkit-backdrop-filter:blur(30px)) or (backdrop-filter:blur(30px)) {
+  .sidebar {
+    background: var(--sidenav-bg) !important;
+    transition: all ease 0.5s;
+  }
+  .sidebar-nav {
+    background: var(--sidenav-layer-2-bg);
+  }
+  .sidebar-head {
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+  }
+  .sidebar, .sidebar-head, .user-bg, div[id^=request]:not(#request-input-div) .dropdown-toggle {
+    -webkit-backdrop-filter: var(--sidenav-backdrop-filter);
+    backdrop-filter: var(--sidenav-backdrop-filter);
+  }
+  #internal-Settings .sidebar-nav, .active-tab-Settings .sidebar-nav, body[data-active-tab=""] .sidebar-nav {
+    transition: all ease 0.5s;
+    background: var(--sidenav-active-task-layer-2-bg);
+  }
 }
-.sidebar:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-}
-.sidebar-nav {
-  background: var(--sidenav-layer-2-bg);
-}
-.show-sidebar .sidebar {
-  background: var(--sidenav-open-bg) !important;
-}
-.sidebar-head {
-  background: rgba(0, 0, 0, 0) !important;
-  box-shadow: none !important;
-}
-#internal-Settings .sidebar, .active-tab-Settings .sidebar, body[data-active-tab=""] .sidebar {
-  background: var(--sidenav-active-task-bg) !important;
-}
-div[data-src$='no-np.png'] {
-  background-color: #333 !important;
+@supports not (-webkit-backdrop-filter:blur(30px)) or (backdrop-filter:blur(30px)) {
+  .sidebar {
+    background: var(--sidenav-bg-fallback) !important;
+    transition: all ease 0.5s;
+  }
+  .sidebar:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  .sidebar-nav {
+    background: var(--sidenav-layer-2-bg-fallback);
+  }
+  @media only screen and (max-width: 768px) {
+    .show-sidebar .sidebar {
+      background: var(--sidenav-mobile-bg-fallback) !important;
+    }
+  }
+  .sidebar-head {
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+  }
+  #internal-Settings .sidebar, .active-tab-Settings .sidebar, body[data-active-tab=""] .sidebar {
+    background: var(--sidenav-active-task-bg-fallback) !important;
+  }
+  div[data-src$='no-np.png'] {
+    background-color: #333 !important;
+  }
 }
 #side-menu {
   padding-top: 0px;
