@@ -4,7 +4,7 @@
   --navbar-color: #121719;
   --sidenav-bg: linear-gradient(180deg, rgba(18, 23, 25, 1), rgba(18, 23, 25, 0.75), rgba(18, 23, 25, 0.3), rgba(18, 23, 25, 0.3), rgba(0, 0, 0, 0));
   --sidenav-layer-2-bg: transparent;
-  --sidenav-active-task-layer-2-bg): transparent;
+  --sidenav-active-task-layer-2-bg: transparent;
   --sidenav-bg-fallback: linear-gradient(180deg, rgba(18, 23, 25, 1), rgba(18, 23, 25, 0.75), rgba(18, 23, 25, 0.3), rgba(18, 23, 25, 0.3), rgba(0, 0, 0, 0));
   --sidenav-mobile-bg-fallback: rgb(23, 22, 22);
   --sidenav-layer-2-bg-fallback: transparent;
