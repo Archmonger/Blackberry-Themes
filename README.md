@@ -26,7 +26,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 Turn Organizr into a plexified media portal! This is a standard configuration that ties together all plex-related services into one visibily native package by utilizing Organizr SSO. Focuses on bringing Plex styling to all your other media server web applications. Comes with custom icons for Organizr, which are available within the theme's `Icons` folder.
 
 ### [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/bbf_logo.png" alt="Blackberry Flat Logo" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/tree/master/Themes/Blackberry-Flat) [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions:-Blackberry-Flat)<br/>
-Blackberry Flat themes without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features (such as logout functionality on Ombi) and have a larger navbar. These is intended to be used in more standalone applications.<br/>
+Blackberry Flat themes without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features (such as logout functionality on Ombi) and have a larger navbar. These is intended to be used in standalone applications.<br/>
 
 ## More Information<br/>
 
