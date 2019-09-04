@@ -1,9 +1,11 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
 We are an open source theming group dedicated to creating a consistent user interface across multiple web services, with variants focused on Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.<br/>
 
-Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository!<br/>
+Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository. Also feel free to watch us on Twitch!<br/>
 
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
+[![Twitch](https://img.shields.io/badge/Twitch.tv-Watch-blue?style=for-the-badge&logo=twitch)](https://www.twitch.tv/blackberrythemes)<br/>
+
 
 ### Like what we do? Donate!
 [![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
