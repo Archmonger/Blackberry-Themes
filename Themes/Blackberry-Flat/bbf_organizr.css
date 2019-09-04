@@ -2743,7 +2743,7 @@ span.select2-selection.select2-selection--multiple .select2-selection__choice {
   div#page-wrapper {
     position: fixed;
     overflow: hidden;
-    height: 100%;
+    height: calc(100% - 40px);
     width: calc(100% - 60px);
   }
   .internal-listing {
