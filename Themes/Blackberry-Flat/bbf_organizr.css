@@ -2196,7 +2196,9 @@ div[id$=Custom-CSS] .col-md-12, div[id$=Custom-CSS] .row {
     font-size: 64px !important;
   }
   .navbar {
-    padding-left: 60px;
+    padding-left: 0px;
+    left: 60px;
+    width: calc(100% - 60px);
   }
   .sidebar {
     transition: background .2s, width .1s;
