@@ -68,8 +68,8 @@
   transition: background .1s;
 }
 .sidebar, .sidebar-head, .user-bg, div[id^=request]:not(#request-input-div) .dropdown-toggle {
-  -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: var(--sidenav-backdrop-filter);
+  backdrop-filter: var(--sidenav-backdrop-filter);
 }
 .login-register .login-box {
   top: 50%;
@@ -2432,8 +2432,10 @@ div[data-src$='no-np.png'] {
   .sidebar-nav {
     background: var(--sidenav-layer-2-bg);
   }
-  .show-sidebar .sidebar {
-    background: var(--sidenav-open-bg) !important;
+  @media only screen and (max-width: 768px) {
+    .show-sidebar .sidebar {
+      background: var(--sidenav-mobile-bg) !important;
+    }
   }
   .sidebar-head {
     background: rgba(0, 0, 0, 0) !important;

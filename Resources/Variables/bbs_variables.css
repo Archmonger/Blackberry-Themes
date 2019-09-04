@@ -3,7 +3,8 @@
   --bg-dark: linear-gradient(135deg, #252b2f, #090c0e);
   --navbar-color: #121719;
   --sidenav-bg: linear-gradient(180deg, rgba(18, 23, 25, 1), rgba(18, 23, 25, 0.75), rgba(18, 23, 25, 0.3), rgba(18, 23, 25, 0.3), rgba(0, 0, 0, 0));
-  --sidenav-open-bg: rgb(23, 22, 22);
+  --sidenav-mobile-bg: rgb(23, 22, 22);
   --sidenav-layer-2-bg: rgba(0, 0, 0, 0);
   --sidenav-active-task-bg: linear-gradient(180deg, rgba(18, 23, 25, 1), rgba(18, 23, 25, 0.75), rgba(18, 23, 25, 0.3), rgba(18, 23, 25, 0.3), rgba(0, 0, 0, 0));
+  --sidenav-backdrop-filter: none;
 }
