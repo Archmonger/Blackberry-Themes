@@ -8,7 +8,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 
 
 ### Like what we do? Donate!
-[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
+[![Beerpay](https://img.shields.io/badge/beerpay-donate-yellow.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
 ## FAQ<br/>
