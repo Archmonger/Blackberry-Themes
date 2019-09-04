@@ -2451,11 +2451,6 @@ div[data-src$='no-np.png'] {
   .sidebar-nav {
     background: var(--sidenav-layer-2-bg-fallback);
   }
-  @media only screen and (max-width: 768px) {
-    .show-sidebar .sidebar {
-      background: var(--sidenav-mobile-bg-fallback) !important;
-    }
-  }
   .sidebar-head {
     background: rgba(0, 0, 0, 0) !important;
     box-shadow: none !important;
