@@ -2744,7 +2744,7 @@ span.select2-selection.select2-selection--multiple .select2-selection__choice {
     position: fixed;
     overflow: hidden;
     height: 100%;
-    width: 100%;
+    width: calc(100% - 60px);
   }
   .internal-listing {
     overflow-y: auto;
