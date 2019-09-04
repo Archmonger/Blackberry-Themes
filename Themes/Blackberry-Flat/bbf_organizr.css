@@ -2738,3 +2738,16 @@ span.select2-selection.select2-selection--multiple .select2-selection__choice {
 .nav-second-level .sidebar-tabName {
   top: 15px;
 }
+/* Fixed position top nav */
+@media only screen and (min-width: 768px) {
+  div#page-wrapper {
+    position: fixed;
+    overflow: hidden;
+    height: 100%;
+  }
+  .internal-listing {
+    overflow-y: auto;
+    height: 100%;
+    width: calc(100vw - 45px);
+  }
+}
