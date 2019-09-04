@@ -4,11 +4,11 @@ We are an open source theming group dedicated to creating a consistent user inte
 Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository. Also feel free to watch us on Twitch!<br/>
 
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
-[![Twitch](https://img.shields.io/badge/Twitch.tv-Watch-blue?style=for-the-badge&logo=twitch)](https://www.twitch.tv/blackberrythemes)<br/>
+[![Twitch](https://img.shields.io/badge/twitch.tv-Watch-blue?style=for-the-badge&logo=twitch)](https://www.twitch.tv/blackberrythemes)<br/>
 
 
 ### Like what we do? Donate!
-[![Beerpay](https://img.shields.io/badge/beerpay-donate-red.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
+[![Credit Card](https://img.shields.io/badge/credit%20card-donate-yellow.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
 ## FAQ<br/>
