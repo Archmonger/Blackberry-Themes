@@ -292,6 +292,9 @@ blockquote {
 .el-card-item:hover .el-card-avatar, .item:hover {
   box-shadow: 0 0 0 2px var(--color-hyperlink);
 }
+.el-element-overlay .el-card-item .el-overlay-1 {
+  overflow: visible;
+}
 .el-card-avatar a:focus, .el-card-avatar a:hover, .fc-next-button.focus, .fc-next-button:focus, .fc-next-button:hover, .fc-prev-button.focus, .fc-prev-button:focus, .fc-prev-button:hover {
   background: 0 0 !important;
   color: #fff !important;
