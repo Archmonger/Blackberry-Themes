@@ -1641,6 +1641,7 @@ tbody[class$=history] .progress-bar, tbody[class$=queue] .progress-bar {
   margin-top: 20px;
   cursor: default;
   padding: 0 0 2.5px;
+  position: relative;
 }
 .ace_marker-layer .ace_active-line, .fc-button:focus, .fc-button:hover, .fc-today, .fc-today.fc-day-header, .fc-today.fc-day-top, .fc-today.fc-state-highlight, .tabs-style-flip nav a:hover::after, .tabs-style-flip nav li.tab-current a::after {
   background: var(--floating-object-color-hover) !important;
