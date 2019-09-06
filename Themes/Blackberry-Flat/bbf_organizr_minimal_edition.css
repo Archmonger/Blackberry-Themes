@@ -31,11 +31,6 @@ li#menu-Organizr-Support {
 .sidebar-nav .devider, .sidebar-nav #sign-out {
   display: none;
 }
-@media only screen and (min-width: 768px) {
-  .sidebar-head {
-    visibility: hidden;
-  }
-}
 /* Tweak Calendar Colors */
 div[class*="fc"] .text-info {
   color: #929a9c !important;
@@ -86,4 +81,23 @@ div[class*="fc"] .text-primary {
 }
 .tippy-tooltip.bbf-theme .tippy-backdrop {
   background: black;
+}
+/* Desktop sidenav button customizations */
+@media only screen and (min-width: 768px) {
+  .sidebar-head {
+    display: none;
+  }
+  #side-menu li a:hover {
+    background: transparent !important;
+    -webkit-filter: drop-shadow(5px 5px 5px #FFF);
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
+  }
+  #side-menu li:first-child {
+    margin-top: 10px;
+  }
+  #side-menu li a.active, #side-menu li a:active {
+    background: transparent;
+    -webkit-filter: drop-shadow(5px 5px 5px #FFF);
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
+  }
 }
