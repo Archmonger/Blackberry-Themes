@@ -6,10 +6,10 @@ for (var i = 0; i < children.length; i++) {
 $.getScript('https://unpkg.com/popper.js@1', function() {
 	$.getScript('https://unpkg.com/tippy.js@4', function() {
 		tippy(".allTabsList", {
-			placement: 'right',
-			boundary: document.getElementById('page-wrapper'),
+			placement: "right",
+			boundary: "window",
 			touch: false,
-			theme: 'bbf'
+			theme: "bbf"
 		});
 	});
 });
