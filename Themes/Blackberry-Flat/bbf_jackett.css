@@ -1,6 +1,7 @@
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 /* Base Layer */
 body {
-  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
