@@ -160,7 +160,7 @@ body {
   background: rgba(0, 0, 0, .10);
 }
 #search.active #input {
-  background: #2d2d2d;
+  background: var(--navbar-color);
   height: 60px;
   color: white;
 }
