@@ -1278,7 +1278,7 @@ img.dark-logo-side {
 #side-menu li a.active, #side-menu li a:active {
   background: var(--floating-object-color-hover);
   color: var(--color-focused) !important;
-  box-shadow: none;
+  box-shadow: none !important;
 }
 .tabLoaded {
   -webkit-filter: none;
