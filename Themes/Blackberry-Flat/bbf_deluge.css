@@ -1,3 +1,4 @@
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 /* Base Layer */
 html,
 body {
@@ -10,7 +11,7 @@ body {
   height: auto;
 }
 body {
-  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -21,7 +22,7 @@ body {
 }
 /* Navbar */
 .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
-  background: #162027;
+  background: var(--navbar-color);
   height: 60px;
   border: none;
   padding: 15px 15px 15px 10px;
