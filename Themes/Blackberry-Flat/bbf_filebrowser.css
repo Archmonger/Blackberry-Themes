@@ -1,3 +1,4 @@
+@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_filebrowser.css";
 .message {
   color: #FFF;
 }
@@ -5,7 +6,7 @@
   color: #FFF;
 }
 #loading {
-  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -20,7 +21,7 @@
   background: #FFF !important;
 }
 #login {
-  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -30,7 +31,6 @@
   -o-background-size: auto, cover;
   min-height: 100%;
   height: auto;
-  background: rgba(0, 0, 0, .0);
 }
 body {
   color: #FFFFFF;
@@ -51,7 +51,7 @@ button:hover, input[type=submit]:hover {
   color: #FFF;
 }
 html {
-  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -61,7 +61,6 @@ html {
   -o-background-size: auto, cover;
   min-height: 100%;
   height: auto;
-  background: rgba(0, 0, 0, .0);
 }
 body {
   background: rgba(0, 0, 0, .0);
@@ -88,7 +87,7 @@ nav>div {
   border-top: none;
 }
 header {
-  background: rgb(22, 32, 39);
+  background: var(--navbar-color);
   height: 60px;
 }
 header>div:first-child {
@@ -140,7 +139,7 @@ body {
   border: none;
 }
 #search #result {
-  background: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png"), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png");
+  background: var(--bg-dark);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -148,7 +147,6 @@ body {
   -webkit-background-size: auto, cover;
   -moz-background-size: auto, cover;
   -o-background-size: auto, cover;
-  background: rgba(0, 0, 0, .0);
   color: rgb(238, 238, 238);
 }
 #search .boxes {
