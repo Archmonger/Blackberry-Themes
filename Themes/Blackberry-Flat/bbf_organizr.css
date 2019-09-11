@@ -5,7 +5,7 @@
  */
 @import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 #page-wrapper:before, body {
-  background: var(--bg-light) !important;
+  background: transparent !important;
   height: 100%;
   width: 100%;
 }
@@ -144,7 +144,7 @@ body, tbody {
   }
 }
 html {
-  background: #3f4245;
+  background: var(--bg-light);
 }
 body {
   font: 13.25px Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
