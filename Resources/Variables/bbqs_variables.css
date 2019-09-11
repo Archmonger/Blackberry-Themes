@@ -1,9 +1,9 @@
 :root {
-  --bg-light: linear-gradient(to right, #485563, #29323c);
-  --bg-dark: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.7) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.40) 120%) #000000;
-  --navbar-color: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.25));
-  --sidenav-bg: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3));
+  --bg-light: radial-gradient(at bottom center, rgba(0, 0, 0, 0.4) 0%, hsla(211, 18%, 45%, 0.55), hsla(211, 18%, 5%, 0)), linear-gradient(to right, hsla(211, 18%, 5%, 1), hsla(211, 18%, 45%, 1), hsla(211, 18%, 5%, 1));
+  --bg-dark: radial-gradient(at bottom center, rgba(0, 0, 0, 0.4) 0%, hsla(211, 18%, 45%, 0.55), hsla(211, 18%, 5%, 0)), linear-gradient(to right, hsla(211, 18%, 5%, 1), hsla(211, 18%, 45%, 1), hsla(211, 18%, 5%, 1));
+  --navbar-color: linear-gradient(90deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.15));
+  --sidenav-bg: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.15));
   --sidenav-layer-2-bg: transparent;
-  --sidenav-bg-fallback: linear-gradient(180deg, rgb(42, 42, 43), rgb(33, 33, 35), rgb(12, 12, 13));
+  --sidenav-bg-fallback: linear-gradient(180deg, rgb(15, 17, 20), hsla(210, 17%, 12.5%, 1), rgb(38, 46, 54));
   --sidenav-layer-2-bg-fallback: transparent;
 }
