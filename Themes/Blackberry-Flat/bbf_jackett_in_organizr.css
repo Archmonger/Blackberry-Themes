@@ -6,3 +6,7 @@
 #logo, #header-title {
   visibility: hidden;
 }
+/* Hide BG */
+body {
+  background: transparent;
+}

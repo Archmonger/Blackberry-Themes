@@ -28,3 +28,7 @@ header div img {
     transform: translateY(-18px);
   }
 }
+/* Hide BG */
+html {
+  background: transparent;
+}

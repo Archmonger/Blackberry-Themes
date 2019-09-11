@@ -15,3 +15,7 @@
     height: 45px;
   }
 }
+/* Hide BG */
+body {
+  background: transparent;
+}

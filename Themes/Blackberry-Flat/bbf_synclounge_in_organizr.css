@@ -72,3 +72,10 @@ main {
 .container {
   background: rgba(0, 0, 0, 0) !important;
 }
+/* Hide BG */
+main {
+  background: transparent !important;
+}
+.application.theme--dark {
+  background: transparent;
+}

@@ -50,3 +50,7 @@
     transform: translateX(19px);
   }
 }
+/* Hide BG */
+html {
+  background: transparent;
+}

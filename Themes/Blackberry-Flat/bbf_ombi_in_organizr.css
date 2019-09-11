@@ -62,3 +62,7 @@ body {
   padding-top: 25px !important;
   padding-bottom: 45px;
 }
+/* Hide BG */
+body {
+  background: transparent;
+}
