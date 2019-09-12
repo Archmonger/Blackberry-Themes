@@ -1,4 +1,4 @@
-@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/bbf_filebrowser.css";
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 .message {
   color: #FFF;
 }
@@ -87,8 +87,10 @@ nav>div {
   border-top: none;
 }
 header {
-  background: var(--navbar-color);
+  background: var(--navbar-color) !important;
   height: 60px;
+  border: none;
+  box-shadow: none
 }
 header>div:first-child {
   height: 60px;
@@ -116,10 +118,10 @@ body {
   transition: .4s;
 }
 #listing.list .item.header {
-  background: rgb(47, 63, 71);
+  background: transparent;
   color: rgb(238, 238, 238);
-  border-bottom: none;
-  right: auto;
+  border: none;
+  padding-bottom: 0px;
 }
 .material-icons, .prompt .file-list ul li:before {
   color: rgba(255, 255, 255, 0.85);
