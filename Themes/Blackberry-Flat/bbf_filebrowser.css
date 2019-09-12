@@ -121,7 +121,6 @@ body {
   background: transparent;
   color: rgb(238, 238, 238);
   border: none;
-  padding-bottom: 0px;
 }
 .material-icons, .prompt .file-list ul li:before {
   color: rgba(255, 255, 255, 0.85);

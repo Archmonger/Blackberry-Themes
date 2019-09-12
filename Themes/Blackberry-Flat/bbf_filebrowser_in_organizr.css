@@ -24,9 +24,6 @@ header div img {
   nav {
     top: 45px;
   }
-  #listing .item.header {
-    transform: translateY(-18px);
-  }
 }
 /* Hide BG */
 html {
