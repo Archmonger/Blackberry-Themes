@@ -223,3 +223,6 @@ table th {
     width: 175px;
   }
 }
+#breadcrumbs {
+  border: none;
+}
