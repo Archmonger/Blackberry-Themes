@@ -22,7 +22,7 @@ button[class*="NavBar-accountButton"] {
   div[class*="NavBar-container"] {
     height: 45px;
   }
-  div[class*="QuickSearchInput-container"] {
+  div[class*="QuickSearchInput-container"], div[class*="QuickSearch-container"] {
     height: 35px;
   }
   span[class*="NavBarActivityButton-label"] {
