@@ -1192,6 +1192,9 @@ img.dark-logo-side {
   color: var(--font-color-secondary);
   transition: none;
 }
+.dropdown-toggle.profile-pic {
+  padding-right: 10px;
+}
 .navbar-top-links.navbar-left li:first-of-type i {
   width: 14px !important;
 }
