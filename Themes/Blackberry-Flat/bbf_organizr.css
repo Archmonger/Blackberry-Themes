@@ -259,6 +259,9 @@ body[data-active-tab=""] {
 .ace-idle-fingers, .bg-title, .panel-blue .panel-heading, .table-hover tbody tr:hover, table.dataTable tbody tr, table.dataTable tbody tr:hover {
   background: var(--floating-object-color) !important;
 }
+.bg-title {
+  border-bottom: none;
+}
 .panel-white .panel-heading {
   border-color: transparent;
   color: var(--font-color-secondary);
