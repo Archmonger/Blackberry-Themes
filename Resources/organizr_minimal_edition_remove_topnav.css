@@ -10,6 +10,11 @@ div#page-wrapper {
 }
 .profile-pic {
   margin-bottom: 0px !important;
+  line-height: 30px;
+}
+#side-menu .dropdown {
+  height: 45px;
+  margin-bottom: 10px;
 }
 .profile-pic>.profile-image {
   margin-right: 0px;
