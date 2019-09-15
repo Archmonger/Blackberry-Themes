@@ -36,18 +36,18 @@ div#page-wrapper {
 .dropdown-menu {
   left: 15px;
 }
-#side-menu .dropdown-menu li a:hover {
+#side-menu .dropdown-menu>li>a:hover {
   filter: none;
   background: hsla(0, 0%, 100%, .08) !important;
 }
-#side-menu .dropdown-menu li a {
+#side-menu .dropdown-menu>li>a {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 9px;
   padding-bottom: 9px;
   margin-bottom: 0px;
 }
-#side-menu .dropdown-menu li a>i {
+#side-menu .dropdown-menu>li>a>i {
   font-size: 14px;
   line-height: 20px;
   margin-right: 0px;
@@ -61,4 +61,10 @@ div#page-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#side-menu>li>a {
+  width: 100%;
+}
+#side-menu>li>a>.pingTime {
+  display: none;
 }
