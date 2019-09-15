@@ -30,25 +30,12 @@ Blackberry Flat themes without In Organizr optimizations. These non-"In Organizr
 
 ## More Information<br/>
 
-### Last Tested<br/>
-
-| Service | Last Tested Version | Requires Nginx Subfilter |
-| ------------- | :-------------: | :-------------: |
-| Plex | 1.15.1.791 | YES |
-| Ombi | 3.0.4256 | NO |
-| Synclounge | 2.0.0 | YES |
-| Filebrowser | 2.0.3 | YES |
-| Deluge WebUI | 2.0.3 | YES |
-| Jackett | 0.10.846.0 | YES |
-| Organizr | 2.0.0 | NO |
-| Tautulli | 2.1.26 | YES |
-
 ### Feathub Requests<br/>
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)<br/>
 
 ### **[Credits, Disclaimers, and Legal Stuff](https://github.com/Archmonger/Blackberry-Themes/wiki/Credits)**<br/>
 
-## Honorable Mentions
+### Honorable Mentions
 [leram84/layer.Cake](https://github.com/leram84/layer.Cake/)<br/>
 [rg9400/Cloud-Tautulli-Theme](https://github.com/rg9400/Cloud-Tautulli-Theme)<br/>
 [Burry/organizr-v2-plex-theme](https://github.com/Burry/organizr-v2-plex-theme)<br/>
