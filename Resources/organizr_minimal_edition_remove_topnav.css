@@ -67,6 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 45px;
   }
   #side-menu>li>a, #side-menu>li>ul>li>a {
     width: 45px;
