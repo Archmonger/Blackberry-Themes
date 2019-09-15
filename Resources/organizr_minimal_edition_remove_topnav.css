@@ -68,10 +68,10 @@
     align-items: center;
     justify-content: center;
   }
-  #side-menu>li>a {
-    width: 100%;
+  #side-menu>li>a, #side-menu>li>ul>li>a {
+    width: 45px;
   }
-  #side-menu>li>a>.pingTime {
+  #side-menu li>a>.pingTime {
     display: none;
   }
 }
