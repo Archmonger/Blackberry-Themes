@@ -52,6 +52,7 @@
     padding-top: 9px;
     padding-bottom: 9px;
     margin-bottom: 0px;
+    width: 100%;
   }
   #side-menu .dropdown-menu>li>a>i {
     font-size: 14px;
