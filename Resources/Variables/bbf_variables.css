@@ -17,7 +17,7 @@
   --btn-color-hover: rgba(255, 255, 255, 0.3);
   --btn-color-focused: #cc7b19;
   --btn-color-focused-hover: #e3891c;
-  --navbar-color: #162027;
+  --navbar-color: rgba(0, 0, 0, 0.6);
   --floating-object-color: rgba(0, 0, 0, .15);
   --floating-object-color-hover: rgba(255, 255, 255, .08);
   --floating-object-dark-color: rgba(0, 0, 0, .3);
