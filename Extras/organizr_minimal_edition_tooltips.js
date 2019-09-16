@@ -4,7 +4,7 @@ for (var i = 0; i < sidenavElements.length; i++) {
 }
 $.getScript('https://unpkg.com/popper.js@1', function() {
 	$.getScript('https://unpkg.com/tippy.js@4', function() {
-		tippy(sidenavElements, {
+		tippy(".allTabsList,.allGroupsList", {
 			placement: "right",
 			boundary: "window",
 			touch: false,
