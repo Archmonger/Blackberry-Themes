@@ -21,7 +21,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [My subfilter is set up exactly as shown, but themes are not working!](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-subfilter-is-set-up-exactly-as-shown-but-themes-are-not-working)<br/>
 [My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
 
-## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="30"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)<br/>
+## Themes<br/>
 | [![Blackberry Flat Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)  | [![Blackberry Shadow Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Flat Minimal Edition | Blackberry Shadow Minimal Edition |
@@ -30,8 +30,9 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 | [![Blackberry Quicksilver Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbqs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbqs_minimal_edition.png)  | [![Blackberry Vanta Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png) |
 | Blackberry Quicksilver Minimal Edition | Blackberry Vanta Minimal Edition |
 
-## More Information<br/>
+[<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="50"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
 
+## More Information<br/>
 ### Feathub Requests<br/>
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)<br/>
 
