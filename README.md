@@ -21,12 +21,14 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [My subfilter is set up exactly as shown, but themes are not working!](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-subfilter-is-set-up-exactly-as-shown-but-themes-are-not-working)<br/>
 [My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
 
-## Standard Configurations
-### [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/bbf_in_organizr_logo.png" alt="Blackberry Flat in Organizr Logo" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/tree/master/Themes/Blackberry-Flat) [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)<br/>
-Turn Organizr into a plexified media portal! This is a standard configuration that ties together all plex-related services into one visibily native package by utilizing Organizr SSO. Focuses on bringing Plex styling to all your other media server web applications. Comes with custom icons for Organizr, which are available within the theme's `Icons` folder.
-
-### [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/bbf_logo.png" alt="Blackberry Flat Logo" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/tree/master/Themes/Blackberry-Flat) [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)<br/>
-Blackberry Flat themes without In Organizr optimizations. These non-"In Organizr" versions do not remove any UI elements or features (such as logout functionality on Ombi) and have a larger navbar. These is intended to be used in standalone applications.<br/>
+## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="30"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)<br/>
+| [![Blackberry Flat Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)  | [![Blackberry Shadow Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbs_minimal_edition.png) |
+|:---:|:---:|
+| Blackberry Flat Minimal Edition | Blackberry Shadow Minimal Edition |
+| [![Blackberry Royal Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbr_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbr_minimal_edition.png)  | [![Blackberry Hearth Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbh_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbh_minimal_edition.png) |
+| Blackberry Royal Minimal Edition | Blackberry Hearth Minimal Edition |
+| [![Blackberry Quicksilver Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbqs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbqs_minimal_edition.png)  | [![Blackberry Vanta Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbv_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Blackberry-Themes/Screenshots/bbv_minimal_edition.png) |
+| Blackberry Quicksilver Minimal Edition | Blackberry Vanta Minimal Edition |
 
 ## More Information<br/>
 
