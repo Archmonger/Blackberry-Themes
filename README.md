@@ -11,16 +11,6 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [![Credit Card](https://img.shields.io/badge/credit%20card-donate-yellow.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
-## FAQ<br/>
-[How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
-[Where are the screenshots?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-are-the-screenshots)<br/>
-[What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-is-in-organizr)<br/>
-[What does Blackberry Flat Plex do?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-does-blackberry-flat-plex-do)<br/>
-[Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-can-i-make-theme-and-icon-requests)<br/>
-[Can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#can-i-make-my-own-bbf-icons-for-organizr)<br/>
-[My subfilter is set up exactly as shown, but themes are not working!](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-subfilter-is-set-up-exactly-as-shown-but-themes-are-not-working)<br/>
-[My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
-
 ## Themes<br/>
 | [![Blackberry Flat Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)  | [![Blackberry Shadow Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png) |
 |:---:|:---:|
@@ -33,6 +23,15 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="50"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
 
 ## More Information<br/>
+### FAQ<br/>
+[How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
+[Where are the screenshots?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-are-the-screenshots)<br/>
+[What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-is-in-organizr)<br/>
+[What does Blackberry Flat Plex do?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-does-blackberry-flat-plex-do)<br/>
+[Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-can-i-make-theme-and-icon-requests)<br/>
+[Can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#can-i-make-my-own-bbf-icons-for-organizr)<br/>
+[My subfilter is set up exactly as shown, but themes are not working!](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-subfilter-is-set-up-exactly-as-shown-but-themes-are-not-working)<br/>
+[My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
 ### Feathub Requests<br/>
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)<br/>
 
