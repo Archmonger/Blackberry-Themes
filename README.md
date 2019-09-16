@@ -11,7 +11,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [![Credit Card](https://img.shields.io/badge/credit%20card-donate-yellow.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
-## Themes<br/>
+## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" align="right" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)<br/>
 | [![Blackberry Flat Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)  | [![Blackberry Shadow Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Flat Minimal Edition | Blackberry Shadow Minimal Edition |
@@ -19,8 +19,6 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 | Blackberry Royal Minimal Edition | Blackberry Hearth Minimal Edition |
 | [![Blackberry Quicksilver Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbqs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbqs_minimal_edition.png)  | [![Blackberry Vanta Minimal Edition](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png) |
 | Blackberry Quicksilver Minimal Edition | Blackberry Vanta Minimal Edition |
-
-[<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" alt="Install" height="50"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
 
 ## More Information<br/>
 ### FAQ<br/>
