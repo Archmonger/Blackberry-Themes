@@ -16,7 +16,6 @@ header div img {
   }
   header>div:first-child {
     height: 45px;
-    padding-top: 3px;
   }
   body {
     padding-top: 45px;
