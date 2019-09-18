@@ -21,6 +21,20 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 | Blackberry Quicksilver Minimal Edition | Blackberry Vanta Minimal Edition |
 
 ## More Information<br/>
+### Supported Web Services<br/>
+- Organizr
+- Plex
+- Ombi
+- Synclounge
+- Tautulli
+- Jackett
+- Filebrowser
+- Deluge
+- NZBHydra _(beta)_
+- QBittorrent _(beta)_
+- Sonarr _(upcoming)_
+- Radarr _(upcoming)_
+
 ### FAQ<br/>
 [How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
 [Where are the screenshots?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-are-the-screenshots)<br/>
