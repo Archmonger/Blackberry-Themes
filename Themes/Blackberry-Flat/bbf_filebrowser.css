@@ -226,3 +226,11 @@ table th {
 #breadcrumbs {
   border: none;
 }
+/* Login Box Styling */
+#login>form {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  box-sizing: content-box;
+}
