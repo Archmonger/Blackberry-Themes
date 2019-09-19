@@ -1,7 +1,6 @@
 // Groot JS themeInstaller
 reset = 0;
 console.log('Starting check');
-window.onload = themeInstaller("Plex", "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Shadow/bbs_plex_in_organizr.css");
 
 function themeInstaller(tabName, themeUrl) {
 	console.log('resetting for the ' + reset + ' time');
