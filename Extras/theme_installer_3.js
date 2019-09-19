@@ -19,7 +19,7 @@ function elementReady(selector) {
 	});
 }
 
-function themeInstallerr(tabName, themeUrl) {
+function themeInstaller(tabName, themeUrl) {
 	var frameName = "#frame-" + tabName;
 	var styleSheet = '<link rel="stylesheet" href="' + themeUrl + '" type="text/css" />';
 	elementReady(frameName).then(
