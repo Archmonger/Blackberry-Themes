@@ -3,7 +3,7 @@ function themeInstaller(tabName, themeUrl) {
 	reset++;
 	var frameName = "#frame-" + tabName;
 	var styleSheet = '<link rel="stylesheet" href="' + themeUrl + '" type="text/css" />'
-	if ($(frameName).length) {
+	if ($(frameName).contents().find("head").length) {
 		$(frameName).contents().find("head").append(styleSheet);
 	} else if (reset <= 200000) {
 		setTimeout(function() {
