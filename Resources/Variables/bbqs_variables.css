@@ -1,3 +1,4 @@
+/* Created by Blackberry Themes */
 :root {
   --bg-light: radial-gradient(at bottom center, rgba(0, 0, 0, 0.4) 0%, hsla(211, 18%, 45%, 0.55), hsla(211, 18%, 5%, 0)), linear-gradient(to right, hsla(211, 18%, 5%, 1), hsla(211, 18%, 45%, 1), hsla(211, 18%, 5%, 1));
   --bg-dark: radial-gradient(at bottom center, rgba(0, 0, 0, 0.4) 0%, hsla(211, 18%, 45%, 0.55), hsla(211, 18%, 5%, 0)), linear-gradient(to right, hsla(211, 18%, 5%, 1), hsla(211, 18%, 45%, 1), hsla(211, 18%, 5%, 1));

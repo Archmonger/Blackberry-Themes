@@ -1,3 +1,4 @@
+/* Created by Blackberry Themes */
 var sidenavElements = $(".allTabsList");
 for (var i = 0; i < sidenavElements.length; i++) {
 	sidenavElements[i].setAttribute("data-tippy-content", sidenavElements[i].getAttribute("data-tab-name"))
