@@ -1,6 +1,5 @@
 // Groot JS themeInstaller
 function themeInstaller(tabName, themeUrl) {
-	reset++;
 	var frameName = "#frame-" + tabName;
 	console.log('Searching for ' + frameName + ' to apply stylesheet ' + themeUrl);
 	if ($(frameName).contents().find("head").length) {
