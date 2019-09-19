@@ -6,5 +6,5 @@ function themeInstaller(tabName, themeUrl) {
 			$(frameName).contents().find("head").append(styleSheet);
 			clearInterval(checkExist);
 		}
-	}, 250);
+	}, 500);
 };
