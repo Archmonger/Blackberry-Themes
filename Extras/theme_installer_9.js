@@ -34,7 +34,7 @@ function themeInstaller(tabName, themeUrl) {
 			} else {
 				setTimeout(function() {
 					themeInstaller(tabName, themeUrl);
-				}, 50);
+				}, 10);
 			}
 		});
 };
