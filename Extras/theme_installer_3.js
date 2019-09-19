@@ -24,6 +24,7 @@ function themeInstaller(tabName, themeUrl) {
 	var styleSheet = '<link rel="stylesheet" href="' + themeUrl + '" type="text/css" />';
 	elementReady(frameName).then(
 		(loadJS) => {
+			console.log("Frame found.");
 			$(frameName).contents().find("head").append(styleSheet)
 		});
 };
