@@ -25,7 +25,7 @@ function themeInstaller(tabName, themeUrl) {
 	console.log('Searching for ' + frameName + ' to apply stylesheet ' + themeUrl);
 	elementReady(frameName).then(
 		(loadJS) => {
-			if ($(frameName).contents().find("head>style").length && $(frameName).contents().find("html>body").length) {
+			if ($(frameName).contents().find("head").length && $(frameName).contents().find("html>body").length) {
 				console.log(frameName + ' detected. Applying theme.');
 				var stylesheet = document.createElement("link");
 				stylesheet.rel = "stylesheet";
