@@ -79,9 +79,14 @@ div[class*="fc"] .text-primary {
   color: white;
   font-size: 13px;
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 3px 10px;
 }
 .tippy-tooltip.bbf-theme .tippy-backdrop {
-  background: black;
+  background: #000;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .35);
+  border-radius: 4px;
 }
 /* Desktop sidenav button customizations */
 @media only screen and (min-width: 768px) {
