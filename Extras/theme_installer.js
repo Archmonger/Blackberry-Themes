@@ -19,27 +19,34 @@ function elementReady(selector) {
 	});
 }
 
-var retries = 0;
+var retries = 0; // Amount of times the script has checked if the tab is fully loaded
+var retryTime = 1; // Time in MS for how often to check if the tab is loaded.
 
 function themeInstaller(tabName, themeUrl) {
 	var frameName = "#frame-" + tabName;
-	var styleSheet = '<link rel="stylesheet" href="' + themeUrl + '" type="text/css" />';
 	console.log('Searching for ' + frameName + ' to apply stylesheet ' + themeUrl);
+
 	elementReady(frameName).then(
 		(loadJS) => {
 			if ($(frameName).contents().find("head>title").length && $(frameName).contents().find("html>body").length) {
+				// Frame is fully loaded and the theme can be applied
 				console.log(frameName + ' detected. Applying theme.');
 				var stylesheet = document.createElement("link");
 				stylesheet.rel = "stylesheet";
 				stylesheet.href = themeUrl;
 				$(frameName).contents().find("body").append(stylesheet);
-			} else if (retries < 5000) {
+			} else if (retries < 1500) {
 				setTimeout(function() {
+					// Wait for the tab to be loaded before attempting to apply the theme
 					retries++;
 					themeInstaller(tabName, themeUrl);
-				}, 1);
+					if (retries == 500) {
+						// Slow down upon excessive retry attempts
+						retryTime = 250;
+					}
+				}, retryTime);
 			} else {
-				console.log("Theme installer has reached the maximum amount of retries for " + tabName);
+				console.log("Blackberry Theme Installer has reached the maximum amount of retries for " + tabName + ". Giving up.");
 			}
 		});
 };
