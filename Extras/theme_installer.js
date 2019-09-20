@@ -8,7 +8,7 @@ function elementReady(selector) {
 				// Query for elements matching the specified selector
 				Array.from(document.querySelectorAll(selector)).forEach((element) => {
 					resolve(element);
-					//Once we have resolved we don't need the observer anymore.
+					// Once we have resolved we don't need the observer anymore.
 					observer.disconnect();
 				});
 			})
@@ -19,14 +19,15 @@ function elementReady(selector) {
 	});
 }
 
-var retries = 0; // Amount of times the script has checked if the tab is fully loaded
+var retries = 0; // A count of amount of times the script has checked if the tab is fully loaded
 var retryTime = 1; // Time in MS for how often to check if the tab is loaded.
 
 function themeInstaller(tabName, themeUrl) {
 	var frameName = "#frame-" + tabName;
-
 	elementReady(frameName).then(
 		(loadJS) => {
+
+			// Ensure the page has finished it's first load before appending a theme.
 			if ($(frameName).contents().find("head>title").length && $(frameName).contents().find("html>body").length) {
 				// Make sure that the styling will apply through iframe reload
 				$(frameName).on("load", function() {
@@ -38,12 +39,13 @@ function themeInstaller(tabName, themeUrl) {
 					$(frameName).contents().find("body").append(stylesheet);
 				})
 			} else if (retries < 1500) {
+
+				// If the tab isn't ready, wait for the tab to be loaded before attempting to apply the theme
 				setTimeout(function() {
-					// Wait for the tab to be loaded before attempting to apply the theme
 					retries++;
 					themeInstaller(tabName, themeUrl);
+					// Slow down upon excessive retry attempts to avoid lagging the browser.
 					if (retries == 500) {
-						// Slow down upon excessive retry attempts
 						retryTime = 250;
 					}
 				}, retryTime);
