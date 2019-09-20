@@ -19,6 +19,8 @@ function elementReady(selector) {
 	});
 }
 
+var retries = 0;
+
 function themeInstaller(tabName, themeUrl) {
 	var frameName = "#frame-" + tabName;
 	var styleSheet = '<link rel="stylesheet" href="' + themeUrl + '" type="text/css" />';
@@ -31,8 +33,9 @@ function themeInstaller(tabName, themeUrl) {
 				stylesheet.rel = "stylesheet";
 				stylesheet.href = themeUrl;
 				$(frameName).contents().find("body").append(stylesheet);
-			} else {
+			} else if (retries < 2000) {
 				setTimeout(function() {
+					retries++;
 					themeInstaller(tabName, themeUrl);
 				}, 1);
 			}
