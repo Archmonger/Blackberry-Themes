@@ -34,6 +34,10 @@ function themeInstaller(tabName, themeUrl) {
 				stylesheet.rel = "stylesheet";
 				stylesheet.href = themeUrl;
 				$(frameName).contents().find("body").append(stylesheet);
+				// Make sure that the styling will apply through iframe reload
+				$(frameName).on("load", function() {
+					themeInstaller(tabName, themeUrl);
+				})
 			} else if (retries < 1500) {
 				setTimeout(function() {
 					// Wait for the tab to be loaded before attempting to apply the theme
@@ -48,4 +52,4 @@ function themeInstaller(tabName, themeUrl) {
 				console.log("Blackberry Theme Installer has reached the maximum amount of retries for " + tabName + ". Giving up.");
 			}
 		});
-};
+}
