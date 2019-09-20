@@ -30,7 +30,7 @@ function themeInstaller(tabName, themeUrl) {
 				var stylesheet = document.createElement("link");
 				stylesheet.rel = "stylesheet";
 				stylesheet.href = themeUrl;
-				$(frameName).contents().find("body").prepend(stylesheet);
+				$(frameName).contents().find("body").append(stylesheet);
 			} else {
 				setTimeout(function() {
 					themeInstaller(tabName, themeUrl);
