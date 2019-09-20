@@ -28,15 +28,14 @@ function themeInstaller(tabName, themeUrl) {
 	elementReady(frameName).then(
 		(loadJS) => {
 			if ($(frameName).contents().find("head>title").length && $(frameName).contents().find("html>body").length) {
-				// Frame is fully loaded and the theme can be applied
-				console.log(frameName + ' detected. Applying theme.');
-				var stylesheet = document.createElement("link");
-				stylesheet.rel = "stylesheet";
-				stylesheet.href = themeUrl;
-				$(frameName).contents().find("body").append(stylesheet);
 				// Make sure that the styling will apply through iframe reload
 				$(frameName).on("load", function() {
-					themeInstaller(tabName, themeUrl);
+					// Frame has been fully loaded and the theme can be applied
+					console.log(frameName + ' detected. Applying theme.');
+					var stylesheet = document.createElement("link");
+					stylesheet.rel = "stylesheet";
+					stylesheet.href = themeUrl;
+					$(frameName).contents().find("body").append(stylesheet);
 				})
 			} else if (retries < 1500) {
 				setTimeout(function() {
