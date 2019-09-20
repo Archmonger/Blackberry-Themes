@@ -33,11 +33,13 @@ function themeInstaller(tabName, themeUrl) {
 				stylesheet.rel = "stylesheet";
 				stylesheet.href = themeUrl;
 				$(frameName).contents().find("body").append(stylesheet);
-			} else if (retries < 2000) {
+			} else if (retries < 5000) {
 				setTimeout(function() {
 					retries++;
 					themeInstaller(tabName, themeUrl);
 				}, 1);
+			} else {
+				console.log("Theme installer has reached the maximum amount of retries for " + tabName);
 			}
 		});
 };
