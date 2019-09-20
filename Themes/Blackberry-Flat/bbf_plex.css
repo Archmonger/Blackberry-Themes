@@ -354,3 +354,7 @@ div[class*="NavBar-container-"] {
 div[data-qa-id*="hub--home.newscast"] {
   display: none;
 }
+/* Set BG image */
+.background-container div[class*="FullPage-container-"] div div {
+  background: var(--bg-light) !important;
+}
