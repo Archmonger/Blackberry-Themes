@@ -24,7 +24,6 @@ var retryTime = 1; // Time in MS for how often to check if the tab is loaded.
 
 function themeInstaller(tabName, themeUrl) {
 	var frameName = "#frame-" + tabName;
-	console.log('Searching for ' + frameName + ' to apply stylesheet ' + themeUrl);
 
 	elementReady(frameName).then(
 		(loadJS) => {
