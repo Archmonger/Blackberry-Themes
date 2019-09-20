@@ -33,7 +33,7 @@ function themeInstaller(tabName, themeUrl) {
 				stylesheet.href = themeUrl;
 				$(frameName).contents().find("body").append(stylesheet);
 			})
-			// iFrame has been deleted, wait for it to exist again.
+			// Someone closed the iframe, wait for it to exist again.
 			$(frameName).on("remove", function() {
 				themeInstaller(tabName, themeUrl);
 			})
