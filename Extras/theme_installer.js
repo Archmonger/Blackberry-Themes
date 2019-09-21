@@ -8,7 +8,7 @@ function elementReady(selector) {
 				// Query for elements matching the specified selector
 				Array.from(document.querySelectorAll(selector)).forEach((element) => {
 					resolve(element);
-					//Once we have resolved we don't need the observer anymore.
+					// Once we have resolved we don't need the observer anymore.
 					observer.disconnect();
 				});
 			})
@@ -19,36 +19,23 @@ function elementReady(selector) {
 	});
 }
 
-var retries = 0; // Amount of times the script has checked if the tab is fully loaded
-var retryTime = 1; // Time in MS for how often to check if the tab is loaded.
-
 function themeInstaller(tabName, themeUrl) {
 	var frameName = "#frame-" + tabName;
-
+	// Wait for Organizr to create the iframe
 	elementReady(frameName).then(
 		(loadJS) => {
-			if ($(frameName).contents().find("head>title").length && $(frameName).contents().find("html>body").length) {
-				// Make sure that the styling will apply through iframe reload
-				$(frameName).on("load", function() {
-					// Frame has been fully loaded and the theme can be applied
-					console.log(frameName + ' detected. Applying theme.');
-					var stylesheet = document.createElement("link");
-					stylesheet.rel = "stylesheet";
-					stylesheet.href = themeUrl;
-					$(frameName).contents().find("body").append(stylesheet);
-				})
-			} else if (retries < 1500) {
-				setTimeout(function() {
-					// Wait for the tab to be loaded before attempting to apply the theme
-					retries++;
-					themeInstaller(tabName, themeUrl);
-					if (retries == 500) {
-						// Slow down upon excessive retry attempts
-						retryTime = 250;
-					}
-				}, retryTime);
-			} else {
-				console.log("Blackberry Theme Installer has reached the maximum amount of retries for " + tabName + ". Giving up.");
-			}
+			// Make sure that the styling will apply through iframe reload
+			$(frameName).on("load", function() {
+				// Frame has been fully loaded and the theme can be applied
+				console.log(frameName + " detected. Applying theme.");
+				var stylesheet = document.createElement("link");
+				stylesheet.rel = "stylesheet";
+				stylesheet.href = themeUrl;
+				$(frameName).contents().find("body").append(stylesheet);
+			})
+			// Someone closed the iframe, wait for it to exist again.
+			$(frameName).on("remove", function() {
+				themeInstaller(tabName, themeUrl);
+			})
 		});
 }
