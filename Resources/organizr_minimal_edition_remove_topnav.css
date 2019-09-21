@@ -15,7 +15,7 @@
     line-height: 30px;
   }
   #side-menu .dropdown {
-    height: 45px;
+    height: auto;
     margin-bottom: 10px;
   }
   .profile-pic>.profile-image {
@@ -51,6 +51,16 @@
     background: transparent !important;
     box-shadow: none !important;
     border: none;
+    display: contents;
+  }
+  #side-menu .dropdown .dropdown-menu {
+    height: 0px !important;
+    overflow: hidden;
+    display: none;
+  }
+  #side-menu .dropdown.open .dropdown-menu {
+    height: 100% !important;
+    display: contents;
   }
   #side-menu .dropdown-menu .u-text {
     display: none;
