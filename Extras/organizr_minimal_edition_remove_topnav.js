@@ -75,7 +75,7 @@ elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").then(
 		summonTippy(".ME-tooltips.ME-Email", tippyDropdownValues);
 	});
 
-elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").then(
+elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").then(
 	(elementsAreLoaded) => {
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("class", "ME-tooltips ME-Invite") // Invite button
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("data-tippy-content", "Manage Invites")
