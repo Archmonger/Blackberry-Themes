@@ -30,66 +30,18 @@ function validURL(str) {
 	return !!pattern.test(str);
 }
 
-function fetchThemes() {
-	let xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://archmonger.github.io/Blackberry-Themes/Resources/theme_installer.json');
-	// request state change event
-	xhr.onreadystatechange = function() {
-		// request completed?
-		if (xhr.readyState !== 4) return;
-		if (xhr.status === 200) {
-			console.log(xhr.responseText);
-			return xhr.responseText;
-		} else {
-			// request error
-			console.log('HTTP error', xhr.status, xhr.statusText);
-		}
-	};
-
-	// start request
-	xhr.send();
-}
-
 function themeInstaller(tabName, themeInputString) {
 	var frameName = "#frame-" + tabName;
 	var theme = "";
-	var valid = 0;
 	// Wait for Organizr to create the iframe
 	if (validURL(themeInputString)) {
 		theme = themeInputString;
-		valid = 1;
-	} else {
-		var themesList = "";
-
-		// Check values stored within Theme Installer's json file to see if the string exists
-		let xhr = new XMLHttpRequest();
-		xhr.open('GET', 'https://archmonger.github.io/Blackberry-Themes/Resources/theme_installer.json');
-		xhr.onreadystatechange = function() {
-			if (xhr.readyState !== 4) return;
-			if (xhr.status === 200) {
-				themesList = Object.entries(JSON.parse(xhr.responseText));
-				for (theme of themesList) {
-					if (theme[0] == themeInputString.toLowerCase()) {
-						console.log(theme[0]);
-						theme = theme[1];
-						valid = 1;
-					}
-				}
-			} else {
-				// request error
-				console.log('HTTP error', xhr.status, xhr.statusText);
-			}
-		};
-		xhr.send();
-	}
-
-	if (valid) {
 		elementReady(frameName).then(
 			(loadJS) => {
 				// Make sure that the styling will apply through iframe reload
 				$(frameName).on("load", function() {
 					// Frame has been fully loaded and the theme can be applied
-					console.log(frameName + " detected. Applying theme.");
+					console.log(frameName + " detected. Applying theme: " + theme);
 					var stylesheet = document.createElement("link");
 					stylesheet.rel = "stylesheet";
 					stylesheet.href = theme;
@@ -100,5 +52,40 @@ function themeInstaller(tabName, themeInputString) {
 					themeInstaller(tabName, theme);
 				})
 			});
+	} else {
+		// Check values stored within Theme Installer's json file to see if the string exists
+		let xhr = new XMLHttpRequest();
+		xhr.open('GET', 'https://archmonger.github.io/Blackberry-Themes/Resources/theme_installer.json');
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState !== 4) return;
+			if (xhr.status === 200) {
+				var themesList = Object.entries(JSON.parse(xhr.responseText));
+				for (theme of themesList) {
+					if (theme[0] == themeInputString.toLowerCase()) {
+						console.log(theme[0]);
+						elementReady(frameName).then(
+							(loadJS) => {
+								// Make sure that the styling will apply through iframe reload
+								$(frameName).on("load", function() {
+									// Frame has been fully loaded and the theme can be applied
+									console.log(frameName + " detected. Applying theme: " + theme[1]);
+									var stylesheet = document.createElement("link");
+									stylesheet.rel = "stylesheet";
+									stylesheet.href = theme[1];
+									$(frameName).contents().find("body").append(stylesheet);
+								})
+								// Someone closed the iframe, wait for it to exist again.
+								$(frameName).on("remove", function() {
+									themeInstaller(tabName, theme[1]);
+								})
+							});
+					}
+				}
+			} else {
+				// request error
+				console.log('HTTP error', xhr.status, xhr.statusText);
+			}
+		};
+		xhr.send();
 	}
 }
