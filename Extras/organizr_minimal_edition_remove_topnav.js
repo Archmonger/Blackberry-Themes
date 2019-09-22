@@ -54,7 +54,7 @@ summonTippy(".ME-tooltips");
 // Wait for slow loaders separately
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").then(
 	(elementsAreLoaded) => {
-		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("class", "ME-tooltip ME-Email") // Email button
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("class", "ME-tooltips ME-Email") // Email button
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("data-tippy-content", "E-Mail Center")
 		summonTippy(".ME-tooltips.ME-Email");
 	});
