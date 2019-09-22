@@ -45,22 +45,23 @@
     display: none;
   }
   /* Have dropdown menu be inline */
-  #side-menu .dropdown-menu {
+  #side-menu .dropdown .dropdown-menu {
     position: relative;
     top: 0px;
     background: transparent !important;
     box-shadow: none !important;
     border: none;
-    display: contents;
-  }
-  #side-menu .dropdown .dropdown-menu {
-    height: 0px !important;
+    display: block !important;
+    float: none;
+    height: auto;
+    max-height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     overflow: hidden;
-    display: none;
+    transition: max-height ease 1s;
   }
   #side-menu .dropdown.open .dropdown-menu {
-    height: 100% !important;
-    display: contents;
+    max-height: 600px;
   }
   #side-menu .dropdown-menu .u-text {
     display: none;
