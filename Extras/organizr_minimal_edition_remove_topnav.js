@@ -9,10 +9,10 @@ $("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent()
 $("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("data-tippy-content", "Reload")
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("class", "append-menu ME-tooltips") // Settings button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("data-tippy-content", "Account Settings")
-$("#side-menu>.dropdown>.dropdown-menu>li>a.emailModal").parent().attr("class", "ME-tooltips") // Email button
-$("#side-menu>.dropdown>.dropdown-menu>li>a.emailModal").parent().attr("data-tippy-content", "E-Mail Center")
-$("#side-menu>.dropdown>.dropdown-menu>li>a.inviteModal").parent().attr("class", "ME-tooltips") // Invite button
-$("#side-menu>.dropdown>.dropdown-menu>li>a.inviteModal").parent().attr("data-tippy-content", "Manage Invites")
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("class", "ME-tooltips") // Email button
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("data-tippy-content", "E-Mail Center")
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("class", "ME-tooltips") // Invite button
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("data-tippy-content", "Manage Invites")
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("class", "ME-tooltips") // lock button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("data-tippy-content", "Lock Screen")
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").parent().parent().attr("class", "ME-tooltips") // Debug button
