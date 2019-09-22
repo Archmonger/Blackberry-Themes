@@ -50,21 +50,20 @@ $('head').append('<link rel="stylesheet" href="https://archmonger.github.io/Blac
 $('.navbar-right').find('.dropdown:last').clone().prependTo($('#side-menu'));
 $('a[onclick="reloadCurrentTab();"]').parent().clone().prependTo($('#side-menu .dropdown-menu'));
 
-
-// Add tooltips to the sidenav items
+// Add tooltips to profile picture and user menu items
 $("#side-menu>.dropdown").attr("data-tippy-content", $(".dropdown>.profile-pic>b").first().text()); // Profile Button
 $("#side-menu>.dropdown").attr("class", "dropdown ME-tooltips ME-Profile-Pic");
 summonTippy(".ME-tooltips.ME-Profile-Pic", tippyProfilePicValues);
 
-$("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("class", "ME-tooltips") // Reload button
+$("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Reload button
 $("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("data-tippy-content", "Reload")
-$("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("class", "append-menu ME-tooltips") // Settings button
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("class", "append-menu ME-Tooltips ME-EasyLoad") // Settings button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("data-tippy-content", "Account Settings")
-$("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("class", "ME-tooltips") // lock button
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // lock button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("data-tippy-content", "Lock Screen")
-$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-tooltips") // Logout button
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Logout button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("data-tippy-content", "Logout")
-summonTippy(".ME-tooltips", tippyDropdownValues);
+summonTippy(".ME-Tooltips.ME-EasyLoad", tippyDropdownValues);
 
 // Wait for slow loaders separately
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").then(
