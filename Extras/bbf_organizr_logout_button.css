@@ -18,3 +18,6 @@
 .sidebar-nav .nav .devider, .sidebar-nav .nav #sign-out {
   display: block !important;
 }
+#side-menu .dropdown-menu li:last-child {
+  display: none;
+}
