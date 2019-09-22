@@ -64,7 +64,7 @@
     box-sizing: border-box;
     height: 45px;
   }
-  /* Refresh Button */
+  /* Refresh Icon */
   #side-menu .dropdown-menu .ti-reload {
     font-size: 25px;
     line-height: 25px;
@@ -75,6 +75,7 @@
     justify-content: center;
     align-items: center;
   }
+  /* Debug Icon */
   .sidebar .mdi {
     font-size: 30px;
     line-height: 30px;
