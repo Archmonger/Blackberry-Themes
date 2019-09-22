@@ -60,23 +60,25 @@ function themeInstaller(tabName, themeInputString) {
 			if (xhr.readyState !== 4) return;
 			if (xhr.status === 200) {
 				var themesList = Object.entries(JSON.parse(xhr.responseText));
+				var discoveredLink = "";
 				for (theme of themesList) {
 					if (theme[0] == themeInputString.toLowerCase()) {
 						console.log(theme[0]);
+						discoveredLink = theme[1];
 						elementReady(frameName).then(
 							(loadJS) => {
 								// Make sure that the styling will apply through iframe reload
 								$(frameName).on("load", function() {
 									// Frame has been fully loaded and the theme can be applied
-									console.log(frameName + " detected. Applying theme: " + theme[1]);
+									console.log(frameName + " detected. Applying theme: " + discoveredLink);
 									var stylesheet = document.createElement("link");
 									stylesheet.rel = "stylesheet";
-									stylesheet.href = theme[1];
+									stylesheet.href = discoveredLink;
 									$(frameName).contents().find("body").append(stylesheet);
 								})
 								// Someone closed the iframe, wait for it to exist again.
 								$(frameName).on("remove", function() {
-									themeInstaller(tabName, theme[1]);
+									themeInstaller(tabName, discoveredLink);
 								})
 							});
 					}
