@@ -51,12 +51,13 @@ function themeInstallerHelper(frameName, tabName, theme) {
 
 function themeInstaller(tabName, themeInputString) {
 	var frameName = "#frame-" + tabName;
-	var theme = "";
-	// Wait for Organizr to create the iframe
+	// If a string inputted is a URL
 	if (validURL(themeInputString)) {
-		theme = themeInputString;
-		themeInstallerHelper(frameName, tabName, theme);
-	} else {
+		// Install the the theme
+		themeInstallerHelper(frameName, tabName, themeInputString);
+	}
+	// If a string inputted is not a URL, check if it exists as a known theme.
+	else {
 		// Check values stored within Theme Installer's json file to see if the string exists
 		let xhr = new XMLHttpRequest();
 		xhr.open('GET', 'https://archmonger.github.io/Blackberry-Themes/Resources/theme_installer.json');
@@ -69,6 +70,8 @@ function themeInstaller(tabName, themeInputString) {
 					if (theme[0] == themeInputString.toLowerCase()) {
 						console.log(theme[0]);
 						discoveredLink = theme[1];
+
+						// Install the theme
 						themeInstallerHelper(frameName, tabName, discoveredLink);
 					}
 				}
