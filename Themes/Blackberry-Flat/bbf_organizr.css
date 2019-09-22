@@ -2772,9 +2772,8 @@ span.select2-selection.select2-selection--multiple .select2-selection__choice {
     overflow-y: auto;
     height: 100%;
     width: calc(100% - 60px);
-    margin-left: 60px;
   }
-  .iFrame-listing {
+  .iFrame-listing, .plugin-listing, .internal-listing {
     margin-left: 60px;
   }
 }

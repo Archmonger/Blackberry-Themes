@@ -4,8 +4,11 @@
     margin-top: 0 !important;
     height: 100%;
   }
-  .iframe {
+  .iframe, .chat-main-box {
     height: 100vh;
+  }
+  .chat-list, .chatonline {
+    height: calc(100vh - 90px) !important;
   }
   .navbar {
     display: none;
