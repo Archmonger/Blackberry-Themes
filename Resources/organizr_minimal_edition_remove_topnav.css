@@ -66,8 +66,8 @@
   }
   /* Refresh Button */
   #side-menu .dropdown-menu .ti-reload {
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 25px;
+    line-height: 25px;
   }
   #side-menu .dropdown-menu a.dropdown-toggle.waves-effect.waves-light.activez {
     display: flex;
