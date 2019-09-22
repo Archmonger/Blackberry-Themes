@@ -30,28 +30,32 @@ function validURL(str) {
 	return !!pattern.test(str);
 }
 
+function themeInstallerHelper(frameName, tabName, theme) {
+	elementReady(frameName).then(
+		(loadJS) => {
+			// Make sure that the styling will apply through iframe reload
+			$(frameName).on("load", function() {
+				// Frame has been fully loaded and the theme can be applied
+				console.log(frameName + " detected. Applying theme: " + theme);
+				var stylesheet = document.createElement("link");
+				stylesheet.rel = "stylesheet";
+				stylesheet.href = theme;
+				$(frameName).contents().find("body").append(stylesheet);
+			})
+			// Someone closed the iframe, wait for it to exist again.
+			$(frameName).on("remove", function() {
+				themeInstaller(tabName, theme);
+			})
+		});
+}
+
 function themeInstaller(tabName, themeInputString) {
 	var frameName = "#frame-" + tabName;
 	var theme = "";
 	// Wait for Organizr to create the iframe
 	if (validURL(themeInputString)) {
 		theme = themeInputString;
-		elementReady(frameName).then(
-			(loadJS) => {
-				// Make sure that the styling will apply through iframe reload
-				$(frameName).on("load", function() {
-					// Frame has been fully loaded and the theme can be applied
-					console.log(frameName + " detected. Applying theme: " + theme);
-					var stylesheet = document.createElement("link");
-					stylesheet.rel = "stylesheet";
-					stylesheet.href = theme;
-					$(frameName).contents().find("body").append(stylesheet);
-				})
-				// Someone closed the iframe, wait for it to exist again.
-				$(frameName).on("remove", function() {
-					themeInstaller(tabName, theme);
-				})
-			});
+		themeInstallerHelper(frameName, tabName, theme);
 	} else {
 		// Check values stored within Theme Installer's json file to see if the string exists
 		let xhr = new XMLHttpRequest();
@@ -65,22 +69,7 @@ function themeInstaller(tabName, themeInputString) {
 					if (theme[0] == themeInputString.toLowerCase()) {
 						console.log(theme[0]);
 						discoveredLink = theme[1];
-						elementReady(frameName).then(
-							(loadJS) => {
-								// Make sure that the styling will apply through iframe reload
-								$(frameName).on("load", function() {
-									// Frame has been fully loaded and the theme can be applied
-									console.log(frameName + " detected. Applying theme: " + discoveredLink);
-									var stylesheet = document.createElement("link");
-									stylesheet.rel = "stylesheet";
-									stylesheet.href = discoveredLink;
-									$(frameName).contents().find("body").append(stylesheet);
-								})
-								// Someone closed the iframe, wait for it to exist again.
-								$(frameName).on("remove", function() {
-									themeInstaller(tabName, discoveredLink);
-								})
-							});
+						themeInstallerHelper(frameName, tabName, discoveredLink);
 					}
 				}
 			} else {
