@@ -19,23 +19,86 @@ function elementReady(selector) {
 	});
 }
 
-function themeInstaller(tabName, themeUrl) {
+/* Special thanks to 3limin4t0r and Tom Gullen on StackOverflow for this function */
+function validURL(str) {
+	var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
+		'((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
+		'((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
+		'(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
+		'(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
+		'(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
+	return !!pattern.test(str);
+}
+
+function fetchThemes() {
+	let xhr = new XMLHttpRequest();
+	xhr.open('GET', 'https://archmonger.github.io/Blackberry-Themes/Resources/theme_installer.json');
+	// request state change event
+	xhr.onreadystatechange = function() {
+		// request completed?
+		if (xhr.readyState !== 4) return;
+		if (xhr.status === 200) {
+			console.log(xhr.responseText);
+			return xhr.responseText;
+		} else {
+			// request error
+			console.log('HTTP error', xhr.status, xhr.statusText);
+		}
+	};
+
+	// start request
+	xhr.send();
+}
+
+function themeInstaller(tabName, themeInputString) {
 	var frameName = "#frame-" + tabName;
+	var theme = "";
+	var valid = 0;
 	// Wait for Organizr to create the iframe
-	elementReady(frameName).then(
-		(loadJS) => {
-			// Make sure that the styling will apply through iframe reload
-			$(frameName).on("load", function() {
-				// Frame has been fully loaded and the theme can be applied
-				console.log(frameName + " detected. Applying theme.");
-				var stylesheet = document.createElement("link");
-				stylesheet.rel = "stylesheet";
-				stylesheet.href = themeUrl;
-				$(frameName).contents().find("body").append(stylesheet);
-			})
-			// Someone closed the iframe, wait for it to exist again.
-			$(frameName).on("remove", function() {
-				themeInstaller(tabName, themeUrl);
-			})
-		});
+	if (validURL(themeInputString)) {
+		theme = themeInputString;
+		valid = 1;
+	} else {
+		var themesList = "";
+
+		// Check values stored within Theme Installer's json file to see if the string exists
+		let xhr = new XMLHttpRequest();
+		xhr.open('GET', 'https://archmonger.github.io/Blackberry-Themes/Resources/theme_installer.json');
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState !== 4) return;
+			if (xhr.status === 200) {
+				themesList = Object.entries(JSON.parse(xhr.responseText));
+				for (theme of themesList) {
+					if (theme[0] == themeInputString.toLowerCase()) {
+						console.log(theme[0]);
+						theme = theme[1];
+						valid = 1;
+					}
+				}
+			} else {
+				// request error
+				console.log('HTTP error', xhr.status, xhr.statusText);
+			}
+		};
+		xhr.send();
+	}
+
+	if (valid) {
+		elementReady(frameName).then(
+			(loadJS) => {
+				// Make sure that the styling will apply through iframe reload
+				$(frameName).on("load", function() {
+					// Frame has been fully loaded and the theme can be applied
+					console.log(frameName + " detected. Applying theme.");
+					var stylesheet = document.createElement("link");
+					stylesheet.rel = "stylesheet";
+					stylesheet.href = theme;
+					$(frameName).contents().find("body").append(stylesheet);
+				})
+				// Someone closed the iframe, wait for it to exist again.
+				$(frameName).on("remove", function() {
+					themeInstaller(tabName, theme);
+				})
+			});
+	}
 }
