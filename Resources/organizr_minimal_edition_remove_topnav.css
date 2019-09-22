@@ -75,6 +75,10 @@
     justify-content: center;
     align-items: center;
   }
+  .sidebar .mdi {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 @media screen and (max-width: 768px) {
   #side-menu>.dropdown {
