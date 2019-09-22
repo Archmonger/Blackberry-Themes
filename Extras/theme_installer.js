@@ -68,7 +68,6 @@ function themeInstaller(tabName, themeInputString) {
 				var discoveredLink = "";
 				for (theme of themesList) {
 					if (theme[0] == themeInputString.toLowerCase()) {
-						console.log(theme[0]);
 						discoveredLink = theme[1];
 
 						// Install the theme
