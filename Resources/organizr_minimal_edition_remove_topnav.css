@@ -1,5 +1,5 @@
 /* Created by Blackberry Themes */
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   div#page-wrapper {
     margin-top: 0 !important;
     height: 100%;
@@ -16,7 +16,6 @@
   }
   #side-menu .dropdown {
     height: auto;
-    margin-bottom: 10px;
   }
   .profile-pic>.profile-image {
     margin-right: 0px;
@@ -27,22 +26,11 @@
   #side-menu .u-img {
     display: none;
   }
-  /* Refresh Button */
-  .sidebar-nav>#side-menu>li:last-child>a {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-  }
-  #side-menu>li>a, #side-menu>li>ul>li>a {
-    width: 45px;
-  }
   #side-menu li>a>.pingTime {
     display: none;
+  }
+  #side-menu li a {
+    width: 60px;
   }
   /* Have dropdown menu be inline */
   #side-menu .dropdown .dropdown-menu {
@@ -59,6 +47,9 @@
     padding-bottom: 0px;
     overflow: hidden;
     transition: max-height ease 1s;
+    width: 60px !important;
+    min-width: 60px !important;
+    margin-top: 10px;
   }
   #side-menu .dropdown.open .dropdown-menu {
     max-height: 600px;
@@ -69,8 +60,23 @@
   #side-menu .dropdown-menu a>span {
     display: none;
   }
+  #side-menu .dropdown-menu li>a {
+    box-sizing: border-box;
+    height: 45px;
+  }
+  /* Refresh Button */
+  #side-menu .dropdown-menu .ti-reload {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  #side-menu .dropdown-menu a.dropdown-toggle.waves-effect.waves-light.activez {
+    display: flex;
+    padding: 0px !important;
+    justify-content: center;
+    align-items: center;
+  }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   #side-menu>.dropdown {
     display: none;
   }
