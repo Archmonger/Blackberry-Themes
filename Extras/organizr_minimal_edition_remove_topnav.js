@@ -1,4 +1,21 @@
 /* Created by Blackberry Themes */
+var tippyProfilePicValues = {
+	placement: "right-start",
+	boundary: "window",
+	touch: false,
+	theme: "bbf",
+	offset: "10, 0",
+	hideOnClick: false
+}
+
+var tippyDropdownValues = {
+	placement: "right-start",
+	boundary: "window",
+	touch: false,
+	theme: "bbf",
+	offset: "10, 0"
+}
+
 function elementReady(selector) {
 	return new Promise((resolve, reject) => {
 		let el = document.querySelector(selector);
@@ -20,27 +37,25 @@ function elementReady(selector) {
 	});
 }
 
-function summonTippy(classSelector) {
+function summonTippy(classSelector, tippyValues) {
 	$.getScript("https://archmonger.github.io/Blackberry-Themes/Resources/popper.js", function() {
 		$.getScript("https://archmonger.github.io/Blackberry-Themes/Resources/tippy.js", function() {
-			tippy(classSelector, {
-				placement: "right-start",
-				boundary: "window",
-				touch: false,
-				theme: "bbf",
-				offset: "10, 0"
-			});
+			tippy(classSelector, tippyValues);
 		});
 	});
 };
+
 
 $('head').append('<link rel="stylesheet" href="https://archmonger.github.io/Blackberry-Themes/Resources/organizr_minimal_edition_remove_topnav.css" type="text/css" />');
 $('.navbar-right').find('.dropdown:last').clone().prependTo($('#side-menu'));
 $('a[onclick="reloadCurrentTab();"]').parent().clone().prependTo($('#side-menu .dropdown-menu'));
 
+
 // Add tooltips to the sidenav items
 $("#side-menu>.dropdown").attr("data-tippy-content", $(".dropdown>.profile-pic>b").first().text()); // Profile Button
-$("#side-menu>.dropdown").attr("class", "dropdown ME-tooltips");
+$("#side-menu>.dropdown").attr("class", "dropdown ME-tooltips ME-Profile-Pic");
+summonTippy(".ME-tooltips.ME-Profile-Pic", tippyProfilePicValues);
+
 $("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("class", "ME-tooltips") // Reload button
 $("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("data-tippy-content", "Reload")
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("class", "append-menu ME-tooltips") // Settings button
@@ -49,26 +64,26 @@ $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("c
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("data-tippy-content", "Lock Screen")
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-tooltips") // Logout button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("data-tippy-content", "Logout")
-summonTippy(".ME-tooltips");
+summonTippy(".ME-tooltips", tippyDropdownValues);
 
 // Wait for slow loaders separately
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").then(
 	(elementsAreLoaded) => {
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("class", "ME-tooltips ME-Email") // Email button
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("data-tippy-content", "E-Mail Center")
-		summonTippy(".ME-tooltips.ME-Email");
+		summonTippy(".ME-tooltips.ME-Email", tippyDropdownValues);
 	});
 
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").then(
 	(elementsAreLoaded) => {
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("class", "ME-tooltips ME-Invite") // Invite button
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("data-tippy-content", "Manage Invites")
-		summonTippy(".ME-tooltips.ME-Invite");
+		summonTippy(".ME-tooltips.ME-Invite", tippyDropdownValues);
 	});
 
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").then(
 	(elementsAreLoaded) => {
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").parent().parent().attr("class", "ME-tooltips ME-Debug") // Debug button
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").parent().parent().attr("data-tippy-content", "Debug Area")
-		summonTippy(".ME-tooltips.ME-Debug");
+		summonTippy(".ME-tooltips.ME-Debug", tippyDropdownValues);
 	});
