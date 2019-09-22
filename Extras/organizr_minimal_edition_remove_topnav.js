@@ -63,6 +63,8 @@ $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("c
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("data-tippy-content", "Lock Screen")
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Logout button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("data-tippy-content", "Logout")
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Group buttons
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("data-tippy-content", "Logout")
 summonTippy(".ME-Tooltips.ME-EasyLoad", tippyDropdownValues);
 
 // Wait for slow loaders separately
@@ -85,4 +87,18 @@ elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").then(
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").parent().parent().attr("class", "ME-tooltips ME-Debug") // Debug button
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").parent().parent().attr("data-tippy-content", "Debug Area")
 		summonTippy(".ME-tooltips.ME-Debug", tippyDropdownValues);
+	});
+
+elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-rocket").then(
+	(elementsAreLoaded) => {
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-rocket").parent().parent().attr("class", "ME-tooltips ME-Speedtest") // Speedtest button
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-rocket").parent().parent().attr("data-tippy-content", "Test Server Speed")
+		summonTippy(".ME-tooltips.ME-Speedtest", tippyDropdownValues);
+	});
+
+elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-comments-o").then(
+	(elementsAreLoaded) => {
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-comments-o").parent().parent().attr("class", "ME-tooltips ME-Chat") // Chat button
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-comments-o").parent().parent().attr("data-tippy-content", "Chat")
+		summonTippy(".ME-tooltips.ME-Chat", tippyDropdownValues);
 	});
