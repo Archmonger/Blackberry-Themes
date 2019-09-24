@@ -53,6 +53,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 .fa-lg {
   font-size: 16px;
 }
+.nav>li>a {
+  transition: color ease 0.25s;
+}
 .nav>li>a:hover, .nav>li>a:focus {
   background: rgba(0, 0, 0, 0) !important;
   color: #FFF;
