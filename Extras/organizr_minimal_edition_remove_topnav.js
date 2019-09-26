@@ -53,48 +53,48 @@ $('a[onclick="reloadCurrentTab();"]').parent().clone().prependTo($('#side-menu .
 
 // Add tooltips to all the new sidenav items
 $("#side-menu>.dropdown").attr("data-tippy-content", $(".dropdown>.profile-pic>b").first().text()); // Profile Button
-$("#side-menu>.dropdown").attr("class", "dropdown ME-tooltips ME-Profile-Pic");
-summonTippy(".ME-tooltips.ME-Profile-Pic", tippyProfilePicValues);
+$("#side-menu>.dropdown").attr("class", "dropdown ME-tooltips ME-profile-pic");
+summonTippy(".ME-tooltips.ME-profile-pic", tippyProfilePicValues);
 
 // Create tooltips for all the instantly available buttons
-$("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Reload button
+$("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("class", "ME-tooltips ME-fastload") // Reload button
 $("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("data-tippy-content", "Reload")
-$("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("class", "append-menu ME-Tooltips ME-EasyLoad") // Settings button
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("class", "append-menu ME-tooltips ME-fastload") // Settings button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("data-tippy-content", "Account Settings")
-$("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // lock button
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("class", "ME-tooltips ME-fastload") // lock button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("data-tippy-content", "Lock Screen")
-$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Logout button
+$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-tooltips ME-fastload") // Logout button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("data-tippy-content", "Logout")
-summonTippy(".ME-Tooltips.ME-EasyLoad", tippyDropdownValues);
+summonTippy(".ME-tooltips.ME-fastload", tippyDropdownValues);
 
 // Wait for slow loaders separately
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").then( // Email button
 	(elementsAreLoaded) => {
-		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("class", "ME-tooltips ME-Email")
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("class", "ME-tooltips ME-email")
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-envelope").parent().parent().attr("data-tippy-content", "E-Mail Center")
-		summonTippy(".ME-tooltips.ME-Email", tippyDropdownValues);
+		summonTippy(".ME-tooltips.ME-email", tippyDropdownValues);
 	});
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").then( // Invite button
 	(elementsAreLoaded) => {
-		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("class", "ME-tooltips ME-Invite")
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("class", "ME-tooltips ME-invite")
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-ticket").parent().parent().attr("data-tippy-content", "Manage Invites")
-		summonTippy(".ME-tooltips.ME-Invite", tippyDropdownValues);
+		summonTippy(".ME-tooltips.ME-invite", tippyDropdownValues);
 	});
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").then( // Debug button
 	(elementsAreLoaded) => {
-		$("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").parent().parent().attr("class", "ME-tooltips ME-Debug")
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").parent().parent().attr("class", "ME-tooltips ME-debug")
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.mdi-bug").parent().parent().attr("data-tippy-content", "Debug Area")
-		summonTippy(".ME-tooltips.ME-Debug", tippyDropdownValues);
+		summonTippy(".ME-tooltips.ME-debug", tippyDropdownValues);
 	});
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-rocket").then( // Speedtest button
 	(elementsAreLoaded) => {
-		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-rocket").parent().parent().attr("class", "ME-tooltips ME-Speedtest")
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-rocket").parent().parent().attr("class", "ME-tooltips ME-speedtest")
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-rocket").parent().parent().attr("data-tippy-content", "Test Server Speed")
-		summonTippy(".ME-tooltips.ME-Speedtest", tippyDropdownValues);
+		summonTippy(".ME-tooltips.ME-speedtest", tippyDropdownValues);
 	});
 elementReady("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-comments-o").then( // Chat button
 	(elementsAreLoaded) => {
-		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-comments-o").parent().parent().attr("class", "ME-tooltips ME-Chat")
+		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-comments-o").parent().parent().attr("class", "ME-tooltips ME-chat")
 		$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-comments-o").parent().parent().attr("data-tippy-content", "Chat")
-		summonTippy(".ME-tooltips.ME-Chat", tippyDropdownValues);
+		summonTippy(".ME-tooltips.ME-chat", tippyDropdownValues);
 	});
