@@ -5,13 +5,15 @@ var tippyProfilePicValues = {
 	touch: false,
 	theme: "bbf",
 	offset: "10, 0",
-	hideOnClick: false
+	hideOnClick: false,
+	sticky: true
 }
 var tippyDropdownValues = {
 	placement: "right",
 	boundary: "window",
 	touch: false,
-	theme: "bbf"
+	theme: "bbf",
+	sticky: true
 }
 
 // Helper functions

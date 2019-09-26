@@ -25,7 +25,8 @@ summonTippy(".allTabsList,#side-menu>#sign-out", {
 	placement: "right",
 	boundary: "window",
 	touch: false,
-	theme: "bbf"
+	theme: "bbf",
+	sticky: true
 })
 summonTippy(".allGroupsList", {
 	placement: "right-start",
@@ -33,5 +34,6 @@ summonTippy(".allGroupsList", {
 	touch: false,
 	theme: "bbf",
 	offset: "10, 0",
-	hideOnClick: false
+	hideOnClick: false,
+	sticky: true
 })
