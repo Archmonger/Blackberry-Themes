@@ -9,11 +9,10 @@ var tippyProfilePicValues = {
 }
 
 var tippyDropdownValues = {
-	placement: "right-start",
+	placement: "right",
 	boundary: "window",
 	touch: false,
-	theme: "bbf",
-	offset: "10, 0"
+	theme: "bbf"
 }
 
 function elementReady(selector) {

@@ -9,13 +9,26 @@ for (var i = 0; i < allGroupsList.length; i++) {
 }
 $("#side-menu>#sign-out").attr("data-tippy-content", "Sign Out");
 
-$.getScript("https://archmonger.github.io/Blackberry-Themes/Resources/popper.js", function() {
-	$.getScript("https://archmonger.github.io/Blackberry-Themes/Resources/tippy.js", function() {
-		tippy(".allTabsList,#side-menu>#sign-out,.allGroupsList", {
-			placement: "right",
-			boundary: "window",
-			touch: false,
-			theme: "bbf"
+function summonTippy(classSelector, tippyValues) {
+	$.getScript("https://archmonger.github.io/Blackberry-Themes/Resources/popper.js", function() {
+		$.getScript("https://archmonger.github.io/Blackberry-Themes/Resources/tippy.js", function() {
+			tippy(classSelector, tippyValues);
 		});
 	});
-});
+};
+
+summonTippy(".allTabsList,#side-menu>#sign-out", {
+	placement: "right",
+	boundary: "window",
+	touch: false,
+	theme: "bbf"
+})
+
+summonTippy(".allGroupsList", {
+	placement: "right-start",
+	boundary: "window",
+	touch: false,
+	theme: "bbf",
+	offset: "10, 0",
+	hideOnClick: false
+})
