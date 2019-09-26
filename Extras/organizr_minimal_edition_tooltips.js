@@ -1,6 +1,8 @@
 /* Created by Blackberry Themes */
 var allTabsList = $(".allTabsList");
 var allGroupsList = $(".allGroupsList");
+
+// Provide all the things with tippy content values
 for (var i = 0; i < allTabsList.length; i++) {
 	allTabsList[i].setAttribute("data-tippy-content", allTabsList[i].getAttribute("data-tab-name"))
 }
@@ -17,6 +19,7 @@ function summonTippy(classSelector, tippyValues) {
 	});
 };
 
+// Spawn Tippy
 summonTippy(".allTabsList,#side-menu>#sign-out", {
 	placement: "right",
 	boundary: "window",

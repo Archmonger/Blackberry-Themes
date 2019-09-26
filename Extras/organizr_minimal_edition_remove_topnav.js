@@ -7,7 +7,6 @@ var tippyProfilePicValues = {
 	offset: "10, 0",
 	hideOnClick: false
 }
-
 var tippyDropdownValues = {
 	placement: "right",
 	boundary: "window",
@@ -44,16 +43,17 @@ function summonTippy(classSelector, tippyValues) {
 	});
 };
 
-
+// Delete the top nav an append the important stuff into the sidenav
 $('head').append('<link rel="stylesheet" href="https://archmonger.github.io/Blackberry-Themes/Resources/organizr_minimal_edition_remove_topnav.css" type="text/css" />');
 $('.navbar-right').find('.dropdown:last').clone().prependTo($('#side-menu'));
 $('a[onclick="reloadCurrentTab();"]').parent().clone().prependTo($('#side-menu .dropdown-menu'));
 
-// Add tooltips to profile picture and user menu items
+// Add tooltips to all the new sidenav items
 $("#side-menu>.dropdown").attr("data-tippy-content", $(".dropdown>.profile-pic>b").first().text()); // Profile Button
 $("#side-menu>.dropdown").attr("class", "dropdown ME-tooltips ME-Profile-Pic");
 summonTippy(".ME-tooltips.ME-Profile-Pic", tippyProfilePicValues);
 
+// Create tooltips for all the instantly available buttons
 $("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Reload button
 $("#side-menu>.dropdown>.dropdown-menu>li>.dropdown-toggle>.ti-reload").parent().parent().attr("data-tippy-content", "Reload")
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().attr("class", "append-menu ME-Tooltips ME-EasyLoad") // Settings button
@@ -61,8 +61,6 @@ $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-settings").parent().parent().att
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // lock button
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.ti-lock").parent().parent().attr("data-tippy-content", "Lock Screen")
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Logout button
-$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("data-tippy-content", "Logout")
-$("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("class", "ME-Tooltips ME-EasyLoad") // Group buttons
 $("#side-menu>.dropdown>.dropdown-menu>li>a>.fa-sign-out").parent().parent().attr("data-tippy-content", "Logout")
 summonTippy(".ME-Tooltips.ME-EasyLoad", tippyDropdownValues);
 
