@@ -11,6 +11,7 @@ for (var i = 0; i < allGroupsList.length; i++) {
 }
 $("#side-menu>#sign-out").attr("data-tippy-content", "Sign Out");
 
+// Helper function
 function summonTippy(classSelector, tippyValues) {
 	$.getScript("https://archmonger.github.io/Blackberry-Themes/Resources/popper.js", function() {
 		$.getScript("https://archmonger.github.io/Blackberry-Themes/Resources/tippy.js", function() {
@@ -19,14 +20,13 @@ function summonTippy(classSelector, tippyValues) {
 	});
 };
 
-// Spawn Tippy
+// Put Tippys on the logout btns, tab btns, and group btns.
 summonTippy(".allTabsList,#side-menu>#sign-out", {
 	placement: "right",
 	boundary: "window",
 	touch: false,
 	theme: "bbf"
 })
-
 summonTippy(".allGroupsList", {
 	placement: "right-start",
 	boundary: "window",
