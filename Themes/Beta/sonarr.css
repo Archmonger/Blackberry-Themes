@@ -1,3 +1,4 @@
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 body {
   background: transparent;
   margin-bottom: 0px;
@@ -7,7 +8,7 @@ body {
 }
 html {
   height: 100%;
-  background: linear-gradient(135deg, #252b2f, #090c0e);
+  background: var(--bg-light);
   background-repeat: repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center center, center center;
@@ -19,7 +20,7 @@ html {
 }
 /* Navbar */
 .container {
-  background: rgba(77, 87, 105, 0.6);
+  background: var(--navbar-color);
   margin: 0px;
   padding: 0px;
   width: 100%;
