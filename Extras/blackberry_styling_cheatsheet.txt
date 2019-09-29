@@ -1,6 +1,6 @@
 /* Created by Blackberry Themes */
 
-Navbar Color: #162027
+Navbar Color: rgba(0,0,0,0.6)
 Navbar Button Color/Font Color: hsla(0,0%,100%,.7)
 Navbar Button Font Color (Active): #f9be03
 Navbar Button Font Color (Hover): #FFF
@@ -15,7 +15,7 @@ Navbar Height (Mobile): 40px
 Navbar Searchbar Color: hsla(0,0%,100%,.08)
 Navbar Searchbar Color (Focus): #FFF
 Navbar Searchbar Height (in Organizr): 35px
-Navbar Searchbar Height (Plex): 40px
+Navbar Searchbar Height (Standalone): 40px
 Navbar Searchbar Font Color: #FFF
 Navbar Searchbar Font Color (Focused): #000
 Navbar Searchbar Transition Duration: 0.25s
@@ -59,6 +59,7 @@ Nav Tab Border (If Horizontal Nav Tab): 1px rgba(255,255,255,0.05)
 
 On Page Searchbar Color: hsla(0,0%,100%,.25)
 On Page Searchbar Color (Focused): #FFF
+On Page Searchbar Font Color: rgba(255,255,255,0.7)
 On Page Searchbar Font Color (Focused): #000
 On Page Searchbar Border Radius: 4px
 On Page Searchbar Height: 45px
