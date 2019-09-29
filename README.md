@@ -20,7 +20,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 |:---:|:---:|
 | Blackberry Royal _(Minimal Edition)_ | Blackberry Hearth _(Minimal Edition)_ |
 
-| [![Blackberry Quicksilver _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbqs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbqs_minimal_edition.png)  | [![Blackberry Vanta _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png) |
+| [![Blackberry Quicksilver _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbq__minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbq__minimal_edition.png)  | [![Blackberry Vanta _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Quicksilver _(Minimal Edition)_ | Blackberry Vanta _(Minimal Edition)_ |
 
