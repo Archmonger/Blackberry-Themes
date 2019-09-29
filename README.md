@@ -36,8 +36,8 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 - Deluge
 - NZBHydra _(beta)_
 - QBittorrent _(beta)_
-- Sonarr _(upcoming)_
-- Radarr _(upcoming)_
+- Sonarr _(beta)_
+- Radarr _(beta)_
 
 ### FAQ<br/>
 [How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
