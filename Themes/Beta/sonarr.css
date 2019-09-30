@@ -190,6 +190,16 @@ html {
   border: none;
   color: rgba(255, 255, 255, 0.45);
 }
+/* Nav Pills */
+.nav-pills>li>a {
+  transition: all ease 0.25s;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background: #cc7b19;
+}
+.nav-pills>li>a:focus, .nav-pills>li>a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
 /* Nav Buttons */
 .nav.navbar-nav i:before {
   display: none;
@@ -303,11 +313,14 @@ a:hover, a:active, a:active:focus, a:focus {
 .series-item a>h2 {
   color: rgba(255, 255, 255, 0.7);
 }
-.series-season, .series-page-header {
+.series-season, .series-page-header, .movie-page-header, .movie-tabs-card {
   background: rgba(0, 0, 0, 0.8);
   box-shadow: none;
   color: rgba(255, 255, 255, 0.7);
   opacity: 1;
+}
+.text-warning {
+  color: rgba(255, 255, 255, 0.45);
 }
 th, td {
   border: none !important;
@@ -408,6 +421,9 @@ thead {
 .event .date h4 {
   color: rgba(255, 255, 255, 0.45);
 }
+.fc-unthemed td.fc-today {
+  background: rgba(255, 255, 255, 0.07);
+}
 /* Search Results */
 #add-series-screen .new-series .search-item .form-control {
   background: rgba(255, 255, 255, 0.15);
@@ -420,6 +436,11 @@ thead {
   box-shadow: none;
   background: rgba(0, 0, 0, .15);
   color: rgba(255, 255, 255, 0.7);
+}
+#add-movies-screen .new-movies .search-item {
+  background: rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.75);
+  box-shadow: none;
 }
 /* Popups */
 .popover, .popover-title {
