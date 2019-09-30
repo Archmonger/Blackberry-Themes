@@ -429,3 +429,21 @@ thead {
 .backgrid-paginator ul .active span {
   background: transparent;
 }
+/* Dropdown */
+.search .tt-dropdown-menu {
+  background: #191a1c;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+}
+.search .tt-dropdown-menu .tt-suggestion {
+  color: rgba(255, 255, 255, 0.7);
+  transition: all ease 0.25s;
+  text-align: left;
+  min-height: 26px;
+}
+.search .tt-dropdown-menu .tt-suggestion.tt-cursor {
+  background: hsla(0, 0%, 100%, .08);
+  color: #FFF;
+}
