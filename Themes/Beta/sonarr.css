@@ -273,6 +273,11 @@ ul.nav.navbar-nav {
 .navbar-nzbdrone li a {
   color: hsla(0, 0%, 100%, .7);
   transition: color ease 0.25s;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar-nzbdrone li:first-child a {
+  padding-left: 0px;
 }
 /* Page Content */
 .started #page {
