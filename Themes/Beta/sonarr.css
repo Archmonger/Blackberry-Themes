@@ -42,12 +42,46 @@ html {
 }
 .col-md-12.search {
   width: 360px;
-  float: left;
+  float: none;
   height: 40px;
   display: inline-block;
 }
 .col-md-12.search>.col-md-6.col-md-offset-3 {
   width: 100%;
+}
+.navbar .form-control {
+  height: 40px;
+}
+.navbar>.container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+.form-control:focus {
+  border: none;
+  box-shadow: none;
+}
+.search .input-group .input-group-addon, .search .input-group input {
+  background: transparent;
+  border: none;
+  color: #FFF;
+  transition: all ease 0.25s;
+}
+.search .input-group:focus-within .input-group-addon, .search .input-group:focus-within input {
+  color: #000 !important;
+}
+.search .input-group {
+  transition: background ease 0.25s;
+}
+.search .input-group:focus-within {
+  background: #FFF;
+}
+.navbar .input-group {
+  background: hsla(0, 0%, 100%, .08);
+  border-radius: 4px;
+}
+.search .input-group input::placeholder {
+  opacity: 0;
 }
 /* Settings Menu */
 .nav-tabs {
@@ -64,7 +98,7 @@ html {
 .nav-tabs>.active>a, .nav-tabs>.active>a:focus, .nav-tabs>.active>a:hover {
   border: none !important;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:hover {
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:hover, .settings-tabs.nav>li>a:focus {
   background: rgba(255, 255, 255, .08) !important;
   color: #FFF;
   border: none;
@@ -138,10 +172,10 @@ html {
   height: 30px;
 }
 .toggle .slide-button {
-  background: #ac3323;
+  background: rgba(255, 255, 255, 0.15);
 }
 .toggle input:first-of-type:checked~.slide-button {
-  background: rgba(92, 182, 92, .75);
+  background: #cc7b19;
 }
 .thingy, .metadata-item {
   box-shadow: none;
@@ -155,58 +189,6 @@ html {
   background: #000;
   border: none;
   color: rgba(255, 255, 255, 0.45);
-}
-/* Navbar */
-.navbar-nzbdrone .navbar-brand {
-  display: inline-block;
-  position: relative;
-}
-/* Search Bar*/
-.col-md-offset-3 {
-  margin-left: 0px;
-}
-.col-md-12.search {
-  width: 360px;
-  float: none;
-  height: 40px;
-  display: inline-block;
-}
-.col-md-12.search>.col-md-6.col-md-offset-3 {
-  width: 100%;
-}
-.navbar .form-control {
-  height: 40px;
-}
-.navbar>.container-fluid {
-  padding-left: 20px;
-  padding-right: 20px;
-  display: inline-block;
-}
-.form-control:focus {
-  border: none;
-  box-shadow: none;
-}
-.search .input-group .input-group-addon, .search .input-group input {
-  background: transparent;
-  border: none;
-  color: #FFF;
-  transition: all ease 0.25s;
-}
-.search .input-group:focus-within .input-group-addon, .search .input-group:focus-within input {
-  color: #000 !important;
-}
-.search .input-group {
-  transition: background ease 0.25s;
-}
-.search .input-group:focus-within {
-  background: #FFF;
-}
-.navbar .input-group {
-  background: hsla(0, 0%, 100%, .08);
-  border-radius: 4px;
-}
-.search .input-group input::placeholder {
-  opacity: 0;
 }
 /* Nav Buttons */
 .nav.navbar-nav i:before {
@@ -294,8 +276,25 @@ legend {
   border-bottom: none;
 }
 .well {
-  background: #000;
+  background: rgba(0, 0, 0, 0.15);
   border: none;
+}
+a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color ease 0.25s;
+}
+a:hover, a:active, a:active:focus, a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+.series-actions-cell * {
+  transition: all ease 0.25s !important;
+}
+.series-actions-cell *:hover {
+  color: #FFF;
+}
+.progress {
+  background: rgba(255, 255, 255, 0.15);
 }
 /* Media Information */
 .series-item a {
@@ -353,14 +352,14 @@ thead {
 }
 /* Buttons */
 .btn-default {
-  background: rgba(0, 0, 0, .15);
+  background: rgba(255, 255, 255, .15);
   color: rgba(255, 255, 255, 0.7);
   border: none;
   transition: all ease 0.25s;
 }
 .btn-default:hover {
-  background: rgba(255, 255, 255, .05);
-  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, .25);
+  color: #FFF;
   border: none;
 }
 .btn-default:focus, .btn-default:active:focus, .btn-default:active {
@@ -391,6 +390,24 @@ thead {
   background: rgba(255, 255, 255, 0.25);
   color: #FFF;
 }
+.event h4 {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color ease 0.25s;
+}
+.event h4:hover, .event h4:focus, .event h4:active {
+  color: #FFF;
+}
+.event .episode-title {
+  color: rgba(255, 255, 255, 0.45);
+  transition: color ease 0.25s;
+}
+.event .episode-title:focus, .event .episode-title:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+.event .date h4 {
+  color: rgba(255, 255, 255, 0.45);
+}
 /* Search Results */
 #add-series-screen .new-series .search-item .form-control {
   background: rgba(255, 255, 255, 0.15);
@@ -403,4 +420,12 @@ thead {
   box-shadow: none;
   background: rgba(0, 0, 0, .15);
   color: rgba(255, 255, 255, 0.7);
+}
+/* Popups */
+.popover, .popover-title {
+  background: #000;
+}
+/* Pagination */
+.backgrid-paginator ul .active span {
+  background: transparent;
 }
