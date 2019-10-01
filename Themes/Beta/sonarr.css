@@ -302,10 +302,10 @@ a:hover, a:active, a:active:focus, a:focus {
   color: #FFF;
   text-decoration: none;
 }
-.series-actions-cell * {
+.series-actions-cell i {
   transition: all ease 0.25s !important;
 }
-.series-actions-cell *:hover {
+.series-actions-cell i:hover {
   color: #FFF;
 }
 .progress {
