@@ -477,3 +477,32 @@ thead {
   background: hsla(0, 0%, 100%, .08);
   color: #FFF;
 }
+/* Static Navbar */
+.container {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+body {
+  margin-top: 60px;
+  overflow-y: auto;
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+html {
+  overflow: hidden;
+}
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, .0);
+}
+::-webkit-scrollbar-thumb {
+  min-height: 50px;
+  background: rgba(255, 255, 255, .15);
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
