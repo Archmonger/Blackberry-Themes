@@ -287,3 +287,7 @@ pre {
 #page>hr {
   display: none;
 }
+/* Proxy Warning */
+#proxy-warning {
+  color: rgba(255, 255, 255, 0.45);
+}
