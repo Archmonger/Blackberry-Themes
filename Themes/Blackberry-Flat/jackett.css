@@ -247,13 +247,15 @@ fieldset[disabled] .btn-info:hover {
 }
 /* Add Indexer and Manual Search */
 .modal-content {
-  background: #162027;
+  background: #282828;
 }
 .modal-header {
   border-bottom: none;
+  background: #323232;
 }
 .modal-footer {
   border-top: none;
+  background: #323232;
 }
 .alert-info {
   background: rgba(204, 123, 25, 1);
