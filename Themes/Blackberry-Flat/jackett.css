@@ -151,7 +151,7 @@ tr td .btn-warning {
   color: rgba(255, 255, 255, 0.7);
 }
 .btn {
-  transition: color ease 0.25s;
+  transition: all ease 0.25s;
 }
 .btn-info:hover {
   background: transparent;
@@ -183,7 +183,7 @@ fieldset[disabled] .btn-info:hover {
   background: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
 }
-.btn-success:hover {
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
   background: transparent;
   color: #FFF;
   border-color: rgba(0, 0, 0, 0);
@@ -194,7 +194,7 @@ fieldset[disabled] .btn-info:hover {
   background: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
 }
-.btn-primary:hover {
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
   background: transparent;
   color: #FFF;
   border-color: rgba(0, 0, 0, 0);
@@ -205,7 +205,7 @@ fieldset[disabled] .btn-info:hover {
   background: rgba(245, 10, 10, 0);
   border-color: rgba(245, 10, 10, 0);
 }
-.btn-danger:hover {
+.btn-danger.active, .btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open>.dropdown-toggle.btn-danger {
   background: transparent;
   color: rgb(255, 0, 0);
   border-color: rgba(0, 0, 0, 0);
@@ -223,19 +223,19 @@ fieldset[disabled] .btn-info:hover {
   border-color: transparent;
   color: rgba(255, 255, 255, 0.7);
 }
-.indexer-button-test:hover {
+.indexer-button-test.active, .indexer-button-test.focus, .indexer-button-test:active, .indexer-button-test:focus, .indexer-button-test:hover, .open>.dropdown-toggle.indexer-button-test {
   background: transparent;
   border-color: transparent;
   color: #FFF;
 }
 .btn-default {
   padding: 4px 10px;
-  background: rgba(204, 123, 25, 0);
+  background: transparent;
   border-color: rgba(0, 0, 0, 0);
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
 }
-.btn-default:hover {
-  background: rgba(255, 255, 255, 0.08);
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+  background: transparent;
   border-color: rgba(0, 0, 0, 0);
   color: #FFF;
 }
