@@ -61,12 +61,14 @@ table.dataTable.cell-border tbody td {
   border: none !important;
 }
 a {
-  color: rgb(249, 190, 3);
+  color: rgba(255, 255, 255, 0.7);
   font-family: Open Sans Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  transition: color ease 0.25s;
 }
 a:focus,
 a:hover {
-  color: rgb(255, 215, 91);
+  color: #FFF;
+  text-decoration: none;
 }
 thead {
   background: rgba(0, 0, 0, 0.5);
@@ -146,9 +148,14 @@ tr td .btn-warning {
   background: rgba(0, 0, 0, 0);
   border: none;
   padding: 5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.btn {
+  transition: color ease 0.25s;
 }
 .btn-info:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
+  color: #FFF;
 }
 .btn-info.disabled,
 .btn-info.disabled.active,
@@ -172,32 +179,35 @@ fieldset[disabled] .btn-info:hover {
 }
 .btn-success {
   padding: 4px 10px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   background: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-success:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
+  color: #FFF;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-primary {
   padding: 4px 10px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   background: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-primary:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
+  color: #FFF;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-danger {
   padding: 4px 10px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   background: rgba(245, 10, 10, 0);
   border-color: rgba(245, 10, 10, 0);
 }
 .btn-danger:hover {
-  background: rgba(245, 10, 10, 0.45);
+  background: transparent;
+  color: rgb(255, 0, 0);
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-warning {
@@ -207,6 +217,16 @@ fieldset[disabled] .btn-info:hover {
 .btn-warning:hover {
   background: rgb(236, 151, 31);
   border-color: rgb(206, 153, 89);
+}
+.indexer-button-test {
+  background: transparent;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+}
+.indexer-button-test:hover {
+  background: transparent;
+  border-color: transparent;
+  color: #FFF;
 }
 .btn-default {
   padding: 4px 10px;
