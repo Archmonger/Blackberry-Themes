@@ -229,7 +229,7 @@ html {
   border: none;
 }
 .navbar-nzbdrone .navbar-collapse .navbar-nav li:focus, .navbar-nzbdrone .navbar-collapse .navbar-nav li:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
 }
 @media only screen and (min-width: 768px) {
   .navbar {
@@ -494,6 +494,10 @@ html {
   background-clip: padding-box;
 }
 /* Mobile Fixes */
+.container-fluid>.navbar-collapse li>a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .navbar-nzbdrone .navbar-toggle {
   background: transparent;
   border: none;
