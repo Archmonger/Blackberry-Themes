@@ -6,3 +6,22 @@
 .series-season, .series-page-header, .movie-page-header, .movie-tabs-card {
   background: rgba(0, 0, 0, 0.15);
 }
+@media only screen and (min-width: 768px) {
+  .navbar>.search {
+    height: 35px;
+  }
+  .navbar .form-control {
+    height: 35px;
+  }
+  .navbar>.search>div {
+    padding-left: 0px;
+  }
+  .navbar {
+    min-height: 45px;
+    height: 45px;
+  }
+  body {
+    margin-top: 45px;
+    height: calc(100vh - 45px);
+  }
+}
