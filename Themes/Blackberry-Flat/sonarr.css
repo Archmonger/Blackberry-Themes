@@ -367,6 +367,9 @@ thead {
 .modal tr:hover {
   color: #FFF;
 }
+.close {
+  color: #FFF;
+}
 /* Buttons */
 .btn-default {
   background: rgba(255, 255, 255, .15);
