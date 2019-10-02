@@ -538,6 +538,14 @@ html {
     align-items: center;
     justify-content: left;
   }
+  .container-fluid>.navbar-collapse {
+    background: #000;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    border: none;
+  }
   .table-responsive {
     border: none;
   }
