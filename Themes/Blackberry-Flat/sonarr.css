@@ -228,9 +228,6 @@ html {
   color: #FFF;
   border: none;
 }
-.navbar-nzbdrone .navbar-collapse .navbar-nav li:focus, .navbar-nzbdrone .navbar-collapse .navbar-nav li:hover {
-  background: rgba(255, 255, 255, 0.08);
-}
 @media only screen and (min-width: 768px) {
   .navbar {
     padding-left: 20px;
@@ -512,6 +509,9 @@ html {
   color: #FFF;
 }
 @media only screen and (max-width: 768px) {
+  .navbar-nzbdrone .navbar-collapse .navbar-nav li:focus, .navbar-nzbdrone .navbar-collapse .navbar-nav li:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
   .navbar>.search {
     order: 0;
     padding-left: 0px;
