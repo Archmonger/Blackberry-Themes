@@ -492,10 +492,6 @@ html {
   background-clip: padding-box;
 }
 /* Mobile Fixes */
-.container-fluid>.navbar-collapse li>a {
-  padding-left: 20px;
-  padding-right: 20px;
-}
 .navbar-nzbdrone .navbar-toggle {
   background: transparent;
   border: none;
@@ -510,6 +506,10 @@ html {
   color: #FFF;
 }
 @media only screen and (max-width: 768px) {
+  .container-fluid>.navbar-collapse li>a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .navbar-nzbdrone .navbar-collapse .navbar-nav li:focus, .navbar-nzbdrone .navbar-collapse .navbar-nav li:hover {
     background: rgba(255, 255, 255, 0.08);
   }
