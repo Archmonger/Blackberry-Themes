@@ -3,7 +3,7 @@
 .sidebar-nav .nav li a .fa-sign-out:before {
   display: block !important;
   content: url("https://archmonger.github.io/Blackberry-Themes/Resources/transparent.png");
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Hearth/Icons/bbh_signout.png");
+  background-image: url("https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Hearth/Icons/signout.png");
   font-size: larger;
   background-size: contain;
   background-repeat: no-repeat;
