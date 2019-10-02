@@ -10,12 +10,13 @@ Navbar Button Content Height: 20px
 Navbar Button Transition Duration: 0.25s
 Navbar Button Transition Timing Function: ease
 Navbar Height (In Organizr): 45px
-Navbar Height (Regular): 60px
+Navbar Height (Standalone): 60px
 Navbar Height (Mobile): 40px
 Navbar Searchbar Color: hsla(0,0%,100%,.08)
 Navbar Searchbar Color (Focus): #FFF
 Navbar Searchbar Height (in Organizr): 35px
 Navbar Searchbar Height (Standalone): 40px
+Navbar Searchbar Height (Mobile): 35px
 Navbar Searchbar Font Color: #FFF
 Navbar Searchbar Font Color (Focused): #000
 Navbar Searchbar Transition Duration: 0.25s
