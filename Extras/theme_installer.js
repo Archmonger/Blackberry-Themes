@@ -49,12 +49,12 @@ function themeInstallerHelper(frameName, tabName, theme) {
 		});
 }
 
-function themeInstaller(tabName, themeInputString) {
+function themeInstaller(tabName, themeInstallString) {
 	var frameName = "#frame-" + tabName;
 	// If a string inputted is a URL
-	if (validURL(themeInputString)) {
+	if (validURL(themeInstallString)) {
 		// Install the the theme
-		themeInstallerHelper(frameName, tabName, themeInputString);
+		themeInstallerHelper(frameName, tabName, themeInstallString);
 	}
 	// If a string inputted is not a URL, check if it exists as a known theme.
 	else {
@@ -67,7 +67,7 @@ function themeInstaller(tabName, themeInputString) {
 				var themesList = Object.entries(JSON.parse(xhr.responseText));
 				var discoveredLink = "";
 				for (theme of themesList) {
-					if (theme[0] == themeInputString.toLowerCase()) {
+					if (theme[0] == themeInstallString.toLowerCase()) {
 						discoveredLink = theme[1];
 
 						// Install the theme

@@ -46,7 +46,7 @@ function themeDeleterHelper(frameName, tabName, theme, isUrl) {
 						stylesheet = sheets[(sheets.length - 1)],
 						frameName = "#frame-" + tabName;
 					for (var i in document.styleSheets) {
-						if (sheets[i].href && sheets[i].href.indexOf(theme + ".css") > -1) {
+						if (sheets[i].href && sheets[i].href.indexOf(theme) > -1) {
 							console.log(sheets[i].href.toString());
 							var stylesheetHref = 'link[href="' + sheets[i].href.toString() + '"]';
 
@@ -64,11 +64,11 @@ function themeDeleterHelper(frameName, tabName, theme, isUrl) {
 		});
 }
 
-function themeDeleter(tabName, themeInputString) {
+function themeDeleter(tabName, themeDeleteString) {
 	var frameName = "#frame-" + tabName;
-	if (validURL(themeInputString)) {
-		themeDeleterHelper(frameName, tabName, themeInputString, true);
+	if (validURL(themeDeleteString)) {
+		themeDeleterHelper(frameName, tabName, themeDeleteString, true);
 	} else {
-		themeDeleterHelper(frameName, tabName, themeInputString, false);
+		themeDeleterHelper(frameName, tabName, themeDeleteString, false);
 	}
 }
