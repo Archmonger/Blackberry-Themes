@@ -361,6 +361,12 @@ thead {
   background: rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 0.7);
 }
+.modal tr {
+  transition: color ease 0.25s;
+}
+.modal tr:hover {
+  color: #FFF;
+}
 /* Buttons */
 .btn-default {
   background: rgba(255, 255, 255, .15);
