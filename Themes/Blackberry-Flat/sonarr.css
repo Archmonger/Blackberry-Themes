@@ -369,6 +369,11 @@ thead {
 }
 .close {
   color: #FFF;
+  transition: all ease 0.25s;
+}
+.close:focus, .close:hover {
+  color: #FFF;
+  opacity: 0.8;
 }
 /* Buttons */
 .btn-default {
