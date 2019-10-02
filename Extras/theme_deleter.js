@@ -22,15 +22,12 @@ function elementReady(selector) {
 function themeDeleter(tabName, themeInputString) {
 	var frameName = "#frame-" + tabName;
 	var stylesheetHref = 'link[href="' + themeInputString + '"]';
-	console.log("1");
 	elementReady(frameName).then(
 		(loadJS) => {
-			console.log("2");
 			// Make sure that the styling will apply through iframe reload
 			$(frameName).on("load", function() {
 				// Frame has been fully loaded and the theme can be applied
 				$(frameName).contents().find(stylesheetHref).prop('disabled', true);
-				console.log("3");
 			})
 			// Someone closed the iframe, wait for it to exist again.
 			$(frameName).on("remove", function() {
@@ -39,8 +36,7 @@ function themeDeleter(tabName, themeInputString) {
 		});
 }
 
-themeDeleter("Watch", "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Shadow/plex_in_organizr.css")
-
+// Consider this later
 // var sheets = document.styleSheets,
 //   stylesheet = sheets[(sheets.length - 1)],
 //   frameName = "#frame-" + tabName;
