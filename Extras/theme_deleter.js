@@ -19,31 +19,56 @@ function elementReady(selector) {
 	});
 }
 
-function themeDeleter(tabName, themeInputString) {
-	var frameName = "#frame-" + tabName;
-	var stylesheetHref = 'link[href="' + themeInputString + '"]';
+function validURL(str) {
+	var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
+		'((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
+		'((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
+		'(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
+		'(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
+		'(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
+	return !!pattern.test(str);
+}
+
+function themeDeleterHelper(frameName, tabName, theme, isUrl) {
 	elementReady(frameName).then(
 		(loadJS) => {
-			// Make sure that the styling will apply through iframe reload
+			// Make sure that the bg removal will apply through iframe reload
 			$(frameName).on("load", function() {
-				// Frame has been fully loaded and the theme can be applied
-				$(frameName).contents().find(stylesheetHref).prop('disabled', true);
+				// Frame has been fully loaded and the theme can be removed
+				if (isUrl) {
+					// If the input was a URL, remove theme.
+					var stylesheetHref = 'link[href="' + theme + '"]';
+					$(frameName).contents().find(stylesheetHref).prop('disabled', true);
+				}
+				// If the input was a string, check if it exists as a stylesheet
+				else {
+					var sheets = document.getElementById("frame-" + tabName).contentWindow.document.styleSheets,
+						stylesheet = sheets[(sheets.length - 1)],
+						frameName = "#frame-" + tabName;
+					for (var i in document.styleSheets) {
+						if (sheets[i].href && sheets[i].href.indexOf(theme + ".css") > -1) {
+							console.log(sheets[i].href.toString());
+							var stylesheetHref = 'link[href="' + sheets[i].href.toString() + '"]';
+
+							// Remove theme
+							$(frameName).contents().find(stylesheetHref).prop('disabled', true);
+							break;
+						}
+					}
+				}
 			})
 			// Someone closed the iframe, wait for it to exist again.
 			$(frameName).on("remove", function() {
-				themeDeleter(tabName, themeInputString);
+				themeDeleter(tabName, theme);
 			})
 		});
 }
 
-// Consider this later
-// var sheets = document.styleSheets,
-//   stylesheet = sheets[(sheets.length - 1)],
-//   frameName = "#frame-" + tabName;
-//
-// for (var i in document.styleSheets) {
-//   if (sheets[i].href && sheets[i].href.indexOf(sheetName + ".css") > -1) {
-//     stylesheet = sheets[i];
-//     break;
-//   }
-// }
+function themeDeleter(tabName, themeInputString) {
+	var frameName = "#frame-" + tabName;
+	if (validURL(themeInputString)) {
+		themeDeleterHelper(frameName, tabName, themeInputString, true);
+	} else {
+		themeDeleterHelper(frameName, tabName, themeInputString, false);
+	}
+}
