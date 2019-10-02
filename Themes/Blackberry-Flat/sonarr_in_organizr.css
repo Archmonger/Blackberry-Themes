@@ -25,3 +25,6 @@
     height: calc(100vh - 45px);
   }
 }
+.nav li [href*="https://sonarr.tv/donate"] {
+  display: none;
+}
