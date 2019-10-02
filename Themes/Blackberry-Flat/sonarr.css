@@ -126,7 +126,7 @@ html {
   background: #FFF !important;
   color: rgba(85, 85, 85) !important;
 }
-.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group, .input-group-addon {
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group, .input-group-addon, .delete-movie-modal .twitter-typeahead .form-control[disabled], .edit-movie-modal .twitter-typeahead .form-control[disabled], .bootstrap-tagsinput {
   margin-left: 0px;
   background: hsla(0, 0%, 100%, .25);
   color: #FFF;
@@ -134,7 +134,7 @@ html {
   border: none;
 }
 .form-control:focus, .input-group:focus-within>.form-control, .input-group:focus-within>.input-group-btn:last-child>.btn, .input-group:focus-within .input-group-addon {
-  background: #FFF;
+  background: #FFF !important;
   color: rgba(85, 85, 85);
 }
 .navbar .search .input-group .input-group-addon {
@@ -383,6 +383,9 @@ thead {
 .checkbox-button .btn:hover {
   background: rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 1);
+}
+.bootstrap-tagsinput .tag [data-role=remove]:hover {
+  box-shadow: none;
 }
 /* Buttons */
 .btn-default {
