@@ -558,3 +558,10 @@ html {
     height: calc(100vh - 40px);
   }
 }
+/* Labels */
+.label-info {
+  background: rgba(255, 255, 255, 0.15);
+}
+.label-success {
+  background-color: rgba(92, 182, 92, .75);
+}
