@@ -1,7 +1,7 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
-Themes  that create a consistent user interface across multiple web services, for standalone purposes or with Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.<br/>
+Themes  that create a consistent user interface across multiple web services, for standalone purposes or with Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.
 
-Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository. Also feel free to watch us on Twitch!<br/>
+Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository. Also feel free to watch us on Twitch!
 
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
 [![Twitch](https://img.shields.io/badge/twitch.tv-Watch-blue?style=for-the-badge&logo=twitch)](https://www.twitch.tv/blackberrythemes)<br/>
@@ -11,7 +11,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [![Credit Card](https://img.shields.io/badge/credit%20card-donate-yellow.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
-## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" align="right" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)<br/>
+## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" align="right" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
 | [![Blackberry Flat _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)  | [![Blackberry Shadow _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Flat _(Minimal Edition)_ | Blackberry Shadow _(Minimal Edition)_ |
@@ -24,8 +24,8 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 |:---:|:---:|
 | Blackberry Quicksilver _(Minimal Edition)_ | Blackberry Vanta _(Minimal Edition)_ |
 
-## More Information<br/>
-### Supported Web Services<br/>
+## More Information
+### Supported Web Services
 - Organizr
 - Plex
 - Ombi
@@ -34,12 +34,12 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 - Jackett
 - Filebrowser
 - Deluge
+- Sonarr
+- Radarr
 - NZBHydra _(beta)_
 - QBittorrent _(beta)_
-- Sonarr _(beta)_
-- Radarr _(beta)_
 
-### FAQ<br/>
+### FAQ
 [How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
 [Where are the screenshots?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-are-the-screenshots)<br/>
 [What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-is-in-organizr)<br/>
@@ -48,8 +48,9 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [Can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#can-i-make-my-own-bbf-icons-for-organizr)<br/>
 [My subfilter is set up exactly as shown, but themes are not working!](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-subfilter-is-set-up-exactly-as-shown-but-themes-are-not-working)<br/>
 [My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
-### Feathub Requests<br/>
-[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)<br/>
+
+### Feathub Requests
+[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)
 
 ### Honorable Mentions
 [leram84/layer.Cake](https://github.com/leram84/layer.Cake/)<br/>
@@ -59,4 +60,4 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [ydkmlt84/DarkerNZBget](https://github.com/ydkmlt84/DarkerNZBget)<br/>
 [gilbN/theme.park](https://github.com/gilbN/theme.park)<br/>
 
-### **[Credits, Disclaimers, and Legal Stuff](https://github.com/Archmonger/Blackberry-Themes/wiki/Credits)**<br/>
+### **[Credits, Disclaimers, and Legal Stuff](https://github.com/Archmonger/Blackberry-Themes/wiki/Credits)**
