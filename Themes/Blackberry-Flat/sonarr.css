@@ -375,6 +375,15 @@ thead {
   color: #FFF;
   opacity: 0.8;
 }
+.checkbox-button .btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+  transition: all ease 0.25s;
+}
+.checkbox-button .btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 1);
+}
 /* Buttons */
 .btn-default {
   background: rgba(255, 255, 255, .15);
