@@ -349,6 +349,10 @@ thead {
 .episode-actions-cell *:hover {
   color: #FFF;
 }
+.movie-links-cell a.label.label-primary {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+}
 /* Modals */
 .modal-content {
   background: #282828;
