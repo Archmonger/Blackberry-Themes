@@ -227,6 +227,7 @@ html {
   padding-left: 15px;
   padding-right: 15px;
   border: none !important;
+  font-weight: 700;
 }
 .navbar-nzbdrone li a:hover, .navbar-nzbdrone li a:focus, .navbar-nzbdrone li a:active {
   background: transparent;
