@@ -291,10 +291,10 @@ a:hover, a:active, a:active:focus, a:focus {
   color: #FFF;
   text-decoration: none;
 }
-.series-actions-cell i {
+.series-actions-cell i, .movie-actions-cell i, .movie-overview-list-actions i {
   transition: all ease 0.25s !important;
 }
-.series-actions-cell i:hover {
+.series-actions-cell i:hover, .movie-actions-cell i:hover, .movie-overview-list-actions i:hover {
   color: #FFF;
 }
 .progress {
@@ -349,7 +349,7 @@ thead {
 .episode-actions-cell *:hover {
   color: #FFF;
 }
-.movie-links-cell a.label.label-primary {
+.movie-item a.label.label-primary {
   background: rgba(255, 255, 255, 0.08);
   color: rgba(255, 255, 255, 0.7);
   transition: all ease 0.25s;
@@ -357,6 +357,19 @@ thead {
 .movie-links-cell a.label.label-primary:hover {
   background: rgba(255, 255, 255, 0.25);
   color: rgba(255, 255, 255, 1);
+}
+.movie-item a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.movie-item .col-md-12.col-xs-12 a {
+  color: rgba(255, 255, 255, 0.45);
+}
+.movie-posters .movie-posters-item, .series-posters .series-posters-item {
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+}
+.movie-posters .movie-posters-item .label-primary {
+  background: rgba(255, 255, 255, 0.15);
 }
 /* Modals */
 .modal-content {
