@@ -1,2 +1,11 @@
 /* Created by Blackberry Themes */
 @import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/sonarr_in_organizr.css";
+/* Remove "Add Movies" btn from navbar */
+.navbar-nzbdrone li a.x-addmovies-nav {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .navbar-nzbdrone li:nth-child(2) a {
+    padding-left: 0;
+  }
+}
