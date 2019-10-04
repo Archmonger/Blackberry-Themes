@@ -39,6 +39,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
   padding-top: 20px;
   padding-bottom: 20px;
   color: hsla(0, 0%, 100%, .7);
+  font-weight: 700;
 }
 .navbar-right {
   transform: translateX(10px)

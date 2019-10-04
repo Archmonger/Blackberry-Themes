@@ -178,6 +178,11 @@ body {
 #search #result>div>:first-child {
   margin-top: 10px;
 }
+#search>#input>input {
+  font-weight: 700;
+  font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
 .card {
   background: rgba(0, 0, 0, .15);
 }

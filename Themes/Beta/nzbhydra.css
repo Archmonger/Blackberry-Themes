@@ -185,6 +185,7 @@ tbody:nth-child(odd) {
   padding-top: 0px;
   padding-bottom: 0px;
   transition: all 0.25s ease;
+  font-weight: 700;
 }
 .navbar-default .navbar-nav>li a:focus,
 .navbar-default .navbar-nav>li a:hover {

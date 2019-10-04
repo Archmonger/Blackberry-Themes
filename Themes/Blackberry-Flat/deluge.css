@@ -37,6 +37,7 @@ body {
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
 }
 .x-btn-text-icon .x-btn-icon-small-left .x-btn-text {
   transition-duration: 0.25s;

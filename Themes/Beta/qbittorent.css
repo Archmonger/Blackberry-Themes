@@ -64,6 +64,7 @@ input[type="submit"i] {
 }
 #desktopNavbar ul li a {
   color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
 }
 #desktopNavbar ul li a:hover {
   background: transparent;

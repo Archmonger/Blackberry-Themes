@@ -155,6 +155,7 @@ button.btn.btn-sm.btn-info-outline {
   transition-duration: 0.25s;
   font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
+  font-weight: 700;
 }
 .input-addon,
 .input-group-addon {
