@@ -596,3 +596,10 @@ ul.nav.navbar-nav.navbar-right li:first-child {
   border-radius: 8px;
   background-clip: padding-box;
 }
+/* Standardize navtab sizing */
+.nav-tabs>li>a {
+  width: max-content;
+}
+.nav-tabs.nav-justified>li {
+  display: inline-table;
+}
