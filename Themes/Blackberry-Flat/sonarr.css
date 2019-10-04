@@ -234,6 +234,9 @@ html {
   color: #FFF;
   border: none;
 }
+.navbar-nzbdrone li a.active {
+  color: #f9be03;
+}
 @media only screen and (min-width: 768px) {
   .navbar {
     padding-left: 20px;
