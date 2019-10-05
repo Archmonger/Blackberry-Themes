@@ -126,7 +126,7 @@ html {
   background: #FFF !important;
   color: rgba(85, 85, 85) !important;
 }
-.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group, .input-group-addon, .delete-movie-modal .twitter-typeahead .form-control[disabled], .edit-movie-modal .twitter-typeahead .form-control[disabled], .bootstrap-tagsinput {
+.delete-series-modal .twitter-typeahead .form-control[disabled], .edit-series-modal .twitter-typeahead .form-control[disabled], .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group, .input-group-addon, .delete-movie-modal .twitter-typeahead .form-control[disabled], .edit-movie-modal .twitter-typeahead .form-control[disabled], .bootstrap-tagsinput {
   margin-left: 0px;
   background: hsla(0, 0%, 100%, .25);
   color: #FFF;
