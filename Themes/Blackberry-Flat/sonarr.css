@@ -376,6 +376,9 @@ thead {
 .movie-posters .movie-posters-item .label-primary {
   background: rgba(255, 255, 255, 0.15);
 }
+.table-bordered {
+  border: none;
+}
 /* Modals */
 .modal-content {
   background: #282828;
