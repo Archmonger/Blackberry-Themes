@@ -29,6 +29,7 @@ html {
 .backdrop .navbar-nzbdrone {
   background: transparent;
   padding-bottom: 0px;
+  opacity: 1;
 }
 .navbar-nzbdrone .navbar-brand {
   display: inline-block;
