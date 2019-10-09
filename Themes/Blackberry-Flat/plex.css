@@ -342,6 +342,9 @@ div[class*="NavBar-buttonSeparator-"] {
   div[class*="PageHeaderDivider-pageHeaderDivider"] {
     display: none;
   }
+  div[class*="DiscoverPage-discoverPageList"] {
+    padding: 0;
+  }
 }
 /* BBF Customizations start here */
 div[class*="NavBar-container-"] {
