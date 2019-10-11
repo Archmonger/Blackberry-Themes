@@ -70,3 +70,26 @@ body {
 .user-select-modal-pin-container .pin-digit {
   background: hsla(0, 0%, 100%, 0.15);
 }
+/* Sidenav customizations */
+div[class*="SourceSidebarLink-isSelected-"] {
+  box-shadow: none;
+  background: transparent;
+}
+div[class*="SourceSidebar-collapsedSidebar-"] {
+  background: rgba(0, 0, 0, 0.15);
+}
+div[class*="SourceSidebar-sidebar-"] {
+  transition: all.5s ease;
+}
+@supports (backdrop-filter: var(--sidenav-backdrop-filter)) {
+  div[class*="SourceSidebar-expandedSidebar-"] {
+    background: rgba(0, 0, 0, 0.15);
+    -webkit-backdrop-filter: var(--sidenav-backdrop-filter);
+    backdrop-filter: var(--sidenav-backdrop-filter);
+  }
+}
+@supports not (backdrop-filter: var(--sidenav-backdrop-filter)) {
+  div[class*="SourceSidebar-expandedSidebar-"] {
+    background: rgba(0, 0, 0, 0.45);
+  }
+}
