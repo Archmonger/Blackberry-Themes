@@ -65,6 +65,9 @@ div[class*="NavBar-buttonSeparator-"] {
     display: block;
   }
   /* Homepage, sidenav, and misc */
+  .devices-container .card-poster.device-icon {
+    display: none;
+  }
   div[class*="SettingsSidebar-"] a[class*="SidebarLink-sidebarLink-"] {
     padding-left: 0px;
   }
