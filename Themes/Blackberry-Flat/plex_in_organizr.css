@@ -93,3 +93,7 @@ div[class*="SourceSidebar-sidebar-"] {
     background: rgba(0, 0, 0, 0.45);
   }
 }
+/* Remove Plex logo from Navbar */
+a[class*="NavBar-plexLogo-"] {
+  display: none;
+}
