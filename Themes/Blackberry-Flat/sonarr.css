@@ -138,9 +138,6 @@ html {
   background: #FFF !important;
   color: rgba(85, 85, 85);
 }
-.navbar .search .input-group .input-group-addon {
-  background: transparent !important;
-}
 .form-group .unit-inline {
   color: #FFF;
 }
