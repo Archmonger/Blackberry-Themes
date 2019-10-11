@@ -81,6 +81,9 @@ div[class*="SourceSidebar-collapsedSidebar-"] {
 div[class*="SourceSidebar-sidebar-"] {
   transition: all.5s ease;
 }
+div[class*="SourceSidebar-openSidebar-"] {
+  background: rgba(0, 0, 0, 0.15);
+}
 @supports (backdrop-filter: var(--sidenav-backdrop-filter)) {
   div[class*="SourceSidebar-expandedSidebar-"] {
     background: rgba(0, 0, 0, 0.15);
