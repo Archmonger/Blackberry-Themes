@@ -78,7 +78,7 @@ div[class*="NavBar-buttonSeparator-"] {
     padding-left: 0px;
   }
   .server-settings-container label {
-    padding-left: 20px;
+    padding-left: 0px;
     display: block;
   }
   .card-sortable {
@@ -236,6 +236,7 @@ div[class*="NavBar-buttonSeparator-"] {
   .server-settings-container select, .web-settings-container select {
     margin: 0px;
     font-size: 13px;
+    max-width: 100%;
   }
   .remote-access-mapping-container .remote-access-mapping .mapping-label {
     display: block;
@@ -260,6 +261,25 @@ div[class*="NavBar-buttonSeparator-"] {
   }
   div[class*="HubCell-hubCell-"]:first-of-type {
     margin-top: 0px;
+  }
+  div[class*="UsersSettingsRowFriend-actions-"] {
+    opacity: 1;
+    flex: 0 1 50px;
+  }
+  div[class*="UsersSettingsRowAvatar-container-"] {
+    display: none;
+  }
+  div[class*="UsersSettingsRow-row-3"] {
+    padding: 10px;
+  }
+  div[class*="UsersSettingsRowHomeUser-row-"] div[class*="UsersSettingsRowShares-container-"] {
+    display: none;
+  }
+  div[class*="UsersSettingsRowHomeUser-row-"] div[class*="UsersSettingsRowHome-container-"] {
+    flex: 0 1 20px;
+  }
+  div[class*="SettingsPage-content-"] {
+    padding: 0 10px;
   }
   /* Individual Media Items  */
   div[class*="Menu-menuScroller"] {
