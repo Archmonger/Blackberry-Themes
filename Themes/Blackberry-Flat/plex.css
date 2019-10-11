@@ -15,6 +15,9 @@ div[class*="NavBar-buttonSeparator-"] {
 }
 @media only screen and (max-width: 768px) {
   /* Navbar Searchbar */
+  a[class*="NavBar-plexLogo-"] {
+    display: none;
+  }
   div[class*="QuickSearch-container"] {
     display: block;
     width: 40px;
@@ -61,7 +64,10 @@ div[class*="NavBar-buttonSeparator-"] {
   div[class*="QuickSearch-container"]:focus-within button {
     display: block;
   }
-  /*Homepage, sidenav, and misc*/
+  /* Homepage, sidenav, and misc */
+  div[class*="SettingsSidebar-"] a[class*="SidebarLink-sidebarLink-"] {
+    padding-left: 0px;
+  }
   .server-settings-container label {
     padding-left: 20px;
     display: block;
@@ -119,11 +125,6 @@ div[class*="NavBar-buttonSeparator-"] {
     height: 40px !important;
     padding-left: 5px;
   }
-  [class*="SidebarLink-sidebarLink-"] {
-    padding-left: 10px;
-    padding-bottom: 8px;
-    padding-top: 8px;
-  }
   [class*="SidebarMenuButton-sidebarMenuPrimaryTitleContainer-"] {
     white-space: nowrap;
   }
@@ -165,9 +166,6 @@ div[class*="NavBar-buttonSeparator-"] {
   [class*="MetadataPosterCell-continueWatchingTitleContainer-"] {
     font-size: 10px;
   }
-  [class*="MetadataPosterCell-titleContainer-"] {
-    font-size: 10px;
-  }
   .nav-bar-nav>li>a {
     line-height: 40px;
   }
@@ -184,7 +182,7 @@ div[class*="NavBar-buttonSeparator-"] {
     margin-right: 0px;
   }
   [class*="MetadataPosterTitle-singleLineTitle-"] {
-    height: 14px;
+    height: 18px;
     font-size: 11px;
     max-width: 100%;
   }
@@ -193,9 +191,6 @@ div[class*="NavBar-buttonSeparator-"] {
   }
   [class*="PrePlayMetadataContent-content-"] {
     padding-left: 0px;
-  }
-  div[class*="SidebarLink-title-"] {
-    font-size: 11px;
   }
   [class*="SidebarServerLibraries-librariesTitle-"] {
     overflow: visible !important;
@@ -229,7 +224,7 @@ div[class*="NavBar-buttonSeparator-"] {
   div[class*="HubCell-hubCell-"]:first-of-type {
     margin-top: 0px;
   }
-  /* #######  Individual Media Items  ####### */
+  /* Individual Media Items  */
   div[class*="Menu-menuScroller"] {
     max-height: 350px !important;
   }
@@ -349,13 +344,6 @@ div[class*="NavBar-buttonSeparator-"] {
 /* BBF Customizations start here */
 div[class*="NavBar-container-"] {
   background: var(--navbar-color) !important;
-  ;
-}
-.nav-dropdown .dropdown-poster-toggle {
-  display: none;
-}
-div[data-qa-id*="hub--home.newscast"] {
-  display: none;
 }
 /* Set BG image */
 .background-container div[class*="FullPage-container-"] div div {
