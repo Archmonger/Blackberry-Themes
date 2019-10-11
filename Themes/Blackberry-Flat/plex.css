@@ -65,6 +65,12 @@ div[class*="NavBar-buttonSeparator-"] {
     display: block;
   }
   /* Homepage, sidenav, and misc */
+  button[class*="SourceSidebarItem-overflowButton-"] {
+    opacity: 1;
+  }
+  div[class*="ServerDashboardPageSection-section-"] {
+    padding-left: 0px;
+  }
   .devices-container .card-poster.device-icon {
     display: none;
   }
@@ -205,7 +211,35 @@ div[class*="NavBar-buttonSeparator-"] {
     display: none;
   }
   div[class*="ManageLibrariesPane-header"] {
+    text-align: center;
+    display: block;
+  }
+  div[class*="ManageLibrariesPane-headerTitle"] {
+    padding-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  button[class*="ManageLibrariesPane-button-"] {
+    margin-bottom: 15px;
+  }
+  .remote-access-status-icon.glyphicon.globe {
+    display: none;
+  }
+  .remote-access-status-message {
     padding-left: 0px;
+  }
+  .plex-image.server.server-xs.server-logo {
+    display: none;
+  }
+  .remote-access-error-container {
+    margin-left: 0px;
+  }
+  .server-settings-container select, .web-settings-container select {
+    margin: 0px;
+    font-size: 13px;
+  }
+  .remote-access-mapping-container .remote-access-mapping .mapping-label {
+    display: block;
+    margin-top: 15px;
   }
   div[class*="ServerAvatar-avatar"] {
     display: none;
