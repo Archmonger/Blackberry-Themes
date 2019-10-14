@@ -2791,3 +2791,7 @@ span.select2-selection.select2-selection--multiple .select2-selection__choice {
   border-radius: 8px;
   background-clip: padding-box;
 }
+/* Login screen panel text */
+.panel .panel-heading .panel-title {
+  color: rgba(255, 255, 255, 0.7);
+}
