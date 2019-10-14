@@ -497,6 +497,12 @@ thead {
   color: rgba(255, 255, 255, 0.75);
   box-shadow: none;
 }
+#add-series-screen .search-item a {
+  color: rgba(255, 255, 255, 0.45);
+}
+#add-movies-screen .search-item a a {
+  color: rgba(255, 255, 255, 0.45);
+}
 /* Popups */
 .popover, .popover-title {
   background: #000;
