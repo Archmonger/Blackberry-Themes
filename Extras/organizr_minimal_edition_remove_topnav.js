@@ -49,7 +49,7 @@ function summonTippy(classSelector, tippyValues) {
 // Delete the top nav an append the important stuff into the sidenav
 $('head').append('<link rel="stylesheet" href="https://archmonger.github.io/Blackberry-Themes/Resources/organizr_minimal_edition_remove_topnav.css" type="text/css" />');
 $('.navbar-right').find('.dropdown:last').clone().prependTo($('#side-menu'));
-$('a[onclick="reloadCurrentTab();"]').parent().clone().prependTo($('#side-menu .dropdown-menu'));
+$('i[class="ti-reload"]').parent().parent().clone().prependTo($('#side-menu .dropdown-menu'));
 
 // Add tooltips to all the new sidenav items
 $("#side-menu>.dropdown").attr("data-tippy-content", $(".dropdown>.profile-pic>b").first().text()); // Profile Button
