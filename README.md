@@ -11,7 +11,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [![Credit Card](https://img.shields.io/badge/credit%20card-donate-yellow.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
-## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" align="right" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
+## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" align="right" alt="Install" height="30"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
 | [![Blackberry Flat _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)  | [![Blackberry Shadow _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Flat _(Minimal Edition)_ | Blackberry Shadow _(Minimal Edition)_ |
