@@ -414,6 +414,12 @@ thead {
 .bootstrap-tagsinput .tag [data-role=remove]:hover {
   box-shadow: none;
 }
+.manual-import-modal .manual-import-error {
+  background: rgba(255, 255, 255, 0.05);
+}
+.manual-import-modal .manual-import-error:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
 /* Buttons */
 .btn-default {
   background: rgba(255, 255, 255, .15);
