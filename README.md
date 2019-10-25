@@ -5,9 +5,10 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
 [![Twitch](https://img.shields.io/badge/twitch.tv-Watch-blue?style=for-the-badge&logo=twitch)](https://www.twitch.tv/blackberrythemes)<br/>
-
+[![Credit Card](https://img.shields.io/badge/github-star-blueviolet?style=for-the-badge&logo=github)](https://github.com/Archmonger/Blackberry-Themes/stargazers)<br/>
 
 ### Like what we do? Donate!
+
 [![Credit Card](https://img.shields.io/badge/credit%20card-donate-yellow.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
