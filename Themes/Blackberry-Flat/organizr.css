@@ -2436,6 +2436,7 @@ div[data-src$='no-np.png'] {
   }
   .sidebar-nav {
     background: var(--sidenav-layer-2-bg);
+    scroll-behavior: smooth;
   }
   .sidebar-head {
     background: rgba(0, 0, 0, 0) !important;
@@ -2456,6 +2457,7 @@ div[data-src$='no-np.png'] {
   }
   .sidebar-nav {
     background: var(--sidenav-layer-2-bg-fallback);
+    scroll-behavior: smooth;
   }
   .sidebar-head {
     background: rgba(0, 0, 0, 0) !important;
