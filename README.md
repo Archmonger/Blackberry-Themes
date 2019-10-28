@@ -38,7 +38,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 - Sonarr
 - Radarr
 - NZBHydra
-- QBittorrent _(beta)_
+- QBittorrent
 
 ### FAQ
 [How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
