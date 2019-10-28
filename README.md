@@ -37,7 +37,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 - Deluge
 - Sonarr
 - Radarr
-- NZBHydra _(beta)_
+- NZBHydra
 - QBittorrent _(beta)_
 
 ### FAQ
