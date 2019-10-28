@@ -184,6 +184,14 @@ li.divider {
 fieldset {
   border: none;
 }
+.panel-collapse {
+  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/down-arrow.png);
+  background-size: contain;
+}
+.panel-expand {
+  background: url(https://archmonger.github.io/Blackberry-Themes/Resources/up-arrow.png);
+  background-size: contain;
+}
 /* Torrenting Table */
 .dynamicTable th {
   background: transparent !important;
