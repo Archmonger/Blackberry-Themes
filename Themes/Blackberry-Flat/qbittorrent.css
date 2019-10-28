@@ -1,8 +1,9 @@
 /* Created by Blackberry Themes */
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/bbf_variables.css";
 /* Main Body */
 html {
   height: 100%;
-  background: linear-gradient(135deg, #252b2f, #090c0e);
+  background: var(--bg-light);
 }
 body {
   color: rgba(255, 255, 255, 0.7);
@@ -48,7 +49,7 @@ input[type="submit"i] {
 }
 /* Navbar */
 #desktopHeader {
-  background: #121719;
+  background: var(--navbar-color);
   display: flex;
   align-items: center;
   height: 60px;
@@ -313,16 +314,16 @@ ul.filterList li:hover {
 }
 /* Modal Window */
 .mochaContentWrapper {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.85) !important;
 }
 fieldset.settings {
-  border-color: rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.3) !important;
 }
 .mochaToolbar .tab-menu li a {
-  color: #000;
+  color: #000 !important;
 }
 .mochaToolbar .tab-menu li.selected a {
-  color: hsla(33, 78%, 50%, 1);
+  color: hsla(33, 78%, 50%, 1) !important;
 }
 /* Progress Bars */
 .progressbar_wrapper {
