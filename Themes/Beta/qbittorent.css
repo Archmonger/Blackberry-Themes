@@ -186,11 +186,11 @@ fieldset {
 }
 /* Torrenting Table */
 .dynamicTable th {
-  background: transparent;
-  border-right-color: rgba(255, 255, 255, 0.15);
+  background: transparent !important;
+  border-right-color: rgba(255, 255, 255, 0.15) !important;
 }
 .dynamicTable thead tr {
-  background: transparent;
+  background: transparent !important;
 }
 .dynamicTable th.sorted {
   background: rgba(255, 255, 255, 0.15) !important;
@@ -199,26 +199,26 @@ fieldset {
   border: none;
 }
 .panel-headerContent.tabs, .toolbarTabs, .panel-header {
-  background: transparent;
+  background: transparent !important;
 }
 .panel-header {
   border: none;
 }
 .tab-menu li.selected, .tab-menu li {
-  background: transparent;
+  background: transparent !important;
 }
 .tab-menu li a {
   background: transparent !important;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 .tab-menu li.selected a {
   color: #f9be03;
 }
 .dynamicTable tbody tr:nth-child(even), .dynamicTable tbody tr.alt {
-  background: transparent;
+  background: transparent !important;
 }
 .dynamicTable tbody tr {
-  background: transparent;
+  background: transparent !important;
 }
 .dynamicTable tbody tr.selected, .dynamicTable tbody tr:hover {
   background: rgba(255, 255, 255, 0.15);
