@@ -219,9 +219,10 @@ fieldset {
 }
 .dynamicTable tbody tr {
   background: transparent !important;
+  transition: all ease 0.25s;
 }
 .dynamicTable tbody tr.selected, .dynamicTable tbody tr:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08) !important;
 }
 .dynamicTable tbody tr>td>img {
   filter: brightness(1000) opacity(70%);
