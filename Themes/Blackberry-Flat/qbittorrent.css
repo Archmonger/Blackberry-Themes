@@ -352,3 +352,6 @@ fieldset.settings {
   border-radius: 8px;
   background-clip: padding-box;
 }
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
