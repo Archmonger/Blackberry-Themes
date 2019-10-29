@@ -6,3 +6,7 @@
 #banner {
   display: none;
 }
+#loading-bar,
+#loading-bar-spinner {
+  display: none;
+}
