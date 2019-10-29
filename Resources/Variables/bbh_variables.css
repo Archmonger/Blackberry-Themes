@@ -2,8 +2,8 @@
 :root {
   --bg-light: radial-gradient(at bottom center, rgba(0, 0, 0, 0.4) 0%, hsla(0, 14%, 18%, 0.55), hsla(0, 18%, 5%, 0)), linear-gradient(to bottom, hsl(0, 18%, 5%), hsl(0, 65%, 23%), hsl(0, 100%, 9%));
   --bg-dark: radial-gradient(at bottom center, rgba(0, 0, 0, 0.4) 0%, hsla(0, 14%, 18%, 0.55), hsla(0, 18%, 5%, 0)), linear-gradient(to bottom, hsl(0, 18%, 5%), hsl(0, 65%, 23%), hsl(0, 100%, 9%));
-  --navbar-color: linear-gradient(90deg, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0));
-  --sidenav-bg: rgba(0, 0, 0, 0.23);
+  --navbar-color: linear-gradient(90deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0));
+  --sidenav-bg: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.35));
   --sidenav-layer-2-bg: transparent;
   --sidenav-bg-fallback: linear-gradient(180deg, rgb(17, 9, 9), hsla(0, 51%, 19%, 1), hsl(0, 56%, 10%));
   --sidenav-layer-2-bg-fallback: transparent;
