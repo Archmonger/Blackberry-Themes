@@ -635,3 +635,17 @@ html {
 .label-success {
   background-color: rgba(92, 182, 92, .75);
 }
+/* "Thingy" styling */
+.add-thingy {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.7);
+  box-shadow: none;
+}
+.add-thingy>div:first-child {
+  display: inline;
+  width: 100%;
+  height: 100%;
+}
+.indexer-item.thingy {
+  overflow: hidden;
+}
