@@ -1,0 +1,10 @@
+/* Created by Blackberry Themes */
+:root {
+  --bg-light: radial-gradient(at bottom center, rgba(0, 0, 0, 0.15), hsla(0, 14%, 18%, 0.65), hsla(0, 18%, 5%, 0.95)), linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  --bg-dark: linear-gradient(135deg, #252b2f, #090c0e);
+  --navbar-color: linear-gradient(90deg, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.08), rgba(0, 0, 0, .05));
+  --sidenav-bg: linear-gradient(180deg, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.16), rgba(0, 0, 0, .15));
+  --sidenav-layer-2-bg: transparent;
+  --sidenav-bg-fallback: linear-gradient(180deg, rgb(25, 16, 16), rgb(45, 30, 30), rgb(58, 38, 38), rgb(68, 45, 45), rgb(73, 47, 48));
+  --sidenav-layer-2-bg-fallback: transparent;
+}
