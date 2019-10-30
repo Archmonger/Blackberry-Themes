@@ -13,15 +13,15 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
 ## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" align="right" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
-| [![Blackberry Flat _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbf_minimal_edition.png)  | [![Blackberry Shadow _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbs_minimal_edition.png) |
+| [![Blackberry Flat _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)  | [![Blackberry Shadow _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/shadow_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/shadow_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Flat _(Minimal Edition)_ | Blackberry Shadow _(Minimal Edition)_ |
 
-| [![Blackberry Royal _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbr_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbr_minimal_edition.png)  | [![Blackberry Hearth _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbh_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbh_minimal_edition.png) |
+| [![Blackberry Royal _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/royal_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/royal_minimal_edition.png)  | [![Blackberry Hearth _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/hearth_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/hearth_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Royal _(Minimal Edition)_ | Blackberry Hearth _(Minimal Edition)_ |
 
-| [![Blackberry Quicksilver _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbq_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbq_minimal_edition.png)  | [![Blackberry Vanta _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/bbv_minimal_edition.png) |
+| [![Blackberry Quicksilver _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/quicksilver_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/quicksilver_minimal_edition.png)  | [![Blackberry Vanta _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/vanta_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/vanta_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Quicksilver _(Minimal Edition)_ | Blackberry Vanta _(Minimal Edition)_ |
 
