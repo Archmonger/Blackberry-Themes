@@ -37,9 +37,9 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 |:---:|:---:|
 | Blackberry Dreamscape _(Minimal Edition)_ | Blackberry Pumpkin _(Minimal Edition)_ |
 
-| [![Blackberry Carol _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)  |
-|:---:|
-| Blackberry Carol _(Minimal Edition)_ |
+| [![Blackberry Carol _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)  | [![Coming Soon](https://archmonger.github.io/Blackberry-Themes/Resources/coming_soon.png)](https://archmonger.github.io/Blackberry-Themes/Resources/coming_soon.png) |
+|:---:|:---:|
+| Blackberry Carol _(Minimal Edition)_ | Suggest new themes on Discord! |
 
 ## More Information
 ### Supported Web Services
