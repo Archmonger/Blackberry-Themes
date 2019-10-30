@@ -21,9 +21,9 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 |:---:|:---:|
 | Blackberry Royal _(Minimal Edition)_ | Blackberry Hearth _(Minimal Edition)_ |
 
-| [![Blackberry Quicksilver _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/quicksilver_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/quicksilver_minimal_edition.png)  | [![Blackberry Vanta _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/vanta_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/vanta_minimal_edition.png) |
+| [![Blackberry Abyss _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/abyss_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/abyss_minimal_edition.png)  | [![Blackberry Vanta _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/vanta_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/vanta_minimal_edition.png) |
 |:---:|:---:|
-| Blackberry Quicksilver _(Minimal Edition)_ | Blackberry Vanta _(Minimal Edition)_ |
+| Blackberry Abyss _(Minimal Edition)_ | Blackberry Vanta _(Minimal Edition)_ |
 
 | [![Blackberry Amethyst _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/amethyst_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/amethyst_minimal_edition.png)  | [![Blackberry Flamingo _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flamingo_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flamingo_minimal_edition.png) |
 |:---:|:---:|
