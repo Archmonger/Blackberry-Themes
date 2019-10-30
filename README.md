@@ -29,7 +29,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 |:---:|:---:|
 | Blackberry Amethyst _(Minimal Edition)_ | Blackberry Flamingo _(Minimal Edition)_ |
 
-| [![Blackberry martian _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/martian_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/martian_minimal_edition.png)  | [![Blackberry Solar _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/solar_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/solar_minimal_edition.png) |
+| [![Blackberry Martian _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/martian_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/martian_minimal_edition.png)  | [![Blackberry Solar _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/solar_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/solar_minimal_edition.png) |
 |:---:|:---:|
 | Blackberry Martian _(Minimal Edition)_ | Blackberry Solar _(Minimal Edition)_ |
 
