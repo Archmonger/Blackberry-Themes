@@ -39,7 +39,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 
 | [![Blackberry Carol _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)  | [![Coming Soon](https://archmonger.github.io/Blackberry-Themes/Resources/coming_soon.png)](https://archmonger.github.io/Blackberry-Themes/Resources/coming_soon.png) |
 |:---:|:---:|
-| Blackberry Carol _(Minimal Edition)_ | Suggest new themes on Discord! |
+| Blackberry Carol _(Minimal Edition)_ | Suggest new themes on [Discord](https://discord.gg/sfjkDaM)! |
 
 ## More Information
 ### Supported Web Services
