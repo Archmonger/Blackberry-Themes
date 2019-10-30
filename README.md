@@ -25,6 +25,22 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 |:---:|:---:|
 | Blackberry Quicksilver _(Minimal Edition)_ | Blackberry Vanta _(Minimal Edition)_ |
 
+| [![Blackberry Amethyst _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/amethyst_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/amethyst_minimal_edition.png)  | [![Blackberry Flamingo _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flamingo_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flamingo_minimal_edition.png) |
+|:---:|:---:|
+| Blackberry Amethyst _(Minimal Edition)_ | Blackberry Flamingo _(Minimal Edition)_ |
+
+| [![Blackberry martian _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/martian_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/martian_minimal_edition.png)  | [![Blackberry Solar _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/solar_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/solar_minimal_edition.png) |
+|:---:|:---:|
+| Blackberry Martian _(Minimal Edition)_ | Blackberry Solar _(Minimal Edition)_ |
+
+| [![Blackberry Dreamscape _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/dreamscape_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/dreamscape_minimal_edition.png)  | [![Blackberry Pumpkin _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/pumpkin_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/pumpkin_minimal_edition.png) |
+|:---:|:---:|
+| Blackberry Dreamscape _(Minimal Edition)_ | Blackberry Pumpkin _(Minimal Edition)_ |
+
+| [![Blackberry Carol _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)  |
+|:---:|
+| Blackberry Carol _(Minimal Edition)_ |
+
 ## More Information
 ### Supported Web Services
 - Organizr
