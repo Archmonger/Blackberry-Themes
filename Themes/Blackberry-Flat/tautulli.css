@@ -111,11 +111,14 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .text-muted {
   color: hsla(0, 0%, 100%, .45);
 }
-.dashboard-activity-metadata-user a {
+.dashboard-activity-metadata-user a, .dashboard-activity-metadata-subtitle-container {
   color: rgba(255, 255, 255, 0.45);
 }
-.dashboard-activity-metadata-subtitle-container {
-  color: rgba(255, 255, 255, 0.45);
+.dashboard-activity-metadata-title a, .dashboard-activity-metadata-user a {
+  transition: color ease 0.25s;
+}
+.dashboard-activity-metadata-title a:hover, .dashboard-activity-metadata-user a:hover {
+  color: #FFF;
 }
 /* Dropdown Menu */
 .dropdown-menu {
