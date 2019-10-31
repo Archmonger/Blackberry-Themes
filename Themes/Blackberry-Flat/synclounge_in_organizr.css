@@ -80,3 +80,47 @@ main {
 .application.theme--dark {
   background: transparent;
 }
+/* Static navbar */
+.application .theme--dark.v-toolbar, .theme--dark .v-toolbar {
+  transform: none !important;
+}
+/* Static page */
+main.v-content {
+  position: fixed;
+  width: 100%;
+}
+.v-content__wrap {
+  position: absolute;
+  overflow-y: scroll;
+  height: 100%;
+  width: calc(100% - 300px);
+}
+.v-navigation-drawer {
+  overflow: hidden;
+}
+/* Fix mobile view */
+@media only screen and (max-width: 768px) {
+  .v-content__wrap {
+    width: calc(100%);
+  }
+  .v-content {
+    padding-top: 40px !important;
+  }
+}
+/* Scroll Bars */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, .0);
+}
+::-webkit-scrollbar-thumb {
+  min-height: 50px;
+  background: rgba(255, 255, 255, .15);
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
