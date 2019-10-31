@@ -1,6 +1,6 @@
 /* Created by Blackberry Themes */
 :root {
-  --bg-light: radial-gradient(at top left, rgba(0, 0, 0, 0.25), hsla(0, 14%, 18%, 0.9), hsla(0, 18%, 5%, 1)), linear-gradient(120deg, #f6d365 0%, #a25a25 100%);
+  --bg-light: radial-gradient(at top left, rgba(0, 0, 0, 0.31), hsla(0, 14%, 18%, 0.9), hsla(0, 18%, 5%, 1)), linear-gradient(120deg, #f6d365 0%, #a25a25 100%);
   --bg-dark: linear-gradient(135deg, #252b2f, #090c0e);
   --navbar-color: rgba(0, 0, 0, 0.2);
   --sidenav-bg: rgba(0, 0, 0, 0.2);
