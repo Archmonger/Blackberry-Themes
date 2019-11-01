@@ -19,8 +19,16 @@ function elementReady(selector) {
 	});
 }
 
-/* Special thanks to 3limin4t0r and Tom Gullen on StackOverflow for this function */
-function validURL(str) {
+// Special thanks to Altay Mazlum and Arun Kumar on StackOverflow for this function.
+function urlExists(url) {
+	var http = new XMLHttpRequest();
+	http.open('HEAD', url, false);
+	http.send();
+	return http.status != 404;
+}
+
+// Special thanks to 3limin4t0r and Tom Gullen on StackOverflow for this function
+function urlPatternValid(str) {
 	var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
 		'((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
 		'((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
@@ -30,7 +38,8 @@ function validURL(str) {
 	return !!pattern.test(str);
 }
 
-function themeInstallerHelper(frameName, tabName, theme) {
+// Sets the theme to connect to a tab
+function installOrganizrTabTheme(frameName, tabName, theme) {
 	elementReady(frameName).then(
 		(loadJS) => {
 			// Make sure that the styling will apply through iframe reload
@@ -42,43 +51,55 @@ function themeInstallerHelper(frameName, tabName, theme) {
 				stylesheet.href = theme;
 				$(frameName).contents().find("body").append(stylesheet);
 			})
-			// Someone closed the iframe, wait for it to exist again.
+			// Someone closed the iframe, wait for it to exist again
 			$(frameName).on("remove", function() {
 				themeInstaller(tabName, theme);
 			})
 		});
 }
 
+// Generates the URL for Blackberry themes
+function blackberryUrlGenerator(frameName, tabName, themeQuery) {
+	var cssFile = themeQuery.slice(2, themeQuery.length).join("_");
+	var blackberryUrl = "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-" + themeQuery[1].charAt(0).toUpperCase() + themeQuery[1].substring(1).toLowerCase() + "/" + cssFile + ".css";
+	if (urlPatternValid(blackberryUrl) && urlExists(blackberryUrl)) {
+		installOrganizrTabTheme(frameName, tabName, blackberryUrl);
+	} else {
+		console.log('Theme "' + themeQuery[1] + ' ' + themeQuery[2] + '" does not exist within Blackberry Themes.');
+	}
+}
+
+// Generates the URL for ThemePark themes
+function themeparkUrlGenerator(frameName, tabName, themeQuery) {
+	var themeparkUrl = "https://gilbn.github.io/theme.park/CSS/themes/" + themeQuery[2].toLowerCase() + "/" + themeQuery[1].toLowerCase() + ".css";
+	if (urlPatternValid(themeparkUrl) && urlExists(themeparkUrl)) {
+		installOrganizrTabTheme(frameName, tabName, themeparkUrl);
+	} else {
+		console.log('Theme "' + themeQuery[2] + ' ' + themeQuery[1] + '" does not exist within Theme Park.');
+	}
+}
+
 function themeInstaller(tabName, themeInstallString) {
 	var frameName = "#frame-" + tabName;
-	// If a string inputted is a URL
-	if (validURL(themeInstallString)) {
-		// Install the the theme
-		themeInstallerHelper(frameName, tabName, themeInstallString);
+	// If a string inputted is a URL, install it
+	if (urlPatternValid(themeInstallString) && urlExists(themeInstallString)) {
+		installOrganizrTabTheme(frameName, tabName, themeInstallString);
 	}
-	// If a string inputted is not a URL, check if it exists as a known theme.
+	// If the URL is 404, let the user know.
+	else if (urlPatternValid(themeInstallString) && !urlExists(themeInstallString)) {
+		console.log('The URL "' + themeInstallString + '" does not exist.');
+	}
+	// Not a URL: Check if it exists as a known theme pack
 	else {
-		// Check values stored within Theme Installer's json file to see if the string exists
-		let xhr = new XMLHttpRequest();
-		xhr.open('GET', 'https://archmonger.github.io/Blackberry-Themes/Resources/theme_installer.json');
-		xhr.onreadystatechange = function() {
-			if (xhr.readyState !== 4) return;
-			if (xhr.status === 200) {
-				var themesList = Object.entries(JSON.parse(xhr.responseText));
-				var discoveredLink = "";
-				for (theme of themesList) {
-					if (theme[0] == themeInstallString.toLowerCase()) {
-						discoveredLink = theme[1];
-
-						// Install the theme
-						themeInstallerHelper(frameName, tabName, discoveredLink);
-					}
-				}
-			} else {
-				// request error
-				console.log('HTTP error', xhr.status, xhr.statusText);
-			}
-		};
-		xhr.send();
+		themeQuery = themeInstallString.split(" ");
+		if (themeQuery[0].toLowerCase() == "blackberry" && themeQuery.length >= 3) {
+			blackberryUrlGenerator(frameName, tabName, themeQuery);
+		} else if (themeQuery[0].toLowerCase() == "themepark" && themeQuery.length >= 3) {
+			themeparkUrlGenerator(frameName, tabName, themeQuery);
+		} else if (!(themeQuery.length >= 3)) {
+			console.log('"' + themeInstallString + '" is an invalid input. Try again in the <theme_pack> <theme> <service> format.');
+		} else {
+			console.log('Theme pack "' + themeQuery[0] + '" is an unknown theme pack.');
+		}
 	}
 }
