@@ -1,7 +1,7 @@
 /* Created by Blackberry Themes */
 :root {
   --bg-light: #000;
-  --bg-dark: #000;
+  --bg-dark: var(--bg-light);
   --navbar-color: #000;
   --sidenav-bg: transparent;
   --sidenav-layer-2-bg: transparent;

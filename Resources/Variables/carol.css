@@ -1,7 +1,7 @@
 /* Created by Blackberry Themes */
 :root {
   --bg-light: radial-gradient(at center center, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 120%), url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, radial-gradient(at bottom center, rgba(0, 0, 0, 0.15), hsla(0, 14%, 18%, 0.45), hsla(0, 18%, 5%, 0.6)), radial-gradient(at bottom center, rgba(167, 6, 6, 0.15), hsla(0, 14%, 18%, 0), hsla(0, 18%, 5%, 0)), radial-gradient(at top center, rgba(11, 80, 25, 0.6), hsla(0, 14%, 18%, 0.45), hsla(0, 18%, 5%, 0.6)), radial-gradient(at bottom right, #0b5019, hsla(0, 14%, 18%, 0), hsla(0, 18%, 5%, 0)), radial-gradient(at center center, rgba(167, 6, 6, 0.25), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(45deg, #0b5019 0%, #a70606 135%);
-  --bg-dark: linear-gradient(135deg, #252b2f, #090c0e);
+  --bg-dark: var(--bg-light);
   --navbar-color: rgba(0, 0, 0, 0.25);
   --sidenav-bg: rgba(0, 0, 0, 0.25);
   --sidenav-layer-2-bg: transparent;
