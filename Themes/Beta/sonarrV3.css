@@ -1,0 +1,204 @@
+/* Navbar */
+.PageHeader\/header\/1IhlM {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, .23));
+}
+.SeriesSearchInput\/input\/2CZrq {
+  border: none;
+  color: inherit;
+}
+.SeriesSearchInput\/wrapper\/1v_a3 {
+  background: hsla(0, 0%, 100%, .08);
+  height: 40px;
+  padding-left: 22px;
+  border-radius: 4px;
+}
+.SeriesSearchInput\/wrapper\/1v_a3:focus-within {
+  background: #FFF;
+  color: #000;
+}
+.PageHeaderActionsMenu\/menuButton\/2Z-oS, .PageHeader\/donate\/ZT-3N {
+  color: hsla(0, 0%, 100%, .7);
+  transition: color ease 0.25s;
+}
+.PageHeaderActionsMenu\/menuButton\/2Z-oS:hover, .PageHeader\/donate\/ZT-3N:hover {
+  color: #FFF;
+}
+/* Searchbar Dropdown */
+.SeriesSearchInput\/containerOpen\/3F8xe .SeriesSearchInput\/seriesContainer\/2yDTR {
+  background: #191a1c;
+  border: none;
+  box-shadow: none;
+  border-radius: 4px;
+  padding: 5px 0px;
+}
+.SeriesSearchInput\/containerOpen\/3F8xe .SeriesSearchInput\/seriesContainer\/2yDTR {
+  color: hsla(0, 0%, 100%, .7);
+}
+.SeriesSearchInput\/sectionTitle\/jIgg0 {
+  color: hsla(0, 0%, 100%, .3);
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.SeriesSearchInput\/listItem\/Q5jCn {
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all ease 0.25s;
+}
+.SeriesSearchInput\/listItem\/Q5jCn:hover {
+  background: hsla(0, 0%, 100%, .08);
+  color: #FFF;
+}
+/* Body */
+body {
+  background: radial-gradient(at top center, rgba(0, 0, 0, 0), hsla(0, 14%, 18%, 0.2), hsla(0, 18%, 5%, 1) 95%), radial-gradient(at bottom center, rgba(0, 0, 0, 0.15), hsla(0, 14%, 18%, 0.45), hsla(0, 18%, 5%, 0.6)), linear-gradient(to top, #e2c9cc 1%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+}
+html, body {
+  font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.45);
+}
+/* Sidebar */
+.PageSidebar\/sidebar\/3IOcI {
+  background: rgba(0, 0, 0, 0.15);
+}
+.PageSidebar\/sidebarContainer\/3Hxpq {
+  background: transparent;
+}
+.PageSidebarItem\/link\/TuHn2 {
+  color: hsla(0, 0%, 100%, .7);
+  transition: all ease 0.25s;
+}
+.PageSidebarItem\/link\/TuHn2:hover, .PageSidebarItem\/link\/TuHn2:focus {
+  color: #FFF;
+  background: hsla(0, 0%, 100%, .08);
+}
+.PageSidebarItem\/item\/2zy7a {
+  border-left: none;
+}
+.PageSidebarItem\/isActiveParentLink\/2uxKf {
+  background: transparent;
+  color: #FFF;
+}
+/* Top toolbar */
+.PageToolbar\/toolbar\/1Lo1N {
+  background: transparent;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .15);
+}
+.PageToolbarButton\/labelContainer\/1XS0i {
+  display: none;
+}
+.PageToolbar\/toolbar\/1Lo1N {
+  height: 50px;
+  line-height: 50px;
+  color: hsla(0, 0%, 100%, .7);
+}
+.PageToolbarButton\/toolbarButton\/QiQEt {
+  transition: color ease 0.25s;
+  padding-top: 0;
+}
+.PageToolbarButton\/toolbarButton\/QiQEt:hover {
+  color: #FFF;
+}
+.MenuButton\/menuButton\/3nh0N {
+  transition: color ease 0.25s;
+  height: 50px;
+  padding-top: 0;
+}
+.MenuButton\/menuButton\/3nh0N:hover {
+  color: #FFF;
+}
+.PageToolbarSeparator\/separator\/2Aqbm {
+  margin: 15px;
+  height: 20px;
+  border-right: 2px solid hsla(0, 0%, 100%, .08);
+}
+/* Dropdown Menu */
+.MenuItem\/menuItem\/zB-Up {
+  background: transparent;
+  height: 26px;
+  line-height: 26px;
+  box-sizing: border-box;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all ease 0.25s;
+}
+.MenuItem\/menuItem\/zB-Up:hover {
+  color: #FFF;
+  background: hsla(0, 0%, 100%, .08);
+}
+.MenuContent\/menuContent\/3Zkj4 {
+  background: transparent;
+}
+.MenuContent\/scroller\/V4APc {
+  border-radius: 4px;
+  background: #191a1c;
+}
+.MenuContent\/menuContent\/3Zkj4 svg:not(:root).svg-inline--fa {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.MenuItemSeparator\/separator\/1ayq0 {
+  display: none;
+}
+/* Posters */
+.SeriesIndexPoster\/content\/uRtdS:hover {
+  box-shadow: none;
+}
+.SeriesIndexPoster\/title\/263Pq {
+  background: transparent;
+  color: #FFF;
+}
+.SeriesIndexPoster\/nextAiring\/1FZy6 {
+  background: transparent;
+  color: hsla(0, 0%, 100%, .45);
+}
+.ProgressBar\/small\/NLk8f {
+  height: 2.5px;
+}
+.SeriesIndexPoster\/controls\/prEIO {
+  background: rgba(0, 0, 0, 0.65)
+}
+/* Modals */
+.ModalFooter\/modalFooter\/1N5Ku, .ModalHeader\/modalHeader\/gpcvG {
+  background: #323232;
+  border: none;
+}
+.ModalContent\/modalContent\/-txrl {
+  background: #282828;
+  border-radius: 4px;
+}
+.ModalFooter\/modalFooter\/1N5Ku {
+  border-radius: 0 0 4px 4px;
+}
+.ModalHeader\/modalHeader\/gpcvG {
+  border-radius: 4px 4px 0 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+.ModalContent\/closeButton\/37Puk {
+  transition: color ease 0.25s;
+}
+.ModalContent\/closeButton\/37Puk:hover {
+  color: #FFF;
+}
+.Button\/default\/2uiHU {
+  background: hsla(0, 0%, 100%, .25);
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all ease 0.25s;
+}
+.Button\/default\/2uiHU:hover {
+  background: hsla(0, 0%, 100%, .3);
+  border: none;
+  color: #FFF;
+}
+/* Calendar */
+.DayOfWeek\/dayOfWeek\/1iw4D {
+  background: hsla(0, 0%, 0%, .30);
+  height: 34px;
+  line-height: 34px;
+}
+.CalendarEvent\/event\/3Uyb9 {
+  border: none;
+}
