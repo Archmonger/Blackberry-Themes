@@ -69,12 +69,4 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 ### Feathub Requests
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)
 
-### Honorable Mentions
-[leram84/layer.Cake](https://github.com/leram84/layer.Cake/)<br/>
-[rg9400/Cloud-Tautulli-Theme](https://github.com/rg9400/Cloud-Tautulli-Theme)<br/>
-[Burry/organizr-v2-plex-theme](https://github.com/Burry/organizr-v2-plex-theme)<br/>
-[iFelix18/Darkerr](https://github.com/iFelix18/Darkerr)<br/>
-[ydkmlt84/DarkerNZBget](https://github.com/ydkmlt84/DarkerNZBget)<br/>
-[gilbN/theme.park](https://github.com/gilbN/theme.park)<br/>
-
 ### **[Credits, Disclaimers, and Legal Stuff](https://github.com/Archmonger/Blackberry-Themes/wiki/Credits)**
