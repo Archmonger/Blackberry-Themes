@@ -1,7 +1,7 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
 Themes  that create a consistent user interface across multiple web services, for standalone purposes or with Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.
 
-Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository. Also feel free to watch us on Twitch!
+Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository. Also, watch us on Twitch!
 
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
 [![Twitch](https://img.shields.io/badge/twitch.tv-Watch-blue?style=for-the-badge&logo=twitch)](https://www.twitch.tv/blackberrythemes)<br/>
