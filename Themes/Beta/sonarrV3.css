@@ -155,10 +155,22 @@ html, body {
   color: hsla(0, 0%, 100%, .45);
 }
 .ProgressBar\/small\/NLk8f {
-  height: 2.5px;
+  height: 2px;
 }
 .SeriesIndexPoster\/controls\/prEIO {
   background: rgba(0, 0, 0, 0.65)
+}
+.SeriesIndexPoster\/posterContainer\/1emuT:hover::after {
+  -webkit-box-shadow: inset 0 0 0 2px #e9a049;
+  -moz-box-shadow: inset 0 0 0 2px #e9a049;
+  box-shadow: inset 0 0 0 2px #e9a049;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  ;
 }
 /* Modals */
 .ModalFooter\/modalFooter\/1N5Ku, .ModalHeader\/modalHeader\/gpcvG {
