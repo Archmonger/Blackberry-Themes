@@ -1,3 +1,4 @@
+// Special thanks to jwilson8767 on Github for this function.
 function elementReady(selector) {
 	return new Promise((resolve, reject) => {
 		let el = document.querySelector(selector);
@@ -19,7 +20,8 @@ function elementReady(selector) {
 	});
 }
 
-function validURL(str) {
+// Special thanks to 3limin4t0r and Tom Gullen on StackOverflow for this function
+function urlPatternValid(str) {
 	var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
 		'((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
 		'((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
@@ -29,15 +31,16 @@ function validURL(str) {
 	return !!pattern.test(str);
 }
 
-function themeDeleterHelper(frameName, tabName, theme, isUrl) {
+// Entry Point
+function themeDeleter(tabName, themeDeleteString) {
+	var frameName = "#frame-" + tabName;
 	elementReady(frameName).then(
 		(loadJS) => {
 			// Make sure that the bg removal will apply through iframe reload
-			$(frameName).on("load", function() {
-				// Frame has been fully loaded and the theme can be removed
-				if (isUrl) {
-					// If the input was a URL, remove theme.
-					var stylesheetHref = 'link[href="' + theme + '"]';
+			$(frameName).on("load", function() { // Frame has been fully loaded and the theme can be removed
+				// If the input was a URL, remove theme.
+				if (urlPatternValid(themeDeleteString)) {
+					var stylesheetHref = 'link[href="' + themeDeleteString + '"]';
 					$(frameName).contents().find(stylesheetHref).prop('disabled', true);
 				}
 				// If the input was a string, check if it exists as a stylesheet
@@ -46,7 +49,7 @@ function themeDeleterHelper(frameName, tabName, theme, isUrl) {
 						stylesheet = sheets[(sheets.length - 1)],
 						frameName = "#frame-" + tabName;
 					for (var i in document.styleSheets) {
-						if (sheets[i].href && sheets[i].href.indexOf(theme) > -1) {
+						if (sheets[i].href && sheets[i].href.indexOf(themeDeleteString) > -1) {
 							console.log(sheets[i].href.toString());
 							var stylesheetHref = 'link[href="' + sheets[i].href.toString() + '"]';
 
@@ -59,16 +62,7 @@ function themeDeleterHelper(frameName, tabName, theme, isUrl) {
 			})
 			// Someone closed the iframe, wait for it to exist again.
 			$(frameName).on("remove", function() {
-				themeDeleter(tabName, theme);
+				themeDeleter(tabName, themeDeleteString);
 			})
 		});
-}
-
-function themeDeleter(tabName, themeDeleteString) {
-	var frameName = "#frame-" + tabName;
-	if (validURL(themeDeleteString)) {
-		themeDeleterHelper(frameName, tabName, themeDeleteString, true);
-	} else {
-		themeDeleterHelper(frameName, tabName, themeDeleteString, false);
-	}
 }
