@@ -35,7 +35,7 @@ function urlPatternValid(str) {
 function themeDeleter(tabName, themeDeleteString) {
 	var frameName = "#frame-" + tabName;
 	elementReady(frameName).then(
-		(loadJS) => {
+		(loadCSS) => {
 			// Make sure that the bg removal will apply through iframe reload
 			$(frameName).on("load", function() { // Frame has been fully loaded and the theme can be removed
 				// If the input was a URL, remove theme.

@@ -42,7 +42,7 @@ function urlPatternValid(str) {
 // Sets the theme to connect to a tab
 function installOrganizrTabTheme(frameName, tabName, theme) {
 	elementReady(frameName).then(
-		(loadJS) => {
+		(loadCSS) => {
 			// Make sure that the styling will apply through iframe reload
 			$(frameName).on("load", function() {
 				// Frame has been fully loaded and the theme can be applied
