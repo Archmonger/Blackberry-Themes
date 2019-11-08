@@ -1,3 +1,4 @@
+// Special thanks to jwilson8767 on Github for this function.
 function elementReady(selector) {
 	return new Promise((resolve, reject) => {
 		let el = document.querySelector(selector);
