@@ -1,3 +1,4 @@
+// Entry Point
 function themeReplacer(tabName, themeInstallString, themeRemoveString) {
 	$.getScript('https://archmonger.github.io/Blackberry-Themes/Extras/theme_deleter.js', function() {
 		// First variable: Organizr tab name (case sensitive). Second variable: CSS file link or file name.
