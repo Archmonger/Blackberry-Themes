@@ -79,6 +79,7 @@ function themeparkUrlGenerator(frameName, tabName, themeQuery) {
 	}
 }
 
+// Entry Point
 function themeInstaller(tabName, themeInstallString) {
 	var frameName = "#frame-" + tabName;
 	// If a string inputted is a URL, install it
@@ -87,7 +88,7 @@ function themeInstaller(tabName, themeInstallString) {
 	}
 	// If the URL is 404, let the user know.
 	else if (urlPatternValid(themeInstallString) && !urlExists(themeInstallString)) {
-		console.log('The URL "' + themeInstallString + '" does not exist.');
+		console.log('The URL "' + themeInstallString + '" resulted in 404 (does not exist).');
 	}
 	// Not a URL: Check if it exists as a known theme pack
 	else {
