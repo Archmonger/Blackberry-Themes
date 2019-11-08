@@ -61,7 +61,7 @@ function installOrganizrTabTheme(frameName, tabName, theme) {
 // Generates the URL for Blackberry themes
 function blackberryUrlGenerator(frameName, tabName, themeQuery) {
 	var cssFile = themeQuery.slice(2, themeQuery.length).join("_");
-	var blackberryUrl = "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-" + themeQuery[1].charAt(0).toUpperCase() + themeQuery[1].substring(1).toLowerCase() + "/" + cssFile + ".css";
+	var blackberryUrl = "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-" + themeQuery[1].charAt(0).toUpperCase() + themeQuery[1].substring(1).toLowerCase() + "/" + cssFile.toLowerCase() + ".css";
 	if (urlPatternValid(blackberryUrl) && urlExists(blackberryUrl)) {
 		installOrganizrTabTheme(frameName, tabName, blackberryUrl);
 	} else {
