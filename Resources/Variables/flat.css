@@ -2,11 +2,11 @@
 :root {
   --bg-light: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") center center/cover no-repeat fixed;
   --bg-dark: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-dark.png") center center/cover no-repeat fixed;
-  --sidenav-bg: transparent;
-  --sidenav-layer-2-bg: rgba(0, 0, 0, 0.2);
+  --sidenav-bg: rgba(0, 0, 0, 0.2);
+  --sidenav-layer-2-bg: transparent;
   --sidenav-backdrop-filter: blur(30px);
   --sidenav-bg-fallback: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") center center/cover no-repeat fixed;
-  --sidenav-layer-2-bg-fallback: rgba(0, 0, 0, 0.2);
+  --sidenav-layer-2-bg-fallback: transparent;
   --color-focused: #f9be03;
   --color-hyperlink: #cc7b19;
   --color-danger: #ac3323;
