@@ -29,10 +29,13 @@ i.ti-search {
   display: none;
 }
 /* Remove Unneeded Sidebar Buttons */
-li#github {
+li#menu-GitHub-Repo {
   display: none;
 }
 li#menu-Organizr-Support {
+  display: none;
+}
+li#menu-Organizr-Docs {
   display: none;
 }
 .sidebar-nav .devider, .sidebar-nav #sign-out {
