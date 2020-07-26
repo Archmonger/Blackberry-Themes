@@ -65,6 +65,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [Can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#can-i-make-my-own-bbf-icons-for-organizr)<br/>
 [My subfilter is set up exactly as shown, but themes are not working!](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-subfilter-is-set-up-exactly-as-shown-but-themes-are-not-working)<br/>
 [My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
+[Does the Theme Installer work on LAN (without a reverse proxy)?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#does-the-theme-installer-work-on-lan-without-a-reverse-proxy)<br/>
 
 ### Feathub Requests
 [![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)
