@@ -116,3 +116,25 @@ div[class*="fc"] .text-primary {
     filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
   }
 }
+/* Full screen sidenav on mobile */
+@media (max-width: 768px){
+  .show-sidebar .sidebar {
+      width: 100%;
+  }
+  .show-sidebar .sidebar .sidebar-head {
+      width: 100%;
+  }
+  #side-menu li a {
+      width: 100%;
+      font-size: 17px;
+      padding: 10px 35px 10px 15px;
+  }
+   #side-menu li a>span {
+      height: 100%;
+      margin-left: 10px;
+      text-shadow: 0px 0px 5px #000000;
+  }
+}
+.dark-logo-side{
+  display: none;
+}
