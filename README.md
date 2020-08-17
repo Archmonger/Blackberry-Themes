@@ -60,6 +60,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [How do I use Blackberry Themes?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#how-do-i-use-blackberry-themes)<br/>
 [Where are the screenshots?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-are-the-screenshots)<br/>
 [What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-is-in-organizr)<br/>
+[What is "Minimal Edition"?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-is-minimal-edition)<br/>
 [What does Blackberry Flat Plex do?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-does-blackberry-flat-plex-do)<br/>
 [Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-can-i-make-theme-and-icon-requests)<br/>
 [Can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#can-i-make-my-own-bbf-icons-for-organizr)<br/>
