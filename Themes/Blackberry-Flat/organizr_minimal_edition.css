@@ -112,8 +112,8 @@ div[class*="fc"] .text-primary {
   }
   #side-menu li a.active, #side-menu li a:active {
     background: transparent;
-    -webkit-filter: drop-shadow(5px 5px 5px #FFF);
-    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
+    -webkit-filter: drop-shadow(0px 0px 5px var(--sidenav-btn-glow));
+    filter: drop-shadow(0px 0px 5px var(--sidenav-btn-glow));
   }
 }
 /* Full screen sidenav on mobile */

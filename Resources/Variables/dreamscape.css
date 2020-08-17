@@ -7,4 +7,5 @@
   --sidenav-layer-2-bg: transparent;
   --sidenav-bg-fallback: linear-gradient(180deg, rgb(17, 12, 15), rgb(33, 13, 22), rgb(41, 18, 23), rgb(29, 18, 20), rgb(11, 8, 8));
   --sidenav-layer-2-bg-fallback: transparent;
+  --sidenav-btn-glow: rgb(166, 40, 90);
 }

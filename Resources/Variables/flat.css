@@ -7,6 +7,7 @@
   --sidenav-backdrop-filter: blur(30px);
   --sidenav-bg-fallback: url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-noise.png") center center fixed, url("https://archmonger.github.io/Blackberry-Themes/Resources/blur-light.png") center center/cover no-repeat fixed;
   --sidenav-layer-2-bg-fallback: transparent;
+  --sidenav-btn-glow: rgba(255, 255, 255, 0.3);
   --color-focused: #f9be03;
   --color-hyperlink: #cc7b19;
   --color-danger: #ac3323;
