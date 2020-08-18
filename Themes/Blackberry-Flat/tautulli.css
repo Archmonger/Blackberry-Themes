@@ -77,6 +77,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 .fa.fa-search:hover, .input-group:focus-within .fa.fa-search {
   color: #FFF;
 }
+@media (max-width: 767px) {
+    #navbar-collapse-1 {
+        background: #191a1c;
+        margin-left: -25px;
+    }
+}
 /* Homepage */
 .btn-dark {
   background: hsla(0, 0%, 100%, .25);
