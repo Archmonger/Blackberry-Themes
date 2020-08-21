@@ -2,10 +2,10 @@
 @media screen and (min-width: 768px) {
   div#page-wrapper {
     margin-top: 0 !important;
-    height: 100%;
+    height: 100% !important;
   }
   .iframe, .chat-main-box {
-    height: 100vh;
+    height: 100vh !important;
   }
   .chat-list, .chatonline {
     height: calc(100vh - 90px) !important;
