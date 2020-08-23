@@ -42,16 +42,16 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 | Blackberry Carol _(Minimal Edition)_ | Suggest new themes on [Discord](https://discord.gg/sfjkDaM)! |
 
 ## More Information
-### Supported Web Services
+### Supported Themes
 - Organizr
 - Plex
-- Ombi
+- Ombi (v3)
 - Synclounge
 - Tautulli
 - Jackett
 - Filebrowser
 - Deluge
-- Sonarr
+- Sonarr (v2)
 - Radarr
 - NZBHydra
 - QBittorrent
