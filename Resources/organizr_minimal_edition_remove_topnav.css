@@ -4,7 +4,9 @@
     margin-top: 0 !important;
     height: 100% !important;
   }
-  .iframe, .chat-main-box {
+  .simplebar-content>div[class*="listing"]>div>iframe,
+  #page-wrapper>div[class*="listing"]>.frame-container>.iframe,
+  #container-plugin-chat>.chat-main-box {
     height: 100vh !important;
   }
   .chat-list, .chatonline {
