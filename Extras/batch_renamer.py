@@ -7,10 +7,7 @@ def replacer(find_str, new_str, location):
     for file_name in os.listdir(location):
         if file_name.find(find_str) != -1:
             new_file_name = file_name.replace(find_str, new_str)
-            src = location + file_name
-            dst = location + new_file_name
-            print(src)
-            print(dst)
+            print(f"Renaming {file_name} to {new_file_name}")
             os.chdir(location)
             os.rename(file_name, new_file_name)
 
