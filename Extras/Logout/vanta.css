@@ -1,23 +1,30 @@
 /* Created by Blackberry Themes */
+
+
 /* Stylizes the logout button on the sidebar */
+
 .sidebar-nav .nav li a .fa-sign-out:before {
-  display: block !important;
-  content: url("https://archmonger.github.io/Blackberry-Themes/Resources/transparent.png");
-  background-image: url("https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Vanta/Icons/signout.png");
-  font-size: larger;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center, center center;
-  -webkit-background-size: contain;
-  -o-background-size: contain;
-  -moz-background-size: contain;
+    display: block !important;
+    content: url("https://archmonger.github.io/Blackberry-Themes/Resources/transparent.png");
+    background-image: url("https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Vanta/Icons/signout.png");
+    font-size: larger;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center, center center;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
 }
+
 .sidebar-nav .nav li a .fa-sign-out {
-  margin-right: 3px;
+    margin-right: 3px;
 }
-.sidebar-nav .nav .devider, .sidebar-nav .nav #sign-out {
-  display: block !important;
+
+.sidebar-nav .nav .devider,
+.sidebar-nav .nav #sign-out {
+    display: block !important;
 }
+
 #side-menu .dropdown-menu li:last-child {
-  display: none;
+    display: none;
 }

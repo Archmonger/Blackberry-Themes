@@ -1,22 +1,30 @@
 /* Created by Blackberry Themes */
+
 @import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/deluge.css";
+
 /* In Organizr customizations start here */
+
 #tbar-deluge-text {
-  display: none !important;
+    display: none !important;
 }
+
 .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
-  padding-left: 14px;
+    padding-left: 14px;
 }
+
 @media only screen and (min-width: 768px) {
-  .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
-  }
-  .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
-    height: 45px;
-  }
+    .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+    }
+    .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
+        height: 45px;
+    }
 }
+
+
 /* Hide BG */
+
 body {
-  background: transparent;
+    background: transparent;
 }

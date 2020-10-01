@@ -1,10 +1,11 @@
 /* Created by Blackberry Themes */
+
 :root {
-  --bg-light: radial-gradient(at top left, rgba(0, 0, 0, 0.31), hsla(0, 14%, 18%, 0.9), hsla(0, 18%, 5%, 1)), linear-gradient(120deg, #f6d365 0%, #a25a25 100%);
-  --bg-dark: var(--bg-light);
-  --navbar-color: rgba(0, 0, 0, 0.2);
-  --sidenav-bg: rgba(0, 0, 0, 0.2);
-  --sidenav-layer-2-bg: transparent;
-  --sidenav-bg-fallback: linear-gradient(180deg, rgb(141, 121, 59), rgb(96, 78, 46), rgb(58, 45, 35), rgb(39, 30, 26));
-  --sidenav-layer-2-bg-fallback: transparent;
+    --bg-light: radial-gradient(at top left, rgba(0, 0, 0, 0.31), hsla(0, 14%, 18%, 0.9), hsla(0, 18%, 5%, 1)), linear-gradient(120deg, #f6d365 0%, #a25a25 100%);
+    --bg-dark: var(--bg-light);
+    --navbar-color: rgba(0, 0, 0, 0.2);
+    --sidenav-bg: rgba(0, 0, 0, 0.2);
+    --sidenav-layer-2-bg: transparent;
+    --sidenav-bg-fallback: linear-gradient(180deg, rgb(141, 121, 59), rgb(96, 78, 46), rgb(58, 45, 35), rgb(39, 30, 26));
+    --sidenav-layer-2-bg-fallback: transparent;
 }

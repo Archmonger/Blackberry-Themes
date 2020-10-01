@@ -1,126 +1,166 @@
 /* Created by Blackberry Themes */
+
 @import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat/synclounge.css";
+
 /* In Organizr customizations start here */
+
 button.v-btn.theme--dark.primary {
-  margin-right: 20px;
+    margin-right: 20px;
 }
+
 .v-navigation-drawer>.container>.layout.row.wrap>.flex.xs12:nth-of-type(2) {
-  height: 45vh !important;
+    height: 45vh !important;
 }
+
 .v-navigation-drawer {
-  margin-top: 45px !important;
+    margin-top: 45px !important;
 }
+
 .v-toolbar {
-  padding-right: 0px !important;
+    padding-right: 0px !important;
 }
+
 img.ma-1 {
-  display: none;
+    display: none;
 }
+
 .flex.xs12.md8.lg4.xl6 {
-  display: none;
+    display: none;
 }
+
 .v-toolbar__content,
 .v-toolbar__extension {
-  padding-left: 19px !important;
+    padding-left: 19px !important;
 }
+
 .v-icon.v-icon.v-icon--link {
-  padding-left: 0px;
+    padding-left: 0px;
 }
+
 button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons {
-  visibility: hidden;
+    visibility: hidden;
 }
+
 button.v-toolbar__side-icon.v-btn.v-btn--icon i.v-icon.material-icons::before {
-  content: "settings";
-  visibility: visible;
-  transform: translateX(12px);
+    content: "settings";
+    visibility: visible;
+    transform: translateX(12px);
 }
+
 @media only screen and (max-width: 768px) {
-  .v-toolbar__content {
-    height: 40px !important;
-  }
-  .v-navigation-drawer .layout.row.wrap .flex.xs12:nth-of-type(2) {
-    height: 44vh !important;
-  }
+    .v-toolbar__content {
+        height: 40px !important;
+    }
+    .v-navigation-drawer .layout.row.wrap .flex.xs12:nth-of-type(2) {
+        height: 44vh !important;
+    }
 }
+
 .v-toolbar {
-  box-shadow: none !important;
+    box-shadow: none !important;
 }
+
 @media only screen and (min-width: 768px) {
-  .v-toolbar__content,
-  .v-toolbar__extension {
-    height: 45px !important;
-  }
-  .v-content {
-    padding-top: 45px !important;
-  }
-  .ptplayer .video-js {
-    height: calc(100vh - 45px);
-  }
+    .v-toolbar__content,
+    .v-toolbar__extension {
+        height: 45px !important;
+    }
+    .v-content {
+        padding-top: 45px !important;
+    }
+    .ptplayer .video-js {
+        height: calc(100vh - 45px);
+    }
 }
+
 .v-toolbar__content button .v-btn__content {
-  background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
 }
+
 main {
-  background: var(--bg-light) !important;
-  background-repeat: repeat, no-repeat !important;
-  background-attachment: fixed, fixed !important;
-  background-position: center center, center center !important;
-  background-size: auto, cover !important;
-  -webkit-background-size: auto, cover !important;
-  -moz-background-size: auto, cover !important;
-  -o-background-size: auto, cover !important;
+    background: var(--bg-light) !important;
+    background-repeat: repeat, no-repeat !important;
+    background-attachment: fixed, fixed !important;
+    background-position: center center, center center !important;
+    background-size: auto, cover !important;
+    -webkit-background-size: auto, cover !important;
+    -moz-background-size: auto, cover !important;
+    -o-background-size: auto, cover !important;
 }
+
 .container {
-  background: rgba(0, 0, 0, 0) !important;
+    background: rgba(0, 0, 0, 0) !important;
 }
+
+
 /* Hide BG */
+
 main {
-  background: transparent !important;
+    background: transparent !important;
 }
+
 .application.theme--dark {
-  background: transparent;
+    background: transparent;
 }
+
+
 /* Static navbar */
-.application .theme--dark.v-toolbar, .theme--dark .v-toolbar {
-  transform: none !important;
+
+.application .theme--dark.v-toolbar,
+.theme--dark .v-toolbar {
+    transform: none !important;
 }
+
+
 /* Static page */
+
 main.v-content {
-  position: fixed;
-  width: 100%;
+    position: fixed;
+    width: 100%;
 }
+
 .v-content__wrap {
-  position: absolute;
-  overflow-y: scroll;
-  height: 100%;
-  width: calc(100% - 300px);
+    position: absolute;
+    overflow-y: scroll;
+    height: 100%;
+    width: calc(100% - 300px);
 }
+
 .v-navigation-drawer {
-  overflow: hidden;
+    overflow: hidden;
 }
+
+
 /* Fix mobile view */
+
 @media only screen and (max-width: 768px) {
-  .v-content__wrap {
-    width: calc(100%);
-  }
-  .v-content {
-    padding-top: 40px !important;
-  }
+    .v-content__wrap {
+        width: calc(100%);
+    }
+    .v-content {
+        padding-top: 40px !important;
+    }
 }
+
+
 /* Scroll Bars */
+
 ::-webkit-scrollbar {
-  width: 15px;
+    width: 15px;
 }
+
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, .0);
+    background: rgba(0, 0, 0, .0);
 }
+
 ::-webkit-scrollbar-thumb {
-  min-height: 50px;
-  background: rgba(255, 255, 255, .15);
-  border: 3px solid transparent;
-  border-radius: 8px;
-  background-clip: padding-box;
+    min-height: 50px;
+    background: rgba(255, 255, 255, .15);
+    border: 3px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;
 }
+
 ::-webkit-scrollbar-corner {
-  background: transparent;
+    background: transparent;
 }

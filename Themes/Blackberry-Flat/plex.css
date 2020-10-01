@@ -1,10 +1,14 @@
 /* Created by Blackberry Themes */
+
 @import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat.css";
 @import "https://archmonger.github.io/Improved-Plex-Mobile/plex_mobile.css";
 div[class*="NavBar-container-"] {
-  background: var(--navbar-color) !important;
+    background: var(--navbar-color) !important;
 }
+
+
 /* Set BG image */
+
 .background-container div[class*="FullPage-container-"] div div {
-  background: var(--bg-light) !important;
+    background: var(--bg-light) !important;
 }

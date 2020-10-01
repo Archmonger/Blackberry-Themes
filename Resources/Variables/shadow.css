@@ -1,10 +1,11 @@
 /* Created by Blackberry Themes */
+
 :root {
-  --bg-light: linear-gradient(135deg, #252b2f, #090c0e);
-  --bg-dark: var(--bg-light);
-  --navbar-color: linear-gradient(90deg, #121719, rgba(18, 23, 25, 0.5), rgba(0, 0, 0, 0));
-  --sidenav-bg: linear-gradient(180deg, #121719, #121719, rgba(18, 23, 25, 0.75), rgba(18, 23, 25, 0.25), rgba(18, 23, 25, 0.15), rgba(0, 0, 0, 0.0));
-  --sidenav-layer-2-bg: transparent;
-  --sidenav-bg-fallback: linear-gradient(180deg, rgba(18, 23, 25, 1), rgb(22, 28, 29), rgb(27, 33, 36), rgb(26, 33, 35), rgb(30, 35, 39));
-  --sidenav-layer-2-bg-fallback: transparent;
+    --bg-light: linear-gradient(135deg, #252b2f, #090c0e);
+    --bg-dark: var(--bg-light);
+    --navbar-color: linear-gradient(90deg, #121719, rgba(18, 23, 25, 0.5), rgba(0, 0, 0, 0));
+    --sidenav-bg: linear-gradient(180deg, #121719, #121719, rgba(18, 23, 25, 0.75), rgba(18, 23, 25, 0.25), rgba(18, 23, 25, 0.15), rgba(0, 0, 0, 0.0));
+    --sidenav-layer-2-bg: transparent;
+    --sidenav-bg-fallback: linear-gradient(180deg, rgba(18, 23, 25, 1), rgb(22, 28, 29), rgb(27, 33, 36), rgb(26, 33, 35), rgb(30, 35, 39));
+    --sidenav-layer-2-bg-fallback: transparent;
 }

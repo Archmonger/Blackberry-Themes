@@ -1,166 +1,216 @@
 /* Created by Blackberry Themes */
+
 @import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat.css";
+
 /* Base Layer */
+
 body {
-  background: var(--bg-light);
-  background-repeat: repeat, no-repeat;
-  background-attachment: fixed, fixed;
-  background-position: center center, center center;
-  background-size: auto, cover;
-  -webkit-background-size: auto, cover;
-  -moz-background-size: auto, cover;
-  -o-background-size: auto, cover;
-  min-height: 100%;
-  height: auto;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 11px;
-  font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: var(--bg-light);
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: center center, center center;
+    background-size: auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    min-height: 100%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 11px;
+    font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
 #page {
-  background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.15);
 }
+
 @media only screen and (max-width: 768px) {
-  #page {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
+    #page {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
+
+
 /* Header */
+
 .input-header {
-  font-size: 13px;
+    font-size: 13px;
 }
+
+
 /* Footer */
+
 #footer {
-  color: #FFF;
+    color: #FFF;
 }
+
+
 /* Text  */
+
 .h4,
 h4 {
-  font-size: 12px;
+    font-size: 12px;
 }
+
+
 /* Table */
+
 table.dataTable.stripe tbody tr.odd,
 table.dataTable.display tbody tr.odd {
-  background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
+
 table.dataTable.hover tbody tr:hover,
 table.dataTable.display tbody tr:hover {
-  background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05);
 }
+
 table.dataTable tbody tr {
-  background: rgba(0, 0, 0, 0.1);
-  font-size: 12px;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 12px;
 }
+
 .configured-indexer-row even {
-  border-radius: 14px !important;
+    border-radius: 14px !important;
 }
+
 table.dataTable.cell-border tbody th,
 table.dataTable.cell-border tbody td {
-  border: none !important;
+    border: none !important;
 }
+
 a {
-  color: rgba(255, 255, 255, 0.7);
-  font-family: Open Sans Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
-  transition: color ease 0.25s;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Open Sans Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    transition: color ease 0.25s;
 }
+
 a:focus,
 a:hover {
-  color: #FFF;
-  text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
 }
+
 thead {
-  background: rgba(255, 255, 255, 0.07);
-  font-size: 15px;
+    background: rgba(255, 255, 255, 0.07);
+    font-size: 15px;
 }
-table.dataTable thead th, table.dataTable thead td {
-  border: none;
+
+table.dataTable thead th,
+table.dataTable thead td {
+    border: none;
 }
+
 table.dataTable.compact tbody th,
 table.dataTable.compact tbody td {
-  padding-left: 15px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
+
 .table-responsive {
-  border: none;
+    border: none;
 }
+
+
 /* Table header and footer */
+
 button,
 input,
 select,
 textarea {
-  color: #000;
+    color: #000;
 }
+
 .dataTables_wrapper .dataTables_length,
 .dataTables_wrapper .dataTables_filter,
 .dataTables_wrapper .dataTables_info,
 .dataTables_wrapper .dataTables_processing,
 .dataTables_wrapper .dataTables_paginate {
-  color: rgba(255, 255, 255, 0.45);
+    color: rgba(255, 255, 255, 0.45);
 }
+
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
-  color: rgba(255, 255, 255, 0.45) !important;
+    color: rgba(255, 255, 255, 0.45) !important;
 }
+
 .dataTables_wrapper .dataTables_paginate .paginate_button {
-  color: rgba(255, 255, 255, 0.7) !important;
-  border: none;
+    color: rgba(255, 255, 255, 0.7) !important;
+    border: none;
 }
+
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
-  background: rgba(255, 255, 255, 0.08) !important;
-  background: none;
-  border: none;
-  color: #FFF !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    background: none;
+    border: none;
+    color: #FFF !important;
 }
+
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-  background: rgba(255, 255, 255, 0.15) !important;
-  background: none;
-  border: none;
-  color: #FFF !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+    background: none;
+    border: none;
+    color: #FFF !important;
 }
+
 tr td .btn-success {
-  margin-left: 10px;
+    margin-left: 10px;
 }
+
 tr td span[class*="label-"] {
-  margin-left: 5px;
+    margin-left: 5px;
 }
+
 tr td .btn-warning {
-  margin-left: 10px;
-  margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+
 /* Buttons and labels */
+
 .test-success {
-  color: #FFF;
+    color: #FFF;
 }
+
 .test-error {
-  color: rgb(249, 190, 3);
+    color: rgb(249, 190, 3);
 }
+
 .label-success {
-  background: rgba(92, 182, 92, 0.35);
+    background: rgba(92, 182, 92, 0.35);
 }
+
 .label-danger {
-  background: rgba(217, 83, 79, 0.4);
+    background: rgba(217, 83, 79, 0.4);
 }
+
 .label-warning {
-  background: rgba(249, 190, 3, 0.4);
+    background: rgba(249, 190, 3, 0.4);
 }
+
 .btn-info {
-  background: rgba(0, 0, 0, 0);
-  border: none;
-  padding: 5px;
-  color: rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.7);
 }
+
 .btn {
-  transition: all ease 0.25s;
+    transition: all ease 0.25s;
 }
+
 .btn-info:hover {
-  background: transparent;
-  color: #FFF;
+    background: transparent;
+    color: #FFF;
 }
+
 .btn-info.disabled,
 .btn-info.disabled.active,
 .btn-info.disabled.focus,
@@ -179,119 +229,180 @@ fieldset[disabled] .btn-info.focus,
 fieldset[disabled] .btn-info:active,
 fieldset[disabled] .btn-info:focus,
 fieldset[disabled] .btn-info:hover {
-  background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.25);
 }
+
 .btn-success {
-  padding: 4px 10px;
-  color: rgba(255, 255, 255, 0.7);
-  background: rgba(0, 0, 0, 0);
-  border-color: rgba(0, 0, 0, 0);
+    padding: 4px 10px;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
 }
-.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
-  background: transparent;
-  color: #FFF;
-  border-color: rgba(0, 0, 0, 0);
+
+.btn-success.active,
+.btn-success.focus,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:hover,
+.open>.dropdown-toggle.btn-success {
+    background: transparent;
+    color: #FFF;
+    border-color: rgba(0, 0, 0, 0);
 }
+
 .btn-primary {
-  padding: 4px 10px;
-  color: rgba(255, 255, 255, 0.7);
-  background: rgba(0, 0, 0, 0);
-  border-color: rgba(0, 0, 0, 0);
+    padding: 4px 10px;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
 }
-.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
-  background: transparent;
-  color: #FFF;
-  border-color: rgba(0, 0, 0, 0);
+
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open>.dropdown-toggle.btn-primary {
+    background: transparent;
+    color: #FFF;
+    border-color: rgba(0, 0, 0, 0);
 }
+
 .btn-danger {
-  padding: 4px 10px;
-  color: rgba(255, 255, 255, 0.7);
-  background: rgba(245, 10, 10, 0);
-  border-color: rgba(245, 10, 10, 0);
+    padding: 4px 10px;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(245, 10, 10, 0);
+    border-color: rgba(245, 10, 10, 0);
 }
-.btn-danger.active, .btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open>.dropdown-toggle.btn-danger {
-  background: transparent;
-  color: rgb(255, 0, 0);
-  border-color: rgba(0, 0, 0, 0);
+
+.btn-danger.active,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger:hover,
+.open>.dropdown-toggle.btn-danger {
+    background: transparent;
+    color: rgb(255, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
 }
+
 .btn-warning {
-  background: rgba(204, 123, 25, 1);
-  border-color: rgba(204, 123, 25, 1);
+    background: rgba(204, 123, 25, 1);
+    border-color: rgba(204, 123, 25, 1);
 }
+
 .btn-warning:hover {
-  background: rgb(236, 151, 31);
-  border-color: rgb(206, 153, 89);
+    background: rgb(236, 151, 31);
+    border-color: rgb(206, 153, 89);
 }
+
 .indexer-button-test {
-  background: transparent;
-  border-color: transparent;
-  color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+    border-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
 }
-.indexer-button-test.active, .indexer-button-test.focus, .indexer-button-test:active, .indexer-button-test:focus, .indexer-button-test:hover, .open>.dropdown-toggle.indexer-button-test {
-  background: transparent;
-  border-color: transparent;
-  color: #FFF;
+
+.indexer-button-test.active,
+.indexer-button-test.focus,
+.indexer-button-test:active,
+.indexer-button-test:focus,
+.indexer-button-test:hover,
+.open>.dropdown-toggle.indexer-button-test {
+    background: transparent;
+    border-color: transparent;
+    color: #FFF;
 }
+
 .btn-default {
-  padding: 4px 10px;
-  background: transparent;
-  border-color: rgba(0, 0, 0, 0);
-  color: rgba(255, 255, 255, 0.7);
+    padding: 4px 10px;
+    background: transparent;
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.7);
 }
-.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
-  background: transparent;
-  border-color: rgba(0, 0, 0, 0);
-  color: #FFF;
+
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover,
+.open>.dropdown-toggle.btn-default {
+    background: transparent;
+    border-color: rgba(0, 0, 0, 0);
+    color: #FFF;
 }
+
 .close {
-  color: #FFF;
+    color: #FFF;
 }
+
 .close:hover {
-  color: #FFF;
+    color: #FFF;
 }
+
+
 /* Add Indexer and Manual Search */
+
 .modal-content {
-  background: #282828;
+    background: #282828;
 }
+
 .modal-header {
-  border-bottom: none;
-  background: #323232;
+    border-bottom: none;
+    background: #323232;
 }
+
 .modal-footer {
-  border-top: none;
-  background: #323232;
+    border-top: none;
+    background: #323232;
 }
+
 .alert-info {
-  background: rgba(204, 123, 25, 1);
-  border: none;
-  color: #FFF;
-  margin-top: 15px;
-  margin-bottom: 0px;
+    background: rgba(204, 123, 25, 1);
+    border: none;
+    color: #FFF;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
+
+
 /* Jackett Logs */
+
 pre {
-  color: #FFF;
+    color: #FFF;
 }
+
 .jackettlogInfo td {
-  max-width: 100px;
+    max-width: 100px;
 }
+
+
 /* Fix Overly Large and Unclosable Notifications */
+
 .alert-danger {
-  color: #FFF;
-  background: #a94442;
-  border-color: #ebccd1;
-  max-height: 300px;
-  overflow-y: auto;
+    color: #FFF;
+    background: #a94442;
+    border-color: #ebccd1;
+    max-height: 300px;
+    overflow-y: auto;
 }
+
+
 /* Add Word Wrapping to Error Notifications */
+
 .alert-danger span[data-notify="message"] {
-  word-wrap: break-word;
+    word-wrap: break-word;
 }
+
+
 /* Remove HR from homepage */
+
 #page>hr {
-  display: none;
+    display: none;
 }
+
+
 /* Proxy Warning */
+
 #proxy-warning {
-  color: rgba(255, 255, 255, 0.45);
+    color: rgba(255, 255, 255, 0.45);
 }

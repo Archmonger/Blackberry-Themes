@@ -1,248 +1,312 @@
 /* Created by Blackberry Themes */
+
 @import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat.css";
 .message {
-  color: #FFF;
+    color: #FFF;
 }
+
 .dashboard p label {
-  color: #FFF;
+    color: #FFF;
 }
+
 #loading {
-  background: var(--bg-light);
-  background-repeat: repeat, no-repeat;
-  background-attachment: fixed, fixed;
-  background-position: center center, center center;
-  background-size: auto, cover;
-  -webkit-background-size: auto, cover;
-  -moz-background-size: auto, cover;
-  -o-background-size: auto, cover;
-  min-height: 100%;
-  height: 100%;
+    background: var(--bg-light);
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: center center, center center;
+    background-size: auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    min-height: 100%;
+    height: 100%;
 }
+
 #loading .spinner * {
-  background: #FFF !important;
+    background: #FFF !important;
 }
+
 #login {
-  background: var(--bg-light);
-  background-repeat: repeat, no-repeat;
-  background-attachment: fixed, fixed;
-  background-position: center center, center center;
-  background-size: auto, cover;
-  -webkit-background-size: auto, cover;
-  -moz-background-size: auto, cover;
-  -o-background-size: auto, cover;
-  min-height: 100%;
-  height: auto;
+    background: var(--bg-light);
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: center center, center center;
+    background-size: auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    min-height: 100%;
+    height: auto;
 }
+
 body {
-  color: #FFFFFF;
-  font-family: Open Sans Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-family: Open Sans Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-#login>form>input[type=password], #login>form>input[type=text] {
-  color: white;
-  background: hsla(0, 0%, 100%, .25);
-  border-radius: 4px;
-  border: none;
-  transition: all ease 0.25s;
+
+#login>form>input[type=password],
+#login>form>input[type=text] {
+    color: white;
+    background: hsla(0, 0%, 100%, .25);
+    border-radius: 4px;
+    border: none;
+    transition: all ease 0.25s;
 }
-#login>form>input[type=password]:focus, #login>form>input[type=text]:focus {
-  background: #FFF;
-  color: rgba(85, 85, 85);
+
+#login>form>input[type=password]:focus,
+#login>form>input[type=text]:focus {
+    background: #FFF;
+    color: rgba(85, 85, 85);
 }
-button, input[type=submit] {
-  background: #cc7b19;
-  color: hsla(0, 0%, 100%, .7);
-  transition: 0.2s;
+
+button,
+input[type=submit] {
+    background: #cc7b19;
+    color: hsla(0, 0%, 100%, .7);
+    transition: 0.2s;
 }
-button:hover, input[type=submit]:hover {
-  background: #cc7b19;
-  color: #FFF;
+
+button:hover,
+input[type=submit]:hover {
+    background: #cc7b19;
+    color: #FFF;
 }
+
 html {
-  background: var(--bg-light);
-  background-repeat: repeat, no-repeat;
-  background-attachment: fixed, fixed;
-  background-position: center center, center center;
-  background-size: auto, cover;
-  -webkit-background-size: auto, cover;
-  -moz-background-size: auto, cover;
-  -o-background-size: auto, cover;
-  min-height: 100%;
-  height: auto;
+    background: var(--bg-light);
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: center center, center center;
+    background-size: auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    min-height: 100%;
+    height: auto;
 }
+
 body {
-  background: rgba(0, 0, 0, .0);
+    background: rgba(0, 0, 0, .0);
 }
+
 nav {
-  background: rgba(0, 0, 0, .15);
-  height: 100%;
-  top: 60px;
-  width: 240px;
+    background: rgba(0, 0, 0, .15);
+    height: 100%;
+    top: 60px;
+    width: 240px;
 }
+
 nav .action {
-  color: rgba(255, 255, 255, 0.737);
-  font-size: 13px;
-  font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  padding-top: 0px;
-  padding-bottom: 0px;
+    color: rgba(255, 255, 255, 0.737);
+    font-size: 13px;
+    font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
+
 nav .action:hover {
-  background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05);
 }
+
 nav>div {
-  border-top: none;
+    border-top: none;
 }
+
 header {
-  background: var(--navbar-color) !important;
-  height: 60px;
-  border: none;
-  box-shadow: none
+    background: var(--navbar-color) !important;
+    height: 60px;
+    border: none;
+    box-shadow: none
 }
+
 header>div:first-child {
-  height: 60px;
+    height: 60px;
 }
+
 body {
-  padding-top: 60px;
+    padding-top: 60px;
 }
+
 #search #input {
-  background: #f5f5f5;
-  display: flex;
-  padding: 10px;
+    background: #f5f5f5;
+    display: flex;
+    padding: 10px;
 }
+
 .action {
-  color: #FFF;
+    color: #FFF;
 }
+
 #listing.list .item {
-  background: rgba(0, 0, 0, .15);
-  color: rgb(238, 238, 238);
-  border: none;
+    background: rgba(0, 0, 0, .15);
+    color: rgb(238, 238, 238);
+    border: none;
 }
+
 #listing.list .item:hover {
-  background: rgba(255, 255, 255, 0.08);
-  color: rgb(238, 238, 238);
-  border: none;
-  transition: .4s;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgb(238, 238, 238);
+    border: none;
+    transition: .4s;
 }
+
 #listing.list .item.header {
-  background: transparent;
-  color: rgb(238, 238, 238);
-  border: none;
+    background: transparent;
+    color: rgb(238, 238, 238);
+    border: none;
 }
-.material-icons, .prompt .file-list ul li:before {
-  color: rgba(255, 255, 255, 0.85);
+
+.material-icons,
+.prompt .file-list ul li:before {
+    color: rgba(255, 255, 255, 0.85);
 }
+
 #listing .item[aria-selected=true] {
-  background: #cc7b19 !important;
+    background: #cc7b19 !important;
 }
+
 #listing h2 {
-  color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
 }
+
 #breadcrumbs span a {
-  color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
 }
+
 #listing .item {
-  background: rgba(0, 0, 0, .15);
-  color: rgb(238, 238, 238);
-  border: none;
+    background: rgba(0, 0, 0, .15);
+    color: rgb(238, 238, 238);
+    border: none;
 }
+
 #search #result {
-  background: var(--bg-dark);
-  background-repeat: repeat, no-repeat;
-  background-attachment: fixed, fixed;
-  background-position: center center, center center;
-  background-size: auto, cover;
-  -webkit-background-size: auto, cover;
-  -moz-background-size: auto, cover;
-  -o-background-size: auto, cover;
-  color: rgb(238, 238, 238);
+    background: var(--bg-dark);
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: center center, center center;
+    background-size: auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    color: rgb(238, 238, 238);
 }
+
 #search .boxes {
-  background: rgba(0, 0, 0, .15);
-  padding: 15px;
+    background: rgba(0, 0, 0, .15);
+    padding: 15px;
 }
+
 #search .boxes h3 {
-  color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
 }
+
 #search .boxes>div>div {
-  background: rgba(0, 0, 0, .10);
+    background: rgba(0, 0, 0, .10);
 }
+
 #search.active #input {
-  background: var(--navbar-color);
-  height: 60px;
-  color: white;
+    background: var(--navbar-color);
+    height: 60px;
+    color: white;
 }
-#search.active i, #search.active input {
-  color: rgba(255, 255, 255, 0.85);
+
+#search.active i,
+#search.active input {
+    color: rgba(255, 255, 255, 0.85);
 }
+
 #search #result>div>:first-child {
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 #search>#input>input {
-  font-weight: 700;
-  font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+    font-weight: 700;
+    font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
+
 .card {
-  background: rgba(0, 0, 0, .15);
+    background: rgba(0, 0, 0, .15);
 }
+
 .card h3 {
-  color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
 }
+
 select {
-  color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
 }
-input, textarea, select, button {
-  color: rgb(238, 238, 238);
+
+input,
+textarea,
+select,
+button {
+    color: rgb(238, 238, 238);
 }
+
 .collapsible>label * {
-  color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
 }
+
 a {
-  color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.85);
 }
+
 table th {
-  color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.85);
 }
+
 .card.floating {
-  background: rgb(22, 32, 39);
+    background: rgb(22, 32, 39);
 }
+
 #search #input {
-  background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.08);
 }
+
 #listing.mosaic .item {
-  box-shadow: none !important;
+    box-shadow: none !important;
 }
+
 #listing.mosaic .item:hover {
-  box-shadow: none !important;
-  background: rgba(255, 255, 255, 0.08);
+    box-shadow: none !important;
+    background: rgba(255, 255, 255, 0.08);
 }
+
 @media (max-width: 736px) {
-  nav {
-    background: black;
-  }
-  #dropdown.active {
-    background: black;
-  }
+    nav {
+        background: black;
+    }
+    #dropdown.active {
+        background: black;
+    }
 }
+
 @media (min-width: 1024px) {
-  main {
-    margin-left: 270px;
-  }
+    main {
+        margin-left: 270px;
+    }
 }
+
 @media (max-width: 1024px) {
-  nav {
-    width: 175px;
-  }
+    nav {
+        width: 175px;
+    }
 }
+
 #breadcrumbs {
-  border: none;
+    border: none;
 }
+
+
 /* Login Box Styling */
+
 #login>form {
-  background: rgba(0, 0, 0, 0.15);
-  padding: 25px;
-  padding-top: 30px;
-  padding-bottom: 22px;
-  box-sizing: content-box;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    padding-top: 30px;
+    padding-bottom: 22px;
+    box-sizing: content-box;
 }

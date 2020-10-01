@@ -1,96 +1,100 @@
 /* Created by Blackberry Themes */
+
 @media screen and (min-width: 768px) {
-  div#page-wrapper {
-    margin-top: 0 !important;
-    height: 100% !important;
-  }
-  .simplebar-content>div[class*="listing"]>div>iframe,
-  #page-wrapper>div[class*="listing"]>.frame-container>.iframe,
-  #container-plugin-chat>.chat-main-box {
-    height: 100vh !important;
-  }
-  .chat-list, .chatonline {
-    height: calc(100vh - 90px) !important;
-  }
-  .navbar {
-    display: none;
-  }
-  .profile-pic {
-    margin-bottom: 0px !important;
-    line-height: 30px;
-  }
-  #side-menu .dropdown {
-    height: auto;
-  }
-  .profile-pic>.profile-image {
-    margin-right: 0px;
-  }
-  .profile-pic>b, .profile-pic>.caret {
-    display: none;
-  }
-  #side-menu .u-img {
-    display: none;
-  }
-  #side-menu li>a>.pingTime {
-    display: none;
-  }
-  #side-menu li a {
-    width: 60px;
-  }
-  /* Have dropdown menu be inline */
-  #side-menu .dropdown .dropdown-menu {
-    position: relative;
-    top: 0px;
-    background: transparent !important;
-    box-shadow: none !important;
-    border: none;
-    display: block !important;
-    float: none;
-    height: auto;
-    max-height: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    overflow: hidden;
-    transition: max-height ease 1s;
-    width: 60px !important;
-    min-width: 60px !important;
-    margin-top: 10px;
-  }
-  #side-menu .dropdown.open .dropdown-menu {
-    max-height: 600px;
-  }
-  #side-menu .dropdown-menu .u-text {
-    display: none;
-  }
-  #side-menu .dropdown-menu a>span {
-    display: none;
-  }
-  #side-menu .dropdown-menu li>a {
-    box-sizing: border-box;
-    height: 45px;
-  }
-  /* Refresh Icon */
-  #side-menu .dropdown-menu .ti-reload {
-    font-size: 25px;
-    line-height: 25px;
-  }
-  #side-menu .dropdown-menu a.dropdown-toggle.waves-effect.waves-light.activez {
-    display: flex;
-    padding: 0px !important;
-    justify-content: center;
-    align-items: center;
-  }
-  /* Debug Icon */
-  .sidebar .mdi {
-    font-size: 30px;
-    line-height: 30px;
-  }
+    div#page-wrapper {
+        margin-top: 0 !important;
+        height: 100% !important;
+    }
+    .simplebar-content>div[class*="listing"]>div>iframe,
+    #page-wrapper>div[class*="listing"]>.frame-container>.iframe,
+    #container-plugin-chat>.chat-main-box {
+        height: 100vh !important;
+    }
+    .chat-list,
+    .chatonline {
+        height: calc(100vh - 90px) !important;
+    }
+    .navbar {
+        display: none;
+    }
+    .profile-pic {
+        margin-bottom: 0px !important;
+        line-height: 30px;
+    }
+    #side-menu .dropdown {
+        height: auto;
+    }
+    .profile-pic>.profile-image {
+        margin-right: 0px;
+    }
+    .profile-pic>b,
+    .profile-pic>.caret {
+        display: none;
+    }
+    #side-menu .u-img {
+        display: none;
+    }
+    #side-menu li>a>.pingTime {
+        display: none;
+    }
+    #side-menu li a {
+        width: 60px;
+    }
+    /* Have dropdown menu be inline */
+    #side-menu .dropdown .dropdown-menu {
+        position: relative;
+        top: 0px;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none;
+        display: block !important;
+        float: none;
+        height: auto;
+        max-height: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        overflow: hidden;
+        transition: max-height ease 1s;
+        width: 60px !important;
+        min-width: 60px !important;
+        margin-top: 10px;
+    }
+    #side-menu .dropdown.open .dropdown-menu {
+        max-height: 600px;
+    }
+    #side-menu .dropdown-menu .u-text {
+        display: none;
+    }
+    #side-menu .dropdown-menu a>span {
+        display: none;
+    }
+    #side-menu .dropdown-menu li>a {
+        box-sizing: border-box;
+        height: 45px;
+    }
+    /* Refresh Icon */
+    #side-menu .dropdown-menu .ti-reload {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #side-menu .dropdown-menu a.dropdown-toggle.waves-effect.waves-light.activez {
+        display: flex;
+        padding: 0px !important;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Debug Icon */
+    .sidebar .mdi {
+        font-size: 30px;
+        line-height: 30px;
+    }
 }
+
 @media screen and (max-width: 768px) {
-  #side-menu>.dropdown {
-    display: none;
-  }
-  .sidebar-nav>#side-menu>li:last-child {
-    display: none;
-  }
+    #side-menu>.dropdown {
+        display: none;
+    }
+    .sidebar-nav>#side-menu>li:last-child {
+        display: none;
+    }
 }
