@@ -781,3 +781,30 @@ ul.nav.navbar-nav.navbar-right li:first-child {
 .nav-tabs.nav-justified>li {
     display: inline-table;
 }
+
+
+/* Bottom buttons for TV posters */
+
+.col-md-1.col-md-push-9,
+.col-md-1.col-md-push-9>.ng-star-inserted {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+tv-requests .col-md-12 {
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* Top buttons for management page */
+
+.col-sm-3.col-sm-push-3.small-padding,
+.col-sm-3.col-sm-push-3.small-padding>.ng-star-inserted {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
