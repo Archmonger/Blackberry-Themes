@@ -9,11 +9,6 @@
     color: inherit;
 }
 
-.SeriesIndexPosterInfo\/info\/2JsCg {
-    background: hsla(0, 0%, 100%, .00);
-    color: #ffffff
-}
-
 .SeriesSearchInput\/wrapper\/1v_a3 {
     background: hsla(0, 0%, 100%, .08);
     height: 40px;
@@ -207,9 +202,10 @@ body {
     color: #FFF;
 }
 
+.SeriesIndexPosterInfo\/info\/2JsCg,
 .SeriesIndexPoster\/nextAiring\/1FZy6 {
     background: transparent;
-    color: hsla(0, 0%, 100%, .45);
+    color: #ffffff
 }
 
 .ProgressBar\/small\/NLk8f {
