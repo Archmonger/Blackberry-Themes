@@ -52,7 +52,7 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 - Filebrowser
 - Deluge
 - Sonarr (v2)
-- Radarr
+- Radarr (v1)
 - NZBHydra
 - QBittorrent
 
