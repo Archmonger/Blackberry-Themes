@@ -49,6 +49,10 @@ ul.nav.navbar-nav.donation {
     visibility: hidden !important;
 }
 
+#profile-img {
+    display: none;
+}
+
 
 /* Desktop Navbar Changes */
 
