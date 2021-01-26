@@ -5,187 +5,172 @@
 /* Remove backdrop filter on minimal edition, since the sidenav isn't expandable */
 
 @media only screen and (min-width: 768px) {
-     :root {
-        --sidenav-backdrop-filter: none;
-    }
+  :root {
+    --sidenav-backdrop-filter: none;
+  }
 }
 
-
 /* Minimal Edition Customizations Start Here */
-
 
 /* Remove Uneeded Ombi Indicators */
 
 .inside-over-request-div.bg-success {
-    display: none;
+  display: none;
 }
 
 .inside-request-div.bg-info,
 .inside-request-div.bg-warning {
-    display: none;
+  display: none;
 }
-
 
 /* Remove Unneeded Navbar Items */
 
 li.hidden-xs {
-    display: none;
+  display: none;
 }
 
 #languageDropdown {
-    display: none;
+  display: none;
 }
 
 .navbar-left li:nth-child(3) {
-    display: none;
+  display: none;
 }
 
 i.ti-search {
-    display: none;
+  display: none;
 }
-
 
 /* Remove Unneeded Sidebar Buttons */
 
-li#menu-GitHub-Repo {
-    display: none;
-}
-
-li#menu-Organizr-Support {
-    display: none;
-}
-
-li#menu-Organizr-Docs {
-    display: none;
+li#menu-GitHub-Repo,
+li#menu-Organizr-Support,
+li#menu-Organizr-Docs,
+li#menu-Feature-Request {
+  display: none;
 }
 
 .sidebar-nav .devider,
 .sidebar-nav #sign-out {
-    display: none;
+  display: none;
 }
-
 
 /* Tweak Calendar Colors */
 
 div[class*="fc"] .text-info {
-    color: #929a9c !important;
+  color: #929a9c !important;
 }
 
 div[class*="fc"] .text-success {
-    color: #53e69d !important;
+  color: #53e69d !important;
 }
 
 div[class*="fc"] .text-danger {
-    color: #929a9c !important;
+  color: #929a9c !important;
 }
 
 div[class*="fc"] .text-primary {
-    color: #e3891c !important;
+  color: #e3891c !important;
 }
-
 
 /* Dropdown User Menu */
 
 .navbar-top-links .dropdown-user .dw-user-box .u-img {
-    display: none;
+  display: none;
 }
 
 .navbar-top-links .dropdown-user .dw-user-box {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .dropdown-user li.divider {
-    display: none;
+  display: none;
 }
 
 .dropdown-menu .u-text .text-muted {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar-top-links .dropdown-user .dw-user-box .u-text {
-    padding-top: 10px;
+  padding-top: 10px;
 }
-
 
 /* Always Minimized Sidenav */
 
 @media only screen and (min-width: 768px) {
-    .sidebar,
-    .sidebar .sidebar-head {
-        width: 60px !important;
-    }
-    .sidebar .hide-menu {
-        display: none !important;
-    }
-    .sidebar:hover {
-        box-shadow: none;
-    }
+  .sidebar,
+  .sidebar .sidebar-head {
+    width: 60px !important;
+  }
+  .sidebar .hide-menu {
+    display: none !important;
+  }
+  .sidebar:hover {
+    box-shadow: none;
+  }
 }
-
 
 /* Custom Tippy Tooltip Styling */
 
 .tippy-tooltip.bbf-theme {
-    color: white;
-    font-size: 13px;
-    font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding: 3px 10px;
+  color: white;
+  font-size: 13px;
+  font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 3px 10px;
 }
 
 .tippy-tooltip.bbf-theme .tippy-backdrop {
-    background: #000;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .35);
-    border-radius: 4px;
+  background: #000;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
 }
-
 
 /* Desktop sidenav button customizations */
 
 @media only screen and (min-width: 768px) {
-    .sidebar-head {
-        display: none;
-    }
-    #side-menu li a:hover {
-        background: transparent !important;
-        -webkit-filter: drop-shadow(5px 5px 5px #FFF);
-        filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
-    }
-    #side-menu>li:first-child {
-        margin-top: 10px;
-    }
-    #side-menu li a.active,
-    #side-menu li a:active {
-        background: transparent;
-        -webkit-filter: drop-shadow(0px 0px 5px var(--sidenav-btn-glow));
-        filter: drop-shadow(0px 0px 5px var(--sidenav-btn-glow));
-    }
+  .sidebar-head {
+    display: none;
+  }
+  #side-menu li a:hover {
+    background: transparent !important;
+    -webkit-filter: drop-shadow(5px 5px 5px #fff);
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
+  }
+  #side-menu > li:first-child {
+    margin-top: 10px;
+  }
+  #side-menu li a.active,
+  #side-menu li a:active {
+    background: transparent;
+    -webkit-filter: drop-shadow(0px 0px 5px var(--sidenav-btn-glow));
+    filter: drop-shadow(0px 0px 5px var(--sidenav-btn-glow));
+  }
 }
-
 
 /* Full screen sidenav on mobile */
 
 @media (max-width: 768px) {
-    .show-sidebar .sidebar {
-        width: 100%;
-    }
-    .show-sidebar .sidebar .sidebar-head {
-        width: 100%;
-    }
-    #side-menu li a {
-        width: 100%;
-        font-size: 17px;
-        padding: 10px 35px 10px 15px;
-    }
-    #side-menu li a>span {
-        height: 100%;
-        text-shadow: 0px 0px 5px #000000;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+  .show-sidebar .sidebar {
+    width: 100%;
+  }
+  .show-sidebar .sidebar .sidebar-head {
+    width: 100%;
+  }
+  #side-menu li a {
+    width: 100%;
+    font-size: 17px;
+    padding: 10px 35px 10px 15px;
+  }
+  #side-menu li a > span {
+    height: 100%;
+    text-shadow: 0px 0px 5px #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .dark-logo-side {
-    display: none;
+  display: none;
 }
