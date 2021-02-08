@@ -4,7 +4,6 @@ Themes  that create a consistent user interface across multiple web services, fo
 Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository. Also, watch us on Twitch!
 
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
-[![Twitch](https://img.shields.io/badge/twitch.tv-Watch-blue?style=for-the-badge&logo=twitch)](https://www.twitch.tv/blackberrythemes)<br/>
 [![Credit Card](https://img.shields.io/badge/github-star-blueviolet?style=for-the-badge&logo=github)](https://github.com/Archmonger/Blackberry-Themes/stargazers)<br/>
 
 ### Like this project? Donate!
