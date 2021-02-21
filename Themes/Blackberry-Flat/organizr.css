@@ -2579,6 +2579,10 @@
  .table {
      margin-bottom: 0;
  }
+
+ .jsgrid-grid-body td, tr.jsgrid-header-row th{
+    background: transparent !important;
+}
  
  .simplebar-content {
      padding-bottom: 0 !important;
