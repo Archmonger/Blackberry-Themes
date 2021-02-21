@@ -118,7 +118,6 @@ div[id^=request]:not(#request-input-div) .dropdown-toggle {
 .login-register .login-box {
     top: 50%;
     left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
 
@@ -214,7 +213,6 @@ tbody[class$='-queue'] {
 
 .mfp-3d-unfold .mfp-with-anim,
 .mfp-zoom-out .mfp-with-anim {
-    -webkit-transform: none;
     transform: none;
     transition: none;
 }
@@ -235,22 +233,18 @@ tbody[class$='-queue'] {
 
 @-webkit-keyframes loading {
     0% {
-        -webkit-transform: rotate(0);
         transform: rotate(0);
     }
     to {
-        -webkit-transform: rotate(1turn);
         transform: rotate(1turn);
     }
 }
 
 @keyframes loading {
     0% {
-        -webkit-transform: rotate(0);
         transform: rotate(0);
     }
     to {
-        -webkit-transform: rotate(1turn);
         transform: rotate(1turn);
     }
 }
@@ -617,7 +611,6 @@ a.text-primary:hover {
 }
 
 .el-overlay-1:hover img {
-    -webkit-transform: none !important;
     transform: none !important;
 }
 
@@ -642,7 +635,6 @@ a.text-primary:hover {
     font-size: 13px;
     font-weight: 600;
     line-height: 19px;
-    -webkit-transform: translateY(100%);
     transform: translateY(100%);
 }
 
@@ -679,7 +671,10 @@ a {
 
 a.text-primary {
     font-weight: 600;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .dataTables_wrapper .dataTables_paginate,
@@ -773,7 +768,10 @@ code {
 
 .label {
     height: 100%;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .label-info {
@@ -1783,7 +1781,6 @@ div[id^=request]:not(#request-input-div) .dropdown-toggle:active:hover {
     max-width: 320px;
     border: 0;
     margin-top: 35px;
-    -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
 }
 
@@ -2261,7 +2258,6 @@ img.dark-logo-side {
     position: fixed;
     bottom: 20px;
     left: 50%;
-    -webkit-transform: translateX(calc(-50% - 10px));
     transform: translateX(calc(-50% - 10px));
 }
 
@@ -2349,7 +2345,6 @@ img.dark-logo-side {
 }
 
 .hvr-grow:hover {
-    -webkit-transform: scale(1);
     transform: scale(1);
 }
 
@@ -2498,7 +2493,6 @@ hr {
 .el-info .refreshImage {
     padding: 10px !important;
     opacity: 0;
-    -webkit-transform: translateY(100%);
     transform: translateY(100%);
     transition: .2s;
 }
@@ -2508,7 +2502,6 @@ hr {
 .el-overlay-1:hover .openTab,
 .el-overlay-1:hover .refreshImage {
     opacity: 1;
-    -webkit-transform: none;
     transform: none;
 }
 
@@ -3099,7 +3092,6 @@ ul.nav.customtab.nav-tabs.nav-low-margin {
 .tabs-style-flip nav a::after {
     background: var(--floating-object-color) !important;
     transition: none;
-    -webkit-transform: none;
     transform: none;
 }
 
@@ -3503,7 +3495,6 @@ div[id$=FavIcon] textarea {
     .fc-toolbar .fc-center {
         position: absolute;
         left: 50%;
-        -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
     }
     .tab-pane .col-md-6:first-of-type {
@@ -3645,7 +3636,6 @@ div[id$=FavIcon] textarea {
 
 .request-result-item {
     left: 50%;
-    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
@@ -3669,7 +3659,6 @@ div[id$=FavIcon] textarea {
 @media screen and (min-width: 576px) {
     .request-result-item {
         left: initial;
-        -webkit-transform: none;
         transform: none;
     }
     #request-input-div span:first-of-type {
@@ -3734,7 +3723,7 @@ div[data-src$='no-np.png'] {
     background-size: 150px 150px !important;
 }
 
-@supports (backdrop-filter:blur(30px)) {
+@supports ((-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px))) {
     .sidebar {
         background: var(--sidenav-bg) !important;
         transition: all ease 0.5s;
@@ -3755,7 +3744,7 @@ div[data-src$='no-np.png'] {
     }
 }
 
-@supports not (backdrop-filter:blur(30px)) {
+@supports not ((-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px))) {
     .sidebar {
         background: var(--sidenav-bg-fallback) !important;
         transition: all ease 0.5s;
@@ -3928,7 +3917,6 @@ img[src$='rotten.png'] {
     color: var(--font-color-secondary) !important;
     font-size: 32px;
     font-weight: 600;
-    -webkit-transform: none !important;
     transform: none !important;
 }
 
