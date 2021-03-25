@@ -1,7 +1,7 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
 Themes  that create a consistent user interface across multiple web services, for standalone purposes or with Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.
 
-Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository. Also, watch us on Twitch!
+Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository.
 
 [![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
 [![Credit Card](https://img.shields.io/badge/github-star-blueviolet?style=for-the-badge&logo=github)](https://github.com/Archmonger/Blackberry-Themes/stargazers)<br/>
@@ -60,9 +60,9 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [Where are the screenshots?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-are-the-screenshots)<br/>
 [What is "in Organizr"?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-is-in-organizr)<br/>
 [What is "Minimal Edition"?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-is-minimal-edition)<br/>
-[What does Blackberry Flat Plex do?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-does-blackberry-flat-plex-do)<br/>
+[What does the Plex theme do?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#what-does-the-plex-theme-do)<br/>
 [Where can I make theme and icon requests?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#where-can-i-make-theme-and-icon-requests)<br/>
-[Can I make my own BBF icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#can-i-make-my-own-bbf-icons-for-organizr)<br/>
+[Can I make my own icons for Organizr?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#can-i-make-my-own-icons-for-organizr)<br/>
 [My subfilter is set up exactly as shown, but themes are not working!](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-subfilter-is-set-up-exactly-as-shown-but-themes-are-not-working)<br/>
 [My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
 [Does the Theme Installer work on LAN (without a reverse proxy)?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#does-the-theme-installer-work-on-lan-without-a-reverse-proxy)<br/>
