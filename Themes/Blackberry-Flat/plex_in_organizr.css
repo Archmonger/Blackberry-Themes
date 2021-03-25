@@ -5,154 +5,149 @@
 /* In Organizr customizations start here */
 
 div[class*="NavBar-right-"] {
-    padding-right: 7px;
+	padding-right: 7px;
 }
 
 [class*="SidebarMenuButton-sidebarMenuButton-"] {
-    background: rgba(0, 0, 0, .15);
+	background: rgba(0, 0, 0, 0.15);
 }
 
 span[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"] {
-    display: none;
+	display: none;
 }
-
 
 /* Better transitions on sidebar hover */
 
 div[class*="SidebarLibraryItem-libraryListItem-"] {
-    transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
-
 
 /* Remove account button */
 
 button[class*="NavBar-accountButton"] {
-    display: none !important;
+	display: none !important;
 }
-
 
 /* Smaller navbar */
 
 @media only screen and (min-width: 768px) {
-    div[class*="NavBar-container"] {
-        height: 45px;
-    }
-    div[class*="QuickSearchInput-container"],
-    div[class*="QuickSearch-container"] {
-        height: 35px;
-    }
-    span[class*="NavBarActivityButton-label"] {
-        top: 23px;
-    }
+	div[class*="NavBar-container"] {
+		height: 45px;
+	}
+	div[class*="QuickSearchInput-container"],
+	div[class*="QuickSearch-container"] {
+		height: 35px;
+	}
+	span[class*="NavBarActivityButton-label"] {
+		top: 23px;
+	}
 }
-
 
 /* Hide BG */
 
 .background-container div[class*="FullPage-container-"] div div {
-    background: transparent !important;
+	background: transparent !important;
 }
 
 .background-container {
-    background: transparent;
+	background: transparent;
 }
 
+[class*="FullPageBackground-backgroundContainer-"],
+[class*="FullPageBackground-backgroundContainer-"] * {
+	background: transparent !important;
+}
 
 /* Stylize loading screen */
 
 .plex-preloader-container {
-    background: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
 }
 
 body {
-    background: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
 }
 
 .plex-image-preloader.plex-logo {
-    background: url("https://archmonger.github.io/Blackberry-Themes/Resources/Rolling-0.7s-200px.svg");
-    background-size: 4.5%;
-    background-repeat: no-repeat;
-    background-position: center;
+	background: url("https://archmonger.github.io/Blackberry-Themes/Resources/Rolling-0.7s-200px.svg");
+	background-size: 4.5%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-
 
 /* Stylize Pin Screen */
 
 .modal-backdrop {
-    background: var(--bg-dark) !important;
-    background-repeat: repeat, no-repeat !important;
-    background-attachment: fixed, fixed !important;
-    background-position: center center, center center !important;
-    background-size: auto, cover !important;
-    -webkit-background-size: auto, cover !important;
-    -moz-background-size: auto, cover !important;
-    -o-background-size: auto, cover !important;
+	background: var(--bg-dark) !important;
+	background-repeat: repeat, no-repeat !important;
+	background-attachment: fixed, fixed !important;
+	background-position: center center, center center !important;
+	background-size: auto, cover !important;
+	-webkit-background-size: auto, cover !important;
+	-moz-background-size: auto, cover !important;
+	-o-background-size: auto, cover !important;
 }
 
 .user-select-modal-pin-container .modal-body {
-    padding: 20px;
-    padding-bottom: 0px;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.15);
+	padding: 20px;
+	padding-bottom: 0px;
+	border-radius: 4px;
+	background: rgba(0, 0, 0, 0.15);
 }
 
 .user-select-modal-pin-container .pin-digit {
-    background: hsla(0, 0%, 100%, 0.15);
+	background: hsla(0, 0%, 100%, 0.15);
 }
-
 
 /* Sidenav customizations */
 
 div[class*="SourceSidebarLink-isSelected-"] {
-    box-shadow: none;
-    background: transparent;
+	box-shadow: none;
+	background: transparent;
 }
 
 div[class*="SourceSidebar-collapsedSidebar-"] {
-    background: rgba(0, 0, 0, 0.15);
+	background: rgba(0, 0, 0, 0.15);
 }
 
 div[class*="SourceSidebar-sidebar-"] {
-    transition: max-width 0.5s ease;
+	transition: max-width 0.5s ease;
 }
 
 div[class*="SourceSidebar-openSidebar-"] {
-    background: rgba(0, 0, 0, 0.15);
+	background: rgba(0, 0, 0, 0.15);
 }
 
 @supports (backdrop-filter: var(--sidenav-backdrop-filter)) {
-    div[class*="SourceSidebar-expandedSidebar-"] {
-        background: rgba(0, 0, 0, 0.15);
-        -webkit-backdrop-filter: var(--sidenav-backdrop-filter);
-        backdrop-filter: var(--sidenav-backdrop-filter);
-    }
+	div[class*="SourceSidebar-expandedSidebar-"] {
+		background: rgba(0, 0, 0, 0.15);
+		-webkit-backdrop-filter: var(--sidenav-backdrop-filter);
+		backdrop-filter: var(--sidenav-backdrop-filter);
+	}
 }
 
 @supports not (backdrop-filter: var(--sidenav-backdrop-filter)) {
-    div[class*="SourceSidebar-expandedSidebar-"] {
-        background: rgba(0, 0, 0, 0.45);
-    }
+	div[class*="SourceSidebar-expandedSidebar-"] {
+		background: rgba(0, 0, 0, 0.45);
+	}
 }
-
 
 /* Remove Plex logo from navbar */
 
 a[class*="NavBar-plexLogo-"] {
-    display: none;
+	display: none;
 }
-
 
 /* Remove separator in sidenav */
 
 button[class*="SourcesToggleButton-topBorder-"] {
-    border: none;
-    color: rgba(255, 255, 255, 0.45);
+	border: none;
+	color: rgba(255, 255, 255, 0.45);
 }
-
 
 /* Standardize page headers on library folders */
 
 div[class*="PrimaryPageHeader-pageHeader-"] {
-    background-color: transparent;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .15);
+	background-color: transparent;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
 }
