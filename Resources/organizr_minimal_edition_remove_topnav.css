@@ -6,7 +6,7 @@
         height: 100% !important;
     }
     .simplebar-content>div[class*="listing"]>div>iframe,
-    #page-wrapper>div[class*="listing"]>.frame-container>.iframe,
+    #page-wrapper div[class*="listing"]>.frame-container>.iframe,
     #container-plugin-chat>.chat-main-box {
         height: 100vh !important;
     }
