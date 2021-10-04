@@ -153,6 +153,6 @@ div[class*="PrimaryPageHeader-pageHeader-"] {
 }
 
 /* Remove sidebar and navbar margin */
-div[class*="NavBar-container"], div[class*="SourceSidebar-sidebar-"] {
+div[class*="NavBar-container"], div[class*="SourceSidebar-sidebar-"], div[class*="SidebarContainer-sidebarContainer-"]  {
     margin: 0;
 }
