@@ -151,3 +151,8 @@ div[class*="PrimaryPageHeader-pageHeader-"] {
 	background-color: transparent;
 	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
 }
+
+/* Remove sidebar and navbar margin */
+div[class*="NavBar-container"], div[class*="SourceSidebar-sidebar-"] {
+    margin: 0;
+}
