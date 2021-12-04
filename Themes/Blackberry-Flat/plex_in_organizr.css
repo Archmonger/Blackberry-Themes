@@ -46,7 +46,7 @@ button[class*="NavBar-accountButton"] {
 /* Hide BG */
 
 .background-container div[class*="FullPage-container-"] div div {
-	background: transparent !important;
+	display: none;
 }
 
 .background-container {
