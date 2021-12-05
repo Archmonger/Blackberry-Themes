@@ -46,7 +46,7 @@ button[class*="NavBar-accountButton"] {
 /* Hide BG */
 
 .background-container div[class*="FullPage-container-"] div div {
-	display: none;
+	background: transparent !important;
 }
 
 .background-container {
@@ -55,7 +55,7 @@ button[class*="NavBar-accountButton"] {
 
 [class*="FullPageBackground-backgroundContainer-"],
 [class*="FullPageBackground-backgroundContainer-"] * {
-	background: transparent !important;
+	display: none;
 }
 
 /* Stylize loading screen */
@@ -118,7 +118,7 @@ div[class*="SourceSidebar-openSidebar-"] {
 	background: rgba(0, 0, 0, 0.15);
 }
 
-@supports (backdrop-filter: var(--sidenav-backdrop-filter)) {
+@supports ((-webkit-backdrop-filter: var(--sidenav-backdrop-filter)) or (backdrop-filter: var(--sidenav-backdrop-filter))) {
 	div[class*="SourceSidebar-expandedSidebar-"] {
 		background: rgba(0, 0, 0, 0.15);
 		-webkit-backdrop-filter: var(--sidenav-backdrop-filter);
@@ -126,7 +126,7 @@ div[class*="SourceSidebar-openSidebar-"] {
 	}
 }
 
-@supports not (backdrop-filter: var(--sidenav-backdrop-filter)) {
+@supports not ((-webkit-backdrop-filter: var(--sidenav-backdrop-filter)) or (backdrop-filter: var(--sidenav-backdrop-filter))) {
 	div[class*="SourceSidebar-expandedSidebar-"] {
 		background: rgba(0, 0, 0, 0.45);
 	}
