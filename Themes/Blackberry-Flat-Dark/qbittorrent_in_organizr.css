@@ -1,0 +1,22 @@
+/* Created by Blackberry Themes */
+
+@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat-Dark/qbittorrent.css";
+#desktopHeader {
+    height: 45px;
+}
+
+#torrentsFilterInput {
+    height: 35px;
+}
+
+#logo {
+    display: none;
+}
+
+h1 {
+    display: none;
+}
+
+#main {
+    padding-top: 10px;
+}

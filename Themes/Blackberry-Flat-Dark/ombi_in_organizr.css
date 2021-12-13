@@ -1,0 +1,98 @@
+/* Created by Blackberry Themes */
+
+@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat-Dark/ombi.css";
+
+/* In Organizr customizations start here */
+
+#settings a {
+    padding-right: 19px;
+}
+
+.container.top-spacing>.ng-star-inserted>#searchTitle,
+.container.top-spacing>.ng-star-inserted>h4,
+.container.top-spacing>.ng-star-inserted>h1 {
+    display: none;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.container.top-spacing>.ng-star-inserted>br {
+    display: none;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+ul.nav.navbar-nav.navbar-right .dropdown {
+    display: none;
+}
+
+.fa-rss {
+    display: none;
+}
+
+ul.nav.navbar-nav.donation {
+    display: none !important;
+}
+
+.container-fluid {
+    padding-left: 4px !important;
+}
+
+.pace {
+    display: none !important;
+}
+
+.bg {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#profile-img {
+    display: none;
+}
+
+
+/* Desktop Navbar Changes */
+
+@media only screen and (min-width: 768px) {
+    .navbar-collapse.collapse {
+        height: 45px;
+    }
+    .navbar {
+        height: 45px;
+    }
+    .navbar-nav>li>a {
+        margin-top: 10.5px;
+        margin-bottom: 10.5px;
+    }
+}
+
+
+/* Scroll Bar Fixes */
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: content-box;
+    top: 45px;
+    position: relative;
+}
+
+.top-spacing {
+    padding-top: 25px !important;
+    padding-bottom: 45px;
+}
+
+
+/* Hide BG */
+
+body {
+    background: transparent;
+}

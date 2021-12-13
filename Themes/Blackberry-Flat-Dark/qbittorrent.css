@@ -1,0 +1,472 @@
+/* Created by Blackberry Themes */
+
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat_dark.css";
+
+/* Main Body */
+
+html {
+    height: 100%;
+    background: var(--bg-light);
+}
+
+body {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+    font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#main>h1 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+input[type="submit"i] {
+    color: rgba(255, 255, 255, 0.7);
+    background: hsla(0, 0%, 100%, .25);
+    border: none;
+    border-radius: 4px;
+    font-size: 13.25px;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all ease 0.25s;
+    text-transform: uppercase;
+}
+
+
+/* Login Screen */
+
+#loginform #login {
+    margin-top: 10px;
+}
+
+#username,
+#password {
+    border: none;
+    background: hsla(0, 0%, 100%, .25);
+    border-radius: 4px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFF;
+    transition: all ease 0.25s;
+}
+
+#username:focus,
+#password:focus {
+    background-color: #FFF;
+    color: rgba(85, 85, 85);
+}
+
+#loginform>.row {
+    margin-top: 15px;
+}
+
+
+/* Navbar */
+
+#desktopHeader {
+    background: var(--navbar-color);
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+#desktopNavbar {
+    background: transparent;
+    border: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#desktopNavbar ul {
+    font-size: 14px;
+}
+
+#desktopNavbar ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+}
+
+#desktopNavbar ul li a:hover {
+    background: transparent;
+    color: #FFF;
+    transition: all ease 0.25s;
+}
+
+#mochaToolbar .divider {
+    background: none;
+    padding: 0px;
+}
+
+#mochaToolbar {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.mochaToolButton {
+    filter: brightness(1000) opacity(70%);
+}
+
+.mochaToolButton:hover {
+    filter: brightness(1000) opacity(100%);
+    transition: all ease 0.25s;
+}
+
+#torrentsFilterInput {
+    background: hsla(0, 0%, 100%, .08);
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 13.25px;
+    height: 40px;
+    transition: all ease 0.25s;
+}
+
+#torrentsFilterToolbar {
+    order: 0;
+}
+
+#torrentsFilterInput:focus {
+    background: #FFF;
+    color: #000;
+}
+
+#downloadButton {
+    order: 1;
+    margin-left: auto;
+}
+
+#uploadButton {
+    order: 2;
+}
+
+#deleteButton {
+    order: 3;
+}
+
+#resumeButton {
+    order: 4;
+}
+
+#pauseButton {
+    order: 5;
+}
+
+#queueingButtons {
+    order: 6;
+}
+
+#preferencesButton {
+    order: 7;
+    margin-right: 10px;
+}
+
+
+/* Navbar Dropdown Menus */
+
+#desktopNavbar li ul {
+    background: #191a1c;
+    border-radius: 4px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+li.divider {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#desktopNavbar li ul li a {
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 13.25px;
+    height: 26px;
+    line-height: 26px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#desktopNavbar li ul li a:hover {
+    background: hsla(0, 0%, 100%, .08);
+    color: #FFF;
+}
+
+#desktopNavbar li ul li a img {
+    display: none;
+}
+
+#desktopNavbar li ul li a img[src="images/qbt-theme/checked.svg"] {
+    display: inline-block;
+    filter: brightness(1000) opacity(70%);
+    padding-right: 3px;
+}
+
+#desktopNavbar li ul li a:hover img[src="images/qbt-theme/checked.svg"] {
+    display: inline-block;
+    filter: brightness(1000) opacity(100%);
+    transition: all ease 0.25s;
+}
+
+
+/* Torrenting Body */
+
+#pageWrapper {
+    border: none;
+}
+
+.columnHandle {
+    background: transparent;
+    border: none;
+}
+
+.panel {
+    background: transparent;
+}
+
+.horizontalHandle {
+    background: transparent;
+}
+
+fieldset {
+    border: none;
+}
+
+.panel-collapse {
+    background: url(https://archmonger.github.io/Blackberry-Themes/Resources/down-arrow.png);
+    background-size: contain;
+}
+
+.panel-expand {
+    background: url(https://archmonger.github.io/Blackberry-Themes/Resources/up-arrow.png);
+    background-size: contain;
+}
+
+
+/* Torrenting Table */
+
+.dynamicTable th {
+    background: transparent !important;
+    border-right-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.dynamicTable thead tr {
+    background: transparent !important;
+}
+
+.dynamicTable th.sorted {
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+#transferList {
+    border: none;
+}
+
+.panel-headerContent.tabs,
+.toolbarTabs,
+.panel-header {
+    background: transparent !important;
+}
+
+.panel-header {
+    border: none;
+}
+
+.tab-menu li.selected,
+.tab-menu li {
+    background: transparent !important;
+}
+
+.tab-menu li a {
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.tab-menu li.selected a {
+    color: #f9be03;
+}
+
+.dynamicTable tbody tr:nth-child(even),
+.dynamicTable tbody tr.alt {
+    background: transparent !important;
+}
+
+.dynamicTable tbody tr {
+    background: transparent !important;
+    transition: all ease 0.25s;
+}
+
+.dynamicTable tbody tr.selected,
+.dynamicTable tbody tr:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.dynamicTable tbody tr>td>img {
+    filter: brightness(1000) opacity(70%);
+}
+
+.dynamicTable tbody tr>td>img[src*="images/flags/"] {
+    filter: none;
+}
+
+#transferList img.stateIcon {
+    margin-bottom: 1px !important;
+    filter: brightness(1000) opacity(70%);
+}
+
+
+/* Torrent Dropdown Menu */
+
+.contextMenu .separator {
+    border: none;
+}
+
+.contextMenu {
+    background: #191a1c;
+    border: none;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.contextMenu li a {
+    color: hsla(0, 0%, 100%, .7);
+    font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 4px;
+    font-size: 13.25px;
+}
+
+.contextMenu li img {
+    visibility: hidden;
+}
+
+.contextMenu li a:hover {
+    background: hsla(0, 0%, 100%, .08);
+}
+
+.contextMenu li ul {
+    background: #191a1c;
+    border: none;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+/* Left Sidebar */
+
+a {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+ul.filterList li img {
+    filter: brightness(1000) opacity(45%);
+    margin-left: 20px;
+}
+
+ul.filterList li:hover img {
+    filter: brightness(1000) opacity(100%);
+}
+
+ul.filterList .selectedFilter img {
+    filter: brightness(1000) opacity(100%);
+}
+
+.selectedFilter {
+    background: rgb(204, 123, 25) !important;
+}
+
+ul.filterList li:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #FFF;
+    transition: all ease 0.25s;
+}
+
+.filterTitle img {
+    filter: brightness(1000) opacity(70%);
+}
+
+
+/* Footer */
+
+#desktopFooter {
+    background: transparent;
+}
+
+#desktopFooter td.statusBarSeparator {
+    visibility: hidden;
+}
+
+#desktopFooter td>img {
+    filter: brightness(1000) opacity(70%);
+}
+
+#desktopFooter td>img#alternativeSpeedLimits {
+    filter: brightness(1.5);
+    opacity: 0.7;
+}
+
+
+/* Modal Window */
+
+.mochaContentWrapper {
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+
+fieldset.settings {
+    border-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.mochaToolbar .tab-menu li a {
+    color: #000 !important;
+}
+
+.mochaToolbar .tab-menu li.selected a {
+    color: hsla(33, 78%, 50%, 1) !important;
+}
+
+
+/* Progress Bars */
+
+.progressbar_wrapper {
+    border: none !important;
+}
+
+.progressbar_dark {
+    background: rgb(204, 123, 25) !important;
+    border-radius: 20px;
+}
+
+.progressbar_light {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.45) !important;
+}
+
+
+/* Scroll Bars */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .0);
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 50px;
+    background: rgba(255, 255, 255, .15);
+    border: 3px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

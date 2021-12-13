@@ -1,0 +1,102 @@
+/* Created by Blackberry Themes */
+
+@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat-Dark/tautulli.css";
+
+/* In Organizr customizations start here */
+
+.art-face {
+    background: none !important;
+}
+
+.body-container {
+    top: 45px;
+}
+
+.navbar-collapse.collapse {
+    height: 45px !important;
+}
+
+.navbar-nav>li>a {
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    color: hsla(0, 0%, 100%, .7);
+}
+
+#search_form {
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.navbar {
+    min-height: 45px;
+}
+
+
+/* Re-order Navbar Elements */
+
+@media (min-width: 768px) {
+    .navbar>.container-fluid {
+        padding: 0px;
+    }
+    .navbar-collapse.navbar-right.collapse {
+        width: 100%;
+    }
+    .navbar-collapse.navbar-right.collapse {
+        transform: none;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav {
+        width: 100%;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(1) {
+        order: 9;
+        margin-left: auto;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(2) {
+        order: 1;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(2)>a {
+        padding-left: 0px;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(3) {
+        order: 2;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(4) {
+        order: 3;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(5) {
+        order: 6;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(6) {
+        order: 7;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(7) {
+        order: 8;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(8) {
+        order: 10;
+    }
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(8)>a {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .navbar-collapse.navbar-right.collapse>.nav.navbar-nav>li:nth-of-type(8) {
+        float: right;
+        transform: translateX(19px);
+    }
+}
+
+
+/* Hide BG */
+
+html {
+    background: transparent;
+}

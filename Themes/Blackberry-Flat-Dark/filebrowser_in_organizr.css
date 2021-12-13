@@ -1,0 +1,49 @@
+/* Created by Blackberry Themes */
+
+@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat-Dark/filebrowser.css";
+
+/* In Organizr customizations start here */
+
+header div img {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 45px;
+    }
+    #search #input {
+        padding-top: 5.5px;
+        padding-bottom: 5.5px;
+    }
+    #search {
+        height: 35px;
+    }
+    header>div:first-child {
+        height: 45px;
+    }
+    body {
+        padding-top: 45px;
+    }
+    nav {
+        top: 45px;
+    }
+}
+
+
+/* Hide BG */
+
+html {
+    background: transparent;
+}
+
+
+/* Remove login logo */
+
+#login>form>img {
+    display: none;
+}
+
+#login>form>h1 {
+    margin-top: 0px;
+}

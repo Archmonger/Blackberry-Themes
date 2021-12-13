@@ -1,0 +1,15 @@
+/* Created by Blackberry Themes */
+
+@import "https://archmonger.github.io/Blackberry-Themes/Themes/Blackberry-Flat-Dark/nzbhydra.css";
+.navbar {
+    height: 45px;
+}
+
+#banner {
+    display: none;
+}
+
+#loading-bar,
+#loading-bar-spinner {
+    display: none;
+}
