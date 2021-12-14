@@ -12,9 +12,9 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
 
 ## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" align="right" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
-| [![Blackberry Flat _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)  | [![Blackberry Shadow _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/shadow_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/shadow_minimal_edition.png) |
+| [![Blackberry Flat _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)  | [![Blackberry Flat Dark _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_dark_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png) |
 |:---:|:---:|
-| Blackberry Flat _(Minimal Edition)_ | Blackberry Shadow _(Minimal Edition)_ |
+| Blackberry Flat _(Minimal Edition)_ | Blackberry Flat Dark _(Minimal Edition)_ |
 
 | [![Blackberry Royal _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/royal_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/royal_minimal_edition.png)  | [![Blackberry Hearth _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/hearth_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/hearth_minimal_edition.png) |
 |:---:|:---:|
@@ -36,9 +36,9 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 |:---:|:---:|
 | Blackberry Dreamscape _(Minimal Edition)_ | Blackberry Pumpkin _(Minimal Edition)_ |
 
-| [![Blackberry Carol _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)  | [![Blackberry Flat Dark _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)   |
+| [![Blackberry Carol _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/carol_minimal_edition.png)  | [![Blackberry Shadow _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/shadow_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/shadow_minimal_edition.png)   |
 |:---:|:---:|
-| Blackberry Carol _(Minimal Edition)_ | Blackberry Flat Dark _(Minimal Edition)_ |
+| Blackberry Carol _(Minimal Edition)_ | Blackberry Shadow _(Minimal Edition)_  |
 
 | [![Coming Soon](https://archmonger.github.io/Blackberry-Themes/Resources/coming_soon.png)](https://archmonger.github.io/Blackberry-Themes/Resources/coming_soon.png)|
 |:---:|
