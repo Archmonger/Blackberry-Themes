@@ -4,7 +4,7 @@
  * https://github.com/Burry/organizr-v2-plex-theme
  */
 
- @import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat_dark.css";
+ @import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat-dark.css";
  #page-wrapper:before,
  body {
      background: transparent !important;

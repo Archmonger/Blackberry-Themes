@@ -1,6 +1,6 @@
 /* Created by Blackberry Themes */
 
-@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat_dark.css";
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat-dark.css";
 .application .theme--dark.v-toolbar,
 .theme--dark .v-toolbar {
     background: var(--navbar-color) !important;
