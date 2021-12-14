@@ -1,0 +1,593 @@
+/* Created by Blackberry Themes */
+
+@import "https://archmonger.github.io/Blackberry-Themes/Resources/Variables/flat-dark.css";
+
+/* Base Layer */
+
+body {
+    background: var(--bg-light);
+    background-repeat: repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: center center, center center;
+    background-size: auto, cover;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    min-height: 100%;
+    height: auto;
+    font-family: Open Sans Semibold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Search tab */
+
+.btn {
+    border: none;
+    background: hsla(0, 0%, 100%, .25);
+    color: hsla(0, 0%, 100%, .7);
+    text-transform: uppercase;
+    transition-timing-function: ease;
+    transition: all ease 0.25s;
+}
+
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover,
+.open>.dropdown-toggle.btn-default,
+.open>.dropdown-toggle.btn-default:hover {
+    color: #fff !important;
+    background: hsla(0, 0%, 100%, .3) !important;
+}
+
+.input-group-addon {
+    border: none;
+    background: rgba(0, 0, 0, 0.15);
+    color: hsla(0, 0%, 100%, .7);
+    text-transform: uppercase;
+}
+
+.input-group-btn1,
+.input-group-btn2 {
+    border: none;
+    background: transparent;
+}
+
+.form-control {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+.input-group .form-control {
+    background: hsla(0, 0%, 100%, .25);
+    transition: all ease 0.25s;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-group .form-control:focus {
+    background: #FFF;
+    color: rgba(85, 85, 85);
+}
+
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group {
+    margin-left: 0px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.form-horizontal .form-group .col-sm-10 .input-group-btn1 .btn,
+.form-horizontal .form-group .col-sm-10 .input-group-btn2 .btn {
+    background: rgba(0, 0, 0, 0.2);
+    color: hsla(0, 0%, 100%, .7);
+    text-transform: uppercase;
+    transition-timing-function: ease;
+    transition-duration: 0.25s;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    border-radius: 4px;
+}
+
+.form-horizontal .form-group .col-sm-10 .input-group-btn1 .btn:hover,
+.form-horizontal .form-group .col-sm-10 .input-group-btn2 .btn:hover {
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.form-horizontal .form-group:focus-within .col-sm-10 .input-group-btn1 .btn,
+.form-horizontal .form-group:focus-within .col-sm-10 .input-group-btn2 .btn {
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #FFF;
+}
+
+.form-horizontal .form-group .col-sm-10 .input-group {
+    background: hsla(0, 0%, 100%, .25);
+    border-radius: 4px;
+    padding: 4.5px 16px;
+    transition-timing-function: ease;
+    transition-duration: 0.25s;
+}
+
+.form-horizontal .col-sm-10 .input-group:focus-within {
+    background: #FFF !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-horizontal .form-group .col-sm-10 #searchfield {
+    color: #FFF;
+    box-shadow: none;
+    background: transparent;
+}
+
+.form-horizontal .form-group:focus-within .col-sm-10 #searchfield {
+    color: #000;
+}
+
+
+/* Search Tab Grid */
+
+.pagination>.active>a {
+    z-index: 2 !important;
+}
+
+.search-results-table {
+    border: none;
+}
+
+.table {
+    background: transparent;
+}
+
+.search-results-table {
+    background: rgba(0, 0, 0, .15);
+}
+
+tbody:nth-child(odd) {
+    background: rgba(0, 0, 0, .10);
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border: none;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 10px;
+}
+
+
+/* Panels */
+
+.panel {
+    background: rgba(0, 0, 0, .15);
+    border: none;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel .table {
+    margin-bottom: 0px;
+}
+
+.panel tbody tr:nth-child(odd) {
+    background: rgba(0, 0, 0, .10);
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: none;
+}
+
+.panel .table>tbody>tr>td,
+.panel .table>tbody>tr>th,
+.panel .table>tfoot>tr>td,
+.panel .table>tfoot>tr>th,
+.panel .table>thead>tr>td,
+.panel .table>thead>tr>th {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+[role=button]:hover {
+    text-decoration: none;
+}
+
+
+/* History and Stats */
+
+[ui-view="stats"] .table {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+[ui-view="stats"] tbody tr:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.stat-box {
+    border: none;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 10px;
+    width: calc(50% - 20px);
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: var(--navbar-color);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.navbar .container {
+    margin: 0px;
+    padding-left: 5px;
+    width: 100% !important;
+}
+
+.navbar .nav {
+    float: left;
+}
+
+.navbar-default .navbar-nav .active a {
+    background: transparent !important;
+    color: #f9be03 !important;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+    background: rgba(39, 43, 46, 0.8);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    transition: all 0.25s ease;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav>li a:focus,
+.navbar-default .navbar-nav>li a:hover {
+    background: transparent;
+    color: #FFF;
+}
+
+
+/* Removal of 1px line under menu and rounding all buttons in submenu */
+
+.nav-tabs {
+    border-bottom: transparent;
+}
+
+.config-button {
+    border-radius: 4px;
+    border-bottom-color: #1a1f20;
+}
+
+.config-api-button {
+    margin-left: 15px;
+}
+
+
+/* Table Edit */
+
+.formly>.formly-field-group {
+    background: rgba(45, 52, 54, 0.2);
+    border: 0px;
+}
+
+.repeatsection {
+    background: rgba(45, 52, 54, 0.2);
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    background: #cc7b19;
+    color: #c8c8c8;
+}
+
+.btn-success {
+    background: #cc7b19;
+}
+
+.btn-success:focus,
+.btn-success:active,
+.btn-success:hover {
+    background: #e3891c !important;
+}
+
+
+/* Scrollbars*/
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .0);
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 50px;
+    background: rgba(255, 255, 255, .15);
+    border: 3px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+
+/* Dropdown Menu */
+
+.dropdown-menu {
+    background: #191a1c;
+    border: none;
+}
+
+.dropdown-menu li a {
+    font-size: 13.25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: all ease 0.25s;
+}
+
+.dropdown-menu li a:hover {
+    color: #FFF;
+    background: hsla(0, 0%, 100%, .08);
+}
+
+
+/* Pagination */
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.pagination>li>a,
+.pagination>li>span {
+    border: none;
+    color: #FFF;
+    background: #cc7b19;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    background: rgba(0, 0, 0, 0.15);
+    margin-left: 0px;
+    color: hsla(0, 0%, 100%, .7);
+    transition: all ease 0.25s;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    background: rgba(255, 255, 255, .05);
+    color: #FFF;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background: rgba(0, 0, 0, 0.15);
+    color: hsla(0, 0%, 100%, .25);
+}
+
+
+/* Modals */
+
+.modal-content {
+    background: #282828;
+}
+
+caption {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+    background: #323232;
+}
+
+.progress {
+    background: rgba(0, 0, 0, .15);
+}
+
+
+/* Nav tabs */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border: none;
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.nav-tabs>li>a {
+    border: none;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 0px;
+    margin: 0px;
+    color: hsla(0, 0%, 100%, .6);
+    transition: all ease 0.25s;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #FFF;
+}
+
+
+/* Config Page */
+
+.config .form-control {
+    border: none;
+    background: hsla(0, 0%, 100%, .25);
+    box-shadow: none;
+    color: #FFF;
+    transition: all ease 0.25s;
+}
+
+.config .form-control:focus,
+.config .form-control:focus-within {
+    background: #FFF;
+    color: rgba(85, 85, 85);
+}
+
+legend {
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+.formly>.formly-field-group {
+    background: transparent;
+}
+
+.help-block {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default {
+    border: none;
+    color: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.1)
+}
+
+.bootstrap-switch {
+    border-color: transparent;
+    border-radius: 4px;
+    border-left-width: 1.25px;
+    border-right-width: 1.25px;
+}
+
+.bootstrap-switch .bootstrap-switch-label {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    background: #cc7b19;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.chip-control {
+    background: transparent;
+    color: #FFF;
+    transition: all ease 0.25s;
+}
+
+.chip-control:focus {
+    background: transparent;
+    color: rgba(85, 85, 85);
+}
+
+.default-chip {
+    border: none !important;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+chip-tmpl {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+chip-tmpl:last-child {
+    margin-bottom: 5px;
+}
+
+.repeatsection {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding-top: 10px;
+}
+
+
+/* System Page */
+
+.list-group-item {
+    background: transparent;
+    border: none;
+}
+
+.system-tab-content .panel-default>.panel-heading {
+    background: rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.system-tab-content .panel-default>.panel-heading h3 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.system-tab-content .list-group-item:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.10)
+}
+
+.system-tab-content .search-results-header {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.system-tab-content .log tr {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.system-tab-content .log tr:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+pre {
+    background: #000;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.system-tab-content .panel-body {
+    padding: 15px;
+}
+
+.system-tab-content .form-control {
+    background: hsla(0, 0%, 100%, .25);
+    margin: 15px;
+    color: #FFF;
+    transition: all ease 0.25s;
+    width: calc(100% - 30px);
+}
+
+.system-tab-content .form-control:focus {
+    color: rgba(85, 85, 85);
+    background: #FFF;
+}
