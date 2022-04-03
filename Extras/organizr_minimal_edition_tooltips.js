@@ -4,7 +4,15 @@ var allGroupsList = $(".allGroupsList");
 
 // Provide all the things with tippy content values
 for (var i = 0; i < allTabsList.length; i++) {
-    allTabsList[i].setAttribute("data-tippy-content", allTabsList[i].getAttribute("data-tab-name"));
+    try {
+        // Organizr > v2.1.1770
+        let id = allTabsList[i].getAttribute("id");
+        id = id.split('-')[1];
+        allTabsList[i].setAttribute("data-tippy-content", tabInformation[id]['name']);
+    } catch (err) {
+        // Legacy Organizr
+        allTabsList[i].setAttribute("data-tippy-content", allTabsList[i].getAttribute("data-tab-name"));
+    }
 }
 for (var i = 0; i < allGroupsList.length; i++) {
     allGroupsList[i].setAttribute("data-tippy-content", allGroupsList[i].getAttribute("data-group-name"));
