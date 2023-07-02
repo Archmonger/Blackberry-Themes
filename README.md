@@ -70,7 +70,4 @@ Feel free to join us on Discord to report bugs, ask for CSS advice, become a tes
 [My non-subfilter related themes are not working?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#my-non-subfilter-related-themes-are-not-working)<br/>
 [Does the Theme Installer work on LAN (without a reverse proxy)?](https://github.com/Archmonger/Blackberry-Themes/wiki/FAQ#does-the-theme-installer-work-on-lan-without-a-reverse-proxy)<br/>
 
-### Feathub Requests
-[![Feature Requests](http://feathub.com/Archmonger/Blackberry-Themes?format=svg)](http://feathub.com/Archmonger/Blackberry-Themes)
-
 ### **[Credits, Disclaimers, and Legal Stuff](https://github.com/Archmonger/Blackberry-Themes/wiki/Credits)**
