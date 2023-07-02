@@ -138,6 +138,10 @@ a[class*="NavBar-plexLogo-"] {
 	display: none;
 }
 
+a[class*="NavBar-plexLogo-"] {
+	display: none;
+}
+
 /* Remove separator in sidenav */
 
 button[class*="SourcesToggleButton-topBorder-"] {
