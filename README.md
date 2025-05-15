@@ -1,4 +1,4 @@
-# Looking for maintainers. Contact via [Discord](https://discord.gg/sfjkDaM).
+# This project is looking for maintainers
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
 Themes that create a consistent user interface across multiple web services, for standalone purposes or with Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.
 
