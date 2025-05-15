@@ -2,16 +2,6 @@
 # ![Blackberry Themes Logo](https://archmonger.github.io/Blackberry-Themes/Resources/blackberry_themes_logo.png)
 Themes that create a consistent user interface across multiple web services, for standalone purposes or with Organizr integration. These themes clean up unneeded clutter, fix many UI issues on desktop, and create functional mobile sites.
 
-Feel free to join us on Discord to report bugs, ask for CSS advice, become a tester, or ask how you can contribute to the repository.
-
-[![Discord](https://img.shields.io/badge/discord-join-orange.svg?style=for-the-badge&logo=discord)](https://discord.gg/sfjkDaM)<br/>
-[![Credit Card](https://img.shields.io/badge/github-star-blueviolet?style=for-the-badge&logo=github)](https://github.com/Archmonger/Blackberry-Themes/stargazers)<br/>
-
-### Like this project? Donate!
-
-[![Credit Card](https://img.shields.io/badge/credit%20card-donate-yellow.svg?style=for-the-badge&logo=cash-app)](https://beerpay.io/Archmonger/Blackberry-Themes)
-[![Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg?style=for-the-badge&logo=paypal)](https://www.buymeacoffee.com/a7Lsb9xK0)
-
 ## Themes [<img src="https://archmonger.github.io/Blackberry-Themes/Resources/install_button.png" align="right" alt="Install" height="40"/>](https://github.com/Archmonger/Blackberry-Themes/wiki/Installation-Instructions)
 | [![Blackberry Flat _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_minimal_edition.png)  | [![Blackberry Flat Dark _(Minimal Edition)_](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_dark_minimal_edition_v2.png)](https://archmonger.github.io/Blackberry-Themes/Screenshots/flat_dark_minimal_edition_v2.png) |
 |:---:|:---:|
